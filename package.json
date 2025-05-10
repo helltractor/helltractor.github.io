@@ -1,0 +1,27 @@
+{
+  "name": "valaxy-blog",
+  "type": "module",
+  "version": "0.2.0",
+  "private": true,
+  "packageManager": "pnpm@10.10.0",
+  "description": "Valaxy Blog",
+  "scripts": {
+    "build": "pnpm build:ssg",
+    "build:spa": "valaxy build",
+    "build:ssg": "valaxy build --ssg",
+    "dev": "valaxy",
+    "rss": "valaxy rss",
+    "serve": "vite preview"
+  },
+  "dependencies": {
+    "element-plus": "^2.9.10",
+    "valaxy": "0.23.3",
+    "valaxy-addon-algolia": "^0.1.0",
+    "valaxy-addon-bangumi": "^0.2.2",
+    "valaxy-addon-lightgallery": "^0.0.4",
+    "valaxy-addon-meting": "^0.1.4",
+    "valaxy-addon-vercount": "^0.0.6",
+    "valaxy-addon-waline": "^0.2.1",
+    "valaxy-theme-yun": "^0.23.3"
+  }
+}

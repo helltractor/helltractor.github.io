@@ -1,0 +1,6 @@
+search-box:
+  search: Search
+  placeholder: Please enter the search content
+site:
+  pv: Total pageviews
+  uv: Total visitors

@@ -1,0 +1,6 @@
+search-box:
+  search: 搜索
+  placeholder: 请输入搜索内容
+site:
+  pv: 本站总浏览量
+  uv: 本站总访客数
