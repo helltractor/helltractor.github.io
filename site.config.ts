@@ -2,7 +2,7 @@ import { defineSiteConfig } from 'valaxy'
 
 export default defineSiteConfig({
   mode: 'auto',
-  url: 'https://blog.helltractor.top',
+  url: 'https://io.helltractor.top',
   lang: 'zh-CN',
 
   title: 'helltractor blog',
@@ -11,7 +11,7 @@ export default defineSiteConfig({
   description: '',
 
   lastUpdated: true,
-  favicon: 'https://blog.helltractor.top/favicon.svg',
+  favicon: 'https://io.helltractor.top/favicon.svg',
 
   author: {
     name: 'helltractor',

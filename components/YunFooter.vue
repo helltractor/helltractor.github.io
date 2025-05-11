@@ -7,17 +7,24 @@ const { site } = useAddonVercount();
 
 <template>
   <YunFooter>
-    <!-- 自定义页脚内容 -->
     <div>
-    <span>
-      <span v-if="site.pv" style="margin-left: 10px;">
-        {{ $t("site.pv") }}：{{ site.pv }}
+      <span>
+        <span v-if="site.pv" class="ml-2">
+          {{ $t("site.pv") }}: {{ site.pv }}
+        </span>
+        <span v-if="site.uv" class="ml-2">
+          {{ $t("site.uv") }}: {{ site.uv }}
+        </span>
       </span>
-      <span v-if="site.uv" style="margin-left: 10px;">
-        {{ $t("site.uv") }}: {{ site.uv }}
-      </span>
-    </span>
-  </div>
+    </div>
+
+    <VCLiveTime mt="2" start-time="2024-05-01">
+      <template #live-time-before>
+        <span>
+          {{ $t("site.live-time") }}
+        </span>
+      </template>
+    </VCLiveTime>
   </YunFooter>
 </template>
 

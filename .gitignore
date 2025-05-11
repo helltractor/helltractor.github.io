@@ -29,9 +29,3 @@ public/feed.json
 
 # obsidian
 .obsidian/
-**/**/daily/*
-**/**/draw/*
-**/**/templates/*
-
-# other
-**/**/rubbishes/*
