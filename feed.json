@@ -16,7 +16,7 @@
             "title": "小说情节",
             "summary": "主要针对玄幻小说，男频",
             "date_modified": "2024-07-04T13:30:41.000Z",
-            "date_published": "2025-05-11T07:38:09.534Z",
+            "date_published": "2025-05-11T08:28:50.061Z",
             "author": {
                 "name": "helltractor",
                 "url": "https://valaxy.site"
@@ -28,7 +28,7 @@
             "url": "https://blog.helltractor.top/posts/python/knowledge",
             "title": "Python 小芝士",
             "date_modified": "2024-06-22T00:00:00.000Z",
-            "date_published": "2025-05-11T07:38:09.534Z",
+            "date_published": "2025-05-11T08:28:50.061Z",
             "author": {
                 "name": "helltractor",
                 "url": "https://valaxy.site"
@@ -40,7 +40,7 @@
             "url": "https://blog.helltractor.top/posts/python/useful-library",
             "title": "Useful Python Libraries",
             "date_modified": "2025-03-05T14:35:35.000Z",
-            "date_published": "2025-05-11T07:38:09.534Z",
+            "date_published": "2025-05-11T08:28:50.061Z",
             "author": {
                 "name": "helltractor",
                 "url": "https://valaxy.site"
@@ -52,7 +52,7 @@
             "url": "https://blog.helltractor.top/posts/question/double-spending",
             "title": "双花问题及防范",
             "date_modified": "2024-06-22T00:00:00.000Z",
-            "date_published": "2025-05-11T07:38:09.534Z",
+            "date_published": "2025-05-11T08:28:50.061Z",
             "author": {
                 "name": "helltractor",
                 "url": "https://valaxy.site"
@@ -64,7 +64,7 @@
             "url": "https://blog.helltractor.top/posts/question/duplicated-python-scripy",
             "title": "Python Scripy 文件模板重复",
             "date_modified": "2024-06-22T00:00:00.000Z",
-            "date_published": "2025-05-11T07:38:09.534Z",
+            "date_published": "2025-05-11T08:28:50.061Z",
             "author": {
                 "name": "helltractor",
                 "url": "https://valaxy.site"
@@ -76,7 +76,7 @@
             "url": "https://blog.helltractor.top/posts/question/sunlogin-internet-connect",
             "title": "向日葵远程文件网络连接异常",
             "date_modified": "2024-06-26T10:20:24.000Z",
-            "date_published": "2025-05-11T07:38:09.534Z",
+            "date_published": "2025-05-11T08:28:50.061Z",
             "author": {
                 "name": "helltractor",
                 "url": "https://valaxy.site"
@@ -88,7 +88,7 @@
             "url": "https://blog.helltractor.top/posts/use/git-cheat-sheet",
             "title": "Git Cheat Sheet",
             "date_modified": "2024-08-05T11:06:19.000Z",
-            "date_published": "2025-05-11T07:38:09.534Z",
+            "date_published": "2025-05-11T08:28:50.061Z",
             "author": {
                 "name": "helltractor",
                 "url": "https://valaxy.site"
@@ -100,7 +100,7 @@
             "url": "https://blog.helltractor.top/posts/use/githubusercontent",
             "title": "从零开始使用 githubusercontent",
             "date_modified": "2024-06-22T00:00:00.000Z",
-            "date_published": "2025-05-11T07:38:09.534Z",
+            "date_published": "2025-05-11T08:28:50.061Z",
             "author": {
                 "name": "helltractor",
                 "url": "https://valaxy.site"
@@ -112,7 +112,7 @@
             "url": "https://blog.helltractor.top/posts/use/jupyter",
             "title": "从零开始使用 jupyter",
             "date_modified": "2024-06-22T00:00:00.000Z",
-            "date_published": "2025-05-11T07:38:09.534Z",
+            "date_published": "2025-05-11T08:28:50.061Z",
             "author": {
                 "name": "helltractor",
                 "url": "https://valaxy.site"
@@ -124,7 +124,19 @@
             "url": "https://blog.helltractor.top/posts/use/tar",
             "title": "从零开始使用 tar",
             "date_modified": "2024-07-02T08:40:58.000Z",
-            "date_published": "2025-05-11T07:38:09.534Z",
+            "date_published": "2025-05-11T08:28:50.061Z",
+            "author": {
+                "name": "helltractor",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "",
+            "content_html": "<h2>名词解释 (必考)</h2>\n<h3>电子亲和势 𝜒</h3>\n<ul>\n<li><strong>定义</strong>：导带底的电子要想跑出体外必须增加的能量称为电子亲和势 𝜒。</li>\n<li><strong>公式</strong>：𝜒 = 𝐸<sub>vac</sub></li>\n</ul>\n<br/><p>访问 <a href=\"https://blog.helltractor.top/posts/course/20240624\" target=\"_blank\">https://blog.helltractor.top/posts/course/20240624</a> 阅读全文。</p>",
+            "url": "https://blog.helltractor.top/posts/course/20240624",
+            "title": "现代光电子器件期末考试提纲（可预见的最后一次考试）",
+            "date_modified": "2024-06-22T00:00:00.000Z",
+            "date_published": "2025-05-11T08:28:50.060Z",
             "author": {
                 "name": "helltractor",
                 "url": "https://valaxy.site"
@@ -137,7 +149,7 @@
             "title": "CS61B",
             "summary": "CS61B, Spring 2024",
             "date_modified": "2024-07-13T03:32:58.000Z",
-            "date_published": "2025-05-11T07:38:09.533Z",
+            "date_published": "2025-05-11T08:28:50.060Z",
             "author": {
                 "name": "helltractor",
                 "url": "https://valaxy.site"
@@ -149,7 +161,7 @@
             "url": "https://blog.helltractor.top/posts/database/sql-statement-execution-process",
             "title": "一条SQL语句的执行过程",
             "date_modified": "2024-06-21T00:00:00.000Z",
-            "date_published": "2025-05-11T07:38:09.533Z",
+            "date_published": "2025-05-11T08:28:50.060Z",
             "author": {
                 "name": "helltractor",
                 "url": "https://valaxy.site"
@@ -161,7 +173,7 @@
             "url": "https://blog.helltractor.top/posts/database/sql-tutorial-and-tricks",
             "title": "SQL Tutorial and Tricks",
             "date_modified": "2024-09-04T09:29:30.000Z",
-            "date_published": "2025-05-11T07:38:09.533Z",
+            "date_published": "2025-05-11T08:28:50.060Z",
             "author": {
                 "name": "helltractor",
                 "url": "https://valaxy.site"
@@ -173,7 +185,7 @@
             "url": "https://blog.helltractor.top/posts/design-pattern/singleton",
             "title": "Singleton",
             "date_modified": "2024-06-21T00:00:00.000Z",
-            "date_published": "2025-05-11T07:38:09.533Z",
+            "date_published": "2025-05-11T08:28:50.060Z",
             "author": {
                 "name": "helltractor",
                 "url": "https://valaxy.site"
@@ -185,7 +197,7 @@
             "url": "https://blog.helltractor.top/posts/html/index",
             "title": "html 小芝士",
             "date_modified": "2024-07-03T08:31:19.000Z",
-            "date_published": "2025-05-11T07:38:09.533Z",
+            "date_published": "2025-05-11T08:28:50.060Z",
             "author": {
                 "name": "helltractor",
                 "url": "https://valaxy.site"
@@ -197,7 +209,7 @@
             "url": "https://blog.helltractor.top/posts/java/collections",
             "title": "Collections",
             "date_modified": "2025-03-06T14:08:34.000Z",
-            "date_published": "2025-05-11T07:38:09.533Z",
+            "date_published": "2025-05-11T08:28:50.060Z",
             "author": {
                 "name": "helltractor",
                 "url": "https://valaxy.site"
@@ -209,7 +221,7 @@
             "url": "https://blog.helltractor.top/posts/java/garbage-collect",
             "title": "Garbage Collect",
             "date_modified": "2024-12-02T14:10:45.000Z",
-            "date_published": "2025-05-11T07:38:09.533Z",
+            "date_published": "2025-05-11T08:28:50.060Z",
             "author": {
                 "name": "helltractor",
                 "url": "https://valaxy.site"
@@ -221,7 +233,7 @@
             "url": "https://blog.helltractor.top/posts/java/java-memory-model",
             "title": "Java Memory Model",
             "date_modified": "2024-06-21T00:00:00.000Z",
-            "date_published": "2025-05-11T07:38:09.533Z",
+            "date_published": "2025-05-11T08:28:50.060Z",
             "author": {
                 "name": "helltractor",
                 "url": "https://valaxy.site"
@@ -233,7 +245,7 @@
             "url": "https://blog.helltractor.top/posts/java/knowledge",
             "title": "Java 小芝士",
             "date_modified": "2024-06-21T00:00:00.000Z",
-            "date_published": "2025-05-11T07:38:09.533Z",
+            "date_published": "2025-05-11T08:28:50.060Z",
             "author": {
                 "name": "helltractor",
                 "url": "https://valaxy.site"
@@ -245,7 +257,7 @@
             "url": "https://blog.helltractor.top/posts/java/package-type",
             "title": "Initial Type and Package Type",
             "date_modified": "2024-08-07T07:24:30.000Z",
-            "date_published": "2025-05-11T07:38:09.533Z",
+            "date_published": "2025-05-11T08:28:50.060Z",
             "author": {
                 "name": "helltractor",
                 "url": "https://valaxy.site"
@@ -257,7 +269,7 @@
             "url": "https://blog.helltractor.top/posts/java/polymorphism",
             "title": "Polymorphism",
             "date_modified": "2024-08-06T05:55:40.000Z",
-            "date_published": "2025-05-11T07:38:09.533Z",
+            "date_published": "2025-05-11T08:28:50.060Z",
             "author": {
                 "name": "helltractor",
                 "url": "https://valaxy.site"
@@ -269,103 +281,7 @@
             "url": "https://blog.helltractor.top/posts/java/spring-boot",
             "title": "Spring Boot",
             "date_modified": "2024-06-21T00:00:00.000Z",
-            "date_published": "2025-05-11T07:38:09.533Z",
-            "author": {
-                "name": "helltractor",
-                "url": "https://valaxy.site"
-            }
-        },
-        {
-            "id": "",
-            "content_html": "<h2>Data resource {lang=en}</h2>\n<h2>数据资源 {lang=zh-CN}</h2>\n<h3>Frequently-used {lang=en}</h3>\n<h3>常用 {lang=zh-CN</h3>\n<br/><p>访问 <a href=\"https://blog.helltractor.top/posts/calculation/index\" target=\"_blank\">https://blog.helltractor.top/posts/calculation/index</a> 阅读全文。</p>",
-            "url": "https://blog.helltractor.top/posts/calculation/index",
-            "title": "Common Resources for Materials Calculation",
-            "date_modified": "2024-06-21T10:06:42.000Z",
-            "date_published": "2025-05-11T07:38:09.532Z",
-            "author": {
-                "name": "helltractor",
-                "url": "https://valaxy.site"
-            }
-        },
-        {
-            "id": "",
-            "content_html": "<h2>环境</h2>\n<ul>\n<li>Windows11</li>\n<li>wsl2</li>\n<li>Ubuntu24.04</li>\n</ul>\n<h2>安装 Intel 编译器和开发环境</h2>\n<h3>下载 [Base Toolkit](<a href=\"https://www.in\">https://www.in</a></h3>\n<br/><p>访问 <a href=\"https://blog.helltractor.top/posts/calculation/install-vasp\" target=\"_blank\">https://blog.helltractor.top/posts/calculation/install-vasp</a> 阅读全文。</p>",
-            "url": "https://blog.helltractor.top/posts/calculation/install-vasp",
-            "title": "VASP 安装与配置",
-            "date_modified": "2024-07-10T05:34:03.000Z",
-            "date_published": "2025-05-11T07:38:09.532Z",
-            "author": {
-                "name": "helltractor",
-                "url": "https://valaxy.site"
-            }
-        },
-        {
-            "id": "",
-            "content_html": "<h2>环境</h2>\n<ul>\n<li>Windows11</li>\n<li>wsl2</li>\n<li>Ubuntu24.04</li>\n</ul>\n<h2>步骤</h2>\n<h3>不采用 Intel 编译器</h3>\n<ul>\n<li>编译器：`sudo apt install gfortran</li>\n</ul>\n<br/><p>访问 <a href=\"https://blog.helltractor.top/posts/calculation/install-wannier90\" target=\"_blank\">https://blog.helltractor.top/posts/calculation/install-wannier90</a> 阅读全文。</p>",
-            "url": "https://blog.helltractor.top/posts/calculation/install-wannier90",
-            "title": "Wannier90 安装与配置",
-            "date_modified": "2024-07-02T08:11:41.000Z",
-            "date_published": "2025-05-11T07:38:09.532Z",
-            "author": {
-                "name": "helltractor",
-                "url": "https://valaxy.site"
-            }
-        },
-        {
-            "id": "",
-            "content_html": "<h2>Fatband analysis</h2>\n<p>Fatband 分析，也被称为投影态密度（Projected Density of States，PDOS）分析，是一种在固体物理中常用的方法，用于研究固体</p>\n<br/><p>访问 <a href=\"https://blog.helltractor.top/posts/calculation/knowledge\" target=\"_blank\">https://blog.helltractor.top/posts/calculation/knowledge</a> 阅读全文。</p>",
-            "url": "https://blog.helltractor.top/posts/calculation/knowledge",
-            "title": "Calculation 小芝士",
-            "date_modified": "2024-06-21T00:00:00.000Z",
-            "date_published": "2025-05-11T07:38:09.532Z",
-            "author": {
-                "name": "helltractor",
-                "url": "https://valaxy.site"
-            }
-        },
-        {
-            "id": "",
-            "content_html": "<blockquote>\n<p><code>INCAR</code>文件是由多个模板拼接组成，直接在<code>INCAR_templates</code>中修改无用，想要自定义<code>INCAR</code>文件，需要通过自定义模板文件进行拼接。<br>\n<code>INCAR_templates</code></p>\n</blockquote>\n<br/><p>访问 <a href=\"https://blog.helltractor.top/posts/calculation/set-incar\" target=\"_blank\">https://blog.helltractor.top/posts/calculation/set-incar</a> 阅读全文。</p>",
-            "url": "https://blog.helltractor.top/posts/calculation/set-incar",
-            "title": "INCAR 文件设置",
-            "date_modified": "2024-06-22T00:00:00.000Z",
-            "date_published": "2025-05-11T07:38:09.532Z",
-            "author": {
-                "name": "helltractor",
-                "url": "https://valaxy.site"
-            }
-        },
-        {
-            "id": "",
-            "content_html": "<h2>Example</h2>\n<pre><code class=\"language-txt\">num_bands =           # 设置能带数量\nexclude_bands =       # 设置排除的能带数量\nnum_wann =     </code></pre>\n<br/><p>访问 <a href=\"https://blog.helltractor.top/posts/calculation/set-win\" target=\"_blank\">https://blog.helltractor.top/posts/calculation/set-win</a> 阅读全文。</p>",
-            "url": "https://blog.helltractor.top/posts/calculation/set-win",
-            "title": "Wannier90.win 文件设置",
-            "date_modified": "2024-06-21T00:00:00.000Z",
-            "date_published": "2025-05-11T07:38:09.532Z",
-            "author": {
-                "name": "helltractor",
-                "url": "https://valaxy.site"
-            }
-        },
-        {
-            "id": "",
-            "content_html": "<h2>System environment {lang=en}</h2>\n<h2>系统环境 {lang=zh-CN}</h2>\n<ul>\n<li>Windows 11</li>\n<li>wsl2</li>\n<li>Ubuntu 24.04</li>\n</ul>\n<h2>Softw</h2>\n<br/><p>访问 <a href=\"https://blog.helltractor.top/posts/calculation/steps\" target=\"_blank\">https://blog.helltractor.top/posts/calculation/steps</a> 阅读全文。</p>",
-            "url": "https://blog.helltractor.top/posts/calculation/steps",
-            "title": "Material Calculation Common Steps",
-            "date_modified": "2024-06-22T10:06:42.000Z",
-            "date_published": "2025-05-11T07:38:09.532Z",
-            "author": {
-                "name": "helltractor",
-                "url": "https://valaxy.site"
-            }
-        },
-        {
-            "id": "",
-            "content_html": "<h2>名词解释 (必考)</h2>\n<h3>电子亲和势 𝜒</h3>\n<ul>\n<li><strong>定义</strong>：导带底的电子要想跑出体外必须增加的能量称为电子亲和势 𝜒。</li>\n<li><strong>公式</strong>：𝜒 = 𝐸<sub>vac</sub></li>\n</ul>\n<br/><p>访问 <a href=\"https://blog.helltractor.top/posts/course/20240624\" target=\"_blank\">https://blog.helltractor.top/posts/course/20240624</a> 阅读全文。</p>",
-            "url": "https://blog.helltractor.top/posts/course/20240624",
-            "title": "现代光电子器件期末考试提纲（可预见的最后一次考试）",
-            "date_modified": "2024-06-22T00:00:00.000Z",
-            "date_published": "2025-05-11T07:38:09.532Z",
+            "date_published": "2025-05-11T08:28:50.060Z",
             "author": {
                 "name": "helltractor",
                 "url": "https://valaxy.site"
@@ -377,7 +293,91 @@
             "url": "https://blog.helltractor.top/posts/algorithm/inverse",
             "title": "Inverse",
             "date_modified": "2025-03-09T08:28:37.000Z",
-            "date_published": "2025-05-11T07:38:09.532Z",
+            "date_published": "2025-05-11T08:28:50.059Z",
+            "author": {
+                "name": "helltractor",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "",
+            "content_html": "<h2>Data resource {lang=en}</h2>\n<h2>数据资源 {lang=zh-CN}</h2>\n<h3>Frequently-used {lang=en}</h3>\n<h3>常用 {lang=zh-CN</h3>\n<br/><p>访问 <a href=\"https://blog.helltractor.top/posts/calculation/index\" target=\"_blank\">https://blog.helltractor.top/posts/calculation/index</a> 阅读全文。</p>",
+            "url": "https://blog.helltractor.top/posts/calculation/index",
+            "title": "Common Resources for Materials Calculation",
+            "date_modified": "2024-06-21T10:06:42.000Z",
+            "date_published": "2025-05-11T08:28:50.059Z",
+            "author": {
+                "name": "helltractor",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "",
+            "content_html": "<h2>环境</h2>\n<ul>\n<li>Windows11</li>\n<li>wsl2</li>\n<li>Ubuntu24.04</li>\n</ul>\n<h2>安装 Intel 编译器和开发环境</h2>\n<h3>下载 [Base Toolkit](<a href=\"https://www.in\">https://www.in</a></h3>\n<br/><p>访问 <a href=\"https://blog.helltractor.top/posts/calculation/install-vasp\" target=\"_blank\">https://blog.helltractor.top/posts/calculation/install-vasp</a> 阅读全文。</p>",
+            "url": "https://blog.helltractor.top/posts/calculation/install-vasp",
+            "title": "VASP 安装与配置",
+            "date_modified": "2024-07-10T05:34:03.000Z",
+            "date_published": "2025-05-11T08:28:50.059Z",
+            "author": {
+                "name": "helltractor",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "",
+            "content_html": "<h2>环境</h2>\n<ul>\n<li>Windows11</li>\n<li>wsl2</li>\n<li>Ubuntu24.04</li>\n</ul>\n<h2>步骤</h2>\n<h3>不采用 Intel 编译器</h3>\n<ul>\n<li>编译器：`sudo apt install gfortran</li>\n</ul>\n<br/><p>访问 <a href=\"https://blog.helltractor.top/posts/calculation/install-wannier90\" target=\"_blank\">https://blog.helltractor.top/posts/calculation/install-wannier90</a> 阅读全文。</p>",
+            "url": "https://blog.helltractor.top/posts/calculation/install-wannier90",
+            "title": "Wannier90 安装与配置",
+            "date_modified": "2024-07-02T08:11:41.000Z",
+            "date_published": "2025-05-11T08:28:50.059Z",
+            "author": {
+                "name": "helltractor",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "",
+            "content_html": "<h2>Fatband analysis</h2>\n<p>Fatband 分析，也被称为投影态密度（Projected Density of States，PDOS）分析，是一种在固体物理中常用的方法，用于研究固体</p>\n<br/><p>访问 <a href=\"https://blog.helltractor.top/posts/calculation/knowledge\" target=\"_blank\">https://blog.helltractor.top/posts/calculation/knowledge</a> 阅读全文。</p>",
+            "url": "https://blog.helltractor.top/posts/calculation/knowledge",
+            "title": "Calculation 小芝士",
+            "date_modified": "2024-06-21T00:00:00.000Z",
+            "date_published": "2025-05-11T08:28:50.059Z",
+            "author": {
+                "name": "helltractor",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "",
+            "content_html": "<blockquote>\n<p><code>INCAR</code>文件是由多个模板拼接组成，直接在<code>INCAR_templates</code>中修改无用，想要自定义<code>INCAR</code>文件，需要通过自定义模板文件进行拼接。<br>\n<code>INCAR_templates</code></p>\n</blockquote>\n<br/><p>访问 <a href=\"https://blog.helltractor.top/posts/calculation/set-incar\" target=\"_blank\">https://blog.helltractor.top/posts/calculation/set-incar</a> 阅读全文。</p>",
+            "url": "https://blog.helltractor.top/posts/calculation/set-incar",
+            "title": "INCAR 文件设置",
+            "date_modified": "2024-06-22T00:00:00.000Z",
+            "date_published": "2025-05-11T08:28:50.059Z",
+            "author": {
+                "name": "helltractor",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "",
+            "content_html": "<h2>Example</h2>\n<pre><code class=\"language-txt\">num_bands =           # 设置能带数量\nexclude_bands =       # 设置排除的能带数量\nnum_wann =     </code></pre>\n<br/><p>访问 <a href=\"https://blog.helltractor.top/posts/calculation/set-win\" target=\"_blank\">https://blog.helltractor.top/posts/calculation/set-win</a> 阅读全文。</p>",
+            "url": "https://blog.helltractor.top/posts/calculation/set-win",
+            "title": "Wannier90.win 文件设置",
+            "date_modified": "2024-06-21T00:00:00.000Z",
+            "date_published": "2025-05-11T08:28:50.059Z",
+            "author": {
+                "name": "helltractor",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "",
+            "content_html": "<h2>System environment {lang=en}</h2>\n<h2>系统环境 {lang=zh-CN}</h2>\n<ul>\n<li>Windows 11</li>\n<li>wsl2</li>\n<li>Ubuntu 24.04</li>\n</ul>\n<h2>Softw</h2>\n<br/><p>访问 <a href=\"https://blog.helltractor.top/posts/calculation/steps\" target=\"_blank\">https://blog.helltractor.top/posts/calculation/steps</a> 阅读全文。</p>",
+            "url": "https://blog.helltractor.top/posts/calculation/steps",
+            "title": "Material Calculation Common Steps",
+            "date_modified": "2024-06-22T10:06:42.000Z",
+            "date_published": "2025-05-11T08:28:50.059Z",
             "author": {
                 "name": "helltractor",
                 "url": "https://valaxy.site"
