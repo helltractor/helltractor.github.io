@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://blog.helltractor.top/</id>
     <title>helltractor blog</title>
-    <updated>2025-05-10T16:40:20.138Z</updated>
+    <updated>2025-05-11T07:38:23.763Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <author>
         <name>helltractor</name>
@@ -14,184 +14,6 @@
     <logo>https://blog.helltractor.top/avatar.png</logo>
     <icon>https://blog.helltractor.top/favicon.svg</icon>
     <rights>CC BY-NC-SA 4.0 2025 © helltractor</rights>
-    <entry>
-        <title type="html"><![CDATA[Git Cheat Sheet]]></title>
-        <id>https://blog.helltractor.top/posts/use/git-cheat-sheet</id>
-        <link href="https://blog.helltractor.top/posts/use/git-cheat-sheet"/>
-        <updated>2024-08-05T11:06:19.000Z</updated>
-        <content type="html"><![CDATA[<blockquote>
-<p><a href="https://liaoxuefeng.com/books/git/conclusion/git-cheat-sheet.pdf">Git Cheat Sheet</a></p>
-</blockquote>
-<p>::: zh-CN</p>
-<h1></h1>
-<br/><p>访问 <a href="https://blog.helltractor.top/posts/use/git-cheat-sheet" target="_blank">https://blog.helltractor.top/posts/use/git-cheat-sheet</a> 阅读全文。</p>]]></content>
-        <author>
-            <name>helltractor</name>
-            <email>mail@helltractor.top</email>
-            <uri>https://valaxy.site</uri>
-        </author>
-        <published>2025-05-10T16:38:42.926Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[从零开始使用 githubusercontent]]></title>
-        <id>https://blog.helltractor.top/posts/use/githubusercontent</id>
-        <link href="https://blog.helltractor.top/posts/use/githubusercontent"/>
-        <updated>2024-06-22T00:00:00.000Z</updated>
-        <content type="html"><![CDATA[<p><a href="http://raw.githubusercontent.com">raw.githubusercontent.com</a> 是 GitHub 提供的一个服务，用于获取 GitHub 仓库中文件的原始内容。这对于需要直接访问文件内容，而不是<br>
-GitHub 页面的情况非常有</p>
-<br/><p>访问 <a href="https://blog.helltractor.top/posts/use/githubusercontent" target="_blank">https://blog.helltractor.top/posts/use/githubusercontent</a> 阅读全文。</p>]]></content>
-        <author>
-            <name>helltractor</name>
-            <email>mail@helltractor.top</email>
-            <uri>https://valaxy.site</uri>
-        </author>
-        <published>2025-05-10T16:38:42.926Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[从零开始使用 jupyter]]></title>
-        <id>https://blog.helltractor.top/posts/use/jupyter</id>
-        <link href="https://blog.helltractor.top/posts/use/jupyter"/>
-        <updated>2024-06-22T00:00:00.000Z</updated>
-        <content type="html"><![CDATA[<h2>安装jupyter</h2>
-<p>起因是，为了使用jupyter运行pykan中的代码。因为是在pycharm中导入的仓库，所以虚拟环境已经构建好了，在venv中。</p>
-<p>使用jupyter，首先要安装jup</p>
-<br/><p>访问 <a href="https://blog.helltractor.top/posts/use/jupyter" target="_blank">https://blog.helltractor.top/posts/use/jupyter</a> 阅读全文。</p>]]></content>
-        <author>
-            <name>helltractor</name>
-            <email>mail@helltractor.top</email>
-            <uri>https://valaxy.site</uri>
-        </author>
-        <published>2025-05-10T16:38:42.926Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[从零开始使用 tar]]></title>
-        <id>https://blog.helltractor.top/posts/use/tar</id>
-        <link href="https://blog.helltractor.top/posts/use/tar"/>
-        <updated>2024-07-02T08:40:58.000Z</updated>
-        <content type="html"><![CDATA[<h2>常用命令</h2>
-<ul>
-<li><code>-c</code>：创建一个新的归档文件。</li>
-<li><code>-x</code>：从归档文件中提取文件。</li>
-<li><code>-v</code>：详细显示处理过程中的文件信息。</li>
-<li><code>-f</code>：指定归档文件的名称。</li>
-<li><code>-z</code>：使用 g</li>
-</ul>
-<br/><p>访问 <a href="https://blog.helltractor.top/posts/use/tar" target="_blank">https://blog.helltractor.top/posts/use/tar</a> 阅读全文。</p>]]></content>
-        <author>
-            <name>helltractor</name>
-            <email>mail@helltractor.top</email>
-            <uri>https://valaxy.site</uri>
-        </author>
-        <published>2025-05-10T16:38:42.926Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[html 小芝士]]></title>
-        <id>https://blog.helltractor.top/posts/html/index</id>
-        <link href="https://blog.helltractor.top/posts/html/index"/>
-        <updated>2024-07-03T08:31:19.000Z</updated>
-        <content type="html"><![CDATA[<h2>detail &amp; summary</h2>
-<h3>源代码</h3>
-<pre><code class="language-html">&lt;details&gt;
-  &lt;summary style=&quot;font-size: 20px&quot;&gt;展开&lt;/summary&gt;
-  &lt;</code></pre>
-<br/><p>访问 <a href="https://blog.helltractor.top/posts/html/index" target="_blank">https://blog.helltractor.top/posts/html/index</a> 阅读全文。</p>]]></content>
-        <author>
-            <name>helltractor</name>
-            <email>mail@helltractor.top</email>
-            <uri>https://valaxy.site</uri>
-        </author>
-        <published>2025-05-10T16:38:42.925Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Collections]]></title>
-        <id>https://blog.helltractor.top/posts/java/collections</id>
-        <link href="https://blog.helltractor.top/posts/java/collections"/>
-        <updated>2025-03-06T14:08:34.000Z</updated>
-        <content type="html"><![CDATA[<p>Java 集合框架（Java Collections Framework, JCF）提供了用于存储和操作数据的通用算法和数据结构。主要接口和类包括：</p>
-<ul>
-<li><strong>List</strong>：有序的可重复集合，如 A</li>
-</ul>
-<br/><p>访问 <a href="https://blog.helltractor.top/posts/java/collections" target="_blank">https://blog.helltractor.top/posts/java/collections</a> 阅读全文。</p>]]></content>
-        <author>
-            <name>helltractor</name>
-            <email>mail@helltractor.top</email>
-            <uri>https://valaxy.site</uri>
-        </author>
-        <published>2025-05-10T16:38:42.925Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Garbage Collect]]></title>
-        <id>https://blog.helltractor.top/posts/java/garbage-collect</id>
-        <link href="https://blog.helltractor.top/posts/java/garbage-collect"/>
-        <updated>2024-12-02T14:10:45.000Z</updated>
-        <content type="html"><![CDATA[<h2>垃圾回收策略 {lang=&quot;cn-zh&quot;}</h2>
-<h2>GC Strategies {lang=en}</h2>
-<p>如何辨别对象是否需要进行回收（可达）？通常是通过引用和引用链的方式来判断对象是否可达。</p>
-<br/><p>访问 <a href="https://blog.helltractor.top/posts/java/garbage-collect" target="_blank">https://blog.helltractor.top/posts/java/garbage-collect</a> 阅读全文。</p>]]></content>
-        <author>
-            <name>helltractor</name>
-            <email>mail@helltractor.top</email>
-            <uri>https://valaxy.site</uri>
-        </author>
-        <published>2025-05-10T16:38:42.925Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Java Memory Model]]></title>
-        <id>https://blog.helltractor.top/posts/java/java-memory-model</id>
-        <link href="https://blog.helltractor.top/posts/java/java-memory-model"/>
-        <updated>2024-06-21T00:00:00.000Z</updated>
-        <content type="html"><![CDATA[<h2>重点</h2>
-<ul>
-<li>JMM 的工作方式</li>
-<li>三大特征：原子性、可见性、有序性</li>
-<li>volatile 关键字</li>
-<li>volatile 与 synchronized 的区别</li>
-</ul>
-<h2>JMM 和 JVM</h2>
-<p>J</p>
-<br/><p>访问 <a href="https://blog.helltractor.top/posts/java/java-memory-model" target="_blank">https://blog.helltractor.top/posts/java/java-memory-model</a> 阅读全文。</p>]]></content>
-        <author>
-            <name>helltractor</name>
-            <email>mail@helltractor.top</email>
-            <uri>https://valaxy.site</uri>
-        </author>
-        <published>2025-05-10T16:38:42.925Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Java 小芝士]]></title>
-        <id>https://blog.helltractor.top/posts/java/knowledge</id>
-        <link href="https://blog.helltractor.top/posts/java/knowledge"/>
-        <updated>2024-06-21T00:00:00.000Z</updated>
-        <content type="html"><![CDATA[<h2>Annotation</h2>
-<h3>@Value</h3>
-<p>在 Spring 框架中，@Value 注解用于注入属性值。@Value 可以接受两种形式的参数：${}和#{}，它们的区别在于：</p>
-<ul>
-<li>`${</li>
-</ul>
-<br/><p>访问 <a href="https://blog.helltractor.top/posts/java/knowledge" target="_blank">https://blog.helltractor.top/posts/java/knowledge</a> 阅读全文。</p>]]></content>
-        <author>
-            <name>helltractor</name>
-            <email>mail@helltractor.top</email>
-            <uri>https://valaxy.site</uri>
-        </author>
-        <published>2025-05-10T16:38:42.925Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Initial Type and Package Type]]></title>
-        <id>https://blog.helltractor.top/posts/java/package-type</id>
-        <link href="https://blog.helltractor.top/posts/java/package-type"/>
-        <updated>2024-08-07T07:24:30.000Z</updated>
-        <content type="html"><![CDATA[<h2>基本类型与包装类型 {lang=zh-CN}</h2>
-<h2>Initial Type and Package Type {lang=en}</h2>
-<p>| 基本类型 | 包装类型  | 大小（字节） |</p>
-<br/><p>访问 <a href="https://blog.helltractor.top/posts/java/package-type" target="_blank">https://blog.helltractor.top/posts/java/package-type</a> 阅读全文。</p>]]></content>
-        <author>
-            <name>helltractor</name>
-            <email>mail@helltractor.top</email>
-            <uri>https://valaxy.site</uri>
-        </author>
-        <published>2025-05-10T16:38:42.925Z</published>
-    </entry>
     <entry>
         <title type="html"><![CDATA[Polymorphism]]></title>
         <id>https://blog.helltractor.top/posts/java/polymorphism</id>
@@ -207,7 +29,7 @@ GitHub 页面的情况非常有</p>
             <email>mail@helltractor.top</email>
             <uri>https://valaxy.site</uri>
         </author>
-        <published>2025-05-10T16:38:42.925Z</published>
+        <published>2025-05-11T07:36:47.891Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[Spring Boot]]></title>
@@ -222,7 +44,7 @@ GitHub 页面的情况非常有</p>
             <email>mail@helltractor.top</email>
             <uri>https://valaxy.site</uri>
         </author>
-        <published>2025-05-10T16:38:42.925Z</published>
+        <published>2025-05-11T07:36:47.891Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[小说情节]]></title>
@@ -247,7 +69,7 @@ GitHub 页面的情况非常有</p>
             <email>mail@helltractor.top</email>
             <uri>https://valaxy.site</uri>
         </author>
-        <published>2025-05-10T16:38:42.925Z</published>
+        <published>2025-05-11T07:36:47.891Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[Python 小芝士]]></title>
@@ -263,7 +85,7 @@ GitHub 页面的情况非常有</p>
             <email>mail@helltractor.top</email>
             <uri>https://valaxy.site</uri>
         </author>
-        <published>2025-05-10T16:38:42.925Z</published>
+        <published>2025-05-11T07:36:47.891Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[Useful Python Libraries]]></title>
@@ -281,7 +103,7 @@ path = Path('path/to/file') # Create a Path object
             <email>mail@helltractor.top</email>
             <uri>https://valaxy.site</uri>
         </author>
-        <published>2025-05-10T16:38:42.925Z</published>
+        <published>2025-05-11T07:36:47.891Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[双花问题及防范]]></title>
@@ -297,7 +119,7 @@ path = Path('path/to/file') # Create a Path object
             <email>mail@helltractor.top</email>
             <uri>https://valaxy.site</uri>
         </author>
-        <published>2025-05-10T16:38:42.925Z</published>
+        <published>2025-05-11T07:36:47.891Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[Python Scripy 文件模板重复]]></title>
@@ -313,7 +135,7 @@ path = Path('path/to/file') # Create a Path object
             <email>mail@helltractor.top</email>
             <uri>https://valaxy.site</uri>
         </author>
-        <published>2025-05-10T16:38:42.925Z</published>
+        <published>2025-05-11T07:36:47.891Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[向日葵远程文件网络连接异常]]></title>
@@ -332,7 +154,98 @@ path = Path('path/to/file') # Create a Path object
             <email>mail@helltractor.top</email>
             <uri>https://valaxy.site</uri>
         </author>
-        <published>2025-05-10T16:38:42.925Z</published>
+        <published>2025-05-11T07:36:47.891Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Git Cheat Sheet]]></title>
+        <id>https://blog.helltractor.top/posts/use/git-cheat-sheet</id>
+        <link href="https://blog.helltractor.top/posts/use/git-cheat-sheet"/>
+        <updated>2024-08-05T11:06:19.000Z</updated>
+        <content type="html"><![CDATA[<blockquote>
+<p><a href="https://liaoxuefeng.com/books/git/conclusion/git-cheat-sheet.pdf">Git Cheat Sheet</a></p>
+</blockquote>
+<p>::: zh-CN</p>
+<h1></h1>
+<br/><p>访问 <a href="https://blog.helltractor.top/posts/use/git-cheat-sheet" target="_blank">https://blog.helltractor.top/posts/use/git-cheat-sheet</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>helltractor</name>
+            <email>mail@helltractor.top</email>
+            <uri>https://valaxy.site</uri>
+        </author>
+        <published>2025-05-11T07:36:47.891Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[从零开始使用 githubusercontent]]></title>
+        <id>https://blog.helltractor.top/posts/use/githubusercontent</id>
+        <link href="https://blog.helltractor.top/posts/use/githubusercontent"/>
+        <updated>2024-06-22T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<p><a href="http://raw.githubusercontent.com">raw.githubusercontent.com</a> 是 GitHub 提供的一个服务，用于获取 GitHub 仓库中文件的原始内容。这对于需要直接访问文件内容，而不是<br>
+GitHub 页面的情况非常有</p>
+<br/><p>访问 <a href="https://blog.helltractor.top/posts/use/githubusercontent" target="_blank">https://blog.helltractor.top/posts/use/githubusercontent</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>helltractor</name>
+            <email>mail@helltractor.top</email>
+            <uri>https://valaxy.site</uri>
+        </author>
+        <published>2025-05-11T07:36:47.891Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[从零开始使用 jupyter]]></title>
+        <id>https://blog.helltractor.top/posts/use/jupyter</id>
+        <link href="https://blog.helltractor.top/posts/use/jupyter"/>
+        <updated>2024-06-22T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<h2>安装jupyter</h2>
+<p>起因是，为了使用jupyter运行pykan中的代码。因为是在pycharm中导入的仓库，所以虚拟环境已经构建好了，在venv中。</p>
+<p>使用jupyter，首先要安装jup</p>
+<br/><p>访问 <a href="https://blog.helltractor.top/posts/use/jupyter" target="_blank">https://blog.helltractor.top/posts/use/jupyter</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>helltractor</name>
+            <email>mail@helltractor.top</email>
+            <uri>https://valaxy.site</uri>
+        </author>
+        <published>2025-05-11T07:36:47.891Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[从零开始使用 tar]]></title>
+        <id>https://blog.helltractor.top/posts/use/tar</id>
+        <link href="https://blog.helltractor.top/posts/use/tar"/>
+        <updated>2024-07-02T08:40:58.000Z</updated>
+        <content type="html"><![CDATA[<h2>常用命令</h2>
+<ul>
+<li><code>-c</code>：创建一个新的归档文件。</li>
+<li><code>-x</code>：从归档文件中提取文件。</li>
+<li><code>-v</code>：详细显示处理过程中的文件信息。</li>
+<li><code>-f</code>：指定归档文件的名称。</li>
+<li><code>-z</code>：使用 g</li>
+</ul>
+<br/><p>访问 <a href="https://blog.helltractor.top/posts/use/tar" target="_blank">https://blog.helltractor.top/posts/use/tar</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>helltractor</name>
+            <email>mail@helltractor.top</email>
+            <uri>https://valaxy.site</uri>
+        </author>
+        <published>2025-05-11T07:36:47.891Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Material Calculation Common Steps]]></title>
+        <id>https://blog.helltractor.top/posts/calculation/steps</id>
+        <link href="https://blog.helltractor.top/posts/calculation/steps"/>
+        <updated>2024-06-22T10:06:42.000Z</updated>
+        <content type="html"><![CDATA[<h2>System environment {lang=en}</h2>
+<h2>系统环境 {lang=zh-CN}</h2>
+<ul>
+<li>Windows 11</li>
+<li>wsl2</li>
+<li>Ubuntu 24.04</li>
+</ul>
+<h2>Softw</h2>
+<br/><p>访问 <a href="https://blog.helltractor.top/posts/calculation/steps" target="_blank">https://blog.helltractor.top/posts/calculation/steps</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>helltractor</name>
+            <email>mail@helltractor.top</email>
+            <uri>https://valaxy.site</uri>
+        </author>
+        <published>2025-05-11T07:36:47.890Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[现代光电子器件期末考试提纲（可预见的最后一次考试）]]></title>
@@ -351,7 +264,7 @@ path = Path('path/to/file') # Create a Path object
             <email>mail@helltractor.top</email>
             <uri>https://valaxy.site</uri>
         </author>
-        <published>2025-05-10T16:38:42.924Z</published>
+        <published>2025-05-11T07:36:47.890Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[CS61B]]></title>
@@ -370,7 +283,187 @@ path = Path('path/to/file') # Create a Path object
             <email>mail@helltractor.top</email>
             <uri>https://valaxy.site</uri>
         </author>
-        <published>2025-05-10T16:38:42.924Z</published>
+        <published>2025-05-11T07:36:47.890Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[一条SQL语句的执行过程]]></title>
+        <id>https://blog.helltractor.top/posts/database/sql-statement-execution-process</id>
+        <link href="https://blog.helltractor.top/posts/database/sql-statement-execution-process"/>
+        <updated>2024-06-21T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<h2>日志</h2>
+<ul>
+<li>undo log: 逻辑日志（相当于堕胎，撤回了没完全撤回）。用于事务的回滚，保证事务的 ACID 特性；MVCC（多版本并发控制）实现非锁定读。</li>
+<li>redo log: 物理日志</li>
+</ul>
+<br/><p>访问 <a href="https://blog.helltractor.top/posts/database/sql-statement-execution-process" target="_blank">https://blog.helltractor.top/posts/database/sql-statement-execution-process</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>helltractor</name>
+            <email>mail@helltractor.top</email>
+            <uri>https://valaxy.site</uri>
+        </author>
+        <published>2025-05-11T07:36:47.890Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[SQL Tutorial and Tricks]]></title>
+        <id>https://blog.helltractor.top/posts/database/sql-tutorial-and-tricks</id>
+        <link href="https://blog.helltractor.top/posts/database/sql-tutorial-and-tricks"/>
+        <updated>2024-09-04T09:29:30.000Z</updated>
+        <content type="html"><![CDATA[<h2>COUNT Function</h2>
+<h3><code>COUNT(*)</code>, <code>COUNT(1)</code>, <code>COUNT(column_name)</code></h3>
+<ul>
+<li><code>COUNT(*)</code>: 统计所有行，不管是否为 `NUL</li>
+</ul>
+<br/><p>访问 <a href="https://blog.helltractor.top/posts/database/sql-tutorial-and-tricks" target="_blank">https://blog.helltractor.top/posts/database/sql-tutorial-and-tricks</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>helltractor</name>
+            <email>mail@helltractor.top</email>
+            <uri>https://valaxy.site</uri>
+        </author>
+        <published>2025-05-11T07:36:47.890Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Singleton]]></title>
+        <id>https://blog.helltractor.top/posts/design-pattern/singleton</id>
+        <link href="https://blog.helltractor.top/posts/design-pattern/singleton"/>
+        <updated>2024-06-21T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<h2>定义</h2>
+<p>单例模式是一种常用的软件设计模式，它保证一个类只有一个实例，并提供一个全局访问点。这种模式通常用于需要频繁创建和销毁的对象，以减少系统资源的消耗，提高系统效率。</p>
+<ul>
+<li>单例模式是一种创</li>
+</ul>
+<br/><p>访问 <a href="https://blog.helltractor.top/posts/design-pattern/singleton" target="_blank">https://blog.helltractor.top/posts/design-pattern/singleton</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>helltractor</name>
+            <email>mail@helltractor.top</email>
+            <uri>https://valaxy.site</uri>
+        </author>
+        <published>2025-05-11T07:36:47.890Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[html 小芝士]]></title>
+        <id>https://blog.helltractor.top/posts/html/index</id>
+        <link href="https://blog.helltractor.top/posts/html/index"/>
+        <updated>2024-07-03T08:31:19.000Z</updated>
+        <content type="html"><![CDATA[<h2>detail &amp; summary</h2>
+<h3>源代码</h3>
+<pre><code class="language-html">&lt;details&gt;
+  &lt;summary style=&quot;font-size: 20px&quot;&gt;展开&lt;/summary&gt;
+  &lt;</code></pre>
+<br/><p>访问 <a href="https://blog.helltractor.top/posts/html/index" target="_blank">https://blog.helltractor.top/posts/html/index</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>helltractor</name>
+            <email>mail@helltractor.top</email>
+            <uri>https://valaxy.site</uri>
+        </author>
+        <published>2025-05-11T07:36:47.890Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Collections]]></title>
+        <id>https://blog.helltractor.top/posts/java/collections</id>
+        <link href="https://blog.helltractor.top/posts/java/collections"/>
+        <updated>2025-03-06T14:08:34.000Z</updated>
+        <content type="html"><![CDATA[<p>Java 集合框架（Java Collections Framework, JCF）提供了用于存储和操作数据的通用算法和数据结构。主要接口和类包括：</p>
+<ul>
+<li><strong>List</strong>：有序的可重复集合，如 A</li>
+</ul>
+<br/><p>访问 <a href="https://blog.helltractor.top/posts/java/collections" target="_blank">https://blog.helltractor.top/posts/java/collections</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>helltractor</name>
+            <email>mail@helltractor.top</email>
+            <uri>https://valaxy.site</uri>
+        </author>
+        <published>2025-05-11T07:36:47.890Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Garbage Collect]]></title>
+        <id>https://blog.helltractor.top/posts/java/garbage-collect</id>
+        <link href="https://blog.helltractor.top/posts/java/garbage-collect"/>
+        <updated>2024-12-02T14:10:45.000Z</updated>
+        <content type="html"><![CDATA[<h2>垃圾回收策略 {lang=&quot;cn-zh&quot;}</h2>
+<h2>GC Strategies {lang=en}</h2>
+<p>如何辨别对象是否需要进行回收（可达）？通常是通过引用和引用链的方式来判断对象是否可达。</p>
+<br/><p>访问 <a href="https://blog.helltractor.top/posts/java/garbage-collect" target="_blank">https://blog.helltractor.top/posts/java/garbage-collect</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>helltractor</name>
+            <email>mail@helltractor.top</email>
+            <uri>https://valaxy.site</uri>
+        </author>
+        <published>2025-05-11T07:36:47.890Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Java Memory Model]]></title>
+        <id>https://blog.helltractor.top/posts/java/java-memory-model</id>
+        <link href="https://blog.helltractor.top/posts/java/java-memory-model"/>
+        <updated>2024-06-21T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<h2>重点</h2>
+<ul>
+<li>JMM 的工作方式</li>
+<li>三大特征：原子性、可见性、有序性</li>
+<li>volatile 关键字</li>
+<li>volatile 与 synchronized 的区别</li>
+</ul>
+<h2>JMM 和 JVM</h2>
+<p>J</p>
+<br/><p>访问 <a href="https://blog.helltractor.top/posts/java/java-memory-model" target="_blank">https://blog.helltractor.top/posts/java/java-memory-model</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>helltractor</name>
+            <email>mail@helltractor.top</email>
+            <uri>https://valaxy.site</uri>
+        </author>
+        <published>2025-05-11T07:36:47.890Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Java 小芝士]]></title>
+        <id>https://blog.helltractor.top/posts/java/knowledge</id>
+        <link href="https://blog.helltractor.top/posts/java/knowledge"/>
+        <updated>2024-06-21T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<h2>Annotation</h2>
+<h3>@Value</h3>
+<p>在 Spring 框架中，@Value 注解用于注入属性值。@Value 可以接受两种形式的参数：${}和#{}，它们的区别在于：</p>
+<ul>
+<li>`${</li>
+</ul>
+<br/><p>访问 <a href="https://blog.helltractor.top/posts/java/knowledge" target="_blank">https://blog.helltractor.top/posts/java/knowledge</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>helltractor</name>
+            <email>mail@helltractor.top</email>
+            <uri>https://valaxy.site</uri>
+        </author>
+        <published>2025-05-11T07:36:47.890Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Initial Type and Package Type]]></title>
+        <id>https://blog.helltractor.top/posts/java/package-type</id>
+        <link href="https://blog.helltractor.top/posts/java/package-type"/>
+        <updated>2024-08-07T07:24:30.000Z</updated>
+        <content type="html"><![CDATA[<h2>基本类型与包装类型 {lang=zh-CN}</h2>
+<h2>Initial Type and Package Type {lang=en}</h2>
+<p>| 基本类型 | 包装类型  | 大小（字节） |</p>
+<br/><p>访问 <a href="https://blog.helltractor.top/posts/java/package-type" target="_blank">https://blog.helltractor.top/posts/java/package-type</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>helltractor</name>
+            <email>mail@helltractor.top</email>
+            <uri>https://valaxy.site</uri>
+        </author>
+        <published>2025-05-11T07:36:47.890Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Inverse]]></title>
+        <id>https://blog.helltractor.top/posts/algorithm/inverse</id>
+        <link href="https://blog.helltractor.top/posts/algorithm/inverse"/>
+        <updated>2025-03-09T08:28:37.000Z</updated>
+        <content type="html"><![CDATA[<h2>Definition {lang=en}</h2>
+<h2>定义 {lang=zh-CN}</h2>
+<ul>
+<li>单位元：在一个集合中，对于某种运算 （注意：这里代表通用运算的表示符号，并不是特指乘法），如果对于任何的</li>
+</ul>
+<br/><p>访问 <a href="https://blog.helltractor.top/posts/algorithm/inverse" target="_blank">https://blog.helltractor.top/posts/algorithm/inverse</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>helltractor</name>
+            <email>mail@helltractor.top</email>
+            <uri>https://valaxy.site</uri>
+        </author>
+        <published>2025-05-11T07:36:47.889Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[Common Resources for Materials Calculation]]></title>
@@ -387,7 +480,7 @@ path = Path('path/to/file') # Create a Path object
             <email>mail@helltractor.top</email>
             <uri>https://valaxy.site</uri>
         </author>
-        <published>2025-05-10T16:38:42.924Z</published>
+        <published>2025-05-11T07:36:47.889Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[VASP 安装与配置]]></title>
@@ -408,7 +501,7 @@ path = Path('path/to/file') # Create a Path object
             <email>mail@helltractor.top</email>
             <uri>https://valaxy.site</uri>
         </author>
-        <published>2025-05-10T16:38:42.924Z</published>
+        <published>2025-05-11T07:36:47.889Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[Wannier90 安装与配置]]></title>
@@ -432,7 +525,7 @@ path = Path('path/to/file') # Create a Path object
             <email>mail@helltractor.top</email>
             <uri>https://valaxy.site</uri>
         </author>
-        <published>2025-05-10T16:38:42.924Z</published>
+        <published>2025-05-11T07:36:47.889Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[Calculation 小芝士]]></title>
@@ -447,7 +540,7 @@ path = Path('path/to/file') # Create a Path object
             <email>mail@helltractor.top</email>
             <uri>https://valaxy.site</uri>
         </author>
-        <published>2025-05-10T16:38:42.924Z</published>
+        <published>2025-05-11T07:36:47.889Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[INCAR 文件设置]]></title>
@@ -464,7 +557,7 @@ path = Path('path/to/file') # Create a Path object
             <email>mail@helltractor.top</email>
             <uri>https://valaxy.site</uri>
         </author>
-        <published>2025-05-10T16:38:42.924Z</published>
+        <published>2025-05-11T07:36:47.889Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[Wannier90.win 文件设置]]></title>
@@ -481,99 +574,6 @@ num_wann =     </code></pre>
             <email>mail@helltractor.top</email>
             <uri>https://valaxy.site</uri>
         </author>
-        <published>2025-05-10T16:38:42.924Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Material Calculation Common Steps]]></title>
-        <id>https://blog.helltractor.top/posts/calculation/steps</id>
-        <link href="https://blog.helltractor.top/posts/calculation/steps"/>
-        <updated>2024-06-22T10:06:42.000Z</updated>
-        <content type="html"><![CDATA[<h2>System environment {lang=en}</h2>
-<h2>系统环境 {lang=zh-CN}</h2>
-<ul>
-<li>Windows 11</li>
-<li>wsl2</li>
-<li>Ubuntu 24.04</li>
-</ul>
-<h2>Softw</h2>
-<br/><p>访问 <a href="https://blog.helltractor.top/posts/calculation/steps" target="_blank">https://blog.helltractor.top/posts/calculation/steps</a> 阅读全文。</p>]]></content>
-        <author>
-            <name>helltractor</name>
-            <email>mail@helltractor.top</email>
-            <uri>https://valaxy.site</uri>
-        </author>
-        <published>2025-05-10T16:38:42.924Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[一条SQL语句的执行过程]]></title>
-        <id>https://blog.helltractor.top/posts/database/sql-statement-execution-process</id>
-        <link href="https://blog.helltractor.top/posts/database/sql-statement-execution-process"/>
-        <updated>2024-06-21T00:00:00.000Z</updated>
-        <content type="html"><![CDATA[<h2>日志</h2>
-<ul>
-<li>undo log: 逻辑日志（相当于堕胎，撤回了没完全撤回）。用于事务的回滚，保证事务的 ACID 特性；MVCC（多版本并发控制）实现非锁定读。</li>
-<li>redo log: 物理日志</li>
-</ul>
-<br/><p>访问 <a href="https://blog.helltractor.top/posts/database/sql-statement-execution-process" target="_blank">https://blog.helltractor.top/posts/database/sql-statement-execution-process</a> 阅读全文。</p>]]></content>
-        <author>
-            <name>helltractor</name>
-            <email>mail@helltractor.top</email>
-            <uri>https://valaxy.site</uri>
-        </author>
-        <published>2025-05-10T16:38:42.924Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[SQL Tutorial and Tricks]]></title>
-        <id>https://blog.helltractor.top/posts/database/sql-tutorial-and-tricks</id>
-        <link href="https://blog.helltractor.top/posts/database/sql-tutorial-and-tricks"/>
-        <updated>2024-09-04T09:29:30.000Z</updated>
-        <content type="html"><![CDATA[<h2>COUNT Function</h2>
-<h3><code>COUNT(*)</code>, <code>COUNT(1)</code>, <code>COUNT(column_name)</code></h3>
-<ul>
-<li><code>COUNT(*)</code>: 统计所有行，不管是否为 `NUL</li>
-</ul>
-<br/><p>访问 <a href="https://blog.helltractor.top/posts/database/sql-tutorial-and-tricks" target="_blank">https://blog.helltractor.top/posts/database/sql-tutorial-and-tricks</a> 阅读全文。</p>]]></content>
-        <author>
-            <name>helltractor</name>
-            <email>mail@helltractor.top</email>
-            <uri>https://valaxy.site</uri>
-        </author>
-        <published>2025-05-10T16:38:42.924Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Singleton]]></title>
-        <id>https://blog.helltractor.top/posts/design-pattern/singleton</id>
-        <link href="https://blog.helltractor.top/posts/design-pattern/singleton"/>
-        <updated>2024-06-21T00:00:00.000Z</updated>
-        <content type="html"><![CDATA[<h2>定义</h2>
-<p>单例模式是一种常用的软件设计模式，它保证一个类只有一个实例，并提供一个全局访问点。这种模式通常用于需要频繁创建和销毁的对象，以减少系统资源的消耗，提高系统效率。</p>
-<ul>
-<li>单例模式是一种创</li>
-</ul>
-<br/><p>访问 <a href="https://blog.helltractor.top/posts/design-pattern/singleton" target="_blank">https://blog.helltractor.top/posts/design-pattern/singleton</a> 阅读全文。</p>]]></content>
-        <author>
-            <name>helltractor</name>
-            <email>mail@helltractor.top</email>
-            <uri>https://valaxy.site</uri>
-        </author>
-        <published>2025-05-10T16:38:42.924Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Inverse]]></title>
-        <id>https://blog.helltractor.top/posts/algorithm/inverse</id>
-        <link href="https://blog.helltractor.top/posts/algorithm/inverse"/>
-        <updated>2025-03-09T08:28:37.000Z</updated>
-        <content type="html"><![CDATA[<h2>Definition {lang=en}</h2>
-<h2>定义 {lang=zh-CN}</h2>
-<ul>
-<li>单位元：在一个集合中，对于某种运算 （注意：这里代表通用运算的表示符号，并不是特指乘法），如果对于任何的</li>
-</ul>
-<br/><p>访问 <a href="https://blog.helltractor.top/posts/algorithm/inverse" target="_blank">https://blog.helltractor.top/posts/algorithm/inverse</a> 阅读全文。</p>]]></content>
-        <author>
-            <name>helltractor</name>
-            <email>mail@helltractor.top</email>
-            <uri>https://valaxy.site</uri>
-        </author>
-        <published>2025-05-10T16:38:42.923Z</published>
+        <published>2025-05-11T07:36:47.889Z</published>
     </entry>
 </feed>
