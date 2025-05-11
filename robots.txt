@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://blog.helltractor.top/sitemap.xml
+Sitemap: https://io.helltractor.top/sitemap.xml
