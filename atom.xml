@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://blog.helltractor.top/</id>
     <title>helltractor blog</title>
-    <updated>2025-05-11T07:38:23.763Z</updated>
+    <updated>2025-05-11T07:39:44.438Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <author>
         <name>helltractor</name>
@@ -14,38 +14,6 @@
     <logo>https://blog.helltractor.top/avatar.png</logo>
     <icon>https://blog.helltractor.top/favicon.svg</icon>
     <rights>CC BY-NC-SA 4.0 2025 © helltractor</rights>
-    <entry>
-        <title type="html"><![CDATA[Polymorphism]]></title>
-        <id>https://blog.helltractor.top/posts/java/polymorphism</id>
-        <link href="https://blog.helltractor.top/posts/java/polymorphism"/>
-        <updated>2024-08-06T05:55:40.000Z</updated>
-        <content type="html"><![CDATA[<h2>多态 {lang=zh-CN}</h2>
-<h2>Polymorphism {lang=en}</h2>
-<p>多态是指，针对某个类型的方法调用，其真正执行的方法取决于运行时期实际类型的方法。</p>
-<h3>编译时多态（</h3>
-<br/><p>访问 <a href="https://blog.helltractor.top/posts/java/polymorphism" target="_blank">https://blog.helltractor.top/posts/java/polymorphism</a> 阅读全文。</p>]]></content>
-        <author>
-            <name>helltractor</name>
-            <email>mail@helltractor.top</email>
-            <uri>https://valaxy.site</uri>
-        </author>
-        <published>2025-05-11T07:36:47.891Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Spring Boot]]></title>
-        <id>https://blog.helltractor.top/posts/java/spring-boot</id>
-        <link href="https://blog.helltractor.top/posts/java/spring-boot"/>
-        <updated>2024-06-21T00:00:00.000Z</updated>
-        <content type="html"><![CDATA[<h2>@SpringBootApplication</h2>
-<p><code>@SpringBootApplication</code> 是 Spring Boot 中一个常用的注解，通常用于主类上，以标识这是一个 Spring B</p>
-<br/><p>访问 <a href="https://blog.helltractor.top/posts/java/spring-boot" target="_blank">https://blog.helltractor.top/posts/java/spring-boot</a> 阅读全文。</p>]]></content>
-        <author>
-            <name>helltractor</name>
-            <email>mail@helltractor.top</email>
-            <uri>https://valaxy.site</uri>
-        </author>
-        <published>2025-05-11T07:36:47.891Z</published>
-    </entry>
     <entry>
         <title type="html"><![CDATA[小说情节]]></title>
         <id>https://blog.helltractor.top/posts/ponder/fiction</id>
@@ -69,7 +37,7 @@
             <email>mail@helltractor.top</email>
             <uri>https://valaxy.site</uri>
         </author>
-        <published>2025-05-11T07:36:47.891Z</published>
+        <published>2025-05-11T07:38:09.534Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[Python 小芝士]]></title>
@@ -85,7 +53,7 @@
             <email>mail@helltractor.top</email>
             <uri>https://valaxy.site</uri>
         </author>
-        <published>2025-05-11T07:36:47.891Z</published>
+        <published>2025-05-11T07:38:09.534Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[Useful Python Libraries]]></title>
@@ -103,7 +71,7 @@ path = Path('path/to/file') # Create a Path object
             <email>mail@helltractor.top</email>
             <uri>https://valaxy.site</uri>
         </author>
-        <published>2025-05-11T07:36:47.891Z</published>
+        <published>2025-05-11T07:38:09.534Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[双花问题及防范]]></title>
@@ -119,7 +87,7 @@ path = Path('path/to/file') # Create a Path object
             <email>mail@helltractor.top</email>
             <uri>https://valaxy.site</uri>
         </author>
-        <published>2025-05-11T07:36:47.891Z</published>
+        <published>2025-05-11T07:38:09.534Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[Python Scripy 文件模板重复]]></title>
@@ -135,7 +103,7 @@ path = Path('path/to/file') # Create a Path object
             <email>mail@helltractor.top</email>
             <uri>https://valaxy.site</uri>
         </author>
-        <published>2025-05-11T07:36:47.891Z</published>
+        <published>2025-05-11T07:38:09.534Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[向日葵远程文件网络连接异常]]></title>
@@ -154,7 +122,7 @@ path = Path('path/to/file') # Create a Path object
             <email>mail@helltractor.top</email>
             <uri>https://valaxy.site</uri>
         </author>
-        <published>2025-05-11T07:36:47.891Z</published>
+        <published>2025-05-11T07:38:09.534Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[Git Cheat Sheet]]></title>
@@ -172,7 +140,7 @@ path = Path('path/to/file') # Create a Path object
             <email>mail@helltractor.top</email>
             <uri>https://valaxy.site</uri>
         </author>
-        <published>2025-05-11T07:36:47.891Z</published>
+        <published>2025-05-11T07:38:09.534Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[从零开始使用 githubusercontent]]></title>
@@ -187,7 +155,7 @@ GitHub 页面的情况非常有</p>
             <email>mail@helltractor.top</email>
             <uri>https://valaxy.site</uri>
         </author>
-        <published>2025-05-11T07:36:47.891Z</published>
+        <published>2025-05-11T07:38:09.534Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[从零开始使用 jupyter]]></title>
@@ -203,7 +171,7 @@ GitHub 页面的情况非常有</p>
             <email>mail@helltractor.top</email>
             <uri>https://valaxy.site</uri>
         </author>
-        <published>2025-05-11T07:36:47.891Z</published>
+        <published>2025-05-11T07:38:09.534Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[从零开始使用 tar]]></title>
@@ -224,47 +192,7 @@ GitHub 页面的情况非常有</p>
             <email>mail@helltractor.top</email>
             <uri>https://valaxy.site</uri>
         </author>
-        <published>2025-05-11T07:36:47.891Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Material Calculation Common Steps]]></title>
-        <id>https://blog.helltractor.top/posts/calculation/steps</id>
-        <link href="https://blog.helltractor.top/posts/calculation/steps"/>
-        <updated>2024-06-22T10:06:42.000Z</updated>
-        <content type="html"><![CDATA[<h2>System environment {lang=en}</h2>
-<h2>系统环境 {lang=zh-CN}</h2>
-<ul>
-<li>Windows 11</li>
-<li>wsl2</li>
-<li>Ubuntu 24.04</li>
-</ul>
-<h2>Softw</h2>
-<br/><p>访问 <a href="https://blog.helltractor.top/posts/calculation/steps" target="_blank">https://blog.helltractor.top/posts/calculation/steps</a> 阅读全文。</p>]]></content>
-        <author>
-            <name>helltractor</name>
-            <email>mail@helltractor.top</email>
-            <uri>https://valaxy.site</uri>
-        </author>
-        <published>2025-05-11T07:36:47.890Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[现代光电子器件期末考试提纲（可预见的最后一次考试）]]></title>
-        <id>https://blog.helltractor.top/posts/course/20240624</id>
-        <link href="https://blog.helltractor.top/posts/course/20240624"/>
-        <updated>2024-06-22T00:00:00.000Z</updated>
-        <content type="html"><![CDATA[<h2>名词解释 (必考)</h2>
-<h3>电子亲和势 𝜒</h3>
-<ul>
-<li><strong>定义</strong>：导带底的电子要想跑出体外必须增加的能量称为电子亲和势 𝜒。</li>
-<li><strong>公式</strong>：𝜒 = 𝐸<sub>vac</sub></li>
-</ul>
-<br/><p>访问 <a href="https://blog.helltractor.top/posts/course/20240624" target="_blank">https://blog.helltractor.top/posts/course/20240624</a> 阅读全文。</p>]]></content>
-        <author>
-            <name>helltractor</name>
-            <email>mail@helltractor.top</email>
-            <uri>https://valaxy.site</uri>
-        </author>
-        <published>2025-05-11T07:36:47.890Z</published>
+        <published>2025-05-11T07:38:09.534Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[CS61B]]></title>
@@ -283,7 +211,7 @@ GitHub 页面的情况非常有</p>
             <email>mail@helltractor.top</email>
             <uri>https://valaxy.site</uri>
         </author>
-        <published>2025-05-11T07:36:47.890Z</published>
+        <published>2025-05-11T07:38:09.533Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[一条SQL语句的执行过程]]></title>
@@ -301,7 +229,7 @@ GitHub 页面的情况非常有</p>
             <email>mail@helltractor.top</email>
             <uri>https://valaxy.site</uri>
         </author>
-        <published>2025-05-11T07:36:47.890Z</published>
+        <published>2025-05-11T07:38:09.533Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[SQL Tutorial and Tricks]]></title>
@@ -319,7 +247,7 @@ GitHub 页面的情况非常有</p>
             <email>mail@helltractor.top</email>
             <uri>https://valaxy.site</uri>
         </author>
-        <published>2025-05-11T07:36:47.890Z</published>
+        <published>2025-05-11T07:38:09.533Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[Singleton]]></title>
@@ -337,7 +265,7 @@ GitHub 页面的情况非常有</p>
             <email>mail@helltractor.top</email>
             <uri>https://valaxy.site</uri>
         </author>
-        <published>2025-05-11T07:36:47.890Z</published>
+        <published>2025-05-11T07:38:09.533Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[html 小芝士]]></title>
@@ -355,7 +283,7 @@ GitHub 页面的情况非常有</p>
             <email>mail@helltractor.top</email>
             <uri>https://valaxy.site</uri>
         </author>
-        <published>2025-05-11T07:36:47.890Z</published>
+        <published>2025-05-11T07:38:09.533Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[Collections]]></title>
@@ -372,7 +300,7 @@ GitHub 页面的情况非常有</p>
             <email>mail@helltractor.top</email>
             <uri>https://valaxy.site</uri>
         </author>
-        <published>2025-05-11T07:36:47.890Z</published>
+        <published>2025-05-11T07:38:09.533Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[Garbage Collect]]></title>
@@ -388,7 +316,7 @@ GitHub 页面的情况非常有</p>
             <email>mail@helltractor.top</email>
             <uri>https://valaxy.site</uri>
         </author>
-        <published>2025-05-11T07:36:47.890Z</published>
+        <published>2025-05-11T07:38:09.533Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[Java Memory Model]]></title>
@@ -410,7 +338,7 @@ GitHub 页面的情况非常有</p>
             <email>mail@helltractor.top</email>
             <uri>https://valaxy.site</uri>
         </author>
-        <published>2025-05-11T07:36:47.890Z</published>
+        <published>2025-05-11T07:38:09.533Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[Java 小芝士]]></title>
@@ -429,7 +357,7 @@ GitHub 页面的情况非常有</p>
             <email>mail@helltractor.top</email>
             <uri>https://valaxy.site</uri>
         </author>
-        <published>2025-05-11T07:36:47.890Z</published>
+        <published>2025-05-11T07:38:09.533Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[Initial Type and Package Type]]></title>
@@ -445,25 +373,39 @@ GitHub 页面的情况非常有</p>
             <email>mail@helltractor.top</email>
             <uri>https://valaxy.site</uri>
         </author>
-        <published>2025-05-11T07:36:47.890Z</published>
+        <published>2025-05-11T07:38:09.533Z</published>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Inverse]]></title>
-        <id>https://blog.helltractor.top/posts/algorithm/inverse</id>
-        <link href="https://blog.helltractor.top/posts/algorithm/inverse"/>
-        <updated>2025-03-09T08:28:37.000Z</updated>
-        <content type="html"><![CDATA[<h2>Definition {lang=en}</h2>
-<h2>定义 {lang=zh-CN}</h2>
-<ul>
-<li>单位元：在一个集合中，对于某种运算 （注意：这里代表通用运算的表示符号，并不是特指乘法），如果对于任何的</li>
-</ul>
-<br/><p>访问 <a href="https://blog.helltractor.top/posts/algorithm/inverse" target="_blank">https://blog.helltractor.top/posts/algorithm/inverse</a> 阅读全文。</p>]]></content>
+        <title type="html"><![CDATA[Polymorphism]]></title>
+        <id>https://blog.helltractor.top/posts/java/polymorphism</id>
+        <link href="https://blog.helltractor.top/posts/java/polymorphism"/>
+        <updated>2024-08-06T05:55:40.000Z</updated>
+        <content type="html"><![CDATA[<h2>多态 {lang=zh-CN}</h2>
+<h2>Polymorphism {lang=en}</h2>
+<p>多态是指，针对某个类型的方法调用，其真正执行的方法取决于运行时期实际类型的方法。</p>
+<h3>编译时多态（</h3>
+<br/><p>访问 <a href="https://blog.helltractor.top/posts/java/polymorphism" target="_blank">https://blog.helltractor.top/posts/java/polymorphism</a> 阅读全文。</p>]]></content>
         <author>
             <name>helltractor</name>
             <email>mail@helltractor.top</email>
             <uri>https://valaxy.site</uri>
         </author>
-        <published>2025-05-11T07:36:47.889Z</published>
+        <published>2025-05-11T07:38:09.533Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Spring Boot]]></title>
+        <id>https://blog.helltractor.top/posts/java/spring-boot</id>
+        <link href="https://blog.helltractor.top/posts/java/spring-boot"/>
+        <updated>2024-06-21T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<h2>@SpringBootApplication</h2>
+<p><code>@SpringBootApplication</code> 是 Spring Boot 中一个常用的注解，通常用于主类上，以标识这是一个 Spring B</p>
+<br/><p>访问 <a href="https://blog.helltractor.top/posts/java/spring-boot" target="_blank">https://blog.helltractor.top/posts/java/spring-boot</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>helltractor</name>
+            <email>mail@helltractor.top</email>
+            <uri>https://valaxy.site</uri>
+        </author>
+        <published>2025-05-11T07:38:09.533Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[Common Resources for Materials Calculation]]></title>
@@ -480,7 +422,7 @@ GitHub 页面的情况非常有</p>
             <email>mail@helltractor.top</email>
             <uri>https://valaxy.site</uri>
         </author>
-        <published>2025-05-11T07:36:47.889Z</published>
+        <published>2025-05-11T07:38:09.532Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[VASP 安装与配置]]></title>
@@ -501,7 +443,7 @@ GitHub 页面的情况非常有</p>
             <email>mail@helltractor.top</email>
             <uri>https://valaxy.site</uri>
         </author>
-        <published>2025-05-11T07:36:47.889Z</published>
+        <published>2025-05-11T07:38:09.532Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[Wannier90 安装与配置]]></title>
@@ -525,7 +467,7 @@ GitHub 页面的情况非常有</p>
             <email>mail@helltractor.top</email>
             <uri>https://valaxy.site</uri>
         </author>
-        <published>2025-05-11T07:36:47.889Z</published>
+        <published>2025-05-11T07:38:09.532Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[Calculation 小芝士]]></title>
@@ -540,7 +482,7 @@ GitHub 页面的情况非常有</p>
             <email>mail@helltractor.top</email>
             <uri>https://valaxy.site</uri>
         </author>
-        <published>2025-05-11T07:36:47.889Z</published>
+        <published>2025-05-11T07:38:09.532Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[INCAR 文件设置]]></title>
@@ -557,7 +499,7 @@ GitHub 页面的情况非常有</p>
             <email>mail@helltractor.top</email>
             <uri>https://valaxy.site</uri>
         </author>
-        <published>2025-05-11T07:36:47.889Z</published>
+        <published>2025-05-11T07:38:09.532Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[Wannier90.win 文件设置]]></title>
@@ -574,6 +516,64 @@ num_wann =     </code></pre>
             <email>mail@helltractor.top</email>
             <uri>https://valaxy.site</uri>
         </author>
-        <published>2025-05-11T07:36:47.889Z</published>
+        <published>2025-05-11T07:38:09.532Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Material Calculation Common Steps]]></title>
+        <id>https://blog.helltractor.top/posts/calculation/steps</id>
+        <link href="https://blog.helltractor.top/posts/calculation/steps"/>
+        <updated>2024-06-22T10:06:42.000Z</updated>
+        <content type="html"><![CDATA[<h2>System environment {lang=en}</h2>
+<h2>系统环境 {lang=zh-CN}</h2>
+<ul>
+<li>Windows 11</li>
+<li>wsl2</li>
+<li>Ubuntu 24.04</li>
+</ul>
+<h2>Softw</h2>
+<br/><p>访问 <a href="https://blog.helltractor.top/posts/calculation/steps" target="_blank">https://blog.helltractor.top/posts/calculation/steps</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>helltractor</name>
+            <email>mail@helltractor.top</email>
+            <uri>https://valaxy.site</uri>
+        </author>
+        <published>2025-05-11T07:38:09.532Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[现代光电子器件期末考试提纲（可预见的最后一次考试）]]></title>
+        <id>https://blog.helltractor.top/posts/course/20240624</id>
+        <link href="https://blog.helltractor.top/posts/course/20240624"/>
+        <updated>2024-06-22T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<h2>名词解释 (必考)</h2>
+<h3>电子亲和势 𝜒</h3>
+<ul>
+<li><strong>定义</strong>：导带底的电子要想跑出体外必须增加的能量称为电子亲和势 𝜒。</li>
+<li><strong>公式</strong>：𝜒 = 𝐸<sub>vac</sub></li>
+</ul>
+<br/><p>访问 <a href="https://blog.helltractor.top/posts/course/20240624" target="_blank">https://blog.helltractor.top/posts/course/20240624</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>helltractor</name>
+            <email>mail@helltractor.top</email>
+            <uri>https://valaxy.site</uri>
+        </author>
+        <published>2025-05-11T07:38:09.532Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Inverse]]></title>
+        <id>https://blog.helltractor.top/posts/algorithm/inverse</id>
+        <link href="https://blog.helltractor.top/posts/algorithm/inverse"/>
+        <updated>2025-03-09T08:28:37.000Z</updated>
+        <content type="html"><![CDATA[<h2>Definition {lang=en}</h2>
+<h2>定义 {lang=zh-CN}</h2>
+<ul>
+<li>单位元：在一个集合中，对于某种运算 （注意：这里代表通用运算的表示符号，并不是特指乘法），如果对于任何的</li>
+</ul>
+<br/><p>访问 <a href="https://blog.helltractor.top/posts/algorithm/inverse" target="_blank">https://blog.helltractor.top/posts/algorithm/inverse</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>helltractor</name>
+            <email>mail@helltractor.top</email>
+            <uri>https://valaxy.site</uri>
+        </author>
+        <published>2025-05-11T07:38:09.532Z</published>
     </entry>
 </feed>
