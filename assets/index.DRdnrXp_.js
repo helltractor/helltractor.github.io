@@ -1,0 +1,1 @@
+import"./chunks/nprogress.Do6qArWV.js";import{b as o}from"./chunks/vue-router.B_O4jE6T.js";import{a0 as t,a4 as r,a3 as c}from"./framework.BKlXavfA.js";import"./chunks/dayjs.BeL6d4wv.js";const e={};function n(a,f){return c(),r("div")}typeof o=="function"&&o(e);const _=t(e,[["render",n]]);export{_ as default};
