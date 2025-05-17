@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://io.helltractor.top/</id>
     <title>helltractor blog</title>
-    <updated>2025-05-17T10:31:30.927Z</updated>
+    <updated>2025-05-17T11:43:10.123Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <author>
         <name>helltractor</name>
@@ -14,6 +14,28 @@
     <logo>https://io.helltractor.top/avatar.png</logo>
     <icon>https://io.helltractor.top/favicon.svg</icon>
     <rights>CC BY-NC-SA 4.0 2025 © helltractor</rights>
+    <entry>
+        <title type="html"><![CDATA[Java Memory Model]]></title>
+        <id>https://io.helltractor.top/posts/java/java-memory-model</id>
+        <link href="https://io.helltractor.top/posts/java/java-memory-model"/>
+        <updated>2024-06-21T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<h2>重点</h2>
+<ul>
+<li>JMM 的工作方式</li>
+<li>三大特征：原子性、可见性、有序性</li>
+<li>volatile 关键字</li>
+<li>volatile 与 synchronized 的区别</li>
+</ul>
+<h2>JMM 和 JVM</h2>
+<p>J</p>
+<br/><p>访问 <a href="https://io.helltractor.top/posts/java/java-memory-model" target="_blank">https://io.helltractor.top/posts/java/java-memory-model</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>helltractor</name>
+            <email>mail@helltractor.top</email>
+            <uri>https://valaxy.site</uri>
+        </author>
+        <published>2025-05-17T11:41:18.743Z</published>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Java 小芝士]]></title>
         <id>https://io.helltractor.top/posts/java/knowledge</id>
@@ -31,7 +53,7 @@
             <email>mail@helltractor.top</email>
             <uri>https://valaxy.site</uri>
         </author>
-        <published>2025-05-17T10:29:47.213Z</published>
+        <published>2025-05-17T11:41:18.743Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[Initial Type and Package Type]]></title>
@@ -47,7 +69,7 @@
             <email>mail@helltractor.top</email>
             <uri>https://valaxy.site</uri>
         </author>
-        <published>2025-05-17T10:29:47.213Z</published>
+        <published>2025-05-17T11:41:18.743Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[Polymorphism]]></title>
@@ -64,7 +86,7 @@
             <email>mail@helltractor.top</email>
             <uri>https://valaxy.site</uri>
         </author>
-        <published>2025-05-17T10:29:47.213Z</published>
+        <published>2025-05-17T11:41:18.743Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[Spring Boot]]></title>
@@ -79,7 +101,7 @@
             <email>mail@helltractor.top</email>
             <uri>https://valaxy.site</uri>
         </author>
-        <published>2025-05-17T10:29:47.213Z</published>
+        <published>2025-05-17T11:41:18.743Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[小说情节]]></title>
@@ -104,7 +126,7 @@
             <email>mail@helltractor.top</email>
             <uri>https://valaxy.site</uri>
         </author>
-        <published>2025-05-17T10:29:47.213Z</published>
+        <published>2025-05-17T11:41:18.743Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[Python 小芝士]]></title>
@@ -120,7 +142,7 @@
             <email>mail@helltractor.top</email>
             <uri>https://valaxy.site</uri>
         </author>
-        <published>2025-05-17T10:29:47.213Z</published>
+        <published>2025-05-17T11:41:18.743Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[Useful Python Libraries]]></title>
@@ -138,7 +160,7 @@ path = Path('path/to/file') # Create a Path object
             <email>mail@helltractor.top</email>
             <uri>https://valaxy.site</uri>
         </author>
-        <published>2025-05-17T10:29:47.213Z</published>
+        <published>2025-05-17T11:41:18.743Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[双花问题及防范]]></title>
@@ -154,7 +176,7 @@ path = Path('path/to/file') # Create a Path object
             <email>mail@helltractor.top</email>
             <uri>https://valaxy.site</uri>
         </author>
-        <published>2025-05-17T10:29:47.213Z</published>
+        <published>2025-05-17T11:41:18.743Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[Python Scripy 文件模板重复]]></title>
@@ -170,7 +192,7 @@ path = Path('path/to/file') # Create a Path object
             <email>mail@helltractor.top</email>
             <uri>https://valaxy.site</uri>
         </author>
-        <published>2025-05-17T10:29:47.213Z</published>
+        <published>2025-05-17T11:41:18.743Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[向日葵远程文件网络连接异常]]></title>
@@ -189,7 +211,7 @@ path = Path('path/to/file') # Create a Path object
             <email>mail@helltractor.top</email>
             <uri>https://valaxy.site</uri>
         </author>
-        <published>2025-05-17T10:29:47.213Z</published>
+        <published>2025-05-17T11:41:18.743Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[Git Cheat Sheet]]></title>
@@ -207,7 +229,7 @@ path = Path('path/to/file') # Create a Path object
             <email>mail@helltractor.top</email>
             <uri>https://valaxy.site</uri>
         </author>
-        <published>2025-05-17T10:29:47.213Z</published>
+        <published>2025-05-17T11:41:18.743Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[从零开始使用 githubusercontent]]></title>
@@ -222,7 +244,7 @@ GitHub 页面的情况非常有</p>
             <email>mail@helltractor.top</email>
             <uri>https://valaxy.site</uri>
         </author>
-        <published>2025-05-17T10:29:47.213Z</published>
+        <published>2025-05-17T11:41:18.743Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[从零开始使用 jupyter]]></title>
@@ -238,7 +260,7 @@ GitHub 页面的情况非常有</p>
             <email>mail@helltractor.top</email>
             <uri>https://valaxy.site</uri>
         </author>
-        <published>2025-05-17T10:29:47.213Z</published>
+        <published>2025-05-17T11:41:18.743Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[从零开始使用 tar]]></title>
@@ -259,7 +281,60 @@ GitHub 页面的情况非常有</p>
             <email>mail@helltractor.top</email>
             <uri>https://valaxy.site</uri>
         </author>
-        <published>2025-05-17T10:29:47.213Z</published>
+        <published>2025-05-17T11:41:18.743Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[现代光电子器件期末考试提纲（可预见的最后一次考试）]]></title>
+        <id>https://io.helltractor.top/posts/course/20240624</id>
+        <link href="https://io.helltractor.top/posts/course/20240624"/>
+        <updated>2024-06-22T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<h2>名词解释 (必考)</h2>
+<h3>电子亲和势 𝜒</h3>
+<ul>
+<li><strong>定义</strong>：导带底的电子要想跑出体外必须增加的能量称为电子亲和势 𝜒。</li>
+<li><strong>公式</strong>：𝜒 = 𝐸<sub>vac</sub></li>
+</ul>
+<br/><p>访问 <a href="https://io.helltractor.top/posts/course/20240624" target="_blank">https://io.helltractor.top/posts/course/20240624</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>helltractor</name>
+            <email>mail@helltractor.top</email>
+            <uri>https://valaxy.site</uri>
+        </author>
+        <published>2025-05-17T11:41:18.742Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[CS61B]]></title>
+        <id>https://io.helltractor.top/posts/course/CS61B</id>
+        <link href="https://io.helltractor.top/posts/course/CS61B"/>
+        <updated>2024-07-13T03:32:58.000Z</updated>
+        <summary type="html"><![CDATA[CS61B, Spring 2024]]></summary>
+        <content type="html"><![CDATA[<p>::: details Lecture 1: Welcome to CS61B</p>
+<h5>Object-Oriented Programming</h5>
+<ul>
+<li>A model for organizin</li>
+</ul>
+<br/><p>访问 <a href="https://io.helltractor.top/posts/course/CS61B" target="_blank">https://io.helltractor.top/posts/course/CS61B</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>helltractor</name>
+            <email>mail@helltractor.top</email>
+            <uri>https://valaxy.site</uri>
+        </author>
+        <published>2025-05-17T11:41:18.742Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Calculation 小芝士]]></title>
+        <id>https://io.helltractor.top/posts/calculation/knowledge</id>
+        <link href="https://io.helltractor.top/posts/calculation/knowledge"/>
+        <updated>2024-06-21T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<h2>Fatband analysis</h2>
+<p>Fatband 分析，也被称为投影态密度（Projected Density of States，PDOS）分析，是一种在固体物理中常用的方法，用于研究固体</p>
+<br/><p>访问 <a href="https://io.helltractor.top/posts/calculation/knowledge" target="_blank">https://io.helltractor.top/posts/calculation/knowledge</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>helltractor</name>
+            <email>mail@helltractor.top</email>
+            <uri>https://valaxy.site</uri>
+        </author>
+        <published>2025-05-17T11:41:18.742Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[INCAR 文件设置]]></title>
@@ -276,7 +351,7 @@ GitHub 页面的情况非常有</p>
             <email>mail@helltractor.top</email>
             <uri>https://valaxy.site</uri>
         </author>
-        <published>2025-05-17T10:29:47.212Z</published>
+        <published>2025-05-17T11:41:18.742Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[Wannier90.win 文件设置]]></title>
@@ -293,7 +368,7 @@ num_wann =     </code></pre>
             <email>mail@helltractor.top</email>
             <uri>https://valaxy.site</uri>
         </author>
-        <published>2025-05-17T10:29:47.212Z</published>
+        <published>2025-05-17T11:41:18.742Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[Material Calculation Common Steps]]></title>
@@ -314,45 +389,7 @@ num_wann =     </code></pre>
             <email>mail@helltractor.top</email>
             <uri>https://valaxy.site</uri>
         </author>
-        <published>2025-05-17T10:29:47.212Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[现代光电子器件期末考试提纲（可预见的最后一次考试）]]></title>
-        <id>https://io.helltractor.top/posts/course/20240624</id>
-        <link href="https://io.helltractor.top/posts/course/20240624"/>
-        <updated>2024-06-22T00:00:00.000Z</updated>
-        <content type="html"><![CDATA[<h2>名词解释 (必考)</h2>
-<h3>电子亲和势 𝜒</h3>
-<ul>
-<li><strong>定义</strong>：导带底的电子要想跑出体外必须增加的能量称为电子亲和势 𝜒。</li>
-<li><strong>公式</strong>：𝜒 = 𝐸<sub>vac</sub></li>
-</ul>
-<br/><p>访问 <a href="https://io.helltractor.top/posts/course/20240624" target="_blank">https://io.helltractor.top/posts/course/20240624</a> 阅读全文。</p>]]></content>
-        <author>
-            <name>helltractor</name>
-            <email>mail@helltractor.top</email>
-            <uri>https://valaxy.site</uri>
-        </author>
-        <published>2025-05-17T10:29:47.212Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[CS61B]]></title>
-        <id>https://io.helltractor.top/posts/course/CS61B</id>
-        <link href="https://io.helltractor.top/posts/course/CS61B"/>
-        <updated>2024-07-13T03:32:58.000Z</updated>
-        <summary type="html"><![CDATA[CS61B, Spring 2024]]></summary>
-        <content type="html"><![CDATA[<p>::: details Lecture 1: Welcome to CS61B</p>
-<h5>Object-Oriented Programming</h5>
-<ul>
-<li>A model for organizin</li>
-</ul>
-<br/><p>访问 <a href="https://io.helltractor.top/posts/course/CS61B" target="_blank">https://io.helltractor.top/posts/course/CS61B</a> 阅读全文。</p>]]></content>
-        <author>
-            <name>helltractor</name>
-            <email>mail@helltractor.top</email>
-            <uri>https://valaxy.site</uri>
-        </author>
-        <published>2025-05-17T10:29:47.212Z</published>
+        <published>2025-05-17T11:41:18.742Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[一条SQL语句的执行过程]]></title>
@@ -370,7 +407,7 @@ num_wann =     </code></pre>
             <email>mail@helltractor.top</email>
             <uri>https://valaxy.site</uri>
         </author>
-        <published>2025-05-17T10:29:47.212Z</published>
+        <published>2025-05-17T11:41:18.742Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[SQL Tutorial and Tricks]]></title>
@@ -388,7 +425,7 @@ num_wann =     </code></pre>
             <email>mail@helltractor.top</email>
             <uri>https://valaxy.site</uri>
         </author>
-        <published>2025-05-17T10:29:47.212Z</published>
+        <published>2025-05-17T11:41:18.742Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[Singleton]]></title>
@@ -406,7 +443,7 @@ num_wann =     </code></pre>
             <email>mail@helltractor.top</email>
             <uri>https://valaxy.site</uri>
         </author>
-        <published>2025-05-17T10:29:47.212Z</published>
+        <published>2025-05-17T11:41:18.742Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[html 小芝士]]></title>
@@ -424,7 +461,7 @@ num_wann =     </code></pre>
             <email>mail@helltractor.top</email>
             <uri>https://valaxy.site</uri>
         </author>
-        <published>2025-05-17T10:29:47.212Z</published>
+        <published>2025-05-17T11:41:18.742Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[Collections]]></title>
@@ -441,7 +478,7 @@ num_wann =     </code></pre>
             <email>mail@helltractor.top</email>
             <uri>https://valaxy.site</uri>
         </author>
-        <published>2025-05-17T10:29:47.212Z</published>
+        <published>2025-05-17T11:41:18.742Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[Garbage Collect]]></title>
@@ -457,29 +494,7 @@ num_wann =     </code></pre>
             <email>mail@helltractor.top</email>
             <uri>https://valaxy.site</uri>
         </author>
-        <published>2025-05-17T10:29:47.212Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Java Memory Model]]></title>
-        <id>https://io.helltractor.top/posts/java/java-memory-model</id>
-        <link href="https://io.helltractor.top/posts/java/java-memory-model"/>
-        <updated>2024-06-21T00:00:00.000Z</updated>
-        <content type="html"><![CDATA[<h2>重点</h2>
-<ul>
-<li>JMM 的工作方式</li>
-<li>三大特征：原子性、可见性、有序性</li>
-<li>volatile 关键字</li>
-<li>volatile 与 synchronized 的区别</li>
-</ul>
-<h2>JMM 和 JVM</h2>
-<p>J</p>
-<br/><p>访问 <a href="https://io.helltractor.top/posts/java/java-memory-model" target="_blank">https://io.helltractor.top/posts/java/java-memory-model</a> 阅读全文。</p>]]></content>
-        <author>
-            <name>helltractor</name>
-            <email>mail@helltractor.top</email>
-            <uri>https://valaxy.site</uri>
-        </author>
-        <published>2025-05-17T10:29:47.212Z</published>
+        <published>2025-05-17T11:41:18.742Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[Inverse]]></title>
@@ -497,7 +512,7 @@ num_wann =     </code></pre>
             <email>mail@helltractor.top</email>
             <uri>https://valaxy.site</uri>
         </author>
-        <published>2025-05-17T10:29:47.211Z</published>
+        <published>2025-05-17T11:41:18.741Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[Common Resources for Materials Calculation]]></title>
@@ -514,7 +529,7 @@ num_wann =     </code></pre>
             <email>mail@helltractor.top</email>
             <uri>https://valaxy.site</uri>
         </author>
-        <published>2025-05-17T10:29:47.211Z</published>
+        <published>2025-05-17T11:41:18.741Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[VASP 安装与配置]]></title>
@@ -535,7 +550,7 @@ num_wann =     </code></pre>
             <email>mail@helltractor.top</email>
             <uri>https://valaxy.site</uri>
         </author>
-        <published>2025-05-17T10:29:47.211Z</published>
+        <published>2025-05-17T11:41:18.741Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[Wannier90 安装与配置]]></title>
@@ -559,21 +574,6 @@ num_wann =     </code></pre>
             <email>mail@helltractor.top</email>
             <uri>https://valaxy.site</uri>
         </author>
-        <published>2025-05-17T10:29:47.211Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Calculation 小芝士]]></title>
-        <id>https://io.helltractor.top/posts/calculation/knowledge</id>
-        <link href="https://io.helltractor.top/posts/calculation/knowledge"/>
-        <updated>2024-06-21T00:00:00.000Z</updated>
-        <content type="html"><![CDATA[<h2>Fatband analysis</h2>
-<p>Fatband 分析，也被称为投影态密度（Projected Density of States，PDOS）分析，是一种在固体物理中常用的方法，用于研究固体</p>
-<br/><p>访问 <a href="https://io.helltractor.top/posts/calculation/knowledge" target="_blank">https://io.helltractor.top/posts/calculation/knowledge</a> 阅读全文。</p>]]></content>
-        <author>
-            <name>helltractor</name>
-            <email>mail@helltractor.top</email>
-            <uri>https://valaxy.site</uri>
-        </author>
-        <published>2025-05-17T10:29:47.211Z</published>
+        <published>2025-05-17T11:41:18.741Z</published>
     </entry>
 </feed>
