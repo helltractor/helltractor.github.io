@@ -25,12 +25,6 @@ export default defineSiteConfig({
 
   social: [
     {
-      name: 'RSS',
-      link: '/atom.xml',
-      icon: 'i-ri-rss-line',
-      color: 'orange',
-    },
-    {
       name: 'GitHub',
       link: 'https://github.com/helltractor',
       icon: 'i-ri-github-line',
@@ -52,7 +46,7 @@ export default defineSiteConfig({
       name: 'Steam',
       link: 'https://steamcommunity.com/id/helltractor/',
       icon: 'i-ri-steam-line',
-      color: '#06182d',
+      color: '#00A3EE',
     },
     {
       name: 'E-Mail',
@@ -64,7 +58,7 @@ export default defineSiteConfig({
       name: 'Travelling',
       link: 'https://www.travellings.cn/go.html',
       icon: 'i-ri-train-line',
-      color: 'var(--va-c-text)',
+      color: '#00A4EE',
     },
   ],
 

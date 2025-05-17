@@ -2,7 +2,7 @@
 import { computed, provide, useCssVars, useSlots } from 'vue'
 import { renderOverlay } from '@overlastic/vue'
 import type { ImageViewerProps } from 'element-plus'
-import { atWillToUnit } from './utils'
+import { atWillToUnit } from './utils/size'
 import HairyImageViewer from './parts/HairyImageViewer.vue'
 
 const props = withDefaults(defineProps<{
