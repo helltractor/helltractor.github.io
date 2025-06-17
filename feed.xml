@@ -4,7 +4,7 @@
         <title>helltractor blog</title>
         <link>https://io.helltractor.top/</link>
         <description></description>
-        <lastBuildDate>Thu, 22 May 2025 15:35:35 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 17 Jun 2025 03:37:21 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <image>
@@ -15,10 +15,96 @@
         <copyright>CC BY-NC-SA 4.0 2025 © helltractor</copyright>
         <atom:link href="https://io.helltractor.top/feed.xml" rel="self" type="application/rss+xml"/>
         <item>
+            <title><![CDATA[Git Cheat Sheet]]></title>
+            <link>https://io.helltractor.top/posts/useful/git-cheat-sheet</link>
+            <guid>https://io.helltractor.top/posts/useful/git-cheat-sheet</guid>
+            <pubDate>Tue, 17 Jun 2025 03:35:23 GMT</pubDate>
+            <content:encoded><![CDATA[<blockquote>
+<p><a href="https://liaoxuefeng.com/books/git/conclusion/git-cheat-sheet.pdf">Git Cheat Sheet</a></p>
+</blockquote>
+<p>::: zh-CN</p>
+<h1></h1>
+<br/><p>访问 <a href="https://io.helltractor.top/posts/useful/git-cheat-sheet" target="_blank">https://io.helltractor.top/posts/useful/git-cheat-sheet</a> 阅读全文。</p>]]></content:encoded>
+            <author>mail@helltractor.top (helltractor)</author>
+        </item>
+        <item>
+            <title><![CDATA[从零开始使用 githubusercontent]]></title>
+            <link>https://io.helltractor.top/posts/useful/githubusercontent</link>
+            <guid>https://io.helltractor.top/posts/useful/githubusercontent</guid>
+            <pubDate>Tue, 17 Jun 2025 03:35:23 GMT</pubDate>
+            <content:encoded><![CDATA[<p><code>raw.githubusercontent.com</code> 是 GitHub 提供的一个服务，用于获取 GitHub 仓库中文件的原始内容。这对于需要直接访问文件内容，而不是<br>
+GitHub 页面的情况非</p>
+<br/><p>访问 <a href="https://io.helltractor.top/posts/useful/githubusercontent" target="_blank">https://io.helltractor.top/posts/useful/githubusercontent</a> 阅读全文。</p>]]></content:encoded>
+            <author>mail@helltractor.top (helltractor)</author>
+        </item>
+        <item>
+            <title><![CDATA[html 小芝士]]></title>
+            <link>https://io.helltractor.top/posts/useful/html-trick</link>
+            <guid>https://io.helltractor.top/posts/useful/html-trick</guid>
+            <pubDate>Tue, 17 Jun 2025 03:35:23 GMT</pubDate>
+            <content:encoded><![CDATA[<h2>detail &amp; summary</h2>
+<h3>源代码</h3>
+<pre><code class="language-html">&lt;details&gt;
+  &lt;summary style=&quot;font-size: 20px&quot;&gt;展开&lt;/summary&gt;
+  &lt;</code></pre>
+<br/><p>访问 <a href="https://io.helltractor.top/posts/useful/html-trick" target="_blank">https://io.helltractor.top/posts/useful/html-trick</a> 阅读全文。</p>]]></content:encoded>
+            <author>mail@helltractor.top (helltractor)</author>
+        </item>
+        <item>
+            <title><![CDATA[从零开始使用 jupyter]]></title>
+            <link>https://io.helltractor.top/posts/useful/jupyter</link>
+            <guid>https://io.helltractor.top/posts/useful/jupyter</guid>
+            <pubDate>Tue, 17 Jun 2025 03:35:23 GMT</pubDate>
+            <content:encoded><![CDATA[<h2>安装jupyter</h2>
+<p>起因是，为了使用jupyter运行pykan中的代码。因为是在pycharm中导入的仓库，所以虚拟环境已经构建好了，在venv中。</p>
+<p>使用jupyter，首先要安装jup</p>
+<br/><p>访问 <a href="https://io.helltractor.top/posts/useful/jupyter" target="_blank">https://io.helltractor.top/posts/useful/jupyter</a> 阅读全文。</p>]]></content:encoded>
+            <author>mail@helltractor.top (helltractor)</author>
+        </item>
+        <item>
+            <title><![CDATA[Useful Python Libraries And Tools]]></title>
+            <link>https://io.helltractor.top/posts/useful/python-helper</link>
+            <guid>https://io.helltractor.top/posts/useful/python-helper</guid>
+            <pubDate>Tue, 17 Jun 2025 03:35:23 GMT</pubDate>
+            <content:encoded><![CDATA[<h2>Visualize Tool</h2>
+<ul>
+<li>[Online Python Tutor - Visualize program execution](<a href="https://cscircles.cemc.uwa">https://cscircles.cemc.uwa</a></li>
+</ul>
+<br/><p>访问 <a href="https://io.helltractor.top/posts/useful/python-helper" target="_blank">https://io.helltractor.top/posts/useful/python-helper</a> 阅读全文。</p>]]></content:encoded>
+            <author>mail@helltractor.top (helltractor)</author>
+        </item>
+        <item>
+            <title><![CDATA[Python 小芝士]]></title>
+            <link>https://io.helltractor.top/posts/useful/python-trick</link>
+            <guid>https://io.helltractor.top/posts/useful/python-trick</guid>
+            <pubDate>Tue, 17 Jun 2025 03:35:23 GMT</pubDate>
+            <content:encoded><![CDATA[<h2>open function</h2>
+<h3>open(int)</h3>
+<p>在 Python 中，open(0)是打开标准输入（stdin）的一种方式。这里的 0 是文件描述符，代表标准输入。同样，1 和 2</p>
+<br/><p>访问 <a href="https://io.helltractor.top/posts/useful/python-trick" target="_blank">https://io.helltractor.top/posts/useful/python-trick</a> 阅读全文。</p>]]></content:encoded>
+            <author>mail@helltractor.top (helltractor)</author>
+        </item>
+        <item>
+            <title><![CDATA[从零开始使用 tar]]></title>
+            <link>https://io.helltractor.top/posts/useful/tar</link>
+            <guid>https://io.helltractor.top/posts/useful/tar</guid>
+            <pubDate>Tue, 17 Jun 2025 03:35:23 GMT</pubDate>
+            <content:encoded><![CDATA[<h2>常用命令</h2>
+<ul>
+<li><code>-c</code>：创建一个新的归档文件。</li>
+<li><code>-x</code>：从归档文件中提取文件。</li>
+<li><code>-v</code>：详细显示处理过程中的文件信息。</li>
+<li><code>-f</code>：指定归档文件的名称。</li>
+<li><code>-z</code>：使用 g</li>
+</ul>
+<br/><p>访问 <a href="https://io.helltractor.top/posts/useful/tar" target="_blank">https://io.helltractor.top/posts/useful/tar</a> 阅读全文。</p>]]></content:encoded>
+            <author>mail@helltractor.top (helltractor)</author>
+        </item>
+        <item>
             <title><![CDATA[小说情节]]></title>
             <link>https://io.helltractor.top/posts/ponder/fiction</link>
             <guid>https://io.helltractor.top/posts/ponder/fiction</guid>
-            <pubDate>Thu, 22 May 2025 15:33:45 GMT</pubDate>
+            <pubDate>Tue, 17 Jun 2025 03:35:23 GMT</pubDate>
             <description><![CDATA[主要针对玄幻小说，男频]]></description>
             <content:encoded><![CDATA[<h2>最喜欢的</h2>
 <ul>
@@ -38,7 +124,7 @@
             <title><![CDATA[双花问题及防范]]></title>
             <link>https://io.helltractor.top/posts/question/double-spending</link>
             <guid>https://io.helltractor.top/posts/question/double-spending</guid>
-            <pubDate>Thu, 22 May 2025 15:33:45 GMT</pubDate>
+            <pubDate>Tue, 17 Jun 2025 03:35:23 GMT</pubDate>
             <content:encoded><![CDATA[<p>在区块链和加密货币领域，“双花”（Double Spending）是指同一笔加密货币在多个交易中被多次使用的问题</p>
 <h2>单离线场景</h2>
 <p>单离线场景是指在交易中，只有一个参与方（通常是付款方）离线，而</p>
@@ -49,7 +135,7 @@
             <title><![CDATA[Python Scripy 文件模板重复]]></title>
             <link>https://io.helltractor.top/posts/question/duplicated-python-scripy</link>
             <guid>https://io.helltractor.top/posts/question/duplicated-python-scripy</guid>
-            <pubDate>Thu, 22 May 2025 15:33:45 GMT</pubDate>
+            <pubDate>Tue, 17 Jun 2025 03:35:23 GMT</pubDate>
             <content:encoded><![CDATA[<h2>场景</h2>
 <p>设置 pycharm 的文件模板时，突然发现有两个<code>Python script</code>，一个是<code>Python script</code>，另一个是<code>Python script</code>,<br>
 由于第二个`Pytho</p>
@@ -60,7 +146,7 @@
             <title><![CDATA[向日葵远程文件网络连接异常]]></title>
             <link>https://io.helltractor.top/posts/question/sunlogin-internet-connect</link>
             <guid>https://io.helltractor.top/posts/question/sunlogin-internet-connect</guid>
-            <pubDate>Thu, 22 May 2025 15:33:45 GMT</pubDate>
+            <pubDate>Tue, 17 Jun 2025 03:35:23 GMT</pubDate>
             <content:encoded><![CDATA[<h2>软件版本</h2>
 <ul>
 <li>sunlogin: V15.3.0.62062</li>
@@ -71,96 +157,10 @@
             <author>mail@helltractor.top (helltractor)</author>
         </item>
         <item>
-            <title><![CDATA[Git Cheat Sheet]]></title>
-            <link>https://io.helltractor.top/posts/useful/git-cheat-sheet</link>
-            <guid>https://io.helltractor.top/posts/useful/git-cheat-sheet</guid>
-            <pubDate>Thu, 22 May 2025 15:33:45 GMT</pubDate>
-            <content:encoded><![CDATA[<blockquote>
-<p><a href="https://liaoxuefeng.com/books/git/conclusion/git-cheat-sheet.pdf">Git Cheat Sheet</a></p>
-</blockquote>
-<p>::: zh-CN</p>
-<h1></h1>
-<br/><p>访问 <a href="https://io.helltractor.top/posts/useful/git-cheat-sheet" target="_blank">https://io.helltractor.top/posts/useful/git-cheat-sheet</a> 阅读全文。</p>]]></content:encoded>
-            <author>mail@helltractor.top (helltractor)</author>
-        </item>
-        <item>
-            <title><![CDATA[从零开始使用 githubusercontent]]></title>
-            <link>https://io.helltractor.top/posts/useful/githubusercontent</link>
-            <guid>https://io.helltractor.top/posts/useful/githubusercontent</guid>
-            <pubDate>Thu, 22 May 2025 15:33:45 GMT</pubDate>
-            <content:encoded><![CDATA[<p><code>raw.githubusercontent.com</code> 是 GitHub 提供的一个服务，用于获取 GitHub 仓库中文件的原始内容。这对于需要直接访问文件内容，而不是<br>
-GitHub 页面的情况非</p>
-<br/><p>访问 <a href="https://io.helltractor.top/posts/useful/githubusercontent" target="_blank">https://io.helltractor.top/posts/useful/githubusercontent</a> 阅读全文。</p>]]></content:encoded>
-            <author>mail@helltractor.top (helltractor)</author>
-        </item>
-        <item>
-            <title><![CDATA[html 小芝士]]></title>
-            <link>https://io.helltractor.top/posts/useful/html-trick</link>
-            <guid>https://io.helltractor.top/posts/useful/html-trick</guid>
-            <pubDate>Thu, 22 May 2025 15:33:45 GMT</pubDate>
-            <content:encoded><![CDATA[<h2>detail &amp; summary</h2>
-<h3>源代码</h3>
-<pre><code class="language-html">&lt;details&gt;
-  &lt;summary style=&quot;font-size: 20px&quot;&gt;展开&lt;/summary&gt;
-  &lt;</code></pre>
-<br/><p>访问 <a href="https://io.helltractor.top/posts/useful/html-trick" target="_blank">https://io.helltractor.top/posts/useful/html-trick</a> 阅读全文。</p>]]></content:encoded>
-            <author>mail@helltractor.top (helltractor)</author>
-        </item>
-        <item>
-            <title><![CDATA[从零开始使用 jupyter]]></title>
-            <link>https://io.helltractor.top/posts/useful/jupyter</link>
-            <guid>https://io.helltractor.top/posts/useful/jupyter</guid>
-            <pubDate>Thu, 22 May 2025 15:33:45 GMT</pubDate>
-            <content:encoded><![CDATA[<h2>安装jupyter</h2>
-<p>起因是，为了使用jupyter运行pykan中的代码。因为是在pycharm中导入的仓库，所以虚拟环境已经构建好了，在venv中。</p>
-<p>使用jupyter，首先要安装jup</p>
-<br/><p>访问 <a href="https://io.helltractor.top/posts/useful/jupyter" target="_blank">https://io.helltractor.top/posts/useful/jupyter</a> 阅读全文。</p>]]></content:encoded>
-            <author>mail@helltractor.top (helltractor)</author>
-        </item>
-        <item>
-            <title><![CDATA[Useful Python Libraries And Tools]]></title>
-            <link>https://io.helltractor.top/posts/useful/python-helper</link>
-            <guid>https://io.helltractor.top/posts/useful/python-helper</guid>
-            <pubDate>Thu, 22 May 2025 15:33:45 GMT</pubDate>
-            <content:encoded><![CDATA[<h2>Visualize Tool</h2>
-<ul>
-<li>[Online Python Tutor - Visualize program execution](<a href="https://cscircles.cemc.uwa">https://cscircles.cemc.uwa</a></li>
-</ul>
-<br/><p>访问 <a href="https://io.helltractor.top/posts/useful/python-helper" target="_blank">https://io.helltractor.top/posts/useful/python-helper</a> 阅读全文。</p>]]></content:encoded>
-            <author>mail@helltractor.top (helltractor)</author>
-        </item>
-        <item>
-            <title><![CDATA[Python 小芝士]]></title>
-            <link>https://io.helltractor.top/posts/useful/python-trick</link>
-            <guid>https://io.helltractor.top/posts/useful/python-trick</guid>
-            <pubDate>Thu, 22 May 2025 15:33:45 GMT</pubDate>
-            <content:encoded><![CDATA[<h2>open function</h2>
-<h3>open(int)</h3>
-<p>在 Python 中，open(0)是打开标准输入（stdin）的一种方式。这里的 0 是文件描述符，代表标准输入。同样，1 和 2</p>
-<br/><p>访问 <a href="https://io.helltractor.top/posts/useful/python-trick" target="_blank">https://io.helltractor.top/posts/useful/python-trick</a> 阅读全文。</p>]]></content:encoded>
-            <author>mail@helltractor.top (helltractor)</author>
-        </item>
-        <item>
-            <title><![CDATA[从零开始使用 tar]]></title>
-            <link>https://io.helltractor.top/posts/useful/tar</link>
-            <guid>https://io.helltractor.top/posts/useful/tar</guid>
-            <pubDate>Thu, 22 May 2025 15:33:45 GMT</pubDate>
-            <content:encoded><![CDATA[<h2>常用命令</h2>
-<ul>
-<li><code>-c</code>：创建一个新的归档文件。</li>
-<li><code>-x</code>：从归档文件中提取文件。</li>
-<li><code>-v</code>：详细显示处理过程中的文件信息。</li>
-<li><code>-f</code>：指定归档文件的名称。</li>
-<li><code>-z</code>：使用 g</li>
-</ul>
-<br/><p>访问 <a href="https://io.helltractor.top/posts/useful/tar" target="_blank">https://io.helltractor.top/posts/useful/tar</a> 阅读全文。</p>]]></content:encoded>
-            <author>mail@helltractor.top (helltractor)</author>
-        </item>
-        <item>
             <title><![CDATA[Singleton]]></title>
             <link>https://io.helltractor.top/posts/design-pattern/singleton</link>
             <guid>https://io.helltractor.top/posts/design-pattern/singleton</guid>
-            <pubDate>Thu, 22 May 2025 15:33:45 GMT</pubDate>
+            <pubDate>Tue, 17 Jun 2025 03:35:23 GMT</pubDate>
             <content:encoded><![CDATA[<h2>定义</h2>
 <p>单例模式是一种常用的软件设计模式，它保证一个类只有一个实例，并提供一个全局访问点。这种模式通常用于需要频繁创建和销毁的对象，以减少系统资源的消耗，提高系统效率。</p>
 <ul>
@@ -173,7 +173,7 @@ GitHub 页面的情况非</p>
             <title><![CDATA[Collections]]></title>
             <link>https://io.helltractor.top/posts/java/collections</link>
             <guid>https://io.helltractor.top/posts/java/collections</guid>
-            <pubDate>Thu, 22 May 2025 15:33:45 GMT</pubDate>
+            <pubDate>Tue, 17 Jun 2025 03:35:23 GMT</pubDate>
             <content:encoded><![CDATA[<p>Java 集合框架（Java Collections Framework, JCF）提供了用于存储和操作数据的通用算法和数据结构。主要接口和类包括：</p>
 <ul>
 <li><strong>List</strong>：有序的可重复集合，如 A</li>
@@ -185,7 +185,7 @@ GitHub 页面的情况非</p>
             <title><![CDATA[Garbage Collect]]></title>
             <link>https://io.helltractor.top/posts/java/garbage-collect</link>
             <guid>https://io.helltractor.top/posts/java/garbage-collect</guid>
-            <pubDate>Thu, 22 May 2025 15:33:45 GMT</pubDate>
+            <pubDate>Tue, 17 Jun 2025 03:35:23 GMT</pubDate>
             <content:encoded><![CDATA[<h2>垃圾回收策略 {lang=&quot;cn-zh&quot;}</h2>
 <h2>GC Strategies {lang=en}</h2>
 <p>如何辨别对象是否需要进行回收（可达）？通常是通过引用和引用链的方式来判断对象是否可达。</p>
@@ -196,7 +196,7 @@ GitHub 页面的情况非</p>
             <title><![CDATA[Java Memory Model]]></title>
             <link>https://io.helltractor.top/posts/java/java-memory-model</link>
             <guid>https://io.helltractor.top/posts/java/java-memory-model</guid>
-            <pubDate>Thu, 22 May 2025 15:33:45 GMT</pubDate>
+            <pubDate>Tue, 17 Jun 2025 03:35:23 GMT</pubDate>
             <content:encoded><![CDATA[<h2>重点</h2>
 <ul>
 <li>JMM 的工作方式</li>
@@ -213,7 +213,7 @@ GitHub 页面的情况非</p>
             <title><![CDATA[Java 小芝士]]></title>
             <link>https://io.helltractor.top/posts/java/knowledge</link>
             <guid>https://io.helltractor.top/posts/java/knowledge</guid>
-            <pubDate>Thu, 22 May 2025 15:33:45 GMT</pubDate>
+            <pubDate>Tue, 17 Jun 2025 03:35:23 GMT</pubDate>
             <content:encoded><![CDATA[<h2>Annotation</h2>
 <h3>@Value</h3>
 <p>在 Spring 框架中，@Value 注解用于注入属性值。@Value 可以接受两种形式的参数：${}和#{}，它们的区别在于：</p>
@@ -227,7 +227,7 @@ GitHub 页面的情况非</p>
             <title><![CDATA[Initial Type and Package Type]]></title>
             <link>https://io.helltractor.top/posts/java/package-type</link>
             <guid>https://io.helltractor.top/posts/java/package-type</guid>
-            <pubDate>Thu, 22 May 2025 15:33:45 GMT</pubDate>
+            <pubDate>Tue, 17 Jun 2025 03:35:23 GMT</pubDate>
             <content:encoded><![CDATA[<h2>基本类型与包装类型 {lang=zh-CN}</h2>
 <h2>Initial Type and Package Type {lang=en}</h2>
 <p>| 基本类型 | 包装类型  | 大小（字节） |</p>
@@ -238,7 +238,7 @@ GitHub 页面的情况非</p>
             <title><![CDATA[Polymorphism]]></title>
             <link>https://io.helltractor.top/posts/java/polymorphism</link>
             <guid>https://io.helltractor.top/posts/java/polymorphism</guid>
-            <pubDate>Thu, 22 May 2025 15:33:45 GMT</pubDate>
+            <pubDate>Tue, 17 Jun 2025 03:35:23 GMT</pubDate>
             <content:encoded><![CDATA[<h2>多态 {lang=zh-CN}</h2>
 <h2>Polymorphism {lang=en}</h2>
 <p>多态是指，针对某个类型的方法调用，其真正执行的方法取决于运行时期实际类型的方法。</p>
@@ -247,20 +247,10 @@ GitHub 页面的情况非</p>
             <author>mail@helltractor.top (helltractor)</author>
         </item>
         <item>
-            <title><![CDATA[Spring Boot]]></title>
-            <link>https://io.helltractor.top/posts/java/spring-boot</link>
-            <guid>https://io.helltractor.top/posts/java/spring-boot</guid>
-            <pubDate>Thu, 22 May 2025 15:33:45 GMT</pubDate>
-            <content:encoded><![CDATA[<h2>@SpringBootApplication</h2>
-<p><code>@SpringBootApplication</code> 是 Spring Boot 中一个常用的注解，通常用于主类上，以标识这是一个 Spring B</p>
-<br/><p>访问 <a href="https://io.helltractor.top/posts/java/spring-boot" target="_blank">https://io.helltractor.top/posts/java/spring-boot</a> 阅读全文。</p>]]></content:encoded>
-            <author>mail@helltractor.top (helltractor)</author>
-        </item>
-        <item>
             <title><![CDATA[Classic Problem Need To Classify]]></title>
             <link>https://io.helltractor.top/posts/contest/todo</link>
             <guid>https://io.helltractor.top/posts/contest/todo</guid>
-            <pubDate>Thu, 22 May 2025 15:33:45 GMT</pubDate>
+            <pubDate>Tue, 17 Jun 2025 03:35:23 GMT</pubDate>
             <content:encoded><![CDATA[<h2>待分类</h2>
 <ul>
 <li>[ ] [3539. 魔法序列的数组乘积之和 - 力扣（LeetCode）](<a href="https://leetcode.cn/problems/find-sum-of-array-pro">https://leetcode.cn/problems/find-sum-of-array-pro</a></li>
@@ -272,7 +262,7 @@ GitHub 页面的情况非</p>
             <title><![CDATA[现代光电子器件期末考试提纲（可预见的最后一次考试）]]></title>
             <link>https://io.helltractor.top/posts/course/20240624</link>
             <guid>https://io.helltractor.top/posts/course/20240624</guid>
-            <pubDate>Thu, 22 May 2025 15:33:45 GMT</pubDate>
+            <pubDate>Tue, 17 Jun 2025 03:35:23 GMT</pubDate>
             <content:encoded><![CDATA[<h2>名词解释 (必考)</h2>
 <h3>电子亲和势 𝜒</h3>
 <ul>
@@ -286,7 +276,7 @@ GitHub 页面的情况非</p>
             <title><![CDATA[CS61B]]></title>
             <link>https://io.helltractor.top/posts/course/CS61B</link>
             <guid>https://io.helltractor.top/posts/course/CS61B</guid>
-            <pubDate>Thu, 22 May 2025 15:33:45 GMT</pubDate>
+            <pubDate>Tue, 17 Jun 2025 03:35:23 GMT</pubDate>
             <description><![CDATA[CS61B, Spring 2024]]></description>
             <content:encoded><![CDATA[<p>::: details Lecture 1: Welcome to CS61B</p>
 <h5>Object-Oriented Programming</h5>
@@ -300,7 +290,7 @@ GitHub 页面的情况非</p>
             <title><![CDATA[一条SQL语句的执行过程]]></title>
             <link>https://io.helltractor.top/posts/database/sql-statement-execution-process</link>
             <guid>https://io.helltractor.top/posts/database/sql-statement-execution-process</guid>
-            <pubDate>Thu, 22 May 2025 15:33:45 GMT</pubDate>
+            <pubDate>Tue, 17 Jun 2025 03:35:23 GMT</pubDate>
             <content:encoded><![CDATA[<h2>日志</h2>
 <ul>
 <li>undo log: 逻辑日志（相当于堕胎，撤回了没完全撤回）。用于事务的回滚，保证事务的 ACID 特性；MVCC（多版本并发控制）实现非锁定读。</li>
@@ -313,7 +303,7 @@ GitHub 页面的情况非</p>
             <title><![CDATA[SQL Tutorial and Tricks]]></title>
             <link>https://io.helltractor.top/posts/database/sql-tutorial-and-tricks</link>
             <guid>https://io.helltractor.top/posts/database/sql-tutorial-and-tricks</guid>
-            <pubDate>Thu, 22 May 2025 15:33:45 GMT</pubDate>
+            <pubDate>Tue, 17 Jun 2025 03:35:23 GMT</pubDate>
             <content:encoded><![CDATA[<h2>COUNT Function</h2>
 <h3><code>COUNT(*)</code>, <code>COUNT(1)</code>, <code>COUNT(column_name)</code></h3>
 <ul>
@@ -323,10 +313,61 @@ GitHub 页面的情况非</p>
             <author>mail@helltractor.top (helltractor)</author>
         </item>
         <item>
+            <title><![CDATA[INCAR 文件设置]]></title>
+            <link>https://io.helltractor.top/posts/calculation/set-incar</link>
+            <guid>https://io.helltractor.top/posts/calculation/set-incar</guid>
+            <pubDate>Tue, 17 Jun 2025 03:35:23 GMT</pubDate>
+            <content:encoded><![CDATA[<blockquote>
+<p><code>INCAR</code>文件是由多个模板拼接组成，直接在<code>INCAR_templates</code>中修改无用，想要自定义<code>INCAR</code>文件，需要通过自定义模板文件进行拼接。<br>
+<code>INCAR_templates</code></p>
+</blockquote>
+<br/><p>访问 <a href="https://io.helltractor.top/posts/calculation/set-incar" target="_blank">https://io.helltractor.top/posts/calculation/set-incar</a> 阅读全文。</p>]]></content:encoded>
+            <author>mail@helltractor.top (helltractor)</author>
+        </item>
+        <item>
+            <title><![CDATA[Wannier90.win 文件设置]]></title>
+            <link>https://io.helltractor.top/posts/calculation/set-win</link>
+            <guid>https://io.helltractor.top/posts/calculation/set-win</guid>
+            <pubDate>Tue, 17 Jun 2025 03:35:23 GMT</pubDate>
+            <content:encoded><![CDATA[<h2>Example</h2>
+<pre><code class="language-txt">num_bands =           # 设置能带数量
+exclude_bands =       # 设置排除的能带数量
+num_wann =     </code></pre>
+<br/><p>访问 <a href="https://io.helltractor.top/posts/calculation/set-win" target="_blank">https://io.helltractor.top/posts/calculation/set-win</a> 阅读全文。</p>]]></content:encoded>
+            <author>mail@helltractor.top (helltractor)</author>
+        </item>
+        <item>
+            <title><![CDATA[Material Calculation Common Steps]]></title>
+            <link>https://io.helltractor.top/posts/calculation/steps</link>
+            <guid>https://io.helltractor.top/posts/calculation/steps</guid>
+            <pubDate>Tue, 17 Jun 2025 03:35:23 GMT</pubDate>
+            <content:encoded><![CDATA[<h2>System environment {lang=en}</h2>
+<h2>系统环境 {lang=zh-CN}</h2>
+<ul>
+<li>Windows 11</li>
+<li>wsl2</li>
+<li>Ubuntu 24.04</li>
+</ul>
+<h2>Softw</h2>
+<br/><p>访问 <a href="https://io.helltractor.top/posts/calculation/steps" target="_blank">https://io.helltractor.top/posts/calculation/steps</a> 阅读全文。</p>]]></content:encoded>
+            <author>mail@helltractor.top (helltractor)</author>
+        </item>
+        <item>
+            <title><![CDATA[Interval Dynamic Programing]]></title>
+            <link>https://io.helltractor.top/posts/algorithm/interval-dp</link>
+            <guid>https://io.helltractor.top/posts/algorithm/interval-dp</guid>
+            <pubDate>Tue, 17 Jun 2025 03:35:23 GMT</pubDate>
+            <content:encoded><![CDATA[<blockquote>
+<p>例题：[3563. 移除相邻字符后字典序最小的字符串 - 力扣（LeetCode）](<a href="https://leetcode.cn/problems/lexicographically-smalles">https://leetcode.cn/problems/lexicographically-smalles</a></p>
+</blockquote>
+<br/><p>访问 <a href="https://io.helltractor.top/posts/algorithm/interval-dp" target="_blank">https://io.helltractor.top/posts/algorithm/interval-dp</a> 阅读全文。</p>]]></content:encoded>
+            <author>mail@helltractor.top (helltractor)</author>
+        </item>
+        <item>
             <title><![CDATA[Inverse]]></title>
             <link>https://io.helltractor.top/posts/algorithm/inverse</link>
             <guid>https://io.helltractor.top/posts/algorithm/inverse</guid>
-            <pubDate>Thu, 22 May 2025 15:33:45 GMT</pubDate>
+            <pubDate>Tue, 17 Jun 2025 03:35:23 GMT</pubDate>
             <content:encoded><![CDATA[<h2>Definition {lang=en}</h2>
 <h2>定义 {lang=zh-CN}</h2>
 <ul>
@@ -339,7 +380,7 @@ GitHub 页面的情况非</p>
             <title><![CDATA[Common Resources for Materials Calculation]]></title>
             <link>https://io.helltractor.top/posts/calculation/index</link>
             <guid>https://io.helltractor.top/posts/calculation/index</guid>
-            <pubDate>Thu, 22 May 2025 15:33:45 GMT</pubDate>
+            <pubDate>Tue, 17 Jun 2025 03:35:23 GMT</pubDate>
             <content:encoded><![CDATA[<h2>Data resource {lang=en}</h2>
 <h2>数据资源 {lang=zh-CN}</h2>
 <h3>Frequently-used {lang=en}</h3>
@@ -351,7 +392,7 @@ GitHub 页面的情况非</p>
             <title><![CDATA[VASP 安装与配置]]></title>
             <link>https://io.helltractor.top/posts/calculation/install-vasp</link>
             <guid>https://io.helltractor.top/posts/calculation/install-vasp</guid>
-            <pubDate>Thu, 22 May 2025 15:33:45 GMT</pubDate>
+            <pubDate>Tue, 17 Jun 2025 03:35:23 GMT</pubDate>
             <content:encoded><![CDATA[<h2>环境</h2>
 <ul>
 <li>Windows11</li>
@@ -367,7 +408,7 @@ GitHub 页面的情况非</p>
             <title><![CDATA[Wannier90 安装与配置]]></title>
             <link>https://io.helltractor.top/posts/calculation/install-wannier90</link>
             <guid>https://io.helltractor.top/posts/calculation/install-wannier90</guid>
-            <pubDate>Thu, 22 May 2025 15:33:45 GMT</pubDate>
+            <pubDate>Tue, 17 Jun 2025 03:35:23 GMT</pubDate>
             <content:encoded><![CDATA[<h2>环境</h2>
 <ul>
 <li>Windows11</li>
@@ -386,50 +427,10 @@ GitHub 页面的情况非</p>
             <title><![CDATA[Calculation 小芝士]]></title>
             <link>https://io.helltractor.top/posts/calculation/knowledge</link>
             <guid>https://io.helltractor.top/posts/calculation/knowledge</guid>
-            <pubDate>Thu, 22 May 2025 15:33:45 GMT</pubDate>
+            <pubDate>Tue, 17 Jun 2025 03:35:23 GMT</pubDate>
             <content:encoded><![CDATA[<h2>Fatband analysis</h2>
 <p>Fatband 分析，也被称为投影态密度（Projected Density of States，PDOS）分析，是一种在固体物理中常用的方法，用于研究固体</p>
 <br/><p>访问 <a href="https://io.helltractor.top/posts/calculation/knowledge" target="_blank">https://io.helltractor.top/posts/calculation/knowledge</a> 阅读全文。</p>]]></content:encoded>
-            <author>mail@helltractor.top (helltractor)</author>
-        </item>
-        <item>
-            <title><![CDATA[INCAR 文件设置]]></title>
-            <link>https://io.helltractor.top/posts/calculation/set-incar</link>
-            <guid>https://io.helltractor.top/posts/calculation/set-incar</guid>
-            <pubDate>Thu, 22 May 2025 15:33:45 GMT</pubDate>
-            <content:encoded><![CDATA[<blockquote>
-<p><code>INCAR</code>文件是由多个模板拼接组成，直接在<code>INCAR_templates</code>中修改无用，想要自定义<code>INCAR</code>文件，需要通过自定义模板文件进行拼接。<br>
-<code>INCAR_templates</code></p>
-</blockquote>
-<br/><p>访问 <a href="https://io.helltractor.top/posts/calculation/set-incar" target="_blank">https://io.helltractor.top/posts/calculation/set-incar</a> 阅读全文。</p>]]></content:encoded>
-            <author>mail@helltractor.top (helltractor)</author>
-        </item>
-        <item>
-            <title><![CDATA[Wannier90.win 文件设置]]></title>
-            <link>https://io.helltractor.top/posts/calculation/set-win</link>
-            <guid>https://io.helltractor.top/posts/calculation/set-win</guid>
-            <pubDate>Thu, 22 May 2025 15:33:45 GMT</pubDate>
-            <content:encoded><![CDATA[<h2>Example</h2>
-<pre><code class="language-txt">num_bands =           # 设置能带数量
-exclude_bands =       # 设置排除的能带数量
-num_wann =     </code></pre>
-<br/><p>访问 <a href="https://io.helltractor.top/posts/calculation/set-win" target="_blank">https://io.helltractor.top/posts/calculation/set-win</a> 阅读全文。</p>]]></content:encoded>
-            <author>mail@helltractor.top (helltractor)</author>
-        </item>
-        <item>
-            <title><![CDATA[Material Calculation Common Steps]]></title>
-            <link>https://io.helltractor.top/posts/calculation/steps</link>
-            <guid>https://io.helltractor.top/posts/calculation/steps</guid>
-            <pubDate>Thu, 22 May 2025 15:33:45 GMT</pubDate>
-            <content:encoded><![CDATA[<h2>System environment {lang=en}</h2>
-<h2>系统环境 {lang=zh-CN}</h2>
-<ul>
-<li>Windows 11</li>
-<li>wsl2</li>
-<li>Ubuntu 24.04</li>
-</ul>
-<h2>Softw</h2>
-<br/><p>访问 <a href="https://io.helltractor.top/posts/calculation/steps" target="_blank">https://io.helltractor.top/posts/calculation/steps</a> 阅读全文。</p>]]></content:encoded>
             <author>mail@helltractor.top (helltractor)</author>
         </item>
     </channel>
