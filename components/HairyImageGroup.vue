@@ -1,23 +1,25 @@
 <script lang="ts" setup>
-import { computed, provide, useCssVars, useSlots } from 'vue'
-import { renderOverlay } from '@overlastic/vue'
-import type { ImageViewerProps } from 'element-plus'
-import { atWillToUnit } from './utils/size'
-import HairyImageViewer from './parts/HairyImageViewer.vue'
+import { computed, provide, useCssVars, useSlots } from "vue";
+import { renderOverlay } from "@overlastic/vue";
+import { atWillToUnit } from "./utils/size";
+import HairyImageViewer from "./parts/HairyImageViewer.vue";
 
-const props = withDefaults(defineProps<{
-  row?: string | number
-  col?: string | number
-  gap?: string | number
-  justify?: string
-  align?: string
-}>(), {
-  row: 'auto',
-  col: 'auto',
-  gap: 10,
-  justify: 'space-evenly',
-  align: 'initial',
-})
+const props = withDefaults(
+  defineProps<{
+    row?: string | number;
+    col?: string | number;
+    gap?: string | number;
+    justify?: string;
+    align?: string;
+  }>(),
+  {
+    row: "auto",
+    col: "auto",
+    gap: 10,
+    justify: "space-evenly",
+    align: "initial",
+  }
+);
 
 useCssVars(() => ({
   width: atWillToUnit(props.row),
@@ -25,29 +27,31 @@ useCssVars(() => ({
   gap: atWillToUnit(props.gap),
   justify: props.justify,
   align: props.align,
-}))
+}));
 
-const slots = useSlots()
-const paths = computed(() => (slots
-  .default?.()
-  .map(v => v.props?.src)
-  .filter((src): src is string => typeof src === 'string' && !!src))
-)
+const slots = useSlots();
+const paths = computed(
+  () =>
+    slots
+      .default?.()
+      .map((v) => v.props?.src)
+      .filter(Boolean) as string[]
+);
 
 function preview(url: string) {
-  const initialIndex = paths.value.findIndex(v => v === url) || 0
-  renderOverlay<Partial<ImageViewerProps>>(HairyImageViewer, {
+  const initialIndex = paths.value.findIndex((v) => v === url) || 0;
+  renderOverlay(HairyImageViewer, {
     urlList: paths.value,
     initialIndex,
-  })
+  });
 }
 
-provide('HairyImageGroup:preview', preview)
+provide("HairyImageGroup:preview", preview);
 </script>
 
 <template>
   <div class="HairyImageGroup">
-    <slot />
+    <slot v-if="$slots.default" />
   </div>
 </template>
 
@@ -58,7 +62,6 @@ provide('HairyImageGroup:preview', preview)
   gap: var(--gap);
   justify-content: var(--justify);
   align-items: var(--align);
-  max-width: 100%;
   :deep(.HairyImage) {
     height: var(--height, auto);
   }

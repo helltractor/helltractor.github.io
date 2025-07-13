@@ -1,21 +1,22 @@
 <script lang="ts" setup>
-import { usePrograms } from '@overlastic/vue'
-import { ElImageViewer, imageViewerProps } from 'element-plus'
-import 'element-plus/theme-chalk/el-image-viewer.css'
-import { onMounted, onUnmounted } from 'vue'
+import { ref } from "vue";
+import { ElImageViewer, imageViewerProps } from "element-plus";
+import "element-plus/theme-chalk/el-image-viewer.css";
+import { onMounted, onUnmounted } from "vue";
 
-const props = defineProps(imageViewerProps)
+const props = defineProps(imageViewerProps);
 
-const { visible, resolve } = usePrograms({
-  duration: 1000,
-})
+const visible = ref(true);
+function resolve() {
+  visible.value = false;
+}
 
 onMounted(() => {
-  document.body.style.overflow = 'hidden'
-})
+  document.body.style.overflow = "hidden";
+});
 onUnmounted(() => {
-  document.body.style.overflow = ''
-})
+  document.body.style.overflow = "";
+});
 </script>
 
 <template>
