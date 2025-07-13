@@ -8,6 +8,12 @@ importers:
 
   .:
     dependencies:
+      '@iconify-json/fa':
+        specifier: ^1.2.1
+        version: 1.2.1
+      '@iconify-json/simple-icons':
+        specifier: ^1.2.42
+        version: 1.2.42
       '@overlastic/vue':
         specifier: ^0.8.1
         version: 0.8.1(typescript@5.7.3)
@@ -583,6 +589,9 @@ packages:
   '@iconify-json/fa6-solid@1.2.3':
     resolution: {integrity: sha512-C5o8YJF+ekrS4wRb/6/0SE2KjRyJlCg++IOVC/fineiRinITivsmzFRNW1MQX2xfDZ1T7bxeKxLN6lcaTG3jGA==}
 
+  '@iconify-json/fa@1.2.1':
+    resolution: {integrity: sha512-aY2+tQNWq5ch+ShtAz3KKbNrFfwf4BPrXvyN7S4/lcf6Wms+kIxsd7C7KortzHZhoBnbhVN+qo+YUWLW7rLs9Q==}
+
   '@iconify-json/logos@1.2.4':
     resolution: {integrity: sha512-XC4If5D/hbaZvUkTV8iaZuGlQCyG6CNOlaAaJaGa13V5QMYwYjgtKk3vPP8wz3wtTVNVEVk3LRx1fOJz+YnSMw==}
 
@@ -591,6 +600,9 @@ packages:
 
   '@iconify-json/ri@1.2.5':
     resolution: {integrity: sha512-kWGimOXMZrlYusjBKKXYOWcKhbOHusFsmrmRGmjS7rH0BpML5A9/fy8KHZqFOwZfC4M6amObQYbh8BqO5cMC3w==}
+
+  '@iconify-json/simple-icons@1.2.42':
+    resolution: {integrity: sha512-G/EED0hUV1wMNUsWaFdQYLibm6SO7rP2GZP1+CvhszB5WAFYYibD3zoWp3X96xSIWpYQFvccvE17ewpd0Q1hWQ==}
 
   '@iconify-json/vscode-icons@1.2.19':
     resolution: {integrity: sha512-M6Ujx2Ncmr/jfHhLJ+unqaILOJ/wWAkfc84Eh3+e8PccFmB1TS4KwOSyqbawybbqKK7JaaEk5uhFYSFpYOeuOA==}
@@ -4694,6 +4706,10 @@ snapshots:
     dependencies:
       '@iconify/types': 2.0.0
 
+  '@iconify-json/fa@1.2.1':
+    dependencies:
+      '@iconify/types': 2.0.0
+
   '@iconify-json/logos@1.2.4':
     dependencies:
       '@iconify/types': 2.0.0
@@ -4703,6 +4719,10 @@ snapshots:
       '@iconify/types': 2.0.0
 
   '@iconify-json/ri@1.2.5':
+    dependencies:
+      '@iconify/types': 2.0.0
+
+  '@iconify-json/simple-icons@1.2.42':
     dependencies:
       '@iconify/types': 2.0.0
 
