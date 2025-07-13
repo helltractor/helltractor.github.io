@@ -3,7 +3,7 @@
   "type": "module",
   "version": "0.3.0",
   "private": true,
-  "packageManager": "pnpm@10.10.0",
+  "packageManager": "pnpm@10.13.0",
   "description": "Valaxy Blog -- Sakura",
   "scripts": {
     "build": "pnpm build:ssg",
@@ -16,7 +16,7 @@
   "dependencies": {
     "@overlastic/vue": "^0.8.1",
     "element-plus": "^2.9.10",
-    "valaxy": "0.23.3",
+    "valaxy": "0.25.3",
     "valaxy-addon-algolia": "^0.1.0",
     "valaxy-addon-bangumi": "^0.2.2",
     "valaxy-addon-lightgallery": "^0.0.4",
@@ -25,5 +25,9 @@
     "valaxy-addon-vercount": "^0.0.6",
     "valaxy-addon-waline": "^0.2.1",
     "valaxy-theme-sakura": "^0.9.4"
+  },
+  "devDependencies": {
+    "@iconify-json/fa": "^1.2.1",
+    "@iconify-json/simple-icons": "^1.2.42"
   }
 }
