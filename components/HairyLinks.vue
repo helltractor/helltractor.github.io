@@ -1,22 +1,24 @@
 <script lang="ts" setup>
-import { defineProps } from 'vue'
+import { defineProps } from "vue";
 
 defineProps<{
   links?: {
-    name: string
-    url: string
-    image: string
-    color: string
-    desc?: string
-  }[]
-}>()
+    name: string;
+    url: string;
+    image: string;
+    color: string;
+    desc?: string;
+  }[];
+}>();
 </script>
 
 <template>
   <div class="min-h-10vh">
     <div class="links">
       <div
-        v-for="(item, index) in links" :key="index" class="link-block flex items-center py-0.5rem px-1rem rounded-lg"
+        v-for="(item, index) in links"
+        :key="index"
+        class="link-block flex items-center py-0.5rem px-1rem rounded-lg"
         :style="{ '--block-color': item.color }"
       >
         <a :href="item.url" class="w-4rem h-4rem">
