@@ -119,26 +119,26 @@ export default defineValaxyConfig<ThemeUserConfig>({
         text: '追番列表',
         link: '/bangumi',
       },
-      {
-        icon: 'i-ri-open-source-line',
-        text: '资源列表',
-        link: '/sources',
-      },
-      {
-        icon: 'i-ri-booklet-line',
-        text: '生活记录',
-        link: '/records',
-      },
-      {
-        icon: 'i-ri-briefcase-line',
-        text: '求职记录',
-        link: '/jobs',
-      },
-      {
-        icon: 'i-simple-icons-thealgorithms',
-        text: '编程学习',
-        link: '/program',
-      },
+      // {
+      //   icon: 'i-ri-open-source-line',
+      //   text: '资源列表',
+      //   link: '/sources',
+      // },
+      // {
+      //   icon: 'i-ri-booklet-line',
+      //   text: '生活记录',
+      //   link: '/records',
+      // },
+      // {
+      //   icon: 'i-ri-briefcase-line',
+      //   text: '求职记录',
+      //   link: '/jobs',
+      // },
+      // {
+      //   icon: 'i-simple-icons-thealgorithms',
+      //   text: '编程学习',
+      //   link: '/program',
+      // },
       // {
       //   icon: 'i-ri-leaf',
       //   text: '关于',

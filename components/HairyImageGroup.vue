@@ -18,7 +18,7 @@ const props = withDefaults(
     gap: 10,
     justify: "space-evenly",
     align: "initial",
-  }
+  },
 );
 
 useCssVars(() => ({
@@ -35,7 +35,7 @@ const paths = computed(
     slots
       .default?.()
       .map((v) => v.props?.src)
-      .filter(Boolean) as string[]
+      .filter(Boolean) as string[],
 );
 
 function preview(url: string) {
