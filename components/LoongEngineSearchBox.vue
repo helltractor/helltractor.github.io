@@ -7,12 +7,11 @@ const app = useAppStore();
 const { t } = useI18n();
 
 const engines = [
-  { name: "Google", url: "https://www.google.com/search" },
-  { name: "Bing", url: "https://www.bing.com/search" },
-  { name: "Yandex", url: "https://yandex.com/search" },
-  { name: "DuckDuckGo", url: "https://duckduckgo.com" },
-  { name: "Github", url: "https://github.com/search" },
-  { name: "Stack Overflow", url: "https://stackoverflow.com/search" },
+  { name: "Google", url: "https://www.google.com/search?q=" },
+  { name: "Bing", url: "https://www.bing.com/search?q=" },
+  { name: "Baidu", url: "https://www.baidu.com/s?wd=" },
+  { name: "Yandex", url: "https://yandex.com/search/?text=" },
+  { name: "DuckDuckGo", url: "https://duckduckgo.com/?q=" },
 ];
 
 const selectedEngine = ref(engines[0]);
@@ -22,7 +21,7 @@ function search() {
   if (query.value.trim()) {
     window.open(
       selectedEngine.value.url + encodeURIComponent(query.value),
-      "_blank"
+      "_blank",
     );
   }
 }
@@ -61,7 +60,9 @@ function search() {
   border-radius: 12px;
   background-color: #f5f7fa;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
-  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  transition:
+    background-color 0.3s ease,
+    box-shadow 0.3s ease;
 }
 
 .search-box select,
@@ -72,8 +73,11 @@ function search() {
   border-radius: 8px;
   border: 1px solid #ccc;
   outline: none;
-  transition: border-color 0.3s ease, box-shadow 0.3s ease,
-    background-color 0.3s ease, color 0.3s ease;
+  transition:
+    border-color 0.3s ease,
+    box-shadow 0.3s ease,
+    background-color 0.3s ease,
+    color 0.3s ease;
 }
 
 .search-box input.text {
