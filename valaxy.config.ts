@@ -9,7 +9,6 @@ import { addonMeting } from 'valaxy-addon-meting'
 import { addonVercount } from 'valaxy-addon-vercount'
 import { addonWaline } from 'valaxy-addon-waline'
 
-
 export default defineValaxyConfig<ThemeUserConfig>({
   theme: 'sakura',
   // devtools: true,
@@ -100,7 +99,7 @@ export default defineValaxyConfig<ThemeUserConfig>({
         link: '/',
       },
       {
-        icon: 'i-line-md-folder-twotone',
+        icon: 'i-fa-folder',
         locale: 'menu.categories',
         link: '/categories',
       },
@@ -108,6 +107,11 @@ export default defineValaxyConfig<ThemeUserConfig>({
         icon: 'i-fa-archive',
         locale: 'menu.archives',
         link: '/archives',
+      },
+      {
+        icon: 'i-fa-tags',
+        locale: 'menu.tags',
+        link: '/tags/',
       },
       // {
       //   icon: 'i-ri-folder-image-line',
@@ -140,7 +144,7 @@ export default defineValaxyConfig<ThemeUserConfig>({
       //   link: '/program',
       // },
       // {
-      //   icon: 'i-ri-leaf',
+      //   icon: 'i-ri-leaf-line',
       //   text: '关于',
       //   link: '/about',
       // },
