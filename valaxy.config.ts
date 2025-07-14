@@ -208,19 +208,19 @@ export default defineValaxyConfig<ThemeUserConfig>({
       //     },
       //   ],
       // },
-      {
-        text: '📝 留言板',
-      },
+      // {
+      //   text: '📝 留言板',
+      // },
       // {
       //   text: '🍻 朋友圈',
       // },
       // {
       //   text: '❤️ 打赏',
       // },
-      {
-        text: '📌',
-        locale: 'menu.about',
-      },
+      // {
+      //   text: '📌',
+      //   locale: 'menu.about',
+      // },
     ],
 
     sidebarOptions: {
