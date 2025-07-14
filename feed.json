@@ -10,60 +10,12 @@
     },
     "items": [
         {
-            "id": "https://io.helltractor.top/posts/useful/githubusercontent",
-            "content_html": "<p><code>raw.githubusercontent.com</code> 是 GitHub 提供的一个服务，用于获取 GitHub 仓库中文件的原始内容。这对于需要直接访问文件内容，而不是<br>\nGitHub 页面的情况非</p>\n<br/><p>访问 <a href=\"https://io.helltractor.top/posts/useful/githubusercontent\" target=\"_blank\">https://io.helltractor.top/posts/useful/githubusercontent</a> 阅读全文。</p>",
-            "url": "https://io.helltractor.top/posts/useful/githubusercontent",
-            "title": "从零开始使用 githubusercontent",
-            "date_modified": "2024-06-22T00:00:00.000Z",
-            "date_published": "2025-07-14T05:30:16.218Z",
-            "author": {
-                "name": "helltractor",
-                "url": "https://valaxy.site"
-            }
-        },
-        {
-            "id": "https://io.helltractor.top/posts/useful/html-trick",
-            "content_html": "<h2>detail &amp; summary</h2>\n<h3>源代码</h3>\n<pre><code class=\"language-html\">&lt;details&gt;\n  &lt;summary style=&quot;font-size: 20px&quot;&gt;展开&lt;/summary&gt;\n  &lt;</code></pre>\n<br/><p>访问 <a href=\"https://io.helltractor.top/posts/useful/html-trick\" target=\"_blank\">https://io.helltractor.top/posts/useful/html-trick</a> 阅读全文。</p>",
-            "url": "https://io.helltractor.top/posts/useful/html-trick",
-            "title": "html 小芝士",
-            "date_modified": "2024-07-03T08:31:19.000Z",
-            "date_published": "2025-07-14T05:30:16.218Z",
-            "author": {
-                "name": "helltractor",
-                "url": "https://valaxy.site"
-            }
-        },
-        {
-            "id": "https://io.helltractor.top/posts/useful/jupyter",
-            "content_html": "<h2>安装jupyter</h2>\n<p>起因是，为了使用jupyter运行pykan中的代码。因为是在pycharm中导入的仓库，所以虚拟环境已经构建好了，在venv中。</p>\n<p>使用jupyter，首先要安装jup</p>\n<br/><p>访问 <a href=\"https://io.helltractor.top/posts/useful/jupyter\" target=\"_blank\">https://io.helltractor.top/posts/useful/jupyter</a> 阅读全文。</p>",
-            "url": "https://io.helltractor.top/posts/useful/jupyter",
-            "title": "从零开始使用 jupyter",
-            "date_modified": "2024-06-22T00:00:00.000Z",
-            "date_published": "2025-07-14T05:30:16.218Z",
-            "author": {
-                "name": "helltractor",
-                "url": "https://valaxy.site"
-            }
-        },
-        {
-            "id": "https://io.helltractor.top/posts/useful/python-helper",
-            "content_html": "<h2>Visualize Tool</h2>\n<ul>\n<li>[Online Python Tutor - Visualize program execution](<a href=\"https://cscircles.cemc.uwa\">https://cscircles.cemc.uwa</a></li>\n</ul>\n<br/><p>访问 <a href=\"https://io.helltractor.top/posts/useful/python-helper\" target=\"_blank\">https://io.helltractor.top/posts/useful/python-helper</a> 阅读全文。</p>",
-            "url": "https://io.helltractor.top/posts/useful/python-helper",
-            "title": "Useful Python Libraries And Tools",
-            "date_modified": "2025-03-05T14:35:35.000Z",
-            "date_published": "2025-07-14T05:30:16.218Z",
-            "author": {
-                "name": "helltractor",
-                "url": "https://valaxy.site"
-            }
-        },
-        {
             "id": "https://io.helltractor.top/posts/useful/python-trick",
             "content_html": "<h2>open function</h2>\n<h3>open(int)</h3>\n<p>在 Python 中，open(0)是打开标准输入（stdin）的一种方式。这里的 0 是文件描述符，代表标准输入。同样，1 和 2</p>\n<br/><p>访问 <a href=\"https://io.helltractor.top/posts/useful/python-trick\" target=\"_blank\">https://io.helltractor.top/posts/useful/python-trick</a> 阅读全文。</p>",
             "url": "https://io.helltractor.top/posts/useful/python-trick",
             "title": "Python 小芝士",
             "date_modified": "2024-06-22T00:00:00.000Z",
-            "date_published": "2025-07-14T05:30:16.218Z",
+            "date_published": "2025-07-14T06:15:02.186Z",
             "author": {
                 "name": "helltractor",
                 "url": "https://valaxy.site"
@@ -75,7 +27,7 @@
             "url": "https://io.helltractor.top/posts/useful/tar",
             "title": "从零开始使用 tar",
             "date_modified": "2024-07-02T08:40:58.000Z",
-            "date_published": "2025-07-14T05:30:16.218Z",
+            "date_published": "2025-07-14T06:15:02.186Z",
             "author": {
                 "name": "helltractor",
                 "url": "https://valaxy.site"
@@ -88,7 +40,7 @@
             "title": "小说情节",
             "summary": "主要针对玄幻小说，男频",
             "date_modified": "2024-07-04T13:30:41.000Z",
-            "date_published": "2025-07-14T05:30:16.217Z",
+            "date_published": "2025-07-14T06:15:02.185Z",
             "author": {
                 "name": "helltractor",
                 "url": "https://valaxy.site"
@@ -100,7 +52,7 @@
             "url": "https://io.helltractor.top/posts/project/delete-duplicate-file",
             "title": "Delete Duplicate File",
             "date_modified": "2025-06-05T14:23:54.000Z",
-            "date_published": "2025-07-14T05:30:16.217Z",
+            "date_published": "2025-07-14T06:15:02.185Z",
             "author": {
                 "name": "helltractor",
                 "url": "https://valaxy.site"
@@ -112,7 +64,7 @@
             "url": "https://io.helltractor.top/posts/question/double-spending",
             "title": "双花问题及防范",
             "date_modified": "2024-06-22T00:00:00.000Z",
-            "date_published": "2025-07-14T05:30:16.217Z",
+            "date_published": "2025-07-14T06:15:02.185Z",
             "author": {
                 "name": "helltractor",
                 "url": "https://valaxy.site"
@@ -124,7 +76,7 @@
             "url": "https://io.helltractor.top/posts/question/duplicated-python-scripy",
             "title": "Python Scripy 文件模板重复",
             "date_modified": "2024-06-22T00:00:00.000Z",
-            "date_published": "2025-07-14T05:30:16.217Z",
+            "date_published": "2025-07-14T06:15:02.185Z",
             "author": {
                 "name": "helltractor",
                 "url": "https://valaxy.site"
@@ -136,7 +88,7 @@
             "url": "https://io.helltractor.top/posts/question/sunlogin-internet-connect",
             "title": "向日葵远程文件网络连接异常",
             "date_modified": "2024-06-26T10:20:24.000Z",
-            "date_published": "2025-07-14T05:30:16.217Z",
+            "date_published": "2025-07-14T06:15:02.185Z",
             "author": {
                 "name": "helltractor",
                 "url": "https://valaxy.site"
@@ -148,7 +100,55 @@
             "url": "https://io.helltractor.top/posts/useful/git-cheat-sheet",
             "title": "Git Cheat Sheet",
             "date_modified": "2024-08-05T11:06:19.000Z",
-            "date_published": "2025-07-14T05:30:16.217Z",
+            "date_published": "2025-07-14T06:15:02.185Z",
+            "author": {
+                "name": "helltractor",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "https://io.helltractor.top/posts/useful/githubusercontent",
+            "content_html": "<p><code>raw.githubusercontent.com</code> 是 GitHub 提供的一个服务，用于获取 GitHub 仓库中文件的原始内容。这对于需要直接访问文件内容，而不是<br>\nGitHub 页面的情况非</p>\n<br/><p>访问 <a href=\"https://io.helltractor.top/posts/useful/githubusercontent\" target=\"_blank\">https://io.helltractor.top/posts/useful/githubusercontent</a> 阅读全文。</p>",
+            "url": "https://io.helltractor.top/posts/useful/githubusercontent",
+            "title": "从零开始使用 githubusercontent",
+            "date_modified": "2024-06-22T00:00:00.000Z",
+            "date_published": "2025-07-14T06:15:02.185Z",
+            "author": {
+                "name": "helltractor",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "https://io.helltractor.top/posts/useful/html-trick",
+            "content_html": "<h2>detail &amp; summary</h2>\n<h3>源代码</h3>\n<pre><code class=\"language-html\">&lt;details&gt;\n  &lt;summary style=&quot;font-size: 20px&quot;&gt;展开&lt;/summary&gt;\n  &lt;</code></pre>\n<br/><p>访问 <a href=\"https://io.helltractor.top/posts/useful/html-trick\" target=\"_blank\">https://io.helltractor.top/posts/useful/html-trick</a> 阅读全文。</p>",
+            "url": "https://io.helltractor.top/posts/useful/html-trick",
+            "title": "html 小芝士",
+            "date_modified": "2024-07-03T08:31:19.000Z",
+            "date_published": "2025-07-14T06:15:02.185Z",
+            "author": {
+                "name": "helltractor",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "https://io.helltractor.top/posts/useful/jupyter",
+            "content_html": "<h2>安装jupyter</h2>\n<p>起因是，为了使用jupyter运行pykan中的代码。因为是在pycharm中导入的仓库，所以虚拟环境已经构建好了，在venv中。</p>\n<p>使用jupyter，首先要安装jup</p>\n<br/><p>访问 <a href=\"https://io.helltractor.top/posts/useful/jupyter\" target=\"_blank\">https://io.helltractor.top/posts/useful/jupyter</a> 阅读全文。</p>",
+            "url": "https://io.helltractor.top/posts/useful/jupyter",
+            "title": "从零开始使用 jupyter",
+            "date_modified": "2024-06-22T00:00:00.000Z",
+            "date_published": "2025-07-14T06:15:02.185Z",
+            "author": {
+                "name": "helltractor",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "https://io.helltractor.top/posts/useful/python-helper",
+            "content_html": "<h2>Visualize Tool</h2>\n<ul>\n<li>[Online Python Tutor - Visualize program execution](<a href=\"https://cscircles.cemc.uwa\">https://cscircles.cemc.uwa</a></li>\n</ul>\n<br/><p>访问 <a href=\"https://io.helltractor.top/posts/useful/python-helper\" target=\"_blank\">https://io.helltractor.top/posts/useful/python-helper</a> 阅读全文。</p>",
+            "url": "https://io.helltractor.top/posts/useful/python-helper",
+            "title": "Useful Python Libraries And Tools",
+            "date_modified": "2025-03-05T14:35:35.000Z",
+            "date_published": "2025-07-14T06:15:02.185Z",
             "author": {
                 "name": "helltractor",
                 "url": "https://valaxy.site"
@@ -160,7 +160,7 @@
             "url": "https://io.helltractor.top/posts/project/imitation-douyin-e-commerce/development-issues",
             "title": "E-commerce projects development issues",
             "date_modified": "2024-10-25T03:23:56.000Z",
-            "date_published": "2025-07-14T05:30:16.217Z",
+            "date_published": "2025-07-14T06:15:02.185Z",
             "author": {
                 "name": "helltractor",
                 "url": "https://valaxy.site"
@@ -172,7 +172,7 @@
             "url": "https://io.helltractor.top/posts/project/trading-exchange-system/index",
             "title": "Trading Exchange System Intro",
             "date_modified": "2025-03-15T09:40:38.000Z",
-            "date_published": "2025-07-14T05:30:16.217Z",
+            "date_published": "2025-07-14T06:15:02.185Z",
             "author": {
                 "name": "helltractor",
                 "url": "https://valaxy.site"
@@ -184,7 +184,7 @@
             "url": "https://io.helltractor.top/posts/project/trading-exchange-system/push-module",
             "title": "Push Module",
             "date_modified": "2025-03-19T04:35:29.000Z",
-            "date_published": "2025-07-14T05:30:16.217Z",
+            "date_published": "2025-07-14T06:15:02.185Z",
             "author": {
                 "name": "helltractor",
                 "url": "https://valaxy.site"
@@ -196,7 +196,7 @@
             "url": "https://io.helltractor.top/posts/project/trading-exchange-system/quotation-module",
             "title": "Quotation Module",
             "date_modified": "2025-03-19T13:16:23.000Z",
-            "date_published": "2025-07-14T05:30:16.217Z",
+            "date_published": "2025-07-14T06:15:02.185Z",
             "author": {
                 "name": "helltractor",
                 "url": "https://valaxy.site"
@@ -208,7 +208,7 @@
             "url": "https://io.helltractor.top/posts/project/trading-exchange-system/test-module",
             "title": "Test Module",
             "date_modified": "2025-06-26T09:43:15.000Z",
-            "date_published": "2025-07-14T05:30:16.217Z",
+            "date_published": "2025-07-14T06:15:02.185Z",
             "author": {
                 "name": "helltractor",
                 "url": "https://valaxy.site"
@@ -220,7 +220,7 @@
             "url": "https://io.helltractor.top/posts/project/trading-exchange-system/trading-api-module",
             "title": "Trading API Module",
             "date_modified": "2025-03-21T06:05:34.000Z",
-            "date_published": "2025-07-14T05:30:16.217Z",
+            "date_published": "2025-07-14T06:15:02.185Z",
             "author": {
                 "name": "helltractor",
                 "url": "https://valaxy.site"
@@ -232,31 +232,7 @@
             "url": "https://io.helltractor.top/posts/project/trading-exchange-system/trading-sequence-module",
             "title": "Sequence Module",
             "date_modified": "2025-02-24T03:21:19.000Z",
-            "date_published": "2025-07-14T05:30:16.217Z",
-            "author": {
-                "name": "helltractor",
-                "url": "https://valaxy.site"
-            }
-        },
-        {
-            "id": "https://io.helltractor.top/posts/design-pattern/singleton",
-            "content_html": "<h2>定义</h2>\n<p>单例模式是一种常用的软件设计模式，它保证一个类只有一个实例，并提供一个全局访问点。这种模式通常用于需要频繁创建和销毁的对象，以减少系统资源的消耗，提高系统效率。</p>\n<ul>\n<li>单例模式是一种创</li>\n</ul>\n<br/><p>访问 <a href=\"https://io.helltractor.top/posts/design-pattern/singleton\" target=\"_blank\">https://io.helltractor.top/posts/design-pattern/singleton</a> 阅读全文。</p>",
-            "url": "https://io.helltractor.top/posts/design-pattern/singleton",
-            "title": "Singleton",
-            "date_modified": "2024-06-21T00:00:00.000Z",
-            "date_published": "2025-07-14T05:30:16.216Z",
-            "author": {
-                "name": "helltractor",
-                "url": "https://valaxy.site"
-            }
-        },
-        {
-            "id": "https://io.helltractor.top/posts/java/collections",
-            "content_html": "<p>Java 集合框架（Java Collections Framework, JCF）提供了用于存储和操作数据的通用算法和数据结构。主要接口和类包括：</p>\n<ul>\n<li><strong>List</strong>：有序的可重复集合，如 A</li>\n</ul>\n<br/><p>访问 <a href=\"https://io.helltractor.top/posts/java/collections\" target=\"_blank\">https://io.helltractor.top/posts/java/collections</a> 阅读全文。</p>",
-            "url": "https://io.helltractor.top/posts/java/collections",
-            "title": "Java Collections Framework",
-            "date_modified": "2025-03-06T14:08:34.000Z",
-            "date_published": "2025-07-14T05:30:16.216Z",
+            "date_published": "2025-07-14T06:15:02.185Z",
             "author": {
                 "name": "helltractor",
                 "url": "https://valaxy.site"
@@ -268,7 +244,7 @@
             "url": "https://io.helltractor.top/posts/java/garbage-collect",
             "title": "Garbage Collect",
             "date_modified": "2024-12-02T14:10:45.000Z",
-            "date_published": "2025-07-14T05:30:16.216Z",
+            "date_published": "2025-07-14T06:15:02.184Z",
             "author": {
                 "name": "helltractor",
                 "url": "https://valaxy.site"
@@ -280,7 +256,7 @@
             "url": "https://io.helltractor.top/posts/java/java-memory-model",
             "title": "Java Memory Model",
             "date_modified": "2024-06-21T00:00:00.000Z",
-            "date_published": "2025-07-14T05:30:16.216Z",
+            "date_published": "2025-07-14T06:15:02.184Z",
             "author": {
                 "name": "helltractor",
                 "url": "https://valaxy.site"
@@ -292,7 +268,7 @@
             "url": "https://io.helltractor.top/posts/java/knowledge",
             "title": "Java 小芝士",
             "date_modified": "2024-06-21T00:00:00.000Z",
-            "date_published": "2025-07-14T05:30:16.216Z",
+            "date_published": "2025-07-14T06:15:02.184Z",
             "author": {
                 "name": "helltractor",
                 "url": "https://valaxy.site"
@@ -304,7 +280,7 @@
             "url": "https://io.helltractor.top/posts/java/package-type",
             "title": "Initial Type and Package Type",
             "date_modified": "2024-08-07T07:24:30.000Z",
-            "date_published": "2025-07-14T05:30:16.216Z",
+            "date_published": "2025-07-14T06:15:02.184Z",
             "author": {
                 "name": "helltractor",
                 "url": "https://valaxy.site"
@@ -316,7 +292,7 @@
             "url": "https://io.helltractor.top/posts/java/polymorphism",
             "title": "Polymorphism",
             "date_modified": "2024-08-06T05:55:40.000Z",
-            "date_published": "2025-07-14T05:30:16.216Z",
+            "date_published": "2025-07-14T06:15:02.184Z",
             "author": {
                 "name": "helltractor",
                 "url": "https://valaxy.site"
@@ -328,7 +304,7 @@
             "url": "https://io.helltractor.top/posts/contest/todo",
             "title": "Classification of LeetCode Weekly Competition Questions",
             "date_modified": "2025-05-11T15:04:13.000Z",
-            "date_published": "2025-07-14T05:30:16.215Z",
+            "date_published": "2025-07-14T06:15:02.183Z",
             "author": {
                 "name": "helltractor",
                 "url": "https://valaxy.site"
@@ -340,7 +316,7 @@
             "url": "https://io.helltractor.top/posts/course/20240624",
             "title": "现代光电子器件期末考试提纲（可预见的最后一次考试）",
             "date_modified": "2024-06-22T00:00:00.000Z",
-            "date_published": "2025-07-14T05:30:16.215Z",
+            "date_published": "2025-07-14T06:15:02.183Z",
             "author": {
                 "name": "helltractor",
                 "url": "https://valaxy.site"
@@ -353,7 +329,7 @@
             "title": "CS61B",
             "summary": "CS61B, Spring 2024",
             "date_modified": "2024-07-13T03:32:58.000Z",
-            "date_published": "2025-07-14T05:30:16.215Z",
+            "date_published": "2025-07-14T06:15:02.183Z",
             "author": {
                 "name": "helltractor",
                 "url": "https://valaxy.site"
@@ -365,7 +341,7 @@
             "url": "https://io.helltractor.top/posts/database/sql-statement-execution-process",
             "title": "一条SQL语句的执行过程",
             "date_modified": "2024-06-21T00:00:00.000Z",
-            "date_published": "2025-07-14T05:30:16.215Z",
+            "date_published": "2025-07-14T06:15:02.183Z",
             "author": {
                 "name": "helltractor",
                 "url": "https://valaxy.site"
@@ -377,55 +353,31 @@
             "url": "https://io.helltractor.top/posts/database/sql-tutorial-and-tricks",
             "title": "SQL Tutorial and Tricks",
             "date_modified": "2024-09-04T09:29:30.000Z",
-            "date_published": "2025-07-14T05:30:16.215Z",
+            "date_published": "2025-07-14T06:15:02.183Z",
             "author": {
                 "name": "helltractor",
                 "url": "https://valaxy.site"
             }
         },
         {
-            "id": "https://io.helltractor.top/posts/calculation/index",
-            "content_html": "<h2>Data resource {lang=en}</h2>\n<h2>数据资源 {lang=zh-CN}</h2>\n<h3>Frequently-used {lang=en}</h3>\n<h3>常用 {lang=zh-CN</h3>\n<br/><p>访问 <a href=\"https://io.helltractor.top/posts/calculation/index\" target=\"_blank\">https://io.helltractor.top/posts/calculation/index</a> 阅读全文。</p>",
-            "url": "https://io.helltractor.top/posts/calculation/index",
-            "title": "Common Resources for Materials Calculation",
-            "date_modified": "2024-06-21T10:06:42.000Z",
-            "date_published": "2025-07-14T05:30:16.214Z",
-            "author": {
-                "name": "helltractor",
-                "url": "https://valaxy.site"
-            }
-        },
-        {
-            "id": "https://io.helltractor.top/posts/calculation/install-vasp",
-            "content_html": "<h2>环境</h2>\n<ul>\n<li>Windows11</li>\n<li>wsl2</li>\n<li>Ubuntu24.04</li>\n</ul>\n<h2>安装 Intel 编译器和开发环境</h2>\n<h3>下载 [Base Toolkit](<a href=\"https://www.in\">https://www.in</a></h3>\n<br/><p>访问 <a href=\"https://io.helltractor.top/posts/calculation/install-vasp\" target=\"_blank\">https://io.helltractor.top/posts/calculation/install-vasp</a> 阅读全文。</p>",
-            "url": "https://io.helltractor.top/posts/calculation/install-vasp",
-            "title": "VASP 安装与配置",
-            "date_modified": "2024-07-10T05:34:03.000Z",
-            "date_published": "2025-07-14T05:30:16.214Z",
-            "author": {
-                "name": "helltractor",
-                "url": "https://valaxy.site"
-            }
-        },
-        {
-            "id": "https://io.helltractor.top/posts/calculation/install-wannier90",
-            "content_html": "<h2>环境</h2>\n<ul>\n<li>Windows11</li>\n<li>wsl2</li>\n<li>Ubuntu24.04</li>\n</ul>\n<h2>步骤</h2>\n<h3>不采用 Intel 编译器</h3>\n<ul>\n<li>编译器：`sudo apt install gfortran</li>\n</ul>\n<br/><p>访问 <a href=\"https://io.helltractor.top/posts/calculation/install-wannier90\" target=\"_blank\">https://io.helltractor.top/posts/calculation/install-wannier90</a> 阅读全文。</p>",
-            "url": "https://io.helltractor.top/posts/calculation/install-wannier90",
-            "title": "Wannier90 安装与配置",
-            "date_modified": "2024-07-02T08:11:41.000Z",
-            "date_published": "2025-07-14T05:30:16.214Z",
-            "author": {
-                "name": "helltractor",
-                "url": "https://valaxy.site"
-            }
-        },
-        {
-            "id": "https://io.helltractor.top/posts/calculation/knowledge",
-            "content_html": "<h2>Fatband analysis</h2>\n<p>Fatband 分析，也被称为投影态密度（Projected Density of States，PDOS）分析，是一种在固体物理中常用的方法，用于研究固体</p>\n<br/><p>访问 <a href=\"https://io.helltractor.top/posts/calculation/knowledge\" target=\"_blank\">https://io.helltractor.top/posts/calculation/knowledge</a> 阅读全文。</p>",
-            "url": "https://io.helltractor.top/posts/calculation/knowledge",
-            "title": "Calculation 小芝士",
+            "id": "https://io.helltractor.top/posts/design-pattern/singleton",
+            "content_html": "<h2>定义</h2>\n<p>单例模式是一种常用的软件设计模式，它保证一个类只有一个实例，并提供一个全局访问点。这种模式通常用于需要频繁创建和销毁的对象，以减少系统资源的消耗，提高系统效率。</p>\n<ul>\n<li>单例模式是一种创</li>\n</ul>\n<br/><p>访问 <a href=\"https://io.helltractor.top/posts/design-pattern/singleton\" target=\"_blank\">https://io.helltractor.top/posts/design-pattern/singleton</a> 阅读全文。</p>",
+            "url": "https://io.helltractor.top/posts/design-pattern/singleton",
+            "title": "Singleton",
             "date_modified": "2024-06-21T00:00:00.000Z",
-            "date_published": "2025-07-14T05:30:16.214Z",
+            "date_published": "2025-07-14T06:15:02.183Z",
+            "author": {
+                "name": "helltractor",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "https://io.helltractor.top/posts/java/collections",
+            "content_html": "<p>Java 集合框架（Java Collections Framework, JCF）提供了用于存储和操作数据的通用算法和数据结构。主要接口和类包括：</p>\n<ul>\n<li><strong>List</strong>：有序的可重复集合，如 A</li>\n</ul>\n<br/><p>访问 <a href=\"https://io.helltractor.top/posts/java/collections\" target=\"_blank\">https://io.helltractor.top/posts/java/collections</a> 阅读全文。</p>",
+            "url": "https://io.helltractor.top/posts/java/collections",
+            "title": "Java Collections Framework",
+            "date_modified": "2025-03-06T14:08:34.000Z",
+            "date_published": "2025-07-14T06:15:02.183Z",
             "author": {
                 "name": "helltractor",
                 "url": "https://valaxy.site"
@@ -437,7 +389,7 @@
             "url": "https://io.helltractor.top/posts/calculation/set-incar",
             "title": "INCAR 文件设置",
             "date_modified": "2024-06-22T00:00:00.000Z",
-            "date_published": "2025-07-14T05:30:16.214Z",
+            "date_published": "2025-07-14T06:15:02.182Z",
             "author": {
                 "name": "helltractor",
                 "url": "https://valaxy.site"
@@ -449,7 +401,7 @@
             "url": "https://io.helltractor.top/posts/calculation/set-win",
             "title": "Wannier90.win 文件设置",
             "date_modified": "2024-06-21T00:00:00.000Z",
-            "date_published": "2025-07-14T05:30:16.214Z",
+            "date_published": "2025-07-14T06:15:02.182Z",
             "author": {
                 "name": "helltractor",
                 "url": "https://valaxy.site"
@@ -461,7 +413,7 @@
             "url": "https://io.helltractor.top/posts/calculation/steps",
             "title": "Material Calculation Common Steps",
             "date_modified": "2024-06-22T10:06:42.000Z",
-            "date_published": "2025-07-14T05:30:16.214Z",
+            "date_published": "2025-07-14T06:15:02.182Z",
             "author": {
                 "name": "helltractor",
                 "url": "https://valaxy.site"
@@ -473,7 +425,7 @@
             "url": "https://io.helltractor.top/posts/algorithm/interval-dp",
             "title": "Competition Algorithm: Interval Dynamic Programing",
             "date_modified": "2025-05-25T15:06:27.000Z",
-            "date_published": "2025-07-14T05:30:16.213Z",
+            "date_published": "2025-07-14T06:15:02.181Z",
             "author": {
                 "name": "helltractor",
                 "url": "https://valaxy.site"
@@ -485,7 +437,55 @@
             "url": "https://io.helltractor.top/posts/algorithm/inverse",
             "title": "Competition Algorithm: Inverse",
             "date_modified": "2025-03-09T08:28:37.000Z",
-            "date_published": "2025-07-14T05:30:16.213Z",
+            "date_published": "2025-07-14T06:15:02.181Z",
+            "author": {
+                "name": "helltractor",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "https://io.helltractor.top/posts/calculation/index",
+            "content_html": "<h2>Data resource {lang=en}</h2>\n<h2>数据资源 {lang=zh-CN}</h2>\n<h3>Frequently-used {lang=en}</h3>\n<h3>常用 {lang=zh-CN</h3>\n<br/><p>访问 <a href=\"https://io.helltractor.top/posts/calculation/index\" target=\"_blank\">https://io.helltractor.top/posts/calculation/index</a> 阅读全文。</p>",
+            "url": "https://io.helltractor.top/posts/calculation/index",
+            "title": "Common Resources for Materials Calculation",
+            "date_modified": "2024-06-21T10:06:42.000Z",
+            "date_published": "2025-07-14T06:15:02.181Z",
+            "author": {
+                "name": "helltractor",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "https://io.helltractor.top/posts/calculation/install-vasp",
+            "content_html": "<h2>环境</h2>\n<ul>\n<li>Windows11</li>\n<li>wsl2</li>\n<li>Ubuntu24.04</li>\n</ul>\n<h2>安装 Intel 编译器和开发环境</h2>\n<h3>下载 [Base Toolkit](<a href=\"https://www.in\">https://www.in</a></h3>\n<br/><p>访问 <a href=\"https://io.helltractor.top/posts/calculation/install-vasp\" target=\"_blank\">https://io.helltractor.top/posts/calculation/install-vasp</a> 阅读全文。</p>",
+            "url": "https://io.helltractor.top/posts/calculation/install-vasp",
+            "title": "VASP 安装与配置",
+            "date_modified": "2024-07-10T05:34:03.000Z",
+            "date_published": "2025-07-14T06:15:02.181Z",
+            "author": {
+                "name": "helltractor",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "https://io.helltractor.top/posts/calculation/install-wannier90",
+            "content_html": "<h2>环境</h2>\n<ul>\n<li>Windows11</li>\n<li>wsl2</li>\n<li>Ubuntu24.04</li>\n</ul>\n<h2>步骤</h2>\n<h3>不采用 Intel 编译器</h3>\n<ul>\n<li>编译器：`sudo apt install gfortran</li>\n</ul>\n<br/><p>访问 <a href=\"https://io.helltractor.top/posts/calculation/install-wannier90\" target=\"_blank\">https://io.helltractor.top/posts/calculation/install-wannier90</a> 阅读全文。</p>",
+            "url": "https://io.helltractor.top/posts/calculation/install-wannier90",
+            "title": "Wannier90 安装与配置",
+            "date_modified": "2024-07-02T08:11:41.000Z",
+            "date_published": "2025-07-14T06:15:02.181Z",
+            "author": {
+                "name": "helltractor",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "https://io.helltractor.top/posts/calculation/knowledge",
+            "content_html": "<h2>Fatband analysis</h2>\n<p>Fatband 分析，也被称为投影态密度（Projected Density of States，PDOS）分析，是一种在固体物理中常用的方法，用于研究固体</p>\n<br/><p>访问 <a href=\"https://io.helltractor.top/posts/calculation/knowledge\" target=\"_blank\">https://io.helltractor.top/posts/calculation/knowledge</a> 阅读全文。</p>",
+            "url": "https://io.helltractor.top/posts/calculation/knowledge",
+            "title": "Calculation 小芝士",
+            "date_modified": "2024-06-21T00:00:00.000Z",
+            "date_published": "2025-07-14T06:15:02.181Z",
             "author": {
                 "name": "helltractor",
                 "url": "https://valaxy.site"
