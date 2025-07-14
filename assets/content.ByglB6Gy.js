@@ -1,0 +1,1 @@
+import"./chunks/nprogress.CUspbDhs.js";import{T as e}from"./framework.KJZaO2aS.js";let n=[];function d(t){n.push(t),e(()=>{n=n.filter(o=>o!==t)})}const a=()=>n.forEach(t=>t()),p=a;export{d as o,p as r};

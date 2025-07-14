@@ -1,0 +1,1 @@
+import"./chunks/nprogress.CUspbDhs.js";import{a0 as e,a4 as r,a3 as t}from"./framework.KJZaO2aS.js";import"./chunks/dayjs.B_GB4L9t.js";const a={};function c(o,n){return t(),r("div")}const f=e(a,[["render",c]]);export{f as default};
