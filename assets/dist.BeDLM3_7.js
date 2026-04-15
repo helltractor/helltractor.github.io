@@ -1,0 +1,1 @@
+function e(e){return Object.keys(e).forEach(t=>e[t]===void 0?delete e[t]:{}),e}export{e as t};

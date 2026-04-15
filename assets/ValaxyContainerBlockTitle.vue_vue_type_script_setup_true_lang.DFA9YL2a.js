@@ -1,1 +1,0 @@
-import"./chunks/nprogress.CUspbDhs.js";import{O as a,a4 as n,a3 as o,ab as r,W as s}from"./framework.KJZaO2aS.js";import{u as p}from"./chunks/vue-i18n.BCIiF0EM.js";const u=a({__name:"ValaxyContainerBlockTitle",props:{title:{}},setup(i){const{t}=p();return(e,l)=>(o(),n("span",null,r(s(t)(e.title)),1))}});export{u as _};

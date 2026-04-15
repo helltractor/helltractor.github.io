@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://io.helltractor.top/</id>
     <title>helltractor blog</title>
-    <updated>2025-08-26T07:26:47.997Z</updated>
+    <updated>2026-04-15T16:47:18.518Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <author>
         <name>helltractor</name>
@@ -13,57 +13,338 @@
     <link rel="self" href="https://io.helltractor.top/atom.xml"/>
     <logo>https://io.helltractor.top/avatar.png</logo>
     <icon>https://io.helltractor.top/favicon.svg</icon>
-    <rights>CC BY-NC-SA 4.0 2025 © helltractor</rights>
+    <rights>CC BY-NC-SA 4.0 2026 © helltractor</rights>
     <entry>
-        <title type="html"><![CDATA[双花问题及防范]]></title>
-        <id>https://io.helltractor.top/posts/question/double-spending</id>
-        <link href="https://io.helltractor.top/posts/question/double-spending"/>
-        <updated>2024-06-22T00:00:00.000Z</updated>
-        <content type="html"><![CDATA[<p>在区块链和加密货币领域，“双花”（Double Spending）是指同一笔加密货币在多个交易中被多次使用的问题</p>
-<h2>单离线场景</h2>
-<p>单离线场景是指在交易中，只有一个参与方（通常是付款方）离线，而</p>
-<br/><p>访问 <a href="https://io.helltractor.top/posts/question/double-spending" target="_blank">https://io.helltractor.top/posts/question/double-spending</a> 阅读全文。</p>]]></content>
+        <title type="html"><![CDATA[常用的 Git 语法]]></title>
+        <id>https://io.helltractor.top/posts/useful/git-trick</id>
+        <link href="https://io.helltractor.top/posts/useful/git-trick"/>
+        <updated>2026-01-05T12:06:19.000Z</updated>
+        <content type="html"><![CDATA[<h2>抓取其他分支文件</h2>
+<p>抓取其他分支文件到当前分支，路径保持不变</p>
+<pre><code class="language-bash">git checkout &lt;branch&gt; &lt;path/file&gt;
+</code></pre>
+<h2>忽略<code>.gitignore</code></h2>
+<br/><p>访问 <a href="https://io.helltractor.top/posts/useful/git-trick" target="_blank">https://io.helltractor.top/posts/useful/git-trick</a> 阅读全文。</p>]]></content>
         <author>
             <name>helltractor</name>
             <email>mail@helltractor.top</email>
             <uri>https://valaxy.site</uri>
         </author>
-        <published>2025-08-26T07:24:43.006Z</published>
+        <published>2026-01-05T12:06:19.000Z</published>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Python Scripy 文件模板重复]]></title>
-        <id>https://io.helltractor.top/posts/question/duplicated-python-scripy</id>
-        <link href="https://io.helltractor.top/posts/question/duplicated-python-scripy"/>
-        <updated>2024-06-22T00:00:00.000Z</updated>
-        <content type="html"><![CDATA[<h2>场景</h2>
-<p>设置 pycharm 的文件模板时，突然发现有两个<code>Python script</code>，一个是<code>Python script</code>，另一个是<code>Python script</code>,<br>
-由于第二个`Pytho</p>
-<br/><p>访问 <a href="https://io.helltractor.top/posts/question/duplicated-python-scripy" target="_blank">https://io.helltractor.top/posts/question/duplicated-python-scripy</a> 阅读全文。</p>]]></content>
+        <title type="html"><![CDATA[文档编辑小芝士]]></title>
+        <id>https://io.helltractor.top/posts/useful/document-editor-trick</id>
+        <link href="https://io.helltractor.top/posts/useful/document-editor-trick"/>
+        <updated>2025-10-27T10:05:00.000Z</updated>
+        <content type="html"><![CDATA[<h2>查找与替换</h2>
+<h3>替换角标形式</h3>
+<pre><code class="language-mermaid">graph LR
+    A[替换] --&gt; B[高级搜索]
+    B --&gt; C[通配符]
+    C --&gt; D[查找内容]
+</code></pre>
+<br/><p>访问 <a href="https://io.helltractor.top/posts/useful/document-editor-trick" target="_blank">https://io.helltractor.top/posts/useful/document-editor-trick</a> 阅读全文。</p>]]></content>
         <author>
             <name>helltractor</name>
             <email>mail@helltractor.top</email>
             <uri>https://valaxy.site</uri>
         </author>
-        <published>2025-08-26T07:24:43.006Z</published>
+        <published>2025-10-27T10:05:00.000Z</published>
     </entry>
     <entry>
-        <title type="html"><![CDATA[向日葵远程文件网络连接异常]]></title>
-        <id>https://io.helltractor.top/posts/question/sunlogin-internet-connect</id>
-        <link href="https://io.helltractor.top/posts/question/sunlogin-internet-connect"/>
-        <updated>2024-06-26T10:20:24.000Z</updated>
-        <content type="html"><![CDATA[<h2>软件版本</h2>
+        <title type="html"><![CDATA[日常记录汇总]]></title>
+        <id>https://io.helltractor.top/posts/record/index</id>
+        <link href="https://io.helltractor.top/posts/record/index"/>
+        <updated>2025-10-26T09:04:05.000Z</updated>
+        <content type="html"><![CDATA[<h2>记录格式更新</h2>
 <ul>
-<li>sunlogin: V15.3.0.62062</li>
+<li>2025-08-08：停止日常记录的日更，只保持月报更新。</li>
+<li>2025-04-23：使用 obsidian 对文档进行编辑，这周后周记减少更新频率，只做本周总结（原本该有</li>
 </ul>
-<h2>问题描述</h2>
-<p>主控端是 Window11，被控端是 Window10 和 Centos7，使用向日葵桌面控制，连接正常，但</p>
-<br/><p>访问 <a href="https://io.helltractor.top/posts/question/sunlogin-internet-connect" target="_blank">https://io.helltractor.top/posts/question/sunlogin-internet-connect</a> 阅读全文。</p>]]></content>
+<br/><p>访问 <a href="https://io.helltractor.top/posts/record/index" target="_blank">https://io.helltractor.top/posts/record/index</a> 阅读全文。</p>]]></content>
         <author>
             <name>helltractor</name>
             <email>mail@helltractor.top</email>
             <uri>https://valaxy.site</uri>
         </author>
-        <published>2025-08-26T07:24:43.006Z</published>
+        <published>2025-10-26T09:04:05.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Contest Summary]]></title>
+        <id>https://io.helltractor.top/posts/contest/index</id>
+        <link href="https://io.helltractor.top/posts/contest/index"/>
+        <updated>2025-08-11T06:57:26.000Z</updated>
+        <content type="html"><![CDATA[<h2>LeetCode</h2>
+<pre><code class="language-dataviewjs">// === 配置区 ===
+const headers = [&quot;题目&quot;, &quot;题目类型&quot;];
+
+// === 数据源 ===
+const pag</code></pre>
+<br/><p>访问 <a href="https://io.helltractor.top/posts/contest/index" target="_blank">https://io.helltractor.top/posts/contest/index</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>helltractor</name>
+            <email>mail@helltractor.top</email>
+            <uri>https://valaxy.site</uri>
+        </author>
+        <published>2025-08-11T06:57:26.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[测试模块]]></title>
+        <id>https://io.helltractor.top/posts/project/trading-exchange-system/test-module</id>
+        <link href="https://io.helltractor.top/posts/project/trading-exchange-system/test-module"/>
+        <updated>2025-06-26T09:43:15.000Z</updated>
+        <content type="html"><![CDATA[<h2>项目漏洞</h2>
+<h3>局消息定序机制</h3>
+<ul>
+<li>
+<p><strong>问题：依赖 SequenceID 和 PreviousID 的时序假设</strong></p>
+<ul>
+<li>如果网络抖动或消息丢失，PreviousID 可能无法及时对</li>
+</ul>
+</li>
+</ul>
+<br/><p>访问 <a href="https://io.helltractor.top/posts/project/trading-exchange-system/test-module" target="_blank">https://io.helltractor.top/posts/project/trading-exchange-system/test-module</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>helltractor</name>
+            <email>mail@helltractor.top</email>
+            <uri>https://valaxy.site</uri>
+        </author>
+        <published>2025-06-26T09:43:15.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[项目想法与技巧]]></title>
+        <id>https://io.helltractor.top/posts/project/project-idea</id>
+        <link href="https://io.helltractor.top/posts/project/project-idea"/>
+        <updated>2025-06-05T14:23:54.000Z</updated>
+        <content type="html"><![CDATA[<h2>文件去重</h2>
+<h3>背景</h3>
+<p>释放硬盘空间，由于硬盘中存在着各种文件的复制，当想要清理这些重复文件时，难以定位，并无法快速鉴定为相同文件，同时删除时文件可能存在占用情况（需要解除占用），诸多种种</p>
+<br/><p>访问 <a href="https://io.helltractor.top/posts/project/project-idea" target="_blank">https://io.helltractor.top/posts/project/project-idea</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>helltractor</name>
+            <email>mail@helltractor.top</email>
+            <uri>https://valaxy.site</uri>
+        </author>
+        <published>2025-06-05T14:23:54.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[竞赛算法：区间动态规划]]></title>
+        <id>https://io.helltractor.top/posts/algorithm/interval-dp</id>
+        <link href="https://io.helltractor.top/posts/algorithm/interval-dp"/>
+        <updated>2025-05-25T15:06:27.000Z</updated>
+        <content type="html"><![CDATA[<h2>定义</h2>
+<p>子问题的转移形式是从小区间到大区间，而非前缀或后缀的转移</p>
+<h2>算法</h2>
+<blockquote>
+<p>例题：[3563. 移除相邻字符后字典序最小的字符串](<a href="https://leetcode.cn/probl">https://leetcode.cn/probl</a></p>
+</blockquote>
+<br/><p>访问 <a href="https://io.helltractor.top/posts/algorithm/interval-dp" target="_blank">https://io.helltractor.top/posts/algorithm/interval-dp</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>helltractor</name>
+            <email>mail@helltractor.top</email>
+            <uri>https://valaxy.site</uri>
+        </author>
+        <published>2025-05-25T15:06:27.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[交易 API 模块]]></title>
+        <id>https://io.helltractor.top/posts/project/trading-exchange-system/trading-api-module</id>
+        <link href="https://io.helltractor.top/posts/project/trading-exchange-system/trading-api-module"/>
+        <updated>2025-03-21T06:05:34.000Z</updated>
+        <content type="html"><![CDATA[<h2><a href="https://liaoxuefeng.com/books/java/springcloud/trading-api/index.html">API 模块</a></h2>
+<h3>DeferredRes</h3>
+<br/><p>访问 <a href="https://io.helltractor.top/posts/project/trading-exchange-system/trading-api-module" target="_blank">https://io.helltractor.top/posts/project/trading-exchange-system/trading-api-module</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>helltractor</name>
+            <email>mail@helltractor.top</email>
+            <uri>https://valaxy.site</uri>
+        </author>
+        <published>2025-03-21T06:05:34.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[推送模块]]></title>
+        <id>https://io.helltractor.top/posts/project/trading-exchange-system/push-module</id>
+        <link href="https://io.helltractor.top/posts/project/trading-exchange-system/push-module"/>
+        <updated>2025-03-19T04:35:29.000Z</updated>
+        <content type="html"><![CDATA[<h2><a href="https://liaoxuefeng.com/books/java/springcloud/push/index.html">推送模块</a></h2>
+<p>和普通 Web 应用不同的是，基于 Servle</p>
+<br/><p>访问 <a href="https://io.helltractor.top/posts/project/trading-exchange-system/push-module" target="_blank">https://io.helltractor.top/posts/project/trading-exchange-system/push-module</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>helltractor</name>
+            <email>mail@helltractor.top</email>
+            <uri>https://valaxy.site</uri>
+        </author>
+        <published>2025-03-19T04:35:29.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[证券交易系统简介]]></title>
+        <id>https://io.helltractor.top/posts/project/trading-exchange-system/index</id>
+        <link href="https://io.helltractor.top/posts/project/trading-exchange-system/index"/>
+        <updated>2025-03-15T09:40:38.000Z</updated>
+        <content type="html"><![CDATA[<h2>项目描述</h2>
+<h3>项目特点</h3>
+<ul>
+<li>证券交易系统的交易是基于交易对，例如，BTC/USD 交易对表示用 USD 购买 BTC，USD 是计价货币（Quote Asset），BTC 是交易资产（</li>
+</ul>
+<br/><p>访问 <a href="https://io.helltractor.top/posts/project/trading-exchange-system/index" target="_blank">https://io.helltractor.top/posts/project/trading-exchange-system/index</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>helltractor</name>
+            <email>mail@helltractor.top</email>
+            <uri>https://valaxy.site</uri>
+        </author>
+        <published>2025-03-15T09:40:38.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[竞赛算法：逆元]]></title>
+        <id>https://io.helltractor.top/posts/algorithm/inverse</id>
+        <link href="https://io.helltractor.top/posts/algorithm/inverse"/>
+        <updated>2025-03-09T08:28:37.000Z</updated>
+        <content type="html"><![CDATA[<h2>Definition {lang=en}</h2>
+<h2>定义 {lang=zh-CN}</h2>
+<ul>
+<li>单位元：在一个集合中，对于某种运算 （注意：这里代表通用运算的表示符号，并不是特指乘法），如果对于任何的</li>
+</ul>
+<br/><p>访问 <a href="https://io.helltractor.top/posts/algorithm/inverse" target="_blank">https://io.helltractor.top/posts/algorithm/inverse</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>helltractor</name>
+            <email>mail@helltractor.top</email>
+            <uri>https://valaxy.site</uri>
+        </author>
+        <published>2025-03-09T08:28:37.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Java 集合框架]]></title>
+        <id>https://io.helltractor.top/posts/java/collections</id>
+        <link href="https://io.helltractor.top/posts/java/collections"/>
+        <updated>2025-03-06T14:08:34.000Z</updated>
+        <content type="html"><![CDATA[<h2>定义</h2>
+<p>Java 集合框架（Java Collections Framework, JCF）提供了用于存储和操作数据的通用算法和数据结构，主要接口和类包括：</p>
+<ul>
+<li><strong>List</strong>：有序、可重</li>
+</ul>
+<br/><p>访问 <a href="https://io.helltractor.top/posts/java/collections" target="_blank">https://io.helltractor.top/posts/java/collections</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>helltractor</name>
+            <email>mail@helltractor.top</email>
+            <uri>https://valaxy.site</uri>
+        </author>
+        <published>2025-03-06T14:08:34.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[有用的 Python 库和工具]]></title>
+        <id>https://io.helltractor.top/posts/useful/python-helper</id>
+        <link href="https://io.helltractor.top/posts/useful/python-helper"/>
+        <updated>2025-03-05T14:35:35.000Z</updated>
+        <content type="html"><![CDATA[<h2>Visualize Tool</h2>
+<ul>
+<li>[Online Python Tutor - Visualize program execution](<a href="https://cscircles.cemc.uwa">https://cscircles.cemc.uwa</a></li>
+</ul>
+<br/><p>访问 <a href="https://io.helltractor.top/posts/useful/python-helper" target="_blank">https://io.helltractor.top/posts/useful/python-helper</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>helltractor</name>
+            <email>mail@helltractor.top</email>
+            <uri>https://valaxy.site</uri>
+        </author>
+        <published>2025-03-05T14:35:35.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[定序模块]]></title>
+        <id>https://io.helltractor.top/posts/project/trading-exchange-system/trading-sequence-module</id>
+        <link href="https://io.helltractor.top/posts/project/trading-exchange-system/trading-sequence-module"/>
+        <updated>2025-02-24T03:21:19.000Z</updated>
+        <content type="html"><![CDATA[<h2><a href="https://liaoxuefeng.com/books/java/springcloud/sequence/index.html">定序模块</a></h2>
+<h3>定序模块处理逻辑</h3>
+<pre><code class="language-mer"></code></pre>
+<br/><p>访问 <a href="https://io.helltractor.top/posts/project/trading-exchange-system/trading-sequence-module" target="_blank">https://io.helltractor.top/posts/project/trading-exchange-system/trading-sequence-module</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>helltractor</name>
+            <email>mail@helltractor.top</email>
+            <uri>https://valaxy.site</uri>
+        </author>
+        <published>2025-02-24T03:21:19.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[垃圾回收]]></title>
+        <id>https://io.helltractor.top/posts/java/garbage-collect</id>
+        <link href="https://io.helltractor.top/posts/java/garbage-collect"/>
+        <updated>2024-12-02T14:10:45.000Z</updated>
+        <content type="html"><![CDATA[<h2>垃圾回收策略 {lang=zh-CN}</h2>
+<h2>GC Strategies {lang=en}</h2>
+<p>垃圾回收需要辨别对象是否需要进行回收（可达）, 通常是通过引用和引用链的方式来判断对象是否可达</p>
+<br/><p>访问 <a href="https://io.helltractor.top/posts/java/garbage-collect" target="_blank">https://io.helltractor.top/posts/java/garbage-collect</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>helltractor</name>
+            <email>mail@helltractor.top</email>
+            <uri>https://valaxy.site</uri>
+        </author>
+        <published>2024-12-02T14:10:45.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[电商项目开发问题]]></title>
+        <id>https://io.helltractor.top/posts/project/imitation-douyin-e-commerce/development-issues</id>
+        <link href="https://io.helltractor.top/posts/project/imitation-douyin-e-commerce/development-issues"/>
+        <updated>2024-10-25T03:23:56.000Z</updated>
+        <content type="html"><![CDATA[<h2>技术选型</h2>
+<p>| 技术栈                        | Classify               | Github</p>
+<br/><p>访问 <a href="https://io.helltractor.top/posts/project/imitation-douyin-e-commerce/development-issues" target="_blank">https://io.helltractor.top/posts/project/imitation-douyin-e-commerce/development-issues</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>helltractor</name>
+            <email>mail@helltractor.top</email>
+            <uri>https://valaxy.site</uri>
+        </author>
+        <published>2024-10-25T03:23:56.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[SQL Tutorial and Tricks]]></title>
+        <id>https://io.helltractor.top/posts/database/sql-tutorial-and-tricks</id>
+        <link href="https://io.helltractor.top/posts/database/sql-tutorial-and-tricks"/>
+        <updated>2024-09-04T09:29:30.000Z</updated>
+        <content type="html"><![CDATA[<h2>COUNT Function</h2>
+<h3><code>COUNT(*)</code>, <code>COUNT(1)</code>, <code>COUNT(column_name)</code></h3>
+<ul>
+<li><code>COUNT(*)</code>: 统计所有行，不管是否为 `NUL</li>
+</ul>
+<br/><p>访问 <a href="https://io.helltractor.top/posts/database/sql-tutorial-and-tricks" target="_blank">https://io.helltractor.top/posts/database/sql-tutorial-and-tricks</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>helltractor</name>
+            <email>mail@helltractor.top</email>
+            <uri>https://valaxy.site</uri>
+        </author>
+        <published>2024-09-04T09:29:30.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[基本类型与包装类型]]></title>
+        <id>https://io.helltractor.top/posts/java/package-type</id>
+        <link href="https://io.helltractor.top/posts/java/package-type"/>
+        <updated>2024-08-07T07:24:30.000Z</updated>
+        <content type="html"><![CDATA[<h2>基本类型与包装类型 {lang=zh-CN}</h2>
+<h2>Initial Type and Package Type {lang=en}</h2>
+<p>| 基本类型 | 包装类型  | 大小（字节） |</p>
+<br/><p>访问 <a href="https://io.helltractor.top/posts/java/package-type" target="_blank">https://io.helltractor.top/posts/java/package-type</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>helltractor</name>
+            <email>mail@helltractor.top</email>
+            <uri>https://valaxy.site</uri>
+        </author>
+        <published>2024-08-07T07:24:30.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[多态]]></title>
+        <id>https://io.helltractor.top/posts/java/polymorphism</id>
+        <link href="https://io.helltractor.top/posts/java/polymorphism"/>
+        <updated>2024-08-06T05:55:40.000Z</updated>
+        <content type="html"><![CDATA[<h2>多态 {lang=zh-CN}</h2>
+<h2>Polymorphism {lang=en}</h2>
+<p>多态是指，针对某个类型的方法调用，其真正执行的方法取决于运行时期实际类型的方法。</p>
+<h3>编译时多态（</h3>
+<br/><p>访问 <a href="https://io.helltractor.top/posts/java/polymorphism" target="_blank">https://io.helltractor.top/posts/java/polymorphism</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>helltractor</name>
+            <email>mail@helltractor.top</email>
+            <uri>https://valaxy.site</uri>
+        </author>
+        <published>2024-08-06T05:55:40.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[Git Cheat Sheet]]></title>
@@ -81,240 +362,29 @@
             <email>mail@helltractor.top</email>
             <uri>https://valaxy.site</uri>
         </author>
-        <published>2025-08-26T07:24:43.006Z</published>
+        <published>2024-08-05T11:06:19.000Z</published>
     </entry>
     <entry>
-        <title type="html"><![CDATA[从零开始使用 githubusercontent]]></title>
-        <id>https://io.helltractor.top/posts/useful/githubusercontent</id>
-        <link href="https://io.helltractor.top/posts/useful/githubusercontent"/>
-        <updated>2024-06-22T00:00:00.000Z</updated>
-        <content type="html"><![CDATA[<p><code>raw.githubusercontent.com</code> 是 GitHub 提供的一个服务，用于获取 GitHub 仓库中文件的原始内容。这对于需要直接访问文件内容，而不是<br>
-GitHub 页面的情况非</p>
-<br/><p>访问 <a href="https://io.helltractor.top/posts/useful/githubusercontent" target="_blank">https://io.helltractor.top/posts/useful/githubusercontent</a> 阅读全文。</p>]]></content>
-        <author>
-            <name>helltractor</name>
-            <email>mail@helltractor.top</email>
-            <uri>https://valaxy.site</uri>
-        </author>
-        <published>2025-08-26T07:24:43.006Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[html 小芝士]]></title>
-        <id>https://io.helltractor.top/posts/useful/html-trick</id>
-        <link href="https://io.helltractor.top/posts/useful/html-trick"/>
-        <updated>2024-07-03T08:31:19.000Z</updated>
-        <content type="html"><![CDATA[<h2>detail &amp; summary</h2>
-<h3>源代码</h3>
-<pre><code class="language-html">&lt;details&gt;
-  &lt;summary style=&quot;font-size: 20px&quot;&gt;展开&lt;/summary&gt;
-  &lt;</code></pre>
-<br/><p>访问 <a href="https://io.helltractor.top/posts/useful/html-trick" target="_blank">https://io.helltractor.top/posts/useful/html-trick</a> 阅读全文。</p>]]></content>
-        <author>
-            <name>helltractor</name>
-            <email>mail@helltractor.top</email>
-            <uri>https://valaxy.site</uri>
-        </author>
-        <published>2025-08-26T07:24:43.006Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[从零开始使用 jupyter]]></title>
-        <id>https://io.helltractor.top/posts/useful/jupyter</id>
-        <link href="https://io.helltractor.top/posts/useful/jupyter"/>
-        <updated>2024-06-22T00:00:00.000Z</updated>
-        <content type="html"><![CDATA[<h2>安装jupyter</h2>
-<p>起因是，为了使用jupyter运行pykan中的代码。因为是在pycharm中导入的仓库，所以虚拟环境已经构建好了，在venv中。</p>
-<p>使用jupyter，首先要安装jup</p>
-<br/><p>访问 <a href="https://io.helltractor.top/posts/useful/jupyter" target="_blank">https://io.helltractor.top/posts/useful/jupyter</a> 阅读全文。</p>]]></content>
-        <author>
-            <name>helltractor</name>
-            <email>mail@helltractor.top</email>
-            <uri>https://valaxy.site</uri>
-        </author>
-        <published>2025-08-26T07:24:43.006Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Useful Python Libraries And Tools]]></title>
-        <id>https://io.helltractor.top/posts/useful/python-helper</id>
-        <link href="https://io.helltractor.top/posts/useful/python-helper"/>
-        <updated>2025-03-05T14:35:35.000Z</updated>
-        <content type="html"><![CDATA[<h2>Visualize Tool</h2>
+        <title type="html"><![CDATA[CS61B Record]]></title>
+        <id>https://io.helltractor.top/posts/course/CS61B</id>
+        <link href="https://io.helltractor.top/posts/course/CS61B"/>
+        <updated>2024-07-13T03:32:58.000Z</updated>
+        <summary type="html"><![CDATA[CS61B, Spring 2024]]></summary>
+        <content type="html"><![CDATA[<p>::: details Lecture 1: Welcome to CS61B</p>
+<h5>Object-Oriented Programming</h5>
 <ul>
-<li>[Online Python Tutor - Visualize program execution](<a href="https://cscircles.cemc.uwa">https://cscircles.cemc.uwa</a></li>
+<li>A model for organizin</li>
 </ul>
-<br/><p>访问 <a href="https://io.helltractor.top/posts/useful/python-helper" target="_blank">https://io.helltractor.top/posts/useful/python-helper</a> 阅读全文。</p>]]></content>
+<br/><p>访问 <a href="https://io.helltractor.top/posts/course/CS61B" target="_blank">https://io.helltractor.top/posts/course/CS61B</a> 阅读全文。</p>]]></content>
         <author>
             <name>helltractor</name>
             <email>mail@helltractor.top</email>
             <uri>https://valaxy.site</uri>
         </author>
-        <published>2025-08-26T07:24:43.006Z</published>
+        <published>2024-07-13T03:32:58.000Z</published>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Python 小芝士]]></title>
-        <id>https://io.helltractor.top/posts/useful/python-trick</id>
-        <link href="https://io.helltractor.top/posts/useful/python-trick"/>
-        <updated>2024-06-22T00:00:00.000Z</updated>
-        <content type="html"><![CDATA[<h2>open function</h2>
-<h3>open(int)</h3>
-<p>在 Python 中，open(0)是打开标准输入（stdin）的一种方式。这里的 0 是文件描述符，代表标准输入。同样，1 和 2</p>
-<br/><p>访问 <a href="https://io.helltractor.top/posts/useful/python-trick" target="_blank">https://io.helltractor.top/posts/useful/python-trick</a> 阅读全文。</p>]]></content>
-        <author>
-            <name>helltractor</name>
-            <email>mail@helltractor.top</email>
-            <uri>https://valaxy.site</uri>
-        </author>
-        <published>2025-08-26T07:24:43.006Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[从零开始使用 tar]]></title>
-        <id>https://io.helltractor.top/posts/useful/tar</id>
-        <link href="https://io.helltractor.top/posts/useful/tar"/>
-        <updated>2024-07-02T08:40:58.000Z</updated>
-        <content type="html"><![CDATA[<h2>常用命令</h2>
-<ul>
-<li><code>-c</code>：创建一个新的归档文件。</li>
-<li><code>-x</code>：从归档文件中提取文件。</li>
-<li><code>-v</code>：详细显示处理过程中的文件信息。</li>
-<li><code>-f</code>：指定归档文件的名称。</li>
-<li><code>-z</code>：使用 g</li>
-</ul>
-<br/><p>访问 <a href="https://io.helltractor.top/posts/useful/tar" target="_blank">https://io.helltractor.top/posts/useful/tar</a> 阅读全文。</p>]]></content>
-        <author>
-            <name>helltractor</name>
-            <email>mail@helltractor.top</email>
-            <uri>https://valaxy.site</uri>
-        </author>
-        <published>2025-08-26T07:24:43.006Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[E-commerce projects development issues]]></title>
-        <id>https://io.helltractor.top/posts/project/imitation-douyin-e-commerce/development-issues</id>
-        <link href="https://io.helltractor.top/posts/project/imitation-douyin-e-commerce/development-issues"/>
-        <updated>2024-10-25T03:23:56.000Z</updated>
-        <content type="html"><![CDATA[<h2>技术选型</h2>
-<ul>
-<li>Spring Boot
-<ul>
-<li><a href="https://start.spring.io/">spring initializr</a></li>
-</ul>
-</li>
-<li>Redis</li>
-<li>[MySQL](https://</li>
-</ul>
-<br/><p>访问 <a href="https://io.helltractor.top/posts/project/imitation-douyin-e-commerce/development-issues" target="_blank">https://io.helltractor.top/posts/project/imitation-douyin-e-commerce/development-issues</a> 阅读全文。</p>]]></content>
-        <author>
-            <name>helltractor</name>
-            <email>mail@helltractor.top</email>
-            <uri>https://valaxy.site</uri>
-        </author>
-        <published>2025-08-26T07:24:43.006Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Trading Exchange System Intro]]></title>
-        <id>https://io.helltractor.top/posts/project/trading-exchange-system/index</id>
-        <link href="https://io.helltractor.top/posts/project/trading-exchange-system/index"/>
-        <updated>2025-03-15T09:40:38.000Z</updated>
-        <content type="html"><![CDATA[<h2>项目描述</h2>
-<h3>项目特点</h3>
-<ul>
-<li>证券交易系统的交易是基于交易对，例如，BTC/USD 交易对表示用 USD 购买 BTC，USD 是计价货币（Quote Asset），BTC 是交易资产（</li>
-</ul>
-<br/><p>访问 <a href="https://io.helltractor.top/posts/project/trading-exchange-system/index" target="_blank">https://io.helltractor.top/posts/project/trading-exchange-system/index</a> 阅读全文。</p>]]></content>
-        <author>
-            <name>helltractor</name>
-            <email>mail@helltractor.top</email>
-            <uri>https://valaxy.site</uri>
-        </author>
-        <published>2025-08-26T07:24:43.006Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Push Module]]></title>
-        <id>https://io.helltractor.top/posts/project/trading-exchange-system/push-module</id>
-        <link href="https://io.helltractor.top/posts/project/trading-exchange-system/push-module"/>
-        <updated>2025-03-19T04:35:29.000Z</updated>
-        <content type="html"><![CDATA[<h2><a href="https://liaoxuefeng.com/books/java/springcloud/push/index.html">推送模块</a></h2>
-<p>和普通 Web 应用不同的是，基于 Servle</p>
-<br/><p>访问 <a href="https://io.helltractor.top/posts/project/trading-exchange-system/push-module" target="_blank">https://io.helltractor.top/posts/project/trading-exchange-system/push-module</a> 阅读全文。</p>]]></content>
-        <author>
-            <name>helltractor</name>
-            <email>mail@helltractor.top</email>
-            <uri>https://valaxy.site</uri>
-        </author>
-        <published>2025-08-26T07:24:43.006Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Test Module]]></title>
-        <id>https://io.helltractor.top/posts/project/trading-exchange-system/test-module</id>
-        <link href="https://io.helltractor.top/posts/project/trading-exchange-system/test-module"/>
-        <updated>2025-06-26T09:43:15.000Z</updated>
-        <content type="html"><![CDATA[<h2>项目漏洞</h2>
-<h3>1. 全局消息定序机制：</h3>
-<ul>
-<li>
-<p><strong>问题：依赖 SequenceID 和 PreviousID 的时序假设</strong></p>
-<ul>
-<li>如果网络抖动或消息丢失，Previou</li>
-</ul>
-</li>
-</ul>
-<br/><p>访问 <a href="https://io.helltractor.top/posts/project/trading-exchange-system/test-module" target="_blank">https://io.helltractor.top/posts/project/trading-exchange-system/test-module</a> 阅读全文。</p>]]></content>
-        <author>
-            <name>helltractor</name>
-            <email>mail@helltractor.top</email>
-            <uri>https://valaxy.site</uri>
-        </author>
-        <published>2025-08-26T07:24:43.006Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Trading API Module]]></title>
-        <id>https://io.helltractor.top/posts/project/trading-exchange-system/trading-api-module</id>
-        <link href="https://io.helltractor.top/posts/project/trading-exchange-system/trading-api-module"/>
-        <updated>2025-03-21T06:05:34.000Z</updated>
-        <content type="html"><![CDATA[<h2><a href="https://liaoxuefeng.com/books/java/springcloud/trading-api/index.html">API 模块</a></h2>
-<h3>DeferredRes</h3>
-<br/><p>访问 <a href="https://io.helltractor.top/posts/project/trading-exchange-system/trading-api-module" target="_blank">https://io.helltractor.top/posts/project/trading-exchange-system/trading-api-module</a> 阅读全文。</p>]]></content>
-        <author>
-            <name>helltractor</name>
-            <email>mail@helltractor.top</email>
-            <uri>https://valaxy.site</uri>
-        </author>
-        <published>2025-08-26T07:24:43.006Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Sequence Module]]></title>
-        <id>https://io.helltractor.top/posts/project/trading-exchange-system/trading-sequence-module</id>
-        <link href="https://io.helltractor.top/posts/project/trading-exchange-system/trading-sequence-module"/>
-        <updated>2025-02-24T03:21:19.000Z</updated>
-        <content type="html"><![CDATA[<h2><a href="https://liaoxuefeng.com/books/java/springcloud/sequence/index.html">定序模块</a></h2>
-<h3>定序模块处理逻辑</h3>
-<pre><code class="language-mer"></code></pre>
-<br/><p>访问 <a href="https://io.helltractor.top/posts/project/trading-exchange-system/trading-sequence-module" target="_blank">https://io.helltractor.top/posts/project/trading-exchange-system/trading-sequence-module</a> 阅读全文。</p>]]></content>
-        <author>
-            <name>helltractor</name>
-            <email>mail@helltractor.top</email>
-            <uri>https://valaxy.site</uri>
-        </author>
-        <published>2025-08-26T07:24:43.006Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Polymorphism]]></title>
-        <id>https://io.helltractor.top/posts/java/polymorphism</id>
-        <link href="https://io.helltractor.top/posts/java/polymorphism"/>
-        <updated>2024-08-06T05:55:40.000Z</updated>
-        <content type="html"><![CDATA[<h2>多态 {lang=zh-CN}</h2>
-<h2>Polymorphism {lang=en}</h2>
-<p>多态是指，针对某个类型的方法调用，其真正执行的方法取决于运行时期实际类型的方法。</p>
-<h3>编译时多态（</h3>
-<br/><p>访问 <a href="https://io.helltractor.top/posts/java/polymorphism" target="_blank">https://io.helltractor.top/posts/java/polymorphism</a> 阅读全文。</p>]]></content>
-        <author>
-            <name>helltractor</name>
-            <email>mail@helltractor.top</email>
-            <uri>https://valaxy.site</uri>
-        </author>
-        <published>2025-08-26T07:24:43.005Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[小说情节]]></title>
+        <title type="html"><![CDATA[我喜欢和讨厌的小说情节]]></title>
         <id>https://io.helltractor.top/posts/ponder/fiction</id>
         <link href="https://io.helltractor.top/posts/ponder/fiction"/>
         <updated>2024-07-04T13:30:41.000Z</updated>
@@ -336,40 +406,65 @@ GitHub 页面的情况非</p>
             <email>mail@helltractor.top</email>
             <uri>https://valaxy.site</uri>
         </author>
-        <published>2025-08-26T07:24:43.005Z</published>
+        <published>2024-07-04T13:30:41.000Z</published>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Delete Duplicate File]]></title>
-        <id>https://io.helltractor.top/posts/project/delete-duplicate-file</id>
-        <link href="https://io.helltractor.top/posts/project/delete-duplicate-file"/>
-        <updated>2025-06-05T14:23:54.000Z</updated>
-        <content type="html"><![CDATA[<h2>想法</h2>
-<p>释放硬盘空间，由于硬盘中存在着各种文件的复制，当想要清理这些重复文件时，难以定位，并无法快速鉴定为相同文件，同时删除时文件可能存在占用情况（需要解除占用），诸多种种都是难点。</p>
-<h2></h2>
-<br/><p>访问 <a href="https://io.helltractor.top/posts/project/delete-duplicate-file" target="_blank">https://io.helltractor.top/posts/project/delete-duplicate-file</a> 阅读全文。</p>]]></content>
+        <title type="html"><![CDATA[html 小芝士]]></title>
+        <id>https://io.helltractor.top/posts/useful/html-trick</id>
+        <link href="https://io.helltractor.top/posts/useful/html-trick"/>
+        <updated>2024-07-03T08:31:19.000Z</updated>
+        <content type="html"><![CDATA[<h2>detail &amp; summary</h2>
+<h3>源代码</h3>
+<pre><code class="language-html">&lt;details&gt;
+  &lt;summary style=&quot;font-size: 20px&quot;&gt;展开&lt;/summary&gt;
+  &lt;</code></pre>
+<br/><p>访问 <a href="https://io.helltractor.top/posts/useful/html-trick" target="_blank">https://io.helltractor.top/posts/useful/html-trick</a> 阅读全文。</p>]]></content>
         <author>
             <name>helltractor</name>
             <email>mail@helltractor.top</email>
             <uri>https://valaxy.site</uri>
         </author>
-        <published>2025-08-26T07:24:43.005Z</published>
+        <published>2024-07-03T08:31:19.000Z</published>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Classification of LeetCode Questions (Include Weekly Competition)]]></title>
-        <id>https://io.helltractor.top/posts/contest/question-classify</id>
-        <link href="https://io.helltractor.top/posts/contest/question-classify"/>
-        <updated>2025-05-11T15:04:13.000Z</updated>
-        <content type="html"><![CDATA[<h2>待分类</h2>
+        <title type="html"><![CDATA[从零开始使用 tar]]></title>
+        <id>https://io.helltractor.top/posts/useful/quick-use-tar</id>
+        <link href="https://io.helltractor.top/posts/useful/quick-use-tar"/>
+        <updated>2024-07-02T08:40:58.000Z</updated>
+        <content type="html"><![CDATA[<h2>常用命令</h2>
 <ul>
-<li>[ ] [3539. 魔法序列的数组乘积之和 - 力扣（LeetCode）](<a href="https://leetcode.cn/problems/find-sum-of-array-pro">https://leetcode.cn/problems/find-sum-of-array-pro</a></li>
+<li><code>-c</code>：创建一个新的归档文件。</li>
+<li><code>-x</code>：从归档文件中提取文件。</li>
+<li><code>-v</code>：详细显示处理过程中的文件信息。</li>
+<li><code>-f</code>：指定归档文件的名称。</li>
+<li><code>-z</code>：使用 g</li>
 </ul>
-<br/><p>访问 <a href="https://io.helltractor.top/posts/contest/question-classify" target="_blank">https://io.helltractor.top/posts/contest/question-classify</a> 阅读全文。</p>]]></content>
+<br/><p>访问 <a href="https://io.helltractor.top/posts/useful/quick-use-tar" target="_blank">https://io.helltractor.top/posts/useful/quick-use-tar</a> 阅读全文。</p>]]></content>
         <author>
             <name>helltractor</name>
             <email>mail@helltractor.top</email>
             <uri>https://valaxy.site</uri>
         </author>
-        <published>2025-08-26T07:24:43.004Z</published>
+        <published>2024-07-02T08:40:58.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[向日葵远程文件网络连接异常]]></title>
+        <id>https://io.helltractor.top/posts/question/sunlogin-internet-connect</id>
+        <link href="https://io.helltractor.top/posts/question/sunlogin-internet-connect"/>
+        <updated>2024-06-26T10:20:24.000Z</updated>
+        <content type="html"><![CDATA[<h2>软件版本</h2>
+<ul>
+<li>sunlogin: V15.3.0.62062</li>
+</ul>
+<h2>问题描述</h2>
+<p>主控端是 Window11，被控端是 Window10 和 Centos7，使用向日葵桌面控制，连接正常，但</p>
+<br/><p>访问 <a href="https://io.helltractor.top/posts/question/sunlogin-internet-connect" target="_blank">https://io.helltractor.top/posts/question/sunlogin-internet-connect</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>helltractor</name>
+            <email>mail@helltractor.top</email>
+            <uri>https://valaxy.site</uri>
+        </author>
+        <published>2024-06-26T10:20:24.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[现代光电子器件期末考试提纲（可预见的最后一次考试）]]></title>
@@ -377,10 +472,10 @@ GitHub 页面的情况非</p>
         <link href="https://io.helltractor.top/posts/course/20240624"/>
         <updated>2024-06-22T00:00:00.000Z</updated>
         <content type="html"><![CDATA[<h2>名词解释 (必考)</h2>
-<h3>电子亲和势 𝜒</h3>
+<h3>电子亲和势 $\chi$</h3>
 <ul>
-<li><strong>定义</strong>：导带底的电子要想跑出体外必须增加的能量称为电子亲和势 𝜒。</li>
-<li><strong>公式</strong>：𝜒 = 𝐸<sub>vac</sub></li>
+<li><strong>定义</strong>：导带底的电子要想跑出体外必须增加的能量称为电子亲和势 $\chi$。</li>
+<li><strong>公式</strong>：$\chi = E_{vac</li>
 </ul>
 <br/><p>访问 <a href="https://io.helltractor.top/posts/course/20240624" target="_blank">https://io.helltractor.top/posts/course/20240624</a> 阅读全文。</p>]]></content>
         <author>
@@ -388,26 +483,85 @@ GitHub 页面的情况非</p>
             <email>mail@helltractor.top</email>
             <uri>https://valaxy.site</uri>
         </author>
-        <published>2025-08-26T07:24:43.004Z</published>
+        <published>2024-06-22T00:00:00.000Z</published>
     </entry>
     <entry>
-        <title type="html"><![CDATA[CS61B]]></title>
-        <id>https://io.helltractor.top/posts/course/CS61B</id>
-        <link href="https://io.helltractor.top/posts/course/CS61B"/>
-        <updated>2024-07-13T03:32:58.000Z</updated>
-        <summary type="html"><![CDATA[CS61B, Spring 2024]]></summary>
-        <content type="html"><![CDATA[<p>::: details Lecture 1: Welcome to CS61B</p>
-<h5>Object-Oriented Programming</h5>
-<ul>
-<li>A model for organizin</li>
-</ul>
-<br/><p>访问 <a href="https://io.helltractor.top/posts/course/CS61B" target="_blank">https://io.helltractor.top/posts/course/CS61B</a> 阅读全文。</p>]]></content>
+        <title type="html"><![CDATA[双花问题及防范]]></title>
+        <id>https://io.helltractor.top/posts/question/double-spending</id>
+        <link href="https://io.helltractor.top/posts/question/double-spending"/>
+        <updated>2024-06-22T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<p>在区块链和加密货币领域，“双花”（Double Spending）是指同一笔加密货币在多个交易中被多次使用的问题</p>
+<h2>单离线场景</h2>
+<p>单离线场景是指在交易中，只有一个参与方（通常是付款方）离线，而</p>
+<br/><p>访问 <a href="https://io.helltractor.top/posts/question/double-spending" target="_blank">https://io.helltractor.top/posts/question/double-spending</a> 阅读全文。</p>]]></content>
         <author>
             <name>helltractor</name>
             <email>mail@helltractor.top</email>
             <uri>https://valaxy.site</uri>
         </author>
-        <published>2025-08-26T07:24:43.004Z</published>
+        <published>2024-06-22T00:00:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Python Scripy 文件模板重复]]></title>
+        <id>https://io.helltractor.top/posts/question/duplicated-python-scripy</id>
+        <link href="https://io.helltractor.top/posts/question/duplicated-python-scripy"/>
+        <updated>2024-06-22T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<h2>场景</h2>
+<p>设置 pycharm 的文件模板时，突然发现有两个<code>Python script</code>，一个是<code>Python script</code>，另一个是<code>Python script</code>,<br>
+由于第二个`Pytho</p>
+<br/><p>访问 <a href="https://io.helltractor.top/posts/question/duplicated-python-scripy" target="_blank">https://io.helltractor.top/posts/question/duplicated-python-scripy</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>helltractor</name>
+            <email>mail@helltractor.top</email>
+            <uri>https://valaxy.site</uri>
+        </author>
+        <published>2024-06-22T00:00:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Python 小芝士]]></title>
+        <id>https://io.helltractor.top/posts/useful/python-trick</id>
+        <link href="https://io.helltractor.top/posts/useful/python-trick"/>
+        <updated>2024-06-22T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<h2>Open Function</h2>
+<h3>open(int)</h3>
+<p>在 Python 中，open(0)是打开标准输入（stdin）的一种方式。这里的 0 是文件描述符，代表标准输入。同样，1 和 2</p>
+<br/><p>访问 <a href="https://io.helltractor.top/posts/useful/python-trick" target="_blank">https://io.helltractor.top/posts/useful/python-trick</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>helltractor</name>
+            <email>mail@helltractor.top</email>
+            <uri>https://valaxy.site</uri>
+        </author>
+        <published>2024-06-22T00:00:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[从零开始使用 githubusercontent]]></title>
+        <id>https://io.helltractor.top/posts/useful/quick-use-githubusercontent</id>
+        <link href="https://io.helltractor.top/posts/useful/quick-use-githubusercontent"/>
+        <updated>2024-06-22T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<p><code>raw.githubusercontent.com</code> 是 GitHub 提供的一个服务，用于获取 GitHub 仓库中文件的原始内容。这对于需要直接访问文件内容，而不是 GitHub 页面的情况非</p>
+<br/><p>访问 <a href="https://io.helltractor.top/posts/useful/quick-use-githubusercontent" target="_blank">https://io.helltractor.top/posts/useful/quick-use-githubusercontent</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>helltractor</name>
+            <email>mail@helltractor.top</email>
+            <uri>https://valaxy.site</uri>
+        </author>
+        <published>2024-06-22T00:00:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[从零开始使用 jupyter]]></title>
+        <id>https://io.helltractor.top/posts/useful/quick-use-jupyter</id>
+        <link href="https://io.helltractor.top/posts/useful/quick-use-jupyter"/>
+        <updated>2024-06-22T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<h2>安装 jupyter</h2>
+<p>起因是，为了使用 jupyter 运行 pykan 中的代码。因为是在 pycharm 中导入的仓库，所以虚拟环境已经构建好了，在 venv 中。</p>
+<p>使用 jupyte</p>
+<br/><p>访问 <a href="https://io.helltractor.top/posts/useful/quick-use-jupyter" target="_blank">https://io.helltractor.top/posts/useful/quick-use-jupyter</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>helltractor</name>
+            <email>mail@helltractor.top</email>
+            <uri>https://valaxy.site</uri>
+        </author>
+        <published>2024-06-22T00:00:00.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[一条SQL语句的执行过程]]></title>
@@ -425,28 +579,10 @@ GitHub 页面的情况非</p>
             <email>mail@helltractor.top</email>
             <uri>https://valaxy.site</uri>
         </author>
-        <published>2025-08-26T07:24:43.004Z</published>
+        <published>2024-06-21T00:00:00.000Z</published>
     </entry>
     <entry>
-        <title type="html"><![CDATA[SQL Tutorial and Tricks]]></title>
-        <id>https://io.helltractor.top/posts/database/sql-tutorial-and-tricks</id>
-        <link href="https://io.helltractor.top/posts/database/sql-tutorial-and-tricks"/>
-        <updated>2024-09-04T09:29:30.000Z</updated>
-        <content type="html"><![CDATA[<h2>COUNT Function</h2>
-<h3><code>COUNT(*)</code>, <code>COUNT(1)</code>, <code>COUNT(column_name)</code></h3>
-<ul>
-<li><code>COUNT(*)</code>: 统计所有行，不管是否为 `NUL</li>
-</ul>
-<br/><p>访问 <a href="https://io.helltractor.top/posts/database/sql-tutorial-and-tricks" target="_blank">https://io.helltractor.top/posts/database/sql-tutorial-and-tricks</a> 阅读全文。</p>]]></content>
-        <author>
-            <name>helltractor</name>
-            <email>mail@helltractor.top</email>
-            <uri>https://valaxy.site</uri>
-        </author>
-        <published>2025-08-26T07:24:43.004Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Singleton]]></title>
+        <title type="html"><![CDATA[单例模式]]></title>
         <id>https://io.helltractor.top/posts/design-pattern/singleton</id>
         <link href="https://io.helltractor.top/posts/design-pattern/singleton"/>
         <updated>2024-06-21T00:00:00.000Z</updated>
@@ -461,43 +597,10 @@ GitHub 页面的情况非</p>
             <email>mail@helltractor.top</email>
             <uri>https://valaxy.site</uri>
         </author>
-        <published>2025-08-26T07:24:43.004Z</published>
+        <published>2024-06-21T00:00:00.000Z</published>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Java Collections Framework]]></title>
-        <id>https://io.helltractor.top/posts/java/collections</id>
-        <link href="https://io.helltractor.top/posts/java/collections"/>
-        <updated>2025-03-06T14:08:34.000Z</updated>
-        <content type="html"><![CDATA[<p>Java 集合框架（Java Collections Framework, JCF）提供了用于存储和操作数据的通用算法和数据结构，主要接口和类包括：</p>
-<ul>
-<li><strong>List</strong>：有序、可重复，如 `Ar</li>
-</ul>
-<br/><p>访问 <a href="https://io.helltractor.top/posts/java/collections" target="_blank">https://io.helltractor.top/posts/java/collections</a> 阅读全文。</p>]]></content>
-        <author>
-            <name>helltractor</name>
-            <email>mail@helltractor.top</email>
-            <uri>https://valaxy.site</uri>
-        </author>
-        <published>2025-08-26T07:24:43.004Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Garbage Collect]]></title>
-        <id>https://io.helltractor.top/posts/java/garbage-collect</id>
-        <link href="https://io.helltractor.top/posts/java/garbage-collect"/>
-        <updated>2024-12-02T14:10:45.000Z</updated>
-        <content type="html"><![CDATA[<h2>垃圾回收策略 {lang=&quot;cn-zh&quot;}</h2>
-<h2>GC Strategies {lang=en}</h2>
-<p>如何辨别对象是否需要进行回收（可达）？通常是通过引用和引用链的方式来判断对象是否可达。</p>
-<br/><p>访问 <a href="https://io.helltractor.top/posts/java/garbage-collect" target="_blank">https://io.helltractor.top/posts/java/garbage-collect</a> 阅读全文。</p>]]></content>
-        <author>
-            <name>helltractor</name>
-            <email>mail@helltractor.top</email>
-            <uri>https://valaxy.site</uri>
-        </author>
-        <published>2025-08-26T07:24:43.004Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Java Memory Model]]></title>
+        <title type="html"><![CDATA[Java 内存模型]]></title>
         <id>https://io.helltractor.top/posts/java/java-memory-model</id>
         <link href="https://io.helltractor.top/posts/java/java-memory-model"/>
         <updated>2024-06-21T00:00:00.000Z</updated>
@@ -516,7 +619,7 @@ GitHub 页面的情况非</p>
             <email>mail@helltractor.top</email>
             <uri>https://valaxy.site</uri>
         </author>
-        <published>2025-08-26T07:24:43.004Z</published>
+        <published>2024-06-21T00:00:00.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[Java 小芝士]]></title>
@@ -535,225 +638,6 @@ GitHub 页面的情况非</p>
             <email>mail@helltractor.top</email>
             <uri>https://valaxy.site</uri>
         </author>
-        <published>2025-08-26T07:24:43.004Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Initial Type and Package Type]]></title>
-        <id>https://io.helltractor.top/posts/java/package-type</id>
-        <link href="https://io.helltractor.top/posts/java/package-type"/>
-        <updated>2024-08-07T07:24:30.000Z</updated>
-        <content type="html"><![CDATA[<h2>基本类型与包装类型 {lang=zh-CN}</h2>
-<h2>Initial Type and Package Type {lang=en}</h2>
-<p>| 基本类型 | 包装类型  | 大小（字节） |</p>
-<br/><p>访问 <a href="https://io.helltractor.top/posts/java/package-type" target="_blank">https://io.helltractor.top/posts/java/package-type</a> 阅读全文。</p>]]></content>
-        <author>
-            <name>helltractor</name>
-            <email>mail@helltractor.top</email>
-            <uri>https://valaxy.site</uri>
-        </author>
-        <published>2025-08-26T07:24:43.004Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Contest Summary]]></title>
-        <id>https://io.helltractor.top/posts/contest/index</id>
-        <link href="https://io.helltractor.top/posts/contest/index"/>
-        <updated>2025-08-11T06:57:26.000Z</updated>
-        <content type="html"><![CDATA[<h2>参赛记录</h2>
-<pre><code class="language-dataview">table title, date
-from &quot;posts/contest&quot;
-where date &gt; &quot;2025-01-01&quot;
-and title != </code></pre>
-<br/><p>访问 <a href="https://io.helltractor.top/posts/contest/index" target="_blank">https://io.helltractor.top/posts/contest/index</a> 阅读全文。</p>]]></content>
-        <author>
-            <name>helltractor</name>
-            <email>mail@helltractor.top</email>
-            <uri>https://valaxy.site</uri>
-        </author>
-        <published>2025-08-26T07:24:43.002Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Competition Algorithm: Interval Dynamic Programing]]></title>
-        <id>https://io.helltractor.top/posts/algorithm/interval-dp</id>
-        <link href="https://io.helltractor.top/posts/algorithm/interval-dp"/>
-        <updated>2025-05-25T15:06:27.000Z</updated>
-        <content type="html"><![CDATA[<blockquote>
-<p>例题：[3563. 移除相邻字符后字典序最小的字符串 - 力扣（LeetCode）](<a href="https://leetcode.cn/problems/lexicographically-smalles">https://leetcode.cn/problems/lexicographically-smalles</a></p>
-</blockquote>
-<br/><p>访问 <a href="https://io.helltractor.top/posts/algorithm/interval-dp" target="_blank">https://io.helltractor.top/posts/algorithm/interval-dp</a> 阅读全文。</p>]]></content>
-        <author>
-            <name>helltractor</name>
-            <email>mail@helltractor.top</email>
-            <uri>https://valaxy.site</uri>
-        </author>
-        <published>2025-08-26T07:24:42.997Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Competition Algorithm: Inverse]]></title>
-        <id>https://io.helltractor.top/posts/algorithm/inverse</id>
-        <link href="https://io.helltractor.top/posts/algorithm/inverse"/>
-        <updated>2025-03-09T08:28:37.000Z</updated>
-        <content type="html"><![CDATA[<h2>Definition {lang=en}</h2>
-<h2>定义 {lang=zh-CN}</h2>
-<ul>
-<li>单位元：在一个集合中，对于某种运算 （注意：这里代表通用运算的表示符号，并不是特指乘法），如果对于任何的</li>
-</ul>
-<br/><p>访问 <a href="https://io.helltractor.top/posts/algorithm/inverse" target="_blank">https://io.helltractor.top/posts/algorithm/inverse</a> 阅读全文。</p>]]></content>
-        <author>
-            <name>helltractor</name>
-            <email>mail@helltractor.top</email>
-            <uri>https://valaxy.site</uri>
-        </author>
-        <published>2025-08-26T07:24:42.997Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Common Resources for Materials Calculation]]></title>
-        <id>https://io.helltractor.top/posts/calculation/index</id>
-        <link href="https://io.helltractor.top/posts/calculation/index"/>
-        <updated>2024-06-21T10:06:42.000Z</updated>
-        <content type="html"><![CDATA[<h2>Data resource {lang=en}</h2>
-<h2>数据资源 {lang=zh-CN}</h2>
-<h3>Frequently-used {lang=en}</h3>
-<h3>常用 {lang=zh-CN</h3>
-<br/><p>访问 <a href="https://io.helltractor.top/posts/calculation/index" target="_blank">https://io.helltractor.top/posts/calculation/index</a> 阅读全文。</p>]]></content>
-        <author>
-            <name>helltractor</name>
-            <email>mail@helltractor.top</email>
-            <uri>https://valaxy.site</uri>
-        </author>
-        <published>2025-08-26T07:24:42.997Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[VASP 安装与配置]]></title>
-        <id>https://io.helltractor.top/posts/calculation/install-vasp</id>
-        <link href="https://io.helltractor.top/posts/calculation/install-vasp"/>
-        <updated>2024-07-10T05:34:03.000Z</updated>
-        <content type="html"><![CDATA[<h2>环境</h2>
-<ul>
-<li>Windows11</li>
-<li>wsl2</li>
-<li>Ubuntu24.04</li>
-</ul>
-<h2>安装 Intel 编译器和开发环境</h2>
-<h3>下载 [Base Toolkit](<a href="https://www.in">https://www.in</a></h3>
-<br/><p>访问 <a href="https://io.helltractor.top/posts/calculation/install-vasp" target="_blank">https://io.helltractor.top/posts/calculation/install-vasp</a> 阅读全文。</p>]]></content>
-        <author>
-            <name>helltractor</name>
-            <email>mail@helltractor.top</email>
-            <uri>https://valaxy.site</uri>
-        </author>
-        <published>2025-08-26T07:24:42.997Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Wannier90 安装与配置]]></title>
-        <id>https://io.helltractor.top/posts/calculation/install-wannier90</id>
-        <link href="https://io.helltractor.top/posts/calculation/install-wannier90"/>
-        <updated>2024-07-02T08:11:41.000Z</updated>
-        <content type="html"><![CDATA[<h2>环境</h2>
-<ul>
-<li>Windows11</li>
-<li>wsl2</li>
-<li>Ubuntu24.04</li>
-</ul>
-<h2>步骤</h2>
-<h3>不采用 Intel 编译器</h3>
-<ul>
-<li>编译器：`sudo apt install gfortran</li>
-</ul>
-<br/><p>访问 <a href="https://io.helltractor.top/posts/calculation/install-wannier90" target="_blank">https://io.helltractor.top/posts/calculation/install-wannier90</a> 阅读全文。</p>]]></content>
-        <author>
-            <name>helltractor</name>
-            <email>mail@helltractor.top</email>
-            <uri>https://valaxy.site</uri>
-        </author>
-        <published>2025-08-26T07:24:42.997Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Calculation 小芝士]]></title>
-        <id>https://io.helltractor.top/posts/calculation/knowledge</id>
-        <link href="https://io.helltractor.top/posts/calculation/knowledge"/>
-        <updated>2024-06-21T00:00:00.000Z</updated>
-        <content type="html"><![CDATA[<h2>Fatband analysis</h2>
-<p>Fatband 分析，也被称为投影态密度（Projected Density of States，PDOS）分析，是一种在固体物理中常用的方法，用于研究固体</p>
-<br/><p>访问 <a href="https://io.helltractor.top/posts/calculation/knowledge" target="_blank">https://io.helltractor.top/posts/calculation/knowledge</a> 阅读全文。</p>]]></content>
-        <author>
-            <name>helltractor</name>
-            <email>mail@helltractor.top</email>
-            <uri>https://valaxy.site</uri>
-        </author>
-        <published>2025-08-26T07:24:42.997Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[INCAR 文件设置]]></title>
-        <id>https://io.helltractor.top/posts/calculation/set-incar</id>
-        <link href="https://io.helltractor.top/posts/calculation/set-incar"/>
-        <updated>2024-06-22T00:00:00.000Z</updated>
-        <content type="html"><![CDATA[<blockquote>
-<p><code>INCAR</code>文件是由多个模板拼接组成，直接在<code>INCAR_templates</code>中修改无用，想要自定义<code>INCAR</code>文件，需要通过自定义模板文件进行拼接。<br>
-<code>INCAR_templates</code></p>
-</blockquote>
-<br/><p>访问 <a href="https://io.helltractor.top/posts/calculation/set-incar" target="_blank">https://io.helltractor.top/posts/calculation/set-incar</a> 阅读全文。</p>]]></content>
-        <author>
-            <name>helltractor</name>
-            <email>mail@helltractor.top</email>
-            <uri>https://valaxy.site</uri>
-        </author>
-        <published>2025-08-26T07:24:42.997Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Wannier90.win 文件设置]]></title>
-        <id>https://io.helltractor.top/posts/calculation/set-win</id>
-        <link href="https://io.helltractor.top/posts/calculation/set-win"/>
-        <updated>2024-06-21T00:00:00.000Z</updated>
-        <content type="html"><![CDATA[<h2>Example</h2>
-<pre><code class="language-txt">num_bands =           # 设置能带数量
-exclude_bands =       # 设置排除的能带数量
-num_wann =     </code></pre>
-<br/><p>访问 <a href="https://io.helltractor.top/posts/calculation/set-win" target="_blank">https://io.helltractor.top/posts/calculation/set-win</a> 阅读全文。</p>]]></content>
-        <author>
-            <name>helltractor</name>
-            <email>mail@helltractor.top</email>
-            <uri>https://valaxy.site</uri>
-        </author>
-        <published>2025-08-26T07:24:42.997Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Material Calculation Common Steps]]></title>
-        <id>https://io.helltractor.top/posts/calculation/steps</id>
-        <link href="https://io.helltractor.top/posts/calculation/steps"/>
-        <updated>2024-06-22T10:06:42.000Z</updated>
-        <content type="html"><![CDATA[<h2>System environment {lang=en}</h2>
-<h2>系统环境 {lang=zh-CN}</h2>
-<ul>
-<li>Windows 11</li>
-<li>wsl2</li>
-<li>Ubuntu 24.04</li>
-</ul>
-<h2>Softw</h2>
-<br/><p>访问 <a href="https://io.helltractor.top/posts/calculation/steps" target="_blank">https://io.helltractor.top/posts/calculation/steps</a> 阅读全文。</p>]]></content>
-        <author>
-            <name>helltractor</name>
-            <email>mail@helltractor.top</email>
-            <uri>https://valaxy.site</uri>
-        </author>
-        <published>2025-08-26T07:24:42.997Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Material Project Flatband Machine Learning]]></title>
-        <id>https://io.helltractor.top/posts/calculation/mp-machine-learning/index</id>
-        <link href="https://io.helltractor.top/posts/calculation/mp-machine-learning/index"/>
-        <updated>2025-07-26T10:01:57.000Z</updated>
-        <content type="html"><![CDATA[<h2>论文框架</h2>
-<pre><code class="language-mermaid">graph LR
-    title[标题] --&gt;A[摘要]
-    A --&gt;|关键字| B[引言]
-    B --&gt; C[研究方法]
-    C --</code></pre>
-<br/><p>访问 <a href="https://io.helltractor.top/posts/calculation/mp-machine-learning/index" target="_blank">https://io.helltractor.top/posts/calculation/mp-machine-learning/index</a> 阅读全文。</p>]]></content>
-        <author>
-            <name>helltractor</name>
-            <email>mail@helltractor.top</email>
-            <uri>https://valaxy.site</uri>
-        </author>
-        <published>2025-08-26T07:24:42.997Z</published>
+        <published>2024-06-21T00:00:00.000Z</published>
     </entry>
 </feed>

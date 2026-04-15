@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html  lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="https://io.helltractor.top/favicon.svg">
+    <script>
+    ;(function () {
+      const prefersDark =
+        window.matchMedia &&
+        window.matchMedia('(prefers-color-scheme: dark)').matches
+      const setting = localStorage.getItem('vueuse-color-scheme') || 'auto'
+      if (setting === 'dark' || (prefersDark && setting !== 'light'))
+        document.documentElement.classList.toggle('dark', true)
+    })()
+    </script>
+  <style type="text/css">
+    :root { color-scheme: light dark; --va-c-bg: #fff; }
+    html.dark { --va-c-bg: #000; }
+    html { background-color: var(--va-c-bg); }
+  </style><style id="valaxy-fouc">body{opacity:0!important}</style><style>body{transition:opacity .15s ease}</style><noscript><style>body{opacity:1!important}</style></noscript><script>(function foucGuardScript(maxDuration) {
+  var done = 0;
+  function reveal() {
+    if (done) return;
+    done = 1;
+    var s = document.getElementById("valaxy-fouc");
+    if (s) s.remove();
+  }
+  function check() {
+    var links = document.querySelectorAll('link[rel="stylesheet"]');
+    for (var i = 0; i < links.length; i++) {
+      if (!links[i].sheet) return;
+    }
+    reveal();
+  }
+  new MutationObserver(check).observe(document.head, {
+    childList: true,
+    attributes: true,
+    attributeFilter: ["media", "rel"]
+  });
+  addEventListener("load", reveal);
+  if (maxDuration)
+    setTimeout(reveal, maxDuration);
+})(5000)</script>
+    <script>
+    const locale = localStorage.getItem('valaxy-locale') || 'zh-CN';
+    document.documentElement.setAttribute('lang', locale);
+    </script>
+    
+
+  <script type="module" crossorigin src="/assets/index.Pxl5x5ft.js"></script>
+  <link rel="modulepreload" crossorigin href="/assets/rolldown-runtime.pjRWxHyO.js">
+  <link rel="modulepreload" crossorigin href="/assets/framework.BvZmFGVc.js">
+  <link rel="modulepreload" crossorigin href="/assets/chunks/vue-i18n.CdJbTgs1.js">
+  <link rel="modulepreload" crossorigin href="/assets/chunks/dayjs.CIBdRtMB.js">
+  <link rel="modulepreload" crossorigin href="/assets/chunks/pinia.DzpNDeHG.js">
+  <link rel="modulepreload" crossorigin href="/assets/chunks/vue-router.B74rjTA2.js">
+  <link rel="modulepreload" crossorigin href="/assets/theme.DwGU77nE.js">
+  <link rel="modulepreload" crossorigin href="/assets/chunks/nprogress.M3M_aOIa.js">
+  <link rel="stylesheet" crossorigin href="/assets/style.Dp83Y72L.css">
+<link rel="preload" href="/assets/KaTeX_AMS-Regular.BQhdFMY1.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_AMS-Regular.DMm9YOAa.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Caligraphic-Bold.Dq_IR9rO.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Caligraphic-Bold.BEiXGLvX.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Caligraphic-Regular.Di6jR-x-.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Caligraphic-Regular.CTRA-rTL.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Fraktur-Bold.CL6g_b3V.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Fraktur-Bold.BsDP51OF.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Fraktur-Regular.CTYiF6lA.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Fraktur-Regular.Dxdc4cR9.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Main-Bold.Cx986IdX.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Main-Bold.Jm3AIy58.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Main-BoldItalic.DxDJ3AOS.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Main-BoldItalic.SpSLRI95.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Main-Italic.NWA7e6Wa.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Main-Italic.BMLOBm91.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Main-Regular.B22Nviop.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Main-Regular.Dr94JaBh.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Math-BoldItalic.CZnvNsCZ.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Math-BoldItalic.iY-2wyZ7.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Math-Italic.t53AETM-.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Math-Italic.DA0__PXp.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_SansSerif-Bold.D1sUS0GD.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_SansSerif-Bold.DbIhKOiC.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_SansSerif-Italic.C3H0VqGB.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_SansSerif-Italic.DN2j7dab.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_SansSerif-Regular.DDBCnlJ7.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_SansSerif-Regular.CS6fqUqJ.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Script-Regular.D3wIWfF6.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Script-Regular.D5yQViql.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Size1-Regular.mCD8mA8B.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Size1-Regular.C195tn64.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Size2-Regular.Dy4dx90m.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Size2-Regular.oD1tc_U0.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Size3-Regular.CTq5MqoE.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Size4-Regular.Dl5lxZxV.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Size4-Regular.BF-4gkZK.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Typewriter-Regular.CO6r4hn1.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Typewriter-Regular.C0xS9mPB.woff" as="font" type="font/woff" crossorigin>
+<link rel="modulepreload" crossorigin href="/assets/theme.DwGU77nE.js">
+<link rel="preload" href="/assets/iloli.D82BDgdX.gif" as="image">
+<link rel="preload" href="/assets/wave1.D0L8GABh.png" as="image">
+<link rel="preload" href="/assets/wave2.CnerCPuy.png" as="image">
+<link rel="preload" href="/assets/comment-bg.CpQHGW7d.png" as="image">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>2026年1月记录 - helltractor blog</title>
+<link rel="stylesheet" href="https://unpkg.com/aplayer/dist/APlayer.min.css">
+<meta property="og:locale:alternate" content="en">
+<meta property="og:description" content>
+<meta property="og:locale" content="zh-CN">
+<meta property="og:site_name" content="helltractor blog">
+<meta property="og:title" content="2026年1月记录">
+<meta property="og:image" content="https://io.helltractor.top/favicon.svg">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://io.helltractor.top/">
+<link rel="icon" href="https://io.helltractor.top/favicon.svg" type="image/svg+xml">
+<meta name="generator" content="Valaxy 0.28.4">
+<meta name="theme-color" content="#fff">
+<meta name="msapplication-TileColor" content="#fff">
+<meta name="twitter:card" content="summary_large_image">
+</head>
+<body>
+  <div id="app"><!--[--><!--[--><div class="sakura-app-sidebar" data-v-335e8980><!----><aside class="left sakura-sidebar inset-y-0 overflow-y-auto transition" text="center" bg="contain no-repeat" data-v-335e8980><!--[--><div class="site-info flex flex-col items-center" data-v-335e8980><!----><div class="site-author-name leading-6" m="t-0 b-4"><!----></div><!----><h4 class="site-subtitle block" text="xs">夏日可畏，冬日可爱</h4><!----></div><div class="links-of-author" data-v-335e8980 data-v-438494c8><!--[--><a class="sakura-icon-btn links-of-author-item" rel="noopener" href="https://github.com/helltractor" title="GitHub" target="_blank" style="color:#6e5494" data-v-438494c8><div class="i-ri-github-line icon" data-v-438494c8></div></a><a class="sakura-icon-btn links-of-author-item" rel="noopener" href="https://leetcode-cn.com/u/helltractor/" title="LeetCode" target="_blank" style="color:#FFA116" data-v-438494c8><div class="i-simple-icons-leetcode icon" data-v-438494c8></div></a><a class="sakura-icon-btn links-of-author-item" rel="noopener" href="https://codeforces.com/profile/helltractor" title="Codeforces" target="_blank" style="color:#b73535" data-v-438494c8><div class="i-simple-icons-codeforces icon" data-v-438494c8></div></a><a class="sakura-icon-btn links-of-author-item" rel="noopener" href="https://steamcommunity.com/id/helltractor/" title="Steam" target="_blank" style="color:#00A3EE" data-v-438494c8><div class="i-ri-steam-line icon" data-v-438494c8></div></a><a class="sakura-icon-btn links-of-author-item" rel="noopener" href="mailto:mail@helltractor.top" title="E-Mail" target="_blank" style="color:#8E71C1" data-v-438494c8><div class="i-ri-mail-line icon" data-v-438494c8></div></a><a class="sakura-icon-btn links-of-author-item" rel="noopener" href="https://www.travellings.cn/go.html" title="Travelling" target="_blank" style="color:#00A4EE" data-v-438494c8><div class="i-ri-train-line icon" data-v-438494c8></div></a><!--]--></div><nav class="sakura-sidebar-link mt-4" data-v-335e8980 data-v-69424203><ul class="sakura-sidebar-link-items mx-auto" data-v-69424203 data-v-6a42ad12><!--[--><li data-v-6a42ad12><!----><!----></li><li data-v-6a42ad12><!----><!----></li><li data-v-6a42ad12><!----><!----></li><li data-v-6a42ad12><!----><!----></li><!--]--></ul><div id="marker" data-v-69424203></div></nav><!--]--><!--[--><div class="sakura-copyright copyright flex items-center justify-center" p="1" data-v-335e8980><span> Copyright © <span itemprop="copyrightYear"><!--[-->2024 - <!--]--> 2026</span></span><a m="x-2" class="inline-flex animate-pulse" href="https://github.com/helltractor" target="_blank" title="GitHub"><div class="i-ri-github-line"></div></a><!----><span itemprop="copyrightHolder">helltractor</span></div><!--]--></aside></div><!--[--><!-- NOTE: Avoid placing sakura-sidebar-offset at the top; it affects absolute positioning --><div class="app-container custom-background antialiased has-post-layout" style="" data-v-6a7f06c7><!--[--><div class="sakura-scroll-indicator" style="width:0%;" data-v-6a7f06c7 data-v-1af033dc></div><!--]--><!--[--><!--[--><!-- NOTE: Dynamic :class switching affects triggering the component loader for some reason, not sure why. --><header flex="~" w="full" fixed top-0 z-100 class="sakura-navbar sakura-sidebar-offset" data-v-6a7f06c7><div flex="~ items-center justify-between" w="full" class="active-header no-animation sakura-safe-padding navbar-content"><!--[--><div flex="~ items-center"><div class="md:hidden flex-center"><!----><button class="mobile-btn mr-4" aria-label="mobile navigation" aria-expanded="false" data-v-5f18ebf4><!-- TODO: Add more color configurations? --><span class="bg-$sakura-color-action" data-v-5f18ebf4></span><span class="bg-$sakura-color-action" data-v-5f18ebf4></span><span class="bg-$sakura-color-action" data-v-5f18ebf4></span></button></div><div class="sakura-navbar-brand" data-v-cf0a5ed0><!----><ruby class="navbar-title relative" data-v-cf0a5ed0><!----><rt class="navbar-subtitle" data-v-cf0a5ed0>夏日可畏 冬日可爱</rt></ruby></div></div><!--]--><!--[--><nav class="sakura-navbar-link sakura-preload sakura-fade-in-left" data-v-a3c62e3a><!--[--><div class="sakura-dropdown sakura-navbar-link-item" aria-haspopup="true" aria-expanded="false" data-v-a3c62e3a data-v-2e344ab4 data-v-68523e75><!--[--><!----><!--]--><!----></div><div class="sakura-dropdown sakura-navbar-link-item" aria-haspopup="true" aria-expanded="false" data-v-a3c62e3a data-v-2e344ab4 data-v-68523e75><!--[--><!----><!--]--><!----></div><div class="sakura-dropdown sakura-navbar-link-item" aria-haspopup="true" aria-expanded="false" data-v-a3c62e3a data-v-2e344ab4 data-v-68523e75><!--[--><!----><!--]--><!----></div><div class="sakura-dropdown sakura-navbar-link-item" aria-haspopup="true" aria-expanded="false" data-v-a3c62e3a data-v-2e344ab4 data-v-68523e75><!--[--><!----><!--]--><!----></div><div class="sakura-dropdown sakura-navbar-link-item" aria-haspopup="true" aria-expanded="false" data-v-a3c62e3a data-v-2e344ab4 data-v-68523e75><!--[--><!----><!--]--><!----></div><div class="sakura-dropdown sakura-navbar-link-item" aria-haspopup="true" aria-expanded="false" data-v-a3c62e3a data-v-2e344ab4 data-v-68523e75><!--[--><a class="va-link sakura-nav-link" title="RSS" rel="noopener" data-v-68523e75 href="/atom.xml" target="_blank" data-v-89ba1f9f><!--[--><span class="i-ri-rss-line hvr-icon sakura-icon sakura-nav-link-icon mr-0.5" inline-flex data-v-89ba1f9f></span><span truncate class="&lt;lg:hidden sakura-nav-link-text" data-v-89ba1f9f>RSS</span><!--[--><!--]--><!--]--><!----></a><!--]--><!----></div><!--]--><!----></nav><!--]--><!--[--><div h-full print:op0 flex="~ center" class="sakura-navbar-tools"><button class="sakura-icon-btn sakura-toggle-dark select-none" type="button" aria-label="Toggle Color Scheme"><div class="i-line-md-moon-alt-to-sunny-outline-loop-transition"></div></button><!----><div flex="center"><button class="sakura-icon-btn sakura-search-btn" title="搜索"><div i-mdi-search></div></button><!----></div><!----><!--[--><!--]--></div><!--]--></div></header><!--]--><!--]--><main class="sakura-sidebar-offset sakura-main" data-v-6a7f06c7><!--[--><!----><!--]--></main><!--[--><div data-v-6a7f06c7 style="display:none;" data-v-36a4d35b><div data-v-36a4d35b></div><img class="sakura-to-top-node" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEYAAABmCAMAAABBXBeAAAAAAXNSR0IB2cksfwAAAAlwSFlzAAALEwAACxMBAJqcGAAAAvdQTFRFAAAAAAAAAgICAwMDDQsLDg0NCgkJAwICAAAACAcHBwYGFRISQyMecTYtAQAADAsLEQ8PNzU1WVVUaGhob29vdHR0bWpqVVBPJSQkERAQBgUFGBYWEBAQDQsLSkpKkZGRzMzM5OPk9PPz/////fv76enpzs7OpaWlZWVlMjAwExISDg0NAwEBHh4eBQUFBAQESEVEqKio9vb2//7+2dnZYGBgBAQEAgICDgoKKigoh4eH1tXV4ODgAQEBBgICGxkaOTk57e3t+Pj4/v39tLS0xsbGQD4+FBMTCAgIGxISGxgYq6ur/Pr63NzcoaGhmZmZAAAAEg8Pv7+/0tLSlJSUjY2NFRQUFBQUAwAADQwMLx8fISAg8fHxubm5iYmJSC8uBQUFDgwM6+vrenp6g4KCBAEBr6+vFhUVwbKy5+fnnZ2dHRwcybu65tjY6t3c8eno+PT0XFxct6mp5NbV4dPR4dHQ6NnZ9vDwYmJiQkJCGhgXsKWk5tbW4M/P6t/e+vb2DAsLAgEB18PD49TT38zL49PS387N3MjK+/j4zMrKFxYW4cXRZGRk+PHzFxUV0L282tra7uTjFxUVGhkZeXBvFxcXICAgTkBB6Nvb7+Dg9e7skYiHAAAA1L2/2tTU7OLhraGgMCsq08jHFhQUl42LCwoKw7W1BQQE8OflKyIhDgsLpJuagnp48uvpopeWdGtpt6KhqpOSwKWkt5iXrZCOBwcHjGJhgFJQfD87ejcwbTErXCgjYysmdjYujU1KpoJ/YFlYi4B/zra0nmZmfTgxVScig0A6jUE3XiwncjQtfzsyajg1mE5IoFFJpk9BikI2r1RFslZGaTIplUc6ok0/ikdAal5eGwkJgz0zfDsxqlJDkUQ5k0Q5gjsyMxYUiEA1mUg8KBEOhT00ai8pZi4oAwICdDUtBgECQx0bTiIeq1JDnUk9gElGo3Nxi1ZVxampn4B8q42JjnZz2MrJl3x59evqknp3KioqqYmFnJKQDAwMERERhYWFx3P0eAAAAP10Uk5TABA6b6nR6/v//9W8sm8W5vv7//////////9ioe3/////////////////3nkmuPn/////////V0il/////yEzh//////////nQpX///////8cjv//////dQaAif////+hLsn///8L/8P////////////////////////M///////xTf//////////mf///67////Tqv/bUv//////Hv///////7b/a//v///f//////////////X//////////////////////////////////////////////////////////////4X//////////////////////4T//5Ut/xDIcLIAAAotSURBVHic7Zh7VBNnFsDvNxNIJoHMJDRIWCwvNeHhAj7AR5Fqz/qoumK1bba4LdZiT5+7x3ZtD92j7dlt6+LWdte6e1Zqq60Ubeu2i325LRa1SqUVEAIEEBJQwCCQZHgkATKzE94hMyk5/rv3j0zm5s4v93vcxzcIhASNCfeNxbhrr6Cl25hfLe+XiJwAkhGO+8MKoBiQtfuFwdSoC1Tjzkx4ZoQYVMvOFJOIUIOG+3+FzUNNcUPTs2JN2UwwKBVVoBSE7DYvUwzYsPo+Fl9w4ecwK9CtZo3CGNM63SwSWqIQGIEb1vkM9LVPTOLss2jVlUWozsuKCtdjUTKkd3+fVQ6/9BrYJCYTNTVEz2uzeHsMEBeIKlEyKh+5iVYWbTopgNGhC13RTLjXaEaF7L+zOY6AUQwkX7Te9yEvJpxq3tJHC0AAljoll+J65lwElGTuAFC7Kh485o3JRuUNoYGMEAQgA7UYI2NqzUDOll/i7tXdRk8Oh8np+hLLMnQIQ7i1ttxXTKbUmYFdWU67FQrNKY9xoZzrkSejltywm3xhVn8XayCvzzXD0q8fOLO6ysxCkvqIckpooLSrKQsRYrm9fs1utVKU1cqDYTJLaLJ1nhnurF6udyVd5/ZmWJP1Pln+BCa9O0qLBgMRYnAH8VNLpCBmacR5M2QULdcnKZrda8Ho3txVpJ+YG7kD3+UAIOxSLgIL+CNPvbiEziC7L8LqU0v10RWbzrmVkVV9L6K94xhYcVn5G+5COFl5/7d8voxisA0chqHv0t9z3jW2qMNmDXVuHANpV1fdKQMKOQN6TvNPcfycEprJvFEO6rq79Nqmlf8d0y/71hJyb/4YBh78T0qSTInQQIV3OHli4hs1eu38kxjkHI42cT/sPGp85DA7vovz9qQkzXbIzRUmYYx68b9FoNA1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" data-v-36a4d35b><img class="sakura-to-top-line" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEYAAAMeBAMAAABSNW+wAAAAAXNSR0IB2cksfwAAAAlwSFlzAAALEwAACxMBAJqcGAAAACFQTFRFAAAABgECvkk+AAAABAEBAAAABQUFAgIClTgwAgICBgIC3qD5uQAAAAt0Uk5TAP///wseLjr/SDP8D1UBAAABOElEQVR4nO3QsQnCABRFUQMOYGdhpRu4ihO4jbULuoHBDZLaCCeNCML95ePAhztsFjfsptdy+jDHcd2cH+vm9PzOr3809bGpj019bOpjUx+b+tjUx6Y+NvWxqY9NfWzqY1Mfm/rY1MemPjb1samPTX1s6mNTH5v62NTHpj429bGpj019bOpjUx+b+tjUx6Y+NvWxqY9NfWzqY1Mfm/rY1MemPjb1samPTX1s6mNTH5v62NTHpj429bGpj019bOpjUx+b+tjUx6Y+NvWxqY9NfWzqY1Mfm/rY1MemPjb1samPTX1s6mNTH5v62NTHpj429bGpj019bOpjUx+b+tjUx6Y+NvWxqY9NfWzqY1Mfm/rY1MemPjb1samPTX1s6mNTH5v62NTHpj429bGpj83P+mwvh/39dn0fZ/YJP3nrYpeJAAAAAElFTkSuQmCC" data-v-36a4d35b></div><!--]--><!--[--><footer class="sakura-footer h-$sakura-footer-height py-4 sakura-sidebar-offset" text="center sm" style="color:var(--va-c-text-light);" data-v-6a7f06c7><!----><div class="sakura-copyright copyright flex items-center justify-center" p="1"><span> Copyright © <span itemprop="copyrightYear"><!--[-->2024 - <!--]--> 2026</span></span><a m="x-2" class="inline-flex animate-pulse" href="https://github.com/helltractor" target="_blank" title="GitHub"><div class="i-ri-github-line"></div></a><!----><span itemprop="copyrightHolder">helltractor</span></div><div class="powered" m="2" translate="no"><span>由 <a href="git+https://github.com/YunYouJun/valaxy.git" target="_blank" rel="noopener">Valaxy</a> v0.28.4 驱动</span> | <span>主题 <a href="https://github.com/WRXinYue/valaxy-theme-sakura" title="valaxy-theme-sakura" target="_blank">Sakura</a> v0.10.2</span></div><!--[--><div class="flex flex-col items-center space-y-2"><div class="flex flex-wrap justify-center gap-4 text-sm"><span>本站总浏览量: -</span><span>本站总访客数: -</span></div><div class="vc-site-live-time text-sm"><!--[--><span>本站已运行</span><!--]--><span mx-1>0 天</span><span mx-1>0 小时</span><span mx-1>0 分</span><span mx-1>0 秒</span><!--[--><!--]--></div></div><!--]--></footer><!--]--><!-- <SakuraChangSkin /> --></div><!--]--><!--]--><!--[--><!--[--><!-- eslint-disable-next-line vue/component-name-in-template-casing --><meting-js id="1477727243" server="netease" type="song" fixed="true" style=""></meting-js><!--]--><!--]--><!----><!--]--></div><script>window.__INITIAL_STATE__='{"pinia":{"app":{"isMobile":false,"showLoading":true},"sakura-app":{"positions":{},"loadMultiple":1,"paginationTargets":[],"paginationElementPositionsNumber":0,"wallpaperIndex":0,"wallpaperLength":0,"wallpaperIsPlaying":false}}}'</script><script type="application/ld+json" data-hid="schema-org-graph">{"@context":"https://schema.org","@graph":[{"@id":"https://io.helltractor.top/#identity","@type":"Person","name":"helltractor","url":"https://io.helltractor.top/","image":{"@id":"https://io.helltractor.top/#/schema/image/1"},"sameAs":["https://github.com/helltractor","https://leetcode-cn.com/u/helltractor/","https://codeforces.com/profile/helltractor","https://steamcommunity.com/id/helltractor/","mailto:mail@helltractor.top","https://www.travellings.cn/go.html"]},{"@id":"https://io.helltractor.top/#website","@type":"WebSite","dateModified":"2026-04-15T16:46:25.973Z","datePublished":"2026-01-06T05:47:15.000Z","inLanguage":"zh-CN","name":"2026年1月记录","url":"https://io.helltractor.top/","publisher":{"@id":"https://io.helltractor.top/#identity"}},{"@id":"https://io.helltractor.top/#webpage","@type":"WebPage","name":"2026年1月记录","url":"https://io.helltractor.top/","about":{"@id":"https://io.helltractor.top/#identity"},"isPartOf":{"@id":"https://io.helltractor.top/#website"},"potentialAction":[{"@type":"ReadAction","target":["https://io.helltractor.top/"]}]},{"@id":"https://io.helltractor.top/#/schema/image/1","@type":"ImageObject","contentUrl":"https://io.helltractor.top/avatar.png","inLanguage":"zh-CN","url":"https://io.helltractor.top/avatar.png"}]}</script>
+  
+<!-- 几何 -->
+    <!--<script type="text/javascript" color="179,50,178" pointColor="179,110,178" opacity="0.6" zIndex="0" count="50"-->
+    <!--        src="https://cdn.jsdelivr.net/npm/canvas-nest.js/dist/canvas-nest.js">-->
+    <!--</script>-->
+    <!-- 落花 -->
+    <!--<script type="text/javascript"-->
+    <!--        src="https://cdn.jsdelivr.net/gh/Ukenn2112/UkennWeb@3.0/index/web.js">-->
+    <!--</script>-->
+</body>
+</html>
