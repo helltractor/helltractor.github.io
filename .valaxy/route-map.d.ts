@@ -188,16 +188,16 @@ declare module 'vue-router/auto-routes' {
       Record<never, never>,
       | never
     >,
-    '/jobs/intro-myself': RouteRecordInfo<
-      '/jobs/intro-myself',
-      '/jobs/intro-myself',
+    '/jobs/question/': RouteRecordInfo<
+      '/jobs/question/',
+      '/jobs/question',
       Record<never, never>,
       Record<never, never>,
       | never
     >,
-    '/jobs/question/': RouteRecordInfo<
-      '/jobs/question/',
-      '/jobs/question',
+    '/jobs/question/database': RouteRecordInfo<
+      '/jobs/question/database',
+      '/jobs/question/database',
       Record<never, never>,
       Record<never, never>,
       | never
@@ -223,9 +223,16 @@ declare module 'vue-router/auto-routes' {
       Record<never, never>,
       | never
     >,
-    '/jobs/question/java-virtual-machine': RouteRecordInfo<
-      '/jobs/question/java-virtual-machine',
-      '/jobs/question/java-virtual-machine',
+    '/jobs/question/jvm/': RouteRecordInfo<
+      '/jobs/question/jvm/',
+      '/jobs/question/jvm',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/jobs/question/jvm/garbage-collect': RouteRecordInfo<
+      '/jobs/question/jvm/garbage-collect',
+      '/jobs/question/jvm/garbage-collect',
       Record<never, never>,
       Record<never, never>,
       | never
@@ -279,58 +286,100 @@ declare module 'vue-router/auto-routes' {
       Record<never, never>,
       | never
     >,
-    '/jobs/question/test': RouteRecordInfo<
-      '/jobs/question/test',
-      '/jobs/question/test',
+    '/jobs/record': RouteRecordInfo<
+      '/jobs/record',
+      '/jobs/record',
       Record<never, never>,
       Record<never, never>,
       | never
     >,
-    '/jobs/record/202406': RouteRecordInfo<
-      '/jobs/record/202406',
-      '/jobs/record/202406',
+    '/obsidian/copilot/copilot-custom-prompts/Emojify': RouteRecordInfo<
+      '/obsidian/copilot/copilot-custom-prompts/Emojify',
+      '/obsidian/copilot/copilot-custom-prompts/Emojify',
       Record<never, never>,
       Record<never, never>,
       | never
     >,
-    '/jobs/record/202502': RouteRecordInfo<
-      '/jobs/record/202502',
-      '/jobs/record/202502',
+    '/obsidian/copilot/copilot-custom-prompts/Explain like I am 5': RouteRecordInfo<
+      '/obsidian/copilot/copilot-custom-prompts/Explain like I am 5',
+      '/obsidian/copilot/copilot-custom-prompts/Explain%20like%20I%20am%205',
       Record<never, never>,
       Record<never, never>,
       | never
     >,
-    '/jobs/todo': RouteRecordInfo<
-      '/jobs/todo',
-      '/jobs/todo',
+    '/obsidian/copilot/copilot-custom-prompts/Fix grammar and spelling': RouteRecordInfo<
+      '/obsidian/copilot/copilot-custom-prompts/Fix grammar and spelling',
+      '/obsidian/copilot/copilot-custom-prompts/Fix%20grammar%20and%20spelling',
       Record<never, never>,
       Record<never, never>,
       | never
     >,
-    '/obsidian/draw/drawing 2025-04-29 框架梳理': RouteRecordInfo<
-      '/obsidian/draw/drawing 2025-04-29 框架梳理',
-      '/obsidian/draw/drawing%202025-04-29%20%E6%A1%86%E6%9E%B6%E6%A2%B3%E7%90%86',
+    '/obsidian/copilot/copilot-custom-prompts/Generate glossary': RouteRecordInfo<
+      '/obsidian/copilot/copilot-custom-prompts/Generate glossary',
+      '/obsidian/copilot/copilot-custom-prompts/Generate%20glossary',
       Record<never, never>,
       Record<never, never>,
       | never
     >,
-    '/obsidian/draw/drawing 2025-04-29 知识库架构': RouteRecordInfo<
-      '/obsidian/draw/drawing 2025-04-29 知识库架构',
-      '/obsidian/draw/drawing%202025-04-29%20%E7%9F%A5%E8%AF%86%E5%BA%93%E6%9E%B6%E6%9E%84',
+    '/obsidian/copilot/copilot-custom-prompts/Generate table of contents': RouteRecordInfo<
+      '/obsidian/copilot/copilot-custom-prompts/Generate table of contents',
+      '/obsidian/copilot/copilot-custom-prompts/Generate%20table%20of%20contents',
       Record<never, never>,
       Record<never, never>,
       | never
     >,
-    '/obsidian/draw/drawing 2025-04-29 通信': RouteRecordInfo<
-      '/obsidian/draw/drawing 2025-04-29 通信',
-      '/obsidian/draw/drawing%202025-04-29%20%E9%80%9A%E4%BF%A1',
+    '/obsidian/copilot/copilot-custom-prompts/Make longer': RouteRecordInfo<
+      '/obsidian/copilot/copilot-custom-prompts/Make longer',
+      '/obsidian/copilot/copilot-custom-prompts/Make%20longer',
       Record<never, never>,
       Record<never, never>,
       | never
     >,
-    '/obsidian/draw/drawing 2025-05-07 国家房贷印钞': RouteRecordInfo<
-      '/obsidian/draw/drawing 2025-05-07 国家房贷印钞',
-      '/obsidian/draw/drawing%202025-05-07%20%E5%9B%BD%E5%AE%B6%E6%88%BF%E8%B4%B7%E5%8D%B0%E9%92%9E',
+    '/obsidian/copilot/copilot-custom-prompts/Make shorter': RouteRecordInfo<
+      '/obsidian/copilot/copilot-custom-prompts/Make shorter',
+      '/obsidian/copilot/copilot-custom-prompts/Make%20shorter',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/obsidian/copilot/copilot-custom-prompts/Remove URLs': RouteRecordInfo<
+      '/obsidian/copilot/copilot-custom-prompts/Remove URLs',
+      '/obsidian/copilot/copilot-custom-prompts/Remove%20URLs',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/obsidian/copilot/copilot-custom-prompts/Rewrite as tweet': RouteRecordInfo<
+      '/obsidian/copilot/copilot-custom-prompts/Rewrite as tweet',
+      '/obsidian/copilot/copilot-custom-prompts/Rewrite%20as%20tweet',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/obsidian/copilot/copilot-custom-prompts/Rewrite as tweet thread': RouteRecordInfo<
+      '/obsidian/copilot/copilot-custom-prompts/Rewrite as tweet thread',
+      '/obsidian/copilot/copilot-custom-prompts/Rewrite%20as%20tweet%20thread',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/obsidian/copilot/copilot-custom-prompts/Simplify': RouteRecordInfo<
+      '/obsidian/copilot/copilot-custom-prompts/Simplify',
+      '/obsidian/copilot/copilot-custom-prompts/Simplify',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/obsidian/copilot/copilot-custom-prompts/Summarize': RouteRecordInfo<
+      '/obsidian/copilot/copilot-custom-prompts/Summarize',
+      '/obsidian/copilot/copilot-custom-prompts/Summarize',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/obsidian/copilot/copilot-custom-prompts/Translate to Chinese': RouteRecordInfo<
+      '/obsidian/copilot/copilot-custom-prompts/Translate to Chinese',
+      '/obsidian/copilot/copilot-custom-prompts/Translate%20to%20Chinese',
       Record<never, never>,
       Record<never, never>,
       | never
@@ -342,30 +391,37 @@ declare module 'vue-router/auto-routes' {
       Record<never, never>,
       | never
     >,
-    '/obsidian/template/cf-contest': RouteRecordInfo<
-      '/obsidian/template/cf-contest',
-      '/obsidian/template/cf-contest',
+    '/obsidian/template/contest-atcoder': RouteRecordInfo<
+      '/obsidian/template/contest-atcoder',
+      '/obsidian/template/contest-atcoder',
       Record<never, never>,
       Record<never, never>,
       | never
     >,
-    '/obsidian/template/daily-note': RouteRecordInfo<
-      '/obsidian/template/daily-note',
-      '/obsidian/template/daily-note',
+    '/obsidian/template/contest-codeforces': RouteRecordInfo<
+      '/obsidian/template/contest-codeforces',
+      '/obsidian/template/contest-codeforces',
       Record<never, never>,
       Record<never, never>,
       | never
     >,
-    '/obsidian/template/lc-biweekly-contest': RouteRecordInfo<
-      '/obsidian/template/lc-biweekly-contest',
-      '/obsidian/template/lc-biweekly-contest',
+    '/obsidian/template/contest-leetcode': RouteRecordInfo<
+      '/obsidian/template/contest-leetcode',
+      '/obsidian/template/contest-leetcode',
       Record<never, never>,
       Record<never, never>,
       | never
     >,
-    '/obsidian/template/lc-weekly-contest': RouteRecordInfo<
-      '/obsidian/template/lc-weekly-contest',
-      '/obsidian/template/lc-weekly-contest',
+    '/obsidian/template/contest-leetcode-biweekly': RouteRecordInfo<
+      '/obsidian/template/contest-leetcode-biweekly',
+      '/obsidian/template/contest-leetcode-biweekly',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/obsidian/template/daily': RouteRecordInfo<
+      '/obsidian/template/daily',
+      '/obsidian/template/daily',
       Record<never, never>,
       Record<never, never>,
       | never
@@ -373,6 +429,13 @@ declare module 'vue-router/auto-routes' {
     '/obsidian/template/record': RouteRecordInfo<
       '/obsidian/template/record',
       '/obsidian/template/record',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/obsidian/todo': RouteRecordInfo<
+      '/obsidian/todo',
+      '/obsidian/todo',
       Record<never, never>,
       Record<never, never>,
       | never
@@ -405,55 +468,6 @@ declare module 'vue-router/auto-routes' {
       Record<never, never>,
       | never
     >,
-    '/posts/calculation/article': RouteRecordInfo<
-      '/posts/calculation/article',
-      '/posts/calculation/article',
-      Record<never, never>,
-      Record<never, never>,
-      | never
-    >,
-    '/posts/calculation/install-vasp': RouteRecordInfo<
-      '/posts/calculation/install-vasp',
-      '/posts/calculation/install-vasp',
-      Record<never, never>,
-      Record<never, never>,
-      | never
-    >,
-    '/posts/calculation/install-wannier90': RouteRecordInfo<
-      '/posts/calculation/install-wannier90',
-      '/posts/calculation/install-wannier90',
-      Record<never, never>,
-      Record<never, never>,
-      | never
-    >,
-    '/posts/calculation/knowledge': RouteRecordInfo<
-      '/posts/calculation/knowledge',
-      '/posts/calculation/knowledge',
-      Record<never, never>,
-      Record<never, never>,
-      | never
-    >,
-    '/posts/calculation/mp-machine-learning/': RouteRecordInfo<
-      '/posts/calculation/mp-machine-learning/',
-      '/posts/calculation/mp-machine-learning',
-      Record<never, never>,
-      Record<never, never>,
-      | never
-    >,
-    '/posts/calculation/set-incar': RouteRecordInfo<
-      '/posts/calculation/set-incar',
-      '/posts/calculation/set-incar',
-      Record<never, never>,
-      Record<never, never>,
-      | never
-    >,
-    '/posts/calculation/set-win': RouteRecordInfo<
-      '/posts/calculation/set-win',
-      '/posts/calculation/set-win',
-      Record<never, never>,
-      Record<never, never>,
-      | never
-    >,
     '/posts/calculation/steps': RouteRecordInfo<
       '/posts/calculation/steps',
       '/posts/calculation/steps',
@@ -464,6 +478,20 @@ declare module 'vue-router/auto-routes' {
     '/posts/contest/': RouteRecordInfo<
       '/posts/contest/',
       '/posts/contest',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/contest/atc-beginner-contest-429': RouteRecordInfo<
+      '/posts/contest/atc-beginner-contest-429',
+      '/posts/contest/atc-beginner-contest-429',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/contest/cf-pinely-round-5': RouteRecordInfo<
+      '/posts/contest/cf-pinely-round-5',
+      '/posts/contest/cf-pinely-round-5',
       Record<never, never>,
       Record<never, never>,
       | never
@@ -482,233 +510,401 @@ declare module 'vue-router/auto-routes' {
       Record<never, never>,
       | never
     >,
-    '/posts/contest/lc-biweekly-contest-152': RouteRecordInfo<
-      '/posts/contest/lc-biweekly-contest-152',
-      '/posts/contest/lc-biweekly-contest-152',
+    '/posts/contest/cf-round-1051': RouteRecordInfo<
+      '/posts/contest/cf-round-1051',
+      '/posts/contest/cf-round-1051',
       Record<never, never>,
       Record<never, never>,
       | never
     >,
-    '/posts/contest/lc-biweekly-contest-154': RouteRecordInfo<
-      '/posts/contest/lc-biweekly-contest-154',
-      '/posts/contest/lc-biweekly-contest-154',
+    '/posts/contest/leetcode-biweekly/lc-biweekly-contest-152': RouteRecordInfo<
+      '/posts/contest/leetcode-biweekly/lc-biweekly-contest-152',
+      '/posts/contest/leetcode-biweekly/lc-biweekly-contest-152',
       Record<never, never>,
       Record<never, never>,
       | never
     >,
-    '/posts/contest/lc-biweekly-contest-156': RouteRecordInfo<
-      '/posts/contest/lc-biweekly-contest-156',
-      '/posts/contest/lc-biweekly-contest-156',
+    '/posts/contest/leetcode-biweekly/lc-biweekly-contest-154': RouteRecordInfo<
+      '/posts/contest/leetcode-biweekly/lc-biweekly-contest-154',
+      '/posts/contest/leetcode-biweekly/lc-biweekly-contest-154',
       Record<never, never>,
       Record<never, never>,
       | never
     >,
-    '/posts/contest/lc-biweekly-contest-157': RouteRecordInfo<
-      '/posts/contest/lc-biweekly-contest-157',
-      '/posts/contest/lc-biweekly-contest-157',
+    '/posts/contest/leetcode-biweekly/lc-biweekly-contest-156': RouteRecordInfo<
+      '/posts/contest/leetcode-biweekly/lc-biweekly-contest-156',
+      '/posts/contest/leetcode-biweekly/lc-biweekly-contest-156',
       Record<never, never>,
       Record<never, never>,
       | never
     >,
-    '/posts/contest/lc-biweekly-contest-158': RouteRecordInfo<
-      '/posts/contest/lc-biweekly-contest-158',
-      '/posts/contest/lc-biweekly-contest-158',
+    '/posts/contest/leetcode-biweekly/lc-biweekly-contest-157': RouteRecordInfo<
+      '/posts/contest/leetcode-biweekly/lc-biweekly-contest-157',
+      '/posts/contest/leetcode-biweekly/lc-biweekly-contest-157',
       Record<never, never>,
       Record<never, never>,
       | never
     >,
-    '/posts/contest/lc-biweekly-contest-160': RouteRecordInfo<
-      '/posts/contest/lc-biweekly-contest-160',
-      '/posts/contest/lc-biweekly-contest-160',
+    '/posts/contest/leetcode-biweekly/lc-biweekly-contest-158': RouteRecordInfo<
+      '/posts/contest/leetcode-biweekly/lc-biweekly-contest-158',
+      '/posts/contest/leetcode-biweekly/lc-biweekly-contest-158',
       Record<never, never>,
       Record<never, never>,
       | never
     >,
-    '/posts/contest/lc-biweekly-contest-162': RouteRecordInfo<
-      '/posts/contest/lc-biweekly-contest-162',
-      '/posts/contest/lc-biweekly-contest-162',
+    '/posts/contest/leetcode-biweekly/lc-biweekly-contest-160': RouteRecordInfo<
+      '/posts/contest/leetcode-biweekly/lc-biweekly-contest-160',
+      '/posts/contest/leetcode-biweekly/lc-biweekly-contest-160',
       Record<never, never>,
       Record<never, never>,
       | never
     >,
-    '/posts/contest/lc-biweekly-contest-163': RouteRecordInfo<
-      '/posts/contest/lc-biweekly-contest-163',
-      '/posts/contest/lc-biweekly-contest-163',
+    '/posts/contest/leetcode-biweekly/lc-biweekly-contest-162': RouteRecordInfo<
+      '/posts/contest/leetcode-biweekly/lc-biweekly-contest-162',
+      '/posts/contest/leetcode-biweekly/lc-biweekly-contest-162',
       Record<never, never>,
       Record<never, never>,
       | never
     >,
-    '/posts/contest/lc-weekly-contest-439': RouteRecordInfo<
-      '/posts/contest/lc-weekly-contest-439',
-      '/posts/contest/lc-weekly-contest-439',
+    '/posts/contest/leetcode-biweekly/lc-biweekly-contest-163': RouteRecordInfo<
+      '/posts/contest/leetcode-biweekly/lc-biweekly-contest-163',
+      '/posts/contest/leetcode-biweekly/lc-biweekly-contest-163',
       Record<never, never>,
       Record<never, never>,
       | never
     >,
-    '/posts/contest/lc-weekly-contest-440': RouteRecordInfo<
-      '/posts/contest/lc-weekly-contest-440',
-      '/posts/contest/lc-weekly-contest-440',
+    '/posts/contest/leetcode-biweekly/lc-biweekly-contest-164': RouteRecordInfo<
+      '/posts/contest/leetcode-biweekly/lc-biweekly-contest-164',
+      '/posts/contest/leetcode-biweekly/lc-biweekly-contest-164',
       Record<never, never>,
       Record<never, never>,
       | never
     >,
-    '/posts/contest/lc-weekly-contest-441': RouteRecordInfo<
-      '/posts/contest/lc-weekly-contest-441',
-      '/posts/contest/lc-weekly-contest-441',
+    '/posts/contest/leetcode-biweekly/lc-biweekly-contest-165': RouteRecordInfo<
+      '/posts/contest/leetcode-biweekly/lc-biweekly-contest-165',
+      '/posts/contest/leetcode-biweekly/lc-biweekly-contest-165',
       Record<never, never>,
       Record<never, never>,
       | never
     >,
-    '/posts/contest/lc-weekly-contest-442': RouteRecordInfo<
-      '/posts/contest/lc-weekly-contest-442',
-      '/posts/contest/lc-weekly-contest-442',
+    '/posts/contest/leetcode-biweekly/lc-biweekly-contest-166': RouteRecordInfo<
+      '/posts/contest/leetcode-biweekly/lc-biweekly-contest-166',
+      '/posts/contest/leetcode-biweekly/lc-biweekly-contest-166',
       Record<never, never>,
       Record<never, never>,
       | never
     >,
-    '/posts/contest/lc-weekly-contest-443': RouteRecordInfo<
-      '/posts/contest/lc-weekly-contest-443',
-      '/posts/contest/lc-weekly-contest-443',
+    '/posts/contest/leetcode-biweekly/lc-biweekly-contest-167': RouteRecordInfo<
+      '/posts/contest/leetcode-biweekly/lc-biweekly-contest-167',
+      '/posts/contest/leetcode-biweekly/lc-biweekly-contest-167',
       Record<never, never>,
       Record<never, never>,
       | never
     >,
-    '/posts/contest/lc-weekly-contest-444': RouteRecordInfo<
-      '/posts/contest/lc-weekly-contest-444',
-      '/posts/contest/lc-weekly-contest-444',
+    '/posts/contest/leetcode-biweekly/lc-biweekly-contest-168': RouteRecordInfo<
+      '/posts/contest/leetcode-biweekly/lc-biweekly-contest-168',
+      '/posts/contest/leetcode-biweekly/lc-biweekly-contest-168',
       Record<never, never>,
       Record<never, never>,
       | never
     >,
-    '/posts/contest/lc-weekly-contest-445': RouteRecordInfo<
-      '/posts/contest/lc-weekly-contest-445',
-      '/posts/contest/lc-weekly-contest-445',
+    '/posts/contest/leetcode-biweekly/lc-biweekly-contest-169': RouteRecordInfo<
+      '/posts/contest/leetcode-biweekly/lc-biweekly-contest-169',
+      '/posts/contest/leetcode-biweekly/lc-biweekly-contest-169',
       Record<never, never>,
       Record<never, never>,
       | never
     >,
-    '/posts/contest/lc-weekly-contest-446': RouteRecordInfo<
-      '/posts/contest/lc-weekly-contest-446',
-      '/posts/contest/lc-weekly-contest-446',
+    '/posts/contest/leetcode-biweekly/lc-biweekly-contest-170': RouteRecordInfo<
+      '/posts/contest/leetcode-biweekly/lc-biweekly-contest-170',
+      '/posts/contest/leetcode-biweekly/lc-biweekly-contest-170',
       Record<never, never>,
       Record<never, never>,
       | never
     >,
-    '/posts/contest/lc-weekly-contest-447': RouteRecordInfo<
-      '/posts/contest/lc-weekly-contest-447',
-      '/posts/contest/lc-weekly-contest-447',
+    '/posts/contest/leetcode-biweekly/lc-biweekly-contest-171': RouteRecordInfo<
+      '/posts/contest/leetcode-biweekly/lc-biweekly-contest-171',
+      '/posts/contest/leetcode-biweekly/lc-biweekly-contest-171',
       Record<never, never>,
       Record<never, never>,
       | never
     >,
-    '/posts/contest/lc-weekly-contest-448': RouteRecordInfo<
-      '/posts/contest/lc-weekly-contest-448',
-      '/posts/contest/lc-weekly-contest-448',
+    '/posts/contest/leetcode-biweekly/lc-biweekly-contest-172': RouteRecordInfo<
+      '/posts/contest/leetcode-biweekly/lc-biweekly-contest-172',
+      '/posts/contest/leetcode-biweekly/lc-biweekly-contest-172',
       Record<never, never>,
       Record<never, never>,
       | never
     >,
-    '/posts/contest/lc-weekly-contest-449': RouteRecordInfo<
-      '/posts/contest/lc-weekly-contest-449',
-      '/posts/contest/lc-weekly-contest-449',
+    '/posts/contest/leetcode-weekly/lc-weekly-contest-439': RouteRecordInfo<
+      '/posts/contest/leetcode-weekly/lc-weekly-contest-439',
+      '/posts/contest/leetcode-weekly/lc-weekly-contest-439',
       Record<never, never>,
       Record<never, never>,
       | never
     >,
-    '/posts/contest/lc-weekly-contest-450': RouteRecordInfo<
-      '/posts/contest/lc-weekly-contest-450',
-      '/posts/contest/lc-weekly-contest-450',
+    '/posts/contest/leetcode-weekly/lc-weekly-contest-440': RouteRecordInfo<
+      '/posts/contest/leetcode-weekly/lc-weekly-contest-440',
+      '/posts/contest/leetcode-weekly/lc-weekly-contest-440',
       Record<never, never>,
       Record<never, never>,
       | never
     >,
-    '/posts/contest/lc-weekly-contest-451': RouteRecordInfo<
-      '/posts/contest/lc-weekly-contest-451',
-      '/posts/contest/lc-weekly-contest-451',
+    '/posts/contest/leetcode-weekly/lc-weekly-contest-441': RouteRecordInfo<
+      '/posts/contest/leetcode-weekly/lc-weekly-contest-441',
+      '/posts/contest/leetcode-weekly/lc-weekly-contest-441',
       Record<never, never>,
       Record<never, never>,
       | never
     >,
-    '/posts/contest/lc-weekly-contest-452': RouteRecordInfo<
-      '/posts/contest/lc-weekly-contest-452',
-      '/posts/contest/lc-weekly-contest-452',
+    '/posts/contest/leetcode-weekly/lc-weekly-contest-442': RouteRecordInfo<
+      '/posts/contest/leetcode-weekly/lc-weekly-contest-442',
+      '/posts/contest/leetcode-weekly/lc-weekly-contest-442',
       Record<never, never>,
       Record<never, never>,
       | never
     >,
-    '/posts/contest/lc-weekly-contest-453': RouteRecordInfo<
-      '/posts/contest/lc-weekly-contest-453',
-      '/posts/contest/lc-weekly-contest-453',
+    '/posts/contest/leetcode-weekly/lc-weekly-contest-443': RouteRecordInfo<
+      '/posts/contest/leetcode-weekly/lc-weekly-contest-443',
+      '/posts/contest/leetcode-weekly/lc-weekly-contest-443',
       Record<never, never>,
       Record<never, never>,
       | never
     >,
-    '/posts/contest/lc-weekly-contest-454': RouteRecordInfo<
-      '/posts/contest/lc-weekly-contest-454',
-      '/posts/contest/lc-weekly-contest-454',
+    '/posts/contest/leetcode-weekly/lc-weekly-contest-444': RouteRecordInfo<
+      '/posts/contest/leetcode-weekly/lc-weekly-contest-444',
+      '/posts/contest/leetcode-weekly/lc-weekly-contest-444',
       Record<never, never>,
       Record<never, never>,
       | never
     >,
-    '/posts/contest/lc-weekly-contest-455': RouteRecordInfo<
-      '/posts/contest/lc-weekly-contest-455',
-      '/posts/contest/lc-weekly-contest-455',
+    '/posts/contest/leetcode-weekly/lc-weekly-contest-445': RouteRecordInfo<
+      '/posts/contest/leetcode-weekly/lc-weekly-contest-445',
+      '/posts/contest/leetcode-weekly/lc-weekly-contest-445',
       Record<never, never>,
       Record<never, never>,
       | never
     >,
-    '/posts/contest/lc-weekly-contest-456': RouteRecordInfo<
-      '/posts/contest/lc-weekly-contest-456',
-      '/posts/contest/lc-weekly-contest-456',
+    '/posts/contest/leetcode-weekly/lc-weekly-contest-446': RouteRecordInfo<
+      '/posts/contest/leetcode-weekly/lc-weekly-contest-446',
+      '/posts/contest/leetcode-weekly/lc-weekly-contest-446',
       Record<never, never>,
       Record<never, never>,
       | never
     >,
-    '/posts/contest/lc-weekly-contest-457': RouteRecordInfo<
-      '/posts/contest/lc-weekly-contest-457',
-      '/posts/contest/lc-weekly-contest-457',
+    '/posts/contest/leetcode-weekly/lc-weekly-contest-447': RouteRecordInfo<
+      '/posts/contest/leetcode-weekly/lc-weekly-contest-447',
+      '/posts/contest/leetcode-weekly/lc-weekly-contest-447',
       Record<never, never>,
       Record<never, never>,
       | never
     >,
-    '/posts/contest/lc-weekly-contest-458': RouteRecordInfo<
-      '/posts/contest/lc-weekly-contest-458',
-      '/posts/contest/lc-weekly-contest-458',
+    '/posts/contest/leetcode-weekly/lc-weekly-contest-448': RouteRecordInfo<
+      '/posts/contest/leetcode-weekly/lc-weekly-contest-448',
+      '/posts/contest/leetcode-weekly/lc-weekly-contest-448',
       Record<never, never>,
       Record<never, never>,
       | never
     >,
-    '/posts/contest/lc-weekly-contest-460': RouteRecordInfo<
-      '/posts/contest/lc-weekly-contest-460',
-      '/posts/contest/lc-weekly-contest-460',
+    '/posts/contest/leetcode-weekly/lc-weekly-contest-449': RouteRecordInfo<
+      '/posts/contest/leetcode-weekly/lc-weekly-contest-449',
+      '/posts/contest/leetcode-weekly/lc-weekly-contest-449',
       Record<never, never>,
       Record<never, never>,
       | never
     >,
-    '/posts/contest/lc-weekly-contest-461': RouteRecordInfo<
-      '/posts/contest/lc-weekly-contest-461',
-      '/posts/contest/lc-weekly-contest-461',
+    '/posts/contest/leetcode-weekly/lc-weekly-contest-450': RouteRecordInfo<
+      '/posts/contest/leetcode-weekly/lc-weekly-contest-450',
+      '/posts/contest/leetcode-weekly/lc-weekly-contest-450',
       Record<never, never>,
       Record<never, never>,
       | never
     >,
-    '/posts/contest/lc-weekly-contest-462': RouteRecordInfo<
-      '/posts/contest/lc-weekly-contest-462',
-      '/posts/contest/lc-weekly-contest-462',
+    '/posts/contest/leetcode-weekly/lc-weekly-contest-451': RouteRecordInfo<
+      '/posts/contest/leetcode-weekly/lc-weekly-contest-451',
+      '/posts/contest/leetcode-weekly/lc-weekly-contest-451',
       Record<never, never>,
       Record<never, never>,
       | never
     >,
-    '/posts/contest/lc-weekly-contest-463': RouteRecordInfo<
-      '/posts/contest/lc-weekly-contest-463',
-      '/posts/contest/lc-weekly-contest-463',
+    '/posts/contest/leetcode-weekly/lc-weekly-contest-452': RouteRecordInfo<
+      '/posts/contest/leetcode-weekly/lc-weekly-contest-452',
+      '/posts/contest/leetcode-weekly/lc-weekly-contest-452',
       Record<never, never>,
       Record<never, never>,
       | never
     >,
-    '/posts/contest/lc-weekly-contest-464': RouteRecordInfo<
-      '/posts/contest/lc-weekly-contest-464',
-      '/posts/contest/lc-weekly-contest-464',
+    '/posts/contest/leetcode-weekly/lc-weekly-contest-453': RouteRecordInfo<
+      '/posts/contest/leetcode-weekly/lc-weekly-contest-453',
+      '/posts/contest/leetcode-weekly/lc-weekly-contest-453',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/contest/leetcode-weekly/lc-weekly-contest-454': RouteRecordInfo<
+      '/posts/contest/leetcode-weekly/lc-weekly-contest-454',
+      '/posts/contest/leetcode-weekly/lc-weekly-contest-454',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/contest/leetcode-weekly/lc-weekly-contest-455': RouteRecordInfo<
+      '/posts/contest/leetcode-weekly/lc-weekly-contest-455',
+      '/posts/contest/leetcode-weekly/lc-weekly-contest-455',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/contest/leetcode-weekly/lc-weekly-contest-456': RouteRecordInfo<
+      '/posts/contest/leetcode-weekly/lc-weekly-contest-456',
+      '/posts/contest/leetcode-weekly/lc-weekly-contest-456',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/contest/leetcode-weekly/lc-weekly-contest-457': RouteRecordInfo<
+      '/posts/contest/leetcode-weekly/lc-weekly-contest-457',
+      '/posts/contest/leetcode-weekly/lc-weekly-contest-457',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/contest/leetcode-weekly/lc-weekly-contest-458': RouteRecordInfo<
+      '/posts/contest/leetcode-weekly/lc-weekly-contest-458',
+      '/posts/contest/leetcode-weekly/lc-weekly-contest-458',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/contest/leetcode-weekly/lc-weekly-contest-460': RouteRecordInfo<
+      '/posts/contest/leetcode-weekly/lc-weekly-contest-460',
+      '/posts/contest/leetcode-weekly/lc-weekly-contest-460',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/contest/leetcode-weekly/lc-weekly-contest-461': RouteRecordInfo<
+      '/posts/contest/leetcode-weekly/lc-weekly-contest-461',
+      '/posts/contest/leetcode-weekly/lc-weekly-contest-461',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/contest/leetcode-weekly/lc-weekly-contest-462': RouteRecordInfo<
+      '/posts/contest/leetcode-weekly/lc-weekly-contest-462',
+      '/posts/contest/leetcode-weekly/lc-weekly-contest-462',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/contest/leetcode-weekly/lc-weekly-contest-463': RouteRecordInfo<
+      '/posts/contest/leetcode-weekly/lc-weekly-contest-463',
+      '/posts/contest/leetcode-weekly/lc-weekly-contest-463',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/contest/leetcode-weekly/lc-weekly-contest-464': RouteRecordInfo<
+      '/posts/contest/leetcode-weekly/lc-weekly-contest-464',
+      '/posts/contest/leetcode-weekly/lc-weekly-contest-464',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/contest/leetcode-weekly/lc-weekly-contest-465': RouteRecordInfo<
+      '/posts/contest/leetcode-weekly/lc-weekly-contest-465',
+      '/posts/contest/leetcode-weekly/lc-weekly-contest-465',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/contest/leetcode-weekly/lc-weekly-contest-466': RouteRecordInfo<
+      '/posts/contest/leetcode-weekly/lc-weekly-contest-466',
+      '/posts/contest/leetcode-weekly/lc-weekly-contest-466',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/contest/leetcode-weekly/lc-weekly-contest-467': RouteRecordInfo<
+      '/posts/contest/leetcode-weekly/lc-weekly-contest-467',
+      '/posts/contest/leetcode-weekly/lc-weekly-contest-467',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/contest/leetcode-weekly/lc-weekly-contest-468': RouteRecordInfo<
+      '/posts/contest/leetcode-weekly/lc-weekly-contest-468',
+      '/posts/contest/leetcode-weekly/lc-weekly-contest-468',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/contest/leetcode-weekly/lc-weekly-contest-469': RouteRecordInfo<
+      '/posts/contest/leetcode-weekly/lc-weekly-contest-469',
+      '/posts/contest/leetcode-weekly/lc-weekly-contest-469',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/contest/leetcode-weekly/lc-weekly-contest-470': RouteRecordInfo<
+      '/posts/contest/leetcode-weekly/lc-weekly-contest-470',
+      '/posts/contest/leetcode-weekly/lc-weekly-contest-470',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/contest/leetcode-weekly/lc-weekly-contest-471': RouteRecordInfo<
+      '/posts/contest/leetcode-weekly/lc-weekly-contest-471',
+      '/posts/contest/leetcode-weekly/lc-weekly-contest-471',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/contest/leetcode-weekly/lc-weekly-contest-473': RouteRecordInfo<
+      '/posts/contest/leetcode-weekly/lc-weekly-contest-473',
+      '/posts/contest/leetcode-weekly/lc-weekly-contest-473',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/contest/leetcode-weekly/lc-weekly-contest-474': RouteRecordInfo<
+      '/posts/contest/leetcode-weekly/lc-weekly-contest-474',
+      '/posts/contest/leetcode-weekly/lc-weekly-contest-474',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/contest/leetcode-weekly/lc-weekly-contest-475': RouteRecordInfo<
+      '/posts/contest/leetcode-weekly/lc-weekly-contest-475',
+      '/posts/contest/leetcode-weekly/lc-weekly-contest-475',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/contest/leetcode-weekly/lc-weekly-contest-476': RouteRecordInfo<
+      '/posts/contest/leetcode-weekly/lc-weekly-contest-476',
+      '/posts/contest/leetcode-weekly/lc-weekly-contest-476',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/contest/leetcode-weekly/lc-weekly-contest-477': RouteRecordInfo<
+      '/posts/contest/leetcode-weekly/lc-weekly-contest-477',
+      '/posts/contest/leetcode-weekly/lc-weekly-contest-477',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/contest/leetcode-weekly/lc-weekly-contest-478': RouteRecordInfo<
+      '/posts/contest/leetcode-weekly/lc-weekly-contest-478',
+      '/posts/contest/leetcode-weekly/lc-weekly-contest-478',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/contest/leetcode-weekly/lc-weekly-contest-479': RouteRecordInfo<
+      '/posts/contest/leetcode-weekly/lc-weekly-contest-479',
+      '/posts/contest/leetcode-weekly/lc-weekly-contest-479',
       Record<never, never>,
       Record<never, never>,
       | never
@@ -797,125 +993,6 @@ declare module 'vue-router/auto-routes' {
       Record<never, never>,
       | never
     >,
-    '/posts/monthly/2024/05': RouteRecordInfo<
-      '/posts/monthly/2024/05',
-      '/posts/monthly/2024/05',
-      Record<never, never>,
-      Record<never, never>,
-      | never
-    >,
-    '/posts/monthly/2024/06': RouteRecordInfo<
-      '/posts/monthly/2024/06',
-      '/posts/monthly/2024/06',
-      Record<never, never>,
-      Record<never, never>,
-      | never
-    >,
-    '/posts/monthly/2024/07': RouteRecordInfo<
-      '/posts/monthly/2024/07',
-      '/posts/monthly/2024/07',
-      Record<never, never>,
-      Record<never, never>,
-      | never
-    >,
-    '/posts/monthly/2024/08': RouteRecordInfo<
-      '/posts/monthly/2024/08',
-      '/posts/monthly/2024/08',
-      Record<never, never>,
-      Record<never, never>,
-      | never
-    >,
-    '/posts/monthly/2024/09': RouteRecordInfo<
-      '/posts/monthly/2024/09',
-      '/posts/monthly/2024/09',
-      Record<never, never>,
-      Record<never, never>,
-      | never
-    >,
-    '/posts/monthly/2024/10': RouteRecordInfo<
-      '/posts/monthly/2024/10',
-      '/posts/monthly/2024/10',
-      Record<never, never>,
-      Record<never, never>,
-      | never
-    >,
-    '/posts/monthly/2024/11': RouteRecordInfo<
-      '/posts/monthly/2024/11',
-      '/posts/monthly/2024/11',
-      Record<never, never>,
-      Record<never, never>,
-      | never
-    >,
-    '/posts/monthly/2024/12': RouteRecordInfo<
-      '/posts/monthly/2024/12',
-      '/posts/monthly/2024/12',
-      Record<never, never>,
-      Record<never, never>,
-      | never
-    >,
-    '/posts/monthly/2025/01': RouteRecordInfo<
-      '/posts/monthly/2025/01',
-      '/posts/monthly/2025/01',
-      Record<never, never>,
-      Record<never, never>,
-      | never
-    >,
-    '/posts/monthly/2025/02': RouteRecordInfo<
-      '/posts/monthly/2025/02',
-      '/posts/monthly/2025/02',
-      Record<never, never>,
-      Record<never, never>,
-      | never
-    >,
-    '/posts/monthly/2025/03': RouteRecordInfo<
-      '/posts/monthly/2025/03',
-      '/posts/monthly/2025/03',
-      Record<never, never>,
-      Record<never, never>,
-      | never
-    >,
-    '/posts/monthly/2025/04': RouteRecordInfo<
-      '/posts/monthly/2025/04',
-      '/posts/monthly/2025/04',
-      Record<never, never>,
-      Record<never, never>,
-      | never
-    >,
-    '/posts/monthly/2025/05': RouteRecordInfo<
-      '/posts/monthly/2025/05',
-      '/posts/monthly/2025/05',
-      Record<never, never>,
-      Record<never, never>,
-      | never
-    >,
-    '/posts/monthly/2025/06': RouteRecordInfo<
-      '/posts/monthly/2025/06',
-      '/posts/monthly/2025/06',
-      Record<never, never>,
-      Record<never, never>,
-      | never
-    >,
-    '/posts/monthly/2025/07': RouteRecordInfo<
-      '/posts/monthly/2025/07',
-      '/posts/monthly/2025/07',
-      Record<never, never>,
-      Record<never, never>,
-      | never
-    >,
-    '/posts/monthly/2025/08': RouteRecordInfo<
-      '/posts/monthly/2025/08',
-      '/posts/monthly/2025/08',
-      Record<never, never>,
-      Record<never, never>,
-      | never
-    >,
-    '/posts/ponder/father': RouteRecordInfo<
-      '/posts/ponder/father',
-      '/posts/ponder/father',
-      Record<never, never>,
-      Record<never, never>,
-      | never
-    >,
     '/posts/ponder/fear': RouteRecordInfo<
       '/posts/ponder/fear',
       '/posts/ponder/fear',
@@ -930,16 +1007,16 @@ declare module 'vue-router/auto-routes' {
       Record<never, never>,
       | never
     >,
-    '/posts/project/delete-duplicate-file': RouteRecordInfo<
-      '/posts/project/delete-duplicate-file',
-      '/posts/project/delete-duplicate-file',
+    '/posts/project/imitation-douyin-e-commerce/development-issues': RouteRecordInfo<
+      '/posts/project/imitation-douyin-e-commerce/development-issues',
+      '/posts/project/imitation-douyin-e-commerce/development-issues',
       Record<never, never>,
       Record<never, never>,
       | never
     >,
-    '/posts/project/imitation-douyin-e-commerce/development-issues': RouteRecordInfo<
-      '/posts/project/imitation-douyin-e-commerce/development-issues',
-      '/posts/project/imitation-douyin-e-commerce/development-issues',
+    '/posts/project/project-idea': RouteRecordInfo<
+      '/posts/project/project-idea',
+      '/posts/project/project-idea',
       Record<never, never>,
       Record<never, never>,
       | never
@@ -1000,6 +1077,510 @@ declare module 'vue-router/auto-routes' {
       Record<never, never>,
       | never
     >,
+    '/posts/record/': RouteRecordInfo<
+      '/posts/record/',
+      '/posts/record',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/record/monthly/monthly-2024-05': RouteRecordInfo<
+      '/posts/record/monthly/monthly-2024-05',
+      '/posts/record/monthly/monthly-2024-05',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/record/monthly/monthly-2024-06': RouteRecordInfo<
+      '/posts/record/monthly/monthly-2024-06',
+      '/posts/record/monthly/monthly-2024-06',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/record/monthly/monthly-2024-07': RouteRecordInfo<
+      '/posts/record/monthly/monthly-2024-07',
+      '/posts/record/monthly/monthly-2024-07',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/record/monthly/monthly-2024-08': RouteRecordInfo<
+      '/posts/record/monthly/monthly-2024-08',
+      '/posts/record/monthly/monthly-2024-08',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/record/monthly/monthly-2024-09': RouteRecordInfo<
+      '/posts/record/monthly/monthly-2024-09',
+      '/posts/record/monthly/monthly-2024-09',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/record/monthly/monthly-2024-10': RouteRecordInfo<
+      '/posts/record/monthly/monthly-2024-10',
+      '/posts/record/monthly/monthly-2024-10',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/record/monthly/monthly-2024-11': RouteRecordInfo<
+      '/posts/record/monthly/monthly-2024-11',
+      '/posts/record/monthly/monthly-2024-11',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/record/monthly/monthly-2024-12': RouteRecordInfo<
+      '/posts/record/monthly/monthly-2024-12',
+      '/posts/record/monthly/monthly-2024-12',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/record/monthly/monthly-2025-01': RouteRecordInfo<
+      '/posts/record/monthly/monthly-2025-01',
+      '/posts/record/monthly/monthly-2025-01',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/record/monthly/monthly-2025-02': RouteRecordInfo<
+      '/posts/record/monthly/monthly-2025-02',
+      '/posts/record/monthly/monthly-2025-02',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/record/monthly/monthly-2025-03': RouteRecordInfo<
+      '/posts/record/monthly/monthly-2025-03',
+      '/posts/record/monthly/monthly-2025-03',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/record/monthly/monthly-2025-04': RouteRecordInfo<
+      '/posts/record/monthly/monthly-2025-04',
+      '/posts/record/monthly/monthly-2025-04',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/record/monthly/monthly-2025-05': RouteRecordInfo<
+      '/posts/record/monthly/monthly-2025-05',
+      '/posts/record/monthly/monthly-2025-05',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/record/monthly/monthly-2025-06': RouteRecordInfo<
+      '/posts/record/monthly/monthly-2025-06',
+      '/posts/record/monthly/monthly-2025-06',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/record/monthly/monthly-2025-07': RouteRecordInfo<
+      '/posts/record/monthly/monthly-2025-07',
+      '/posts/record/monthly/monthly-2025-07',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/record/monthly/monthly-2025-08': RouteRecordInfo<
+      '/posts/record/monthly/monthly-2025-08',
+      '/posts/record/monthly/monthly-2025-08',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/record/monthly/monthly-2025-09': RouteRecordInfo<
+      '/posts/record/monthly/monthly-2025-09',
+      '/posts/record/monthly/monthly-2025-09',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/record/monthly/monthly-2025-10': RouteRecordInfo<
+      '/posts/record/monthly/monthly-2025-10',
+      '/posts/record/monthly/monthly-2025-10',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/record/monthly/monthly-2025-11': RouteRecordInfo<
+      '/posts/record/monthly/monthly-2025-11',
+      '/posts/record/monthly/monthly-2025-11',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/record/monthly/monthly-2025-12': RouteRecordInfo<
+      '/posts/record/monthly/monthly-2025-12',
+      '/posts/record/monthly/monthly-2025-12',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/record/monthly/monthly-2026-01': RouteRecordInfo<
+      '/posts/record/monthly/monthly-2026-01',
+      '/posts/record/monthly/monthly-2026-01',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/record/monthly/monthly-2026-02': RouteRecordInfo<
+      '/posts/record/monthly/monthly-2026-02',
+      '/posts/record/monthly/monthly-2026-02',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/record/weekly/weekly-2024-05-1': RouteRecordInfo<
+      '/posts/record/weekly/weekly-2024-05-1',
+      '/posts/record/weekly/weekly-2024-05-1',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/record/weekly/weekly-2024-05-2': RouteRecordInfo<
+      '/posts/record/weekly/weekly-2024-05-2',
+      '/posts/record/weekly/weekly-2024-05-2',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/record/weekly/weekly-2024-05-3': RouteRecordInfo<
+      '/posts/record/weekly/weekly-2024-05-3',
+      '/posts/record/weekly/weekly-2024-05-3',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/record/weekly/weekly-2024-05-4': RouteRecordInfo<
+      '/posts/record/weekly/weekly-2024-05-4',
+      '/posts/record/weekly/weekly-2024-05-4',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/record/weekly/weekly-2024-06-1': RouteRecordInfo<
+      '/posts/record/weekly/weekly-2024-06-1',
+      '/posts/record/weekly/weekly-2024-06-1',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/record/weekly/weekly-2024-06-2': RouteRecordInfo<
+      '/posts/record/weekly/weekly-2024-06-2',
+      '/posts/record/weekly/weekly-2024-06-2',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/record/weekly/weekly-2024-06-3': RouteRecordInfo<
+      '/posts/record/weekly/weekly-2024-06-3',
+      '/posts/record/weekly/weekly-2024-06-3',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/record/weekly/weekly-2024-06-4': RouteRecordInfo<
+      '/posts/record/weekly/weekly-2024-06-4',
+      '/posts/record/weekly/weekly-2024-06-4',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/record/weekly/weekly-2024-07-1': RouteRecordInfo<
+      '/posts/record/weekly/weekly-2024-07-1',
+      '/posts/record/weekly/weekly-2024-07-1',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/record/weekly/weekly-2024-07-2': RouteRecordInfo<
+      '/posts/record/weekly/weekly-2024-07-2',
+      '/posts/record/weekly/weekly-2024-07-2',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/record/weekly/weekly-2024-07-3': RouteRecordInfo<
+      '/posts/record/weekly/weekly-2024-07-3',
+      '/posts/record/weekly/weekly-2024-07-3',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/record/weekly/weekly-2024-07-4': RouteRecordInfo<
+      '/posts/record/weekly/weekly-2024-07-4',
+      '/posts/record/weekly/weekly-2024-07-4',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/record/weekly/weekly-2024-08-1': RouteRecordInfo<
+      '/posts/record/weekly/weekly-2024-08-1',
+      '/posts/record/weekly/weekly-2024-08-1',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/record/weekly/weekly-2024-08-2345': RouteRecordInfo<
+      '/posts/record/weekly/weekly-2024-08-2345',
+      '/posts/record/weekly/weekly-2024-08-2345',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/record/weekly/weekly-2024-09-1': RouteRecordInfo<
+      '/posts/record/weekly/weekly-2024-09-1',
+      '/posts/record/weekly/weekly-2024-09-1',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/record/weekly/weekly-2024-09-2': RouteRecordInfo<
+      '/posts/record/weekly/weekly-2024-09-2',
+      '/posts/record/weekly/weekly-2024-09-2',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/record/weekly/weekly-2024-09-3': RouteRecordInfo<
+      '/posts/record/weekly/weekly-2024-09-3',
+      '/posts/record/weekly/weekly-2024-09-3',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/record/weekly/weekly-2024-09-4': RouteRecordInfo<
+      '/posts/record/weekly/weekly-2024-09-4',
+      '/posts/record/weekly/weekly-2024-09-4',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/record/weekly/weekly-2024-10-1': RouteRecordInfo<
+      '/posts/record/weekly/weekly-2024-10-1',
+      '/posts/record/weekly/weekly-2024-10-1',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/record/weekly/weekly-2024-10-2': RouteRecordInfo<
+      '/posts/record/weekly/weekly-2024-10-2',
+      '/posts/record/weekly/weekly-2024-10-2',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/record/weekly/weekly-2024-10-3': RouteRecordInfo<
+      '/posts/record/weekly/weekly-2024-10-3',
+      '/posts/record/weekly/weekly-2024-10-3',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/record/weekly/weekly-2024-10-4': RouteRecordInfo<
+      '/posts/record/weekly/weekly-2024-10-4',
+      '/posts/record/weekly/weekly-2024-10-4',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/record/weekly/weekly-2024-10-5': RouteRecordInfo<
+      '/posts/record/weekly/weekly-2024-10-5',
+      '/posts/record/weekly/weekly-2024-10-5',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/record/weekly/weekly-2024-11-1': RouteRecordInfo<
+      '/posts/record/weekly/weekly-2024-11-1',
+      '/posts/record/weekly/weekly-2024-11-1',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/record/weekly/weekly-2024-11-2': RouteRecordInfo<
+      '/posts/record/weekly/weekly-2024-11-2',
+      '/posts/record/weekly/weekly-2024-11-2',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/record/weekly/weekly-2024-11-3': RouteRecordInfo<
+      '/posts/record/weekly/weekly-2024-11-3',
+      '/posts/record/weekly/weekly-2024-11-3',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/record/weekly/weekly-2024-11-4': RouteRecordInfo<
+      '/posts/record/weekly/weekly-2024-11-4',
+      '/posts/record/weekly/weekly-2024-11-4',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/record/weekly/weekly-2024-12-1': RouteRecordInfo<
+      '/posts/record/weekly/weekly-2024-12-1',
+      '/posts/record/weekly/weekly-2024-12-1',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/record/weekly/weekly-2024-12-2': RouteRecordInfo<
+      '/posts/record/weekly/weekly-2024-12-2',
+      '/posts/record/weekly/weekly-2024-12-2',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/record/weekly/weekly-2024-12-3': RouteRecordInfo<
+      '/posts/record/weekly/weekly-2024-12-3',
+      '/posts/record/weekly/weekly-2024-12-3',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/record/weekly/weekly-2024-12-4': RouteRecordInfo<
+      '/posts/record/weekly/weekly-2024-12-4',
+      '/posts/record/weekly/weekly-2024-12-4',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/record/weekly/weekly-2024-12-5': RouteRecordInfo<
+      '/posts/record/weekly/weekly-2024-12-5',
+      '/posts/record/weekly/weekly-2024-12-5',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/record/weekly/weekly-2025-01-1': RouteRecordInfo<
+      '/posts/record/weekly/weekly-2025-01-1',
+      '/posts/record/weekly/weekly-2025-01-1',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/record/weekly/weekly-2025-01-2': RouteRecordInfo<
+      '/posts/record/weekly/weekly-2025-01-2',
+      '/posts/record/weekly/weekly-2025-01-2',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/record/weekly/weekly-2025-01-3': RouteRecordInfo<
+      '/posts/record/weekly/weekly-2025-01-3',
+      '/posts/record/weekly/weekly-2025-01-3',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/record/weekly/weekly-2025-01-4': RouteRecordInfo<
+      '/posts/record/weekly/weekly-2025-01-4',
+      '/posts/record/weekly/weekly-2025-01-4',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/record/weekly/weekly-2025-02-1': RouteRecordInfo<
+      '/posts/record/weekly/weekly-2025-02-1',
+      '/posts/record/weekly/weekly-2025-02-1',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/record/weekly/weekly-2025-02-2': RouteRecordInfo<
+      '/posts/record/weekly/weekly-2025-02-2',
+      '/posts/record/weekly/weekly-2025-02-2',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/record/weekly/weekly-2025-02-3': RouteRecordInfo<
+      '/posts/record/weekly/weekly-2025-02-3',
+      '/posts/record/weekly/weekly-2025-02-3',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/record/weekly/weekly-2025-02-4': RouteRecordInfo<
+      '/posts/record/weekly/weekly-2025-02-4',
+      '/posts/record/weekly/weekly-2025-02-4',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/record/weekly/weekly-2025-03-1': RouteRecordInfo<
+      '/posts/record/weekly/weekly-2025-03-1',
+      '/posts/record/weekly/weekly-2025-03-1',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/record/weekly/weekly-2025-03-2': RouteRecordInfo<
+      '/posts/record/weekly/weekly-2025-03-2',
+      '/posts/record/weekly/weekly-2025-03-2',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/record/weekly/weekly-2025-03-3': RouteRecordInfo<
+      '/posts/record/weekly/weekly-2025-03-3',
+      '/posts/record/weekly/weekly-2025-03-3',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/record/weekly/weekly-2025-03-4': RouteRecordInfo<
+      '/posts/record/weekly/weekly-2025-03-4',
+      '/posts/record/weekly/weekly-2025-03-4',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/record/weekly/weekly-2025-04-1': RouteRecordInfo<
+      '/posts/record/weekly/weekly-2025-04-1',
+      '/posts/record/weekly/weekly-2025-04-1',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/record/weekly/weekly-2025-04-2': RouteRecordInfo<
+      '/posts/record/weekly/weekly-2025-04-2',
+      '/posts/record/weekly/weekly-2025-04-2',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/record/weekly/weekly-2025-04-3': RouteRecordInfo<
+      '/posts/record/weekly/weekly-2025-04-3',
+      '/posts/record/weekly/weekly-2025-04-3',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/record/weekly/weekly-2025-04-4': RouteRecordInfo<
+      '/posts/record/weekly/weekly-2025-04-4',
+      '/posts/record/weekly/weekly-2025-04-4',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/useful/document-editor-trick': RouteRecordInfo<
+      '/posts/useful/document-editor-trick',
+      '/posts/useful/document-editor-trick',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
     '/posts/useful/git-cheat-sheet': RouteRecordInfo<
       '/posts/useful/git-cheat-sheet',
       '/posts/useful/git-cheat-sheet',
@@ -1007,9 +1588,9 @@ declare module 'vue-router/auto-routes' {
       Record<never, never>,
       | never
     >,
-    '/posts/useful/githubusercontent': RouteRecordInfo<
-      '/posts/useful/githubusercontent',
-      '/posts/useful/githubusercontent',
+    '/posts/useful/git-trick': RouteRecordInfo<
+      '/posts/useful/git-trick',
+      '/posts/useful/git-trick',
       Record<never, never>,
       Record<never, never>,
       | never
@@ -1017,13 +1598,6 @@ declare module 'vue-router/auto-routes' {
     '/posts/useful/html-trick': RouteRecordInfo<
       '/posts/useful/html-trick',
       '/posts/useful/html-trick',
-      Record<never, never>,
-      Record<never, never>,
-      | never
-    >,
-    '/posts/useful/jupyter': RouteRecordInfo<
-      '/posts/useful/jupyter',
-      '/posts/useful/jupyter',
       Record<never, never>,
       Record<never, never>,
       | never
@@ -1042,366 +1616,23 @@ declare module 'vue-router/auto-routes' {
       Record<never, never>,
       | never
     >,
-    '/posts/useful/tar': RouteRecordInfo<
-      '/posts/useful/tar',
-      '/posts/useful/tar',
+    '/posts/useful/quick-use-githubusercontent': RouteRecordInfo<
+      '/posts/useful/quick-use-githubusercontent',
+      '/posts/useful/quick-use-githubusercontent',
       Record<never, never>,
       Record<never, never>,
       | never
     >,
-    '/posts/weekly/2024/05/1': RouteRecordInfo<
-      '/posts/weekly/2024/05/1',
-      '/posts/weekly/2024/05/1',
+    '/posts/useful/quick-use-jupyter': RouteRecordInfo<
+      '/posts/useful/quick-use-jupyter',
+      '/posts/useful/quick-use-jupyter',
       Record<never, never>,
       Record<never, never>,
       | never
     >,
-    '/posts/weekly/2024/05/2': RouteRecordInfo<
-      '/posts/weekly/2024/05/2',
-      '/posts/weekly/2024/05/2',
-      Record<never, never>,
-      Record<never, never>,
-      | never
-    >,
-    '/posts/weekly/2024/05/3': RouteRecordInfo<
-      '/posts/weekly/2024/05/3',
-      '/posts/weekly/2024/05/3',
-      Record<never, never>,
-      Record<never, never>,
-      | never
-    >,
-    '/posts/weekly/2024/05/4': RouteRecordInfo<
-      '/posts/weekly/2024/05/4',
-      '/posts/weekly/2024/05/4',
-      Record<never, never>,
-      Record<never, never>,
-      | never
-    >,
-    '/posts/weekly/2024/06/1': RouteRecordInfo<
-      '/posts/weekly/2024/06/1',
-      '/posts/weekly/2024/06/1',
-      Record<never, never>,
-      Record<never, never>,
-      | never
-    >,
-    '/posts/weekly/2024/06/2': RouteRecordInfo<
-      '/posts/weekly/2024/06/2',
-      '/posts/weekly/2024/06/2',
-      Record<never, never>,
-      Record<never, never>,
-      | never
-    >,
-    '/posts/weekly/2024/06/3': RouteRecordInfo<
-      '/posts/weekly/2024/06/3',
-      '/posts/weekly/2024/06/3',
-      Record<never, never>,
-      Record<never, never>,
-      | never
-    >,
-    '/posts/weekly/2024/06/4': RouteRecordInfo<
-      '/posts/weekly/2024/06/4',
-      '/posts/weekly/2024/06/4',
-      Record<never, never>,
-      Record<never, never>,
-      | never
-    >,
-    '/posts/weekly/2024/07/1': RouteRecordInfo<
-      '/posts/weekly/2024/07/1',
-      '/posts/weekly/2024/07/1',
-      Record<never, never>,
-      Record<never, never>,
-      | never
-    >,
-    '/posts/weekly/2024/07/2': RouteRecordInfo<
-      '/posts/weekly/2024/07/2',
-      '/posts/weekly/2024/07/2',
-      Record<never, never>,
-      Record<never, never>,
-      | never
-    >,
-    '/posts/weekly/2024/07/3': RouteRecordInfo<
-      '/posts/weekly/2024/07/3',
-      '/posts/weekly/2024/07/3',
-      Record<never, never>,
-      Record<never, never>,
-      | never
-    >,
-    '/posts/weekly/2024/07/4': RouteRecordInfo<
-      '/posts/weekly/2024/07/4',
-      '/posts/weekly/2024/07/4',
-      Record<never, never>,
-      Record<never, never>,
-      | never
-    >,
-    '/posts/weekly/2024/08/1': RouteRecordInfo<
-      '/posts/weekly/2024/08/1',
-      '/posts/weekly/2024/08/1',
-      Record<never, never>,
-      Record<never, never>,
-      | never
-    >,
-    '/posts/weekly/2024/08/2': RouteRecordInfo<
-      '/posts/weekly/2024/08/2',
-      '/posts/weekly/2024/08/2',
-      Record<never, never>,
-      Record<never, never>,
-      | never
-    >,
-    '/posts/weekly/2024/08/3': RouteRecordInfo<
-      '/posts/weekly/2024/08/3',
-      '/posts/weekly/2024/08/3',
-      Record<never, never>,
-      Record<never, never>,
-      | never
-    >,
-    '/posts/weekly/2024/08/4': RouteRecordInfo<
-      '/posts/weekly/2024/08/4',
-      '/posts/weekly/2024/08/4',
-      Record<never, never>,
-      Record<never, never>,
-      | never
-    >,
-    '/posts/weekly/2024/08/5': RouteRecordInfo<
-      '/posts/weekly/2024/08/5',
-      '/posts/weekly/2024/08/5',
-      Record<never, never>,
-      Record<never, never>,
-      | never
-    >,
-    '/posts/weekly/2024/09/1': RouteRecordInfo<
-      '/posts/weekly/2024/09/1',
-      '/posts/weekly/2024/09/1',
-      Record<never, never>,
-      Record<never, never>,
-      | never
-    >,
-    '/posts/weekly/2024/09/2': RouteRecordInfo<
-      '/posts/weekly/2024/09/2',
-      '/posts/weekly/2024/09/2',
-      Record<never, never>,
-      Record<never, never>,
-      | never
-    >,
-    '/posts/weekly/2024/09/3': RouteRecordInfo<
-      '/posts/weekly/2024/09/3',
-      '/posts/weekly/2024/09/3',
-      Record<never, never>,
-      Record<never, never>,
-      | never
-    >,
-    '/posts/weekly/2024/09/4': RouteRecordInfo<
-      '/posts/weekly/2024/09/4',
-      '/posts/weekly/2024/09/4',
-      Record<never, never>,
-      Record<never, never>,
-      | never
-    >,
-    '/posts/weekly/2024/10/1': RouteRecordInfo<
-      '/posts/weekly/2024/10/1',
-      '/posts/weekly/2024/10/1',
-      Record<never, never>,
-      Record<never, never>,
-      | never
-    >,
-    '/posts/weekly/2024/10/2': RouteRecordInfo<
-      '/posts/weekly/2024/10/2',
-      '/posts/weekly/2024/10/2',
-      Record<never, never>,
-      Record<never, never>,
-      | never
-    >,
-    '/posts/weekly/2024/10/3': RouteRecordInfo<
-      '/posts/weekly/2024/10/3',
-      '/posts/weekly/2024/10/3',
-      Record<never, never>,
-      Record<never, never>,
-      | never
-    >,
-    '/posts/weekly/2024/10/4': RouteRecordInfo<
-      '/posts/weekly/2024/10/4',
-      '/posts/weekly/2024/10/4',
-      Record<never, never>,
-      Record<never, never>,
-      | never
-    >,
-    '/posts/weekly/2024/10/5': RouteRecordInfo<
-      '/posts/weekly/2024/10/5',
-      '/posts/weekly/2024/10/5',
-      Record<never, never>,
-      Record<never, never>,
-      | never
-    >,
-    '/posts/weekly/2024/11/1': RouteRecordInfo<
-      '/posts/weekly/2024/11/1',
-      '/posts/weekly/2024/11/1',
-      Record<never, never>,
-      Record<never, never>,
-      | never
-    >,
-    '/posts/weekly/2024/11/2': RouteRecordInfo<
-      '/posts/weekly/2024/11/2',
-      '/posts/weekly/2024/11/2',
-      Record<never, never>,
-      Record<never, never>,
-      | never
-    >,
-    '/posts/weekly/2024/11/3': RouteRecordInfo<
-      '/posts/weekly/2024/11/3',
-      '/posts/weekly/2024/11/3',
-      Record<never, never>,
-      Record<never, never>,
-      | never
-    >,
-    '/posts/weekly/2024/11/4': RouteRecordInfo<
-      '/posts/weekly/2024/11/4',
-      '/posts/weekly/2024/11/4',
-      Record<never, never>,
-      Record<never, never>,
-      | never
-    >,
-    '/posts/weekly/2024/12/1': RouteRecordInfo<
-      '/posts/weekly/2024/12/1',
-      '/posts/weekly/2024/12/1',
-      Record<never, never>,
-      Record<never, never>,
-      | never
-    >,
-    '/posts/weekly/2024/12/2': RouteRecordInfo<
-      '/posts/weekly/2024/12/2',
-      '/posts/weekly/2024/12/2',
-      Record<never, never>,
-      Record<never, never>,
-      | never
-    >,
-    '/posts/weekly/2024/12/3': RouteRecordInfo<
-      '/posts/weekly/2024/12/3',
-      '/posts/weekly/2024/12/3',
-      Record<never, never>,
-      Record<never, never>,
-      | never
-    >,
-    '/posts/weekly/2024/12/4': RouteRecordInfo<
-      '/posts/weekly/2024/12/4',
-      '/posts/weekly/2024/12/4',
-      Record<never, never>,
-      Record<never, never>,
-      | never
-    >,
-    '/posts/weekly/2024/12/5': RouteRecordInfo<
-      '/posts/weekly/2024/12/5',
-      '/posts/weekly/2024/12/5',
-      Record<never, never>,
-      Record<never, never>,
-      | never
-    >,
-    '/posts/weekly/2025/01/1': RouteRecordInfo<
-      '/posts/weekly/2025/01/1',
-      '/posts/weekly/2025/01/1',
-      Record<never, never>,
-      Record<never, never>,
-      | never
-    >,
-    '/posts/weekly/2025/01/2': RouteRecordInfo<
-      '/posts/weekly/2025/01/2',
-      '/posts/weekly/2025/01/2',
-      Record<never, never>,
-      Record<never, never>,
-      | never
-    >,
-    '/posts/weekly/2025/01/3': RouteRecordInfo<
-      '/posts/weekly/2025/01/3',
-      '/posts/weekly/2025/01/3',
-      Record<never, never>,
-      Record<never, never>,
-      | never
-    >,
-    '/posts/weekly/2025/01/4': RouteRecordInfo<
-      '/posts/weekly/2025/01/4',
-      '/posts/weekly/2025/01/4',
-      Record<never, never>,
-      Record<never, never>,
-      | never
-    >,
-    '/posts/weekly/2025/02/1': RouteRecordInfo<
-      '/posts/weekly/2025/02/1',
-      '/posts/weekly/2025/02/1',
-      Record<never, never>,
-      Record<never, never>,
-      | never
-    >,
-    '/posts/weekly/2025/02/2': RouteRecordInfo<
-      '/posts/weekly/2025/02/2',
-      '/posts/weekly/2025/02/2',
-      Record<never, never>,
-      Record<never, never>,
-      | never
-    >,
-    '/posts/weekly/2025/02/3': RouteRecordInfo<
-      '/posts/weekly/2025/02/3',
-      '/posts/weekly/2025/02/3',
-      Record<never, never>,
-      Record<never, never>,
-      | never
-    >,
-    '/posts/weekly/2025/02/4': RouteRecordInfo<
-      '/posts/weekly/2025/02/4',
-      '/posts/weekly/2025/02/4',
-      Record<never, never>,
-      Record<never, never>,
-      | never
-    >,
-    '/posts/weekly/2025/03/1': RouteRecordInfo<
-      '/posts/weekly/2025/03/1',
-      '/posts/weekly/2025/03/1',
-      Record<never, never>,
-      Record<never, never>,
-      | never
-    >,
-    '/posts/weekly/2025/03/2': RouteRecordInfo<
-      '/posts/weekly/2025/03/2',
-      '/posts/weekly/2025/03/2',
-      Record<never, never>,
-      Record<never, never>,
-      | never
-    >,
-    '/posts/weekly/2025/03/3': RouteRecordInfo<
-      '/posts/weekly/2025/03/3',
-      '/posts/weekly/2025/03/3',
-      Record<never, never>,
-      Record<never, never>,
-      | never
-    >,
-    '/posts/weekly/2025/03/4': RouteRecordInfo<
-      '/posts/weekly/2025/03/4',
-      '/posts/weekly/2025/03/4',
-      Record<never, never>,
-      Record<never, never>,
-      | never
-    >,
-    '/posts/weekly/2025/04/1': RouteRecordInfo<
-      '/posts/weekly/2025/04/1',
-      '/posts/weekly/2025/04/1',
-      Record<never, never>,
-      Record<never, never>,
-      | never
-    >,
-    '/posts/weekly/2025/04/2': RouteRecordInfo<
-      '/posts/weekly/2025/04/2',
-      '/posts/weekly/2025/04/2',
-      Record<never, never>,
-      Record<never, never>,
-      | never
-    >,
-    '/posts/weekly/2025/04/3': RouteRecordInfo<
-      '/posts/weekly/2025/04/3',
-      '/posts/weekly/2025/04/3',
-      Record<never, never>,
-      Record<never, never>,
-      | never
-    >,
-    '/posts/weekly/2025/04/4': RouteRecordInfo<
-      '/posts/weekly/2025/04/4',
-      '/posts/weekly/2025/04/4',
+    '/posts/useful/quick-use-tar': RouteRecordInfo<
+      '/posts/useful/quick-use-tar',
+      '/posts/useful/quick-use-tar',
       Record<never, never>,
       Record<never, never>,
       | never
@@ -1427,13 +1658,6 @@ declare module 'vue-router/auto-routes' {
       Record<never, never>,
       | never
     >,
-    '/sources/mark': RouteRecordInfo<
-      '/sources/mark',
-      '/sources/mark',
-      Record<never, never>,
-      Record<never, never>,
-      | never
-    >,
     '/tags/': RouteRecordInfo<
       '/tags/',
       '/tags',
@@ -1454,13 +1678,13 @@ declare module 'vue-router/auto-routes' {
    * @internal
    */
   export interface _RouteFileInfoMap {
-    'node_modules/.pnpm/valaxy-theme-sakura@0.10.2__6a87c5d38b4775aadfe4642d575c7eff/node_modules/valaxy-theme-sakura/pages/index.vue': {
+    'node_modules/.pnpm/valaxy-theme-sakura@0.10.2__dfb5aca93403ae8b7e1d688c26956db4/node_modules/valaxy-theme-sakura/pages/index.vue': {
       routes:
         | '/'
       views:
         | never
     }
-    'node_modules/.pnpm/valaxy@0.28.4_@babel+parser_623e6252e1428feb48a247ad6f54fb0b/node_modules/valaxy/client/pages/[...path].vue': {
+    'node_modules/.pnpm/valaxy@1.0.0-rc.5_@babel+pa_728e24f9fbab54995537add117cdafcd/node_modules/valaxy/client/pages/[...path].vue': {
       routes:
         | '/[...path]'
       views:
@@ -1592,15 +1816,15 @@ declare module 'vue-router/auto-routes' {
       views:
         | never
     }
-    'pages/jobs/intro-myself.md': {
-      routes:
-        | '/jobs/intro-myself'
-      views:
-        | never
-    }
     'pages/jobs/question/index.md': {
       routes:
         | '/jobs/question/'
+      views:
+        | never
+    }
+    'pages/jobs/question/database.md': {
+      routes:
+        | '/jobs/question/database'
       views:
         | never
     }
@@ -1622,9 +1846,15 @@ declare module 'vue-router/auto-routes' {
       views:
         | never
     }
-    'pages/jobs/question/java-virtual-machine.md': {
+    'pages/jobs/question/jvm/index.md': {
       routes:
-        | '/jobs/question/java-virtual-machine'
+        | '/jobs/question/jvm/'
+      views:
+        | never
+    }
+    'pages/jobs/question/jvm/garbage-collect.md': {
+      routes:
+        | '/jobs/question/jvm/garbage-collect'
       views:
         | never
     }
@@ -1670,51 +1900,87 @@ declare module 'vue-router/auto-routes' {
       views:
         | never
     }
-    'pages/jobs/question/test.md': {
+    'pages/jobs/record.md': {
       routes:
-        | '/jobs/question/test'
+        | '/jobs/record'
       views:
         | never
     }
-    'pages/jobs/record/202406.md': {
+    'pages/obsidian/copilot/copilot-custom-prompts/Emojify.md': {
       routes:
-        | '/jobs/record/202406'
+        | '/obsidian/copilot/copilot-custom-prompts/Emojify'
       views:
         | never
     }
-    'pages/jobs/record/202502.md': {
+    'pages/obsidian/copilot/copilot-custom-prompts/Explain like I am 5.md': {
       routes:
-        | '/jobs/record/202502'
+        | '/obsidian/copilot/copilot-custom-prompts/Explain like I am 5'
       views:
         | never
     }
-    'pages/jobs/todo.md': {
+    'pages/obsidian/copilot/copilot-custom-prompts/Fix grammar and spelling.md': {
       routes:
-        | '/jobs/todo'
+        | '/obsidian/copilot/copilot-custom-prompts/Fix grammar and spelling'
       views:
         | never
     }
-    'pages/obsidian/draw/drawing 2025-04-29 框架梳理.md': {
+    'pages/obsidian/copilot/copilot-custom-prompts/Generate glossary.md': {
       routes:
-        | '/obsidian/draw/drawing 2025-04-29 框架梳理'
+        | '/obsidian/copilot/copilot-custom-prompts/Generate glossary'
       views:
         | never
     }
-    'pages/obsidian/draw/drawing 2025-04-29 知识库架构.md': {
+    'pages/obsidian/copilot/copilot-custom-prompts/Generate table of contents.md': {
       routes:
-        | '/obsidian/draw/drawing 2025-04-29 知识库架构'
+        | '/obsidian/copilot/copilot-custom-prompts/Generate table of contents'
       views:
         | never
     }
-    'pages/obsidian/draw/drawing 2025-04-29 通信.md': {
+    'pages/obsidian/copilot/copilot-custom-prompts/Make longer.md': {
       routes:
-        | '/obsidian/draw/drawing 2025-04-29 通信'
+        | '/obsidian/copilot/copilot-custom-prompts/Make longer'
       views:
         | never
     }
-    'pages/obsidian/draw/drawing 2025-05-07 国家房贷印钞.md': {
+    'pages/obsidian/copilot/copilot-custom-prompts/Make shorter.md': {
       routes:
-        | '/obsidian/draw/drawing 2025-05-07 国家房贷印钞'
+        | '/obsidian/copilot/copilot-custom-prompts/Make shorter'
+      views:
+        | never
+    }
+    'pages/obsidian/copilot/copilot-custom-prompts/Remove URLs.md': {
+      routes:
+        | '/obsidian/copilot/copilot-custom-prompts/Remove URLs'
+      views:
+        | never
+    }
+    'pages/obsidian/copilot/copilot-custom-prompts/Rewrite as tweet.md': {
+      routes:
+        | '/obsidian/copilot/copilot-custom-prompts/Rewrite as tweet'
+      views:
+        | never
+    }
+    'pages/obsidian/copilot/copilot-custom-prompts/Rewrite as tweet thread.md': {
+      routes:
+        | '/obsidian/copilot/copilot-custom-prompts/Rewrite as tweet thread'
+      views:
+        | never
+    }
+    'pages/obsidian/copilot/copilot-custom-prompts/Simplify.md': {
+      routes:
+        | '/obsidian/copilot/copilot-custom-prompts/Simplify'
+      views:
+        | never
+    }
+    'pages/obsidian/copilot/copilot-custom-prompts/Summarize.md': {
+      routes:
+        | '/obsidian/copilot/copilot-custom-prompts/Summarize'
+      views:
+        | never
+    }
+    'pages/obsidian/copilot/copilot-custom-prompts/Translate to Chinese.md': {
+      routes:
+        | '/obsidian/copilot/copilot-custom-prompts/Translate to Chinese'
       views:
         | never
     }
@@ -1724,27 +1990,33 @@ declare module 'vue-router/auto-routes' {
       views:
         | never
     }
-    'pages/obsidian/template/cf-contest.md': {
+    'pages/obsidian/template/contest-atcoder.md': {
       routes:
-        | '/obsidian/template/cf-contest'
+        | '/obsidian/template/contest-atcoder'
       views:
         | never
     }
-    'pages/obsidian/template/daily-note.md': {
+    'pages/obsidian/template/contest-codeforces.md': {
       routes:
-        | '/obsidian/template/daily-note'
+        | '/obsidian/template/contest-codeforces'
       views:
         | never
     }
-    'pages/obsidian/template/lc-biweekly-contest.md': {
+    'pages/obsidian/template/contest-leetcode.md': {
       routes:
-        | '/obsidian/template/lc-biweekly-contest'
+        | '/obsidian/template/contest-leetcode'
       views:
         | never
     }
-    'pages/obsidian/template/lc-weekly-contest.md': {
+    'pages/obsidian/template/contest-leetcode-biweekly.md': {
       routes:
-        | '/obsidian/template/lc-weekly-contest'
+        | '/obsidian/template/contest-leetcode-biweekly'
+      views:
+        | never
+    }
+    'pages/obsidian/template/daily.md': {
+      routes:
+        | '/obsidian/template/daily'
       views:
         | never
     }
@@ -1754,7 +2026,13 @@ declare module 'vue-router/auto-routes' {
       views:
         | never
     }
-    'node_modules/.pnpm/valaxy-theme-sakura@0.10.2__6a87c5d38b4775aadfe4642d575c7eff/node_modules/valaxy-theme-sakura/pages/page/[page].vue': {
+    'pages/obsidian/todo.md': {
+      routes:
+        | '/obsidian/todo'
+      views:
+        | never
+    }
+    'node_modules/.pnpm/valaxy-theme-sakura@0.10.2__dfb5aca93403ae8b7e1d688c26956db4/node_modules/valaxy-theme-sakura/pages/page/[page].vue': {
       routes:
         | '/page/[page]'
       views:
@@ -1778,48 +2056,6 @@ declare module 'vue-router/auto-routes' {
       views:
         | never
     }
-    'pages/posts/calculation/article.md': {
-      routes:
-        | '/posts/calculation/article'
-      views:
-        | never
-    }
-    'pages/posts/calculation/install-vasp.md': {
-      routes:
-        | '/posts/calculation/install-vasp'
-      views:
-        | never
-    }
-    'pages/posts/calculation/install-wannier90.md': {
-      routes:
-        | '/posts/calculation/install-wannier90'
-      views:
-        | never
-    }
-    'pages/posts/calculation/knowledge.md': {
-      routes:
-        | '/posts/calculation/knowledge'
-      views:
-        | never
-    }
-    'pages/posts/calculation/mp-machine-learning/index.md': {
-      routes:
-        | '/posts/calculation/mp-machine-learning/'
-      views:
-        | never
-    }
-    'pages/posts/calculation/set-incar.md': {
-      routes:
-        | '/posts/calculation/set-incar'
-      views:
-        | never
-    }
-    'pages/posts/calculation/set-win.md': {
-      routes:
-        | '/posts/calculation/set-win'
-      views:
-        | never
-    }
     'pages/posts/calculation/steps.md': {
       routes:
         | '/posts/calculation/steps'
@@ -1829,6 +2065,18 @@ declare module 'vue-router/auto-routes' {
     'pages/posts/contest/index.md': {
       routes:
         | '/posts/contest/'
+      views:
+        | never
+    }
+    'pages/posts/contest/atc-beginner-contest-429.md': {
+      routes:
+        | '/posts/contest/atc-beginner-contest-429'
+      views:
+        | never
+    }
+    'pages/posts/contest/cf-pinely-round-5.md': {
+      routes:
+        | '/posts/contest/cf-pinely-round-5'
       views:
         | never
     }
@@ -1844,201 +2092,345 @@ declare module 'vue-router/auto-routes' {
       views:
         | never
     }
-    'pages/posts/contest/lc-biweekly-contest-152.md': {
+    'pages/posts/contest/cf-round-1051.md': {
       routes:
-        | '/posts/contest/lc-biweekly-contest-152'
+        | '/posts/contest/cf-round-1051'
       views:
         | never
     }
-    'pages/posts/contest/lc-biweekly-contest-154.md': {
+    'pages/posts/contest/leetcode-biweekly/lc-biweekly-contest-152.md': {
       routes:
-        | '/posts/contest/lc-biweekly-contest-154'
+        | '/posts/contest/leetcode-biweekly/lc-biweekly-contest-152'
       views:
         | never
     }
-    'pages/posts/contest/lc-biweekly-contest-156.md': {
+    'pages/posts/contest/leetcode-biweekly/lc-biweekly-contest-154.md': {
       routes:
-        | '/posts/contest/lc-biweekly-contest-156'
+        | '/posts/contest/leetcode-biweekly/lc-biweekly-contest-154'
       views:
         | never
     }
-    'pages/posts/contest/lc-biweekly-contest-157.md': {
+    'pages/posts/contest/leetcode-biweekly/lc-biweekly-contest-156.md': {
       routes:
-        | '/posts/contest/lc-biweekly-contest-157'
+        | '/posts/contest/leetcode-biweekly/lc-biweekly-contest-156'
       views:
         | never
     }
-    'pages/posts/contest/lc-biweekly-contest-158.md': {
+    'pages/posts/contest/leetcode-biweekly/lc-biweekly-contest-157.md': {
       routes:
-        | '/posts/contest/lc-biweekly-contest-158'
+        | '/posts/contest/leetcode-biweekly/lc-biweekly-contest-157'
       views:
         | never
     }
-    'pages/posts/contest/lc-biweekly-contest-160.md': {
+    'pages/posts/contest/leetcode-biweekly/lc-biweekly-contest-158.md': {
       routes:
-        | '/posts/contest/lc-biweekly-contest-160'
+        | '/posts/contest/leetcode-biweekly/lc-biweekly-contest-158'
       views:
         | never
     }
-    'pages/posts/contest/lc-biweekly-contest-162.md': {
+    'pages/posts/contest/leetcode-biweekly/lc-biweekly-contest-160.md': {
       routes:
-        | '/posts/contest/lc-biweekly-contest-162'
+        | '/posts/contest/leetcode-biweekly/lc-biweekly-contest-160'
       views:
         | never
     }
-    'pages/posts/contest/lc-biweekly-contest-163.md': {
+    'pages/posts/contest/leetcode-biweekly/lc-biweekly-contest-162.md': {
       routes:
-        | '/posts/contest/lc-biweekly-contest-163'
+        | '/posts/contest/leetcode-biweekly/lc-biweekly-contest-162'
       views:
         | never
     }
-    'pages/posts/contest/lc-weekly-contest-439.md': {
+    'pages/posts/contest/leetcode-biweekly/lc-biweekly-contest-163.md': {
       routes:
-        | '/posts/contest/lc-weekly-contest-439'
+        | '/posts/contest/leetcode-biweekly/lc-biweekly-contest-163'
       views:
         | never
     }
-    'pages/posts/contest/lc-weekly-contest-440.md': {
+    'pages/posts/contest/leetcode-biweekly/lc-biweekly-contest-164.md': {
       routes:
-        | '/posts/contest/lc-weekly-contest-440'
+        | '/posts/contest/leetcode-biweekly/lc-biweekly-contest-164'
       views:
         | never
     }
-    'pages/posts/contest/lc-weekly-contest-441.md': {
+    'pages/posts/contest/leetcode-biweekly/lc-biweekly-contest-165.md': {
       routes:
-        | '/posts/contest/lc-weekly-contest-441'
+        | '/posts/contest/leetcode-biweekly/lc-biweekly-contest-165'
       views:
         | never
     }
-    'pages/posts/contest/lc-weekly-contest-442.md': {
+    'pages/posts/contest/leetcode-biweekly/lc-biweekly-contest-166.md': {
       routes:
-        | '/posts/contest/lc-weekly-contest-442'
+        | '/posts/contest/leetcode-biweekly/lc-biweekly-contest-166'
       views:
         | never
     }
-    'pages/posts/contest/lc-weekly-contest-443.md': {
+    'pages/posts/contest/leetcode-biweekly/lc-biweekly-contest-167.md': {
       routes:
-        | '/posts/contest/lc-weekly-contest-443'
+        | '/posts/contest/leetcode-biweekly/lc-biweekly-contest-167'
       views:
         | never
     }
-    'pages/posts/contest/lc-weekly-contest-444.md': {
+    'pages/posts/contest/leetcode-biweekly/lc-biweekly-contest-168.md': {
       routes:
-        | '/posts/contest/lc-weekly-contest-444'
+        | '/posts/contest/leetcode-biweekly/lc-biweekly-contest-168'
       views:
         | never
     }
-    'pages/posts/contest/lc-weekly-contest-445.md': {
+    'pages/posts/contest/leetcode-biweekly/lc-biweekly-contest-169.md': {
       routes:
-        | '/posts/contest/lc-weekly-contest-445'
+        | '/posts/contest/leetcode-biweekly/lc-biweekly-contest-169'
       views:
         | never
     }
-    'pages/posts/contest/lc-weekly-contest-446.md': {
+    'pages/posts/contest/leetcode-biweekly/lc-biweekly-contest-170.md': {
       routes:
-        | '/posts/contest/lc-weekly-contest-446'
+        | '/posts/contest/leetcode-biweekly/lc-biweekly-contest-170'
       views:
         | never
     }
-    'pages/posts/contest/lc-weekly-contest-447.md': {
+    'pages/posts/contest/leetcode-biweekly/lc-biweekly-contest-171.md': {
       routes:
-        | '/posts/contest/lc-weekly-contest-447'
+        | '/posts/contest/leetcode-biweekly/lc-biweekly-contest-171'
       views:
         | never
     }
-    'pages/posts/contest/lc-weekly-contest-448.md': {
+    'pages/posts/contest/leetcode-biweekly/lc-biweekly-contest-172.md': {
       routes:
-        | '/posts/contest/lc-weekly-contest-448'
+        | '/posts/contest/leetcode-biweekly/lc-biweekly-contest-172'
       views:
         | never
     }
-    'pages/posts/contest/lc-weekly-contest-449.md': {
+    'pages/posts/contest/leetcode-weekly/lc-weekly-contest-439.md': {
       routes:
-        | '/posts/contest/lc-weekly-contest-449'
+        | '/posts/contest/leetcode-weekly/lc-weekly-contest-439'
       views:
         | never
     }
-    'pages/posts/contest/lc-weekly-contest-450.md': {
+    'pages/posts/contest/leetcode-weekly/lc-weekly-contest-440.md': {
       routes:
-        | '/posts/contest/lc-weekly-contest-450'
+        | '/posts/contest/leetcode-weekly/lc-weekly-contest-440'
       views:
         | never
     }
-    'pages/posts/contest/lc-weekly-contest-451.md': {
+    'pages/posts/contest/leetcode-weekly/lc-weekly-contest-441.md': {
       routes:
-        | '/posts/contest/lc-weekly-contest-451'
+        | '/posts/contest/leetcode-weekly/lc-weekly-contest-441'
       views:
         | never
     }
-    'pages/posts/contest/lc-weekly-contest-452.md': {
+    'pages/posts/contest/leetcode-weekly/lc-weekly-contest-442.md': {
       routes:
-        | '/posts/contest/lc-weekly-contest-452'
+        | '/posts/contest/leetcode-weekly/lc-weekly-contest-442'
       views:
         | never
     }
-    'pages/posts/contest/lc-weekly-contest-453.md': {
+    'pages/posts/contest/leetcode-weekly/lc-weekly-contest-443.md': {
       routes:
-        | '/posts/contest/lc-weekly-contest-453'
+        | '/posts/contest/leetcode-weekly/lc-weekly-contest-443'
       views:
         | never
     }
-    'pages/posts/contest/lc-weekly-contest-454.md': {
+    'pages/posts/contest/leetcode-weekly/lc-weekly-contest-444.md': {
       routes:
-        | '/posts/contest/lc-weekly-contest-454'
+        | '/posts/contest/leetcode-weekly/lc-weekly-contest-444'
       views:
         | never
     }
-    'pages/posts/contest/lc-weekly-contest-455.md': {
+    'pages/posts/contest/leetcode-weekly/lc-weekly-contest-445.md': {
       routes:
-        | '/posts/contest/lc-weekly-contest-455'
+        | '/posts/contest/leetcode-weekly/lc-weekly-contest-445'
       views:
         | never
     }
-    'pages/posts/contest/lc-weekly-contest-456.md': {
+    'pages/posts/contest/leetcode-weekly/lc-weekly-contest-446.md': {
       routes:
-        | '/posts/contest/lc-weekly-contest-456'
+        | '/posts/contest/leetcode-weekly/lc-weekly-contest-446'
       views:
         | never
     }
-    'pages/posts/contest/lc-weekly-contest-457.md': {
+    'pages/posts/contest/leetcode-weekly/lc-weekly-contest-447.md': {
       routes:
-        | '/posts/contest/lc-weekly-contest-457'
+        | '/posts/contest/leetcode-weekly/lc-weekly-contest-447'
       views:
         | never
     }
-    'pages/posts/contest/lc-weekly-contest-458.md': {
+    'pages/posts/contest/leetcode-weekly/lc-weekly-contest-448.md': {
       routes:
-        | '/posts/contest/lc-weekly-contest-458'
+        | '/posts/contest/leetcode-weekly/lc-weekly-contest-448'
       views:
         | never
     }
-    'pages/posts/contest/lc-weekly-contest-460.md': {
+    'pages/posts/contest/leetcode-weekly/lc-weekly-contest-449.md': {
       routes:
-        | '/posts/contest/lc-weekly-contest-460'
+        | '/posts/contest/leetcode-weekly/lc-weekly-contest-449'
       views:
         | never
     }
-    'pages/posts/contest/lc-weekly-contest-461.md': {
+    'pages/posts/contest/leetcode-weekly/lc-weekly-contest-450.md': {
       routes:
-        | '/posts/contest/lc-weekly-contest-461'
+        | '/posts/contest/leetcode-weekly/lc-weekly-contest-450'
       views:
         | never
     }
-    'pages/posts/contest/lc-weekly-contest-462.md': {
+    'pages/posts/contest/leetcode-weekly/lc-weekly-contest-451.md': {
       routes:
-        | '/posts/contest/lc-weekly-contest-462'
+        | '/posts/contest/leetcode-weekly/lc-weekly-contest-451'
       views:
         | never
     }
-    'pages/posts/contest/lc-weekly-contest-463.md': {
+    'pages/posts/contest/leetcode-weekly/lc-weekly-contest-452.md': {
       routes:
-        | '/posts/contest/lc-weekly-contest-463'
+        | '/posts/contest/leetcode-weekly/lc-weekly-contest-452'
       views:
         | never
     }
-    'pages/posts/contest/lc-weekly-contest-464.md': {
+    'pages/posts/contest/leetcode-weekly/lc-weekly-contest-453.md': {
       routes:
-        | '/posts/contest/lc-weekly-contest-464'
+        | '/posts/contest/leetcode-weekly/lc-weekly-contest-453'
+      views:
+        | never
+    }
+    'pages/posts/contest/leetcode-weekly/lc-weekly-contest-454.md': {
+      routes:
+        | '/posts/contest/leetcode-weekly/lc-weekly-contest-454'
+      views:
+        | never
+    }
+    'pages/posts/contest/leetcode-weekly/lc-weekly-contest-455.md': {
+      routes:
+        | '/posts/contest/leetcode-weekly/lc-weekly-contest-455'
+      views:
+        | never
+    }
+    'pages/posts/contest/leetcode-weekly/lc-weekly-contest-456.md': {
+      routes:
+        | '/posts/contest/leetcode-weekly/lc-weekly-contest-456'
+      views:
+        | never
+    }
+    'pages/posts/contest/leetcode-weekly/lc-weekly-contest-457.md': {
+      routes:
+        | '/posts/contest/leetcode-weekly/lc-weekly-contest-457'
+      views:
+        | never
+    }
+    'pages/posts/contest/leetcode-weekly/lc-weekly-contest-458.md': {
+      routes:
+        | '/posts/contest/leetcode-weekly/lc-weekly-contest-458'
+      views:
+        | never
+    }
+    'pages/posts/contest/leetcode-weekly/lc-weekly-contest-460.md': {
+      routes:
+        | '/posts/contest/leetcode-weekly/lc-weekly-contest-460'
+      views:
+        | never
+    }
+    'pages/posts/contest/leetcode-weekly/lc-weekly-contest-461.md': {
+      routes:
+        | '/posts/contest/leetcode-weekly/lc-weekly-contest-461'
+      views:
+        | never
+    }
+    'pages/posts/contest/leetcode-weekly/lc-weekly-contest-462.md': {
+      routes:
+        | '/posts/contest/leetcode-weekly/lc-weekly-contest-462'
+      views:
+        | never
+    }
+    'pages/posts/contest/leetcode-weekly/lc-weekly-contest-463.md': {
+      routes:
+        | '/posts/contest/leetcode-weekly/lc-weekly-contest-463'
+      views:
+        | never
+    }
+    'pages/posts/contest/leetcode-weekly/lc-weekly-contest-464.md': {
+      routes:
+        | '/posts/contest/leetcode-weekly/lc-weekly-contest-464'
+      views:
+        | never
+    }
+    'pages/posts/contest/leetcode-weekly/lc-weekly-contest-465.md': {
+      routes:
+        | '/posts/contest/leetcode-weekly/lc-weekly-contest-465'
+      views:
+        | never
+    }
+    'pages/posts/contest/leetcode-weekly/lc-weekly-contest-466.md': {
+      routes:
+        | '/posts/contest/leetcode-weekly/lc-weekly-contest-466'
+      views:
+        | never
+    }
+    'pages/posts/contest/leetcode-weekly/lc-weekly-contest-467.md': {
+      routes:
+        | '/posts/contest/leetcode-weekly/lc-weekly-contest-467'
+      views:
+        | never
+    }
+    'pages/posts/contest/leetcode-weekly/lc-weekly-contest-468.md': {
+      routes:
+        | '/posts/contest/leetcode-weekly/lc-weekly-contest-468'
+      views:
+        | never
+    }
+    'pages/posts/contest/leetcode-weekly/lc-weekly-contest-469.md': {
+      routes:
+        | '/posts/contest/leetcode-weekly/lc-weekly-contest-469'
+      views:
+        | never
+    }
+    'pages/posts/contest/leetcode-weekly/lc-weekly-contest-470.md': {
+      routes:
+        | '/posts/contest/leetcode-weekly/lc-weekly-contest-470'
+      views:
+        | never
+    }
+    'pages/posts/contest/leetcode-weekly/lc-weekly-contest-471.md': {
+      routes:
+        | '/posts/contest/leetcode-weekly/lc-weekly-contest-471'
+      views:
+        | never
+    }
+    'pages/posts/contest/leetcode-weekly/lc-weekly-contest-473.md': {
+      routes:
+        | '/posts/contest/leetcode-weekly/lc-weekly-contest-473'
+      views:
+        | never
+    }
+    'pages/posts/contest/leetcode-weekly/lc-weekly-contest-474.md': {
+      routes:
+        | '/posts/contest/leetcode-weekly/lc-weekly-contest-474'
+      views:
+        | never
+    }
+    'pages/posts/contest/leetcode-weekly/lc-weekly-contest-475.md': {
+      routes:
+        | '/posts/contest/leetcode-weekly/lc-weekly-contest-475'
+      views:
+        | never
+    }
+    'pages/posts/contest/leetcode-weekly/lc-weekly-contest-476.md': {
+      routes:
+        | '/posts/contest/leetcode-weekly/lc-weekly-contest-476'
+      views:
+        | never
+    }
+    'pages/posts/contest/leetcode-weekly/lc-weekly-contest-477.md': {
+      routes:
+        | '/posts/contest/leetcode-weekly/lc-weekly-contest-477'
+      views:
+        | never
+    }
+    'pages/posts/contest/leetcode-weekly/lc-weekly-contest-478.md': {
+      routes:
+        | '/posts/contest/leetcode-weekly/lc-weekly-contest-478'
+      views:
+        | never
+    }
+    'pages/posts/contest/leetcode-weekly/lc-weekly-contest-479.md': {
+      routes:
+        | '/posts/contest/leetcode-weekly/lc-weekly-contest-479'
       views:
         | never
     }
@@ -2114,108 +2506,6 @@ declare module 'vue-router/auto-routes' {
       views:
         | never
     }
-    'pages/posts/monthly/2024/05.md': {
-      routes:
-        | '/posts/monthly/2024/05'
-      views:
-        | never
-    }
-    'pages/posts/monthly/2024/06.md': {
-      routes:
-        | '/posts/monthly/2024/06'
-      views:
-        | never
-    }
-    'pages/posts/monthly/2024/07.md': {
-      routes:
-        | '/posts/monthly/2024/07'
-      views:
-        | never
-    }
-    'pages/posts/monthly/2024/08.md': {
-      routes:
-        | '/posts/monthly/2024/08'
-      views:
-        | never
-    }
-    'pages/posts/monthly/2024/09.md': {
-      routes:
-        | '/posts/monthly/2024/09'
-      views:
-        | never
-    }
-    'pages/posts/monthly/2024/10.md': {
-      routes:
-        | '/posts/monthly/2024/10'
-      views:
-        | never
-    }
-    'pages/posts/monthly/2024/11.md': {
-      routes:
-        | '/posts/monthly/2024/11'
-      views:
-        | never
-    }
-    'pages/posts/monthly/2024/12.md': {
-      routes:
-        | '/posts/monthly/2024/12'
-      views:
-        | never
-    }
-    'pages/posts/monthly/2025/01.md': {
-      routes:
-        | '/posts/monthly/2025/01'
-      views:
-        | never
-    }
-    'pages/posts/monthly/2025/02.md': {
-      routes:
-        | '/posts/monthly/2025/02'
-      views:
-        | never
-    }
-    'pages/posts/monthly/2025/03.md': {
-      routes:
-        | '/posts/monthly/2025/03'
-      views:
-        | never
-    }
-    'pages/posts/monthly/2025/04.md': {
-      routes:
-        | '/posts/monthly/2025/04'
-      views:
-        | never
-    }
-    'pages/posts/monthly/2025/05.md': {
-      routes:
-        | '/posts/monthly/2025/05'
-      views:
-        | never
-    }
-    'pages/posts/monthly/2025/06.md': {
-      routes:
-        | '/posts/monthly/2025/06'
-      views:
-        | never
-    }
-    'pages/posts/monthly/2025/07.md': {
-      routes:
-        | '/posts/monthly/2025/07'
-      views:
-        | never
-    }
-    'pages/posts/monthly/2025/08.md': {
-      routes:
-        | '/posts/monthly/2025/08'
-      views:
-        | never
-    }
-    'pages/posts/ponder/father.md': {
-      routes:
-        | '/posts/ponder/father'
-      views:
-        | never
-    }
     'pages/posts/ponder/fear.md': {
       routes:
         | '/posts/ponder/fear'
@@ -2228,15 +2518,15 @@ declare module 'vue-router/auto-routes' {
       views:
         | never
     }
-    'pages/posts/project/delete-duplicate-file.md': {
-      routes:
-        | '/posts/project/delete-duplicate-file'
-      views:
-        | never
-    }
     'pages/posts/project/imitation-douyin-e-commerce/development-issues.md': {
       routes:
         | '/posts/project/imitation-douyin-e-commerce/development-issues'
+      views:
+        | never
+    }
+    'pages/posts/project/project-idea.md': {
+      routes:
+        | '/posts/project/project-idea'
       views:
         | never
     }
@@ -2288,27 +2578,453 @@ declare module 'vue-router/auto-routes' {
       views:
         | never
     }
+    'pages/posts/record/index.md': {
+      routes:
+        | '/posts/record/'
+      views:
+        | never
+    }
+    'pages/posts/record/monthly/monthly-2024-05.md': {
+      routes:
+        | '/posts/record/monthly/monthly-2024-05'
+      views:
+        | never
+    }
+    'pages/posts/record/monthly/monthly-2024-06.md': {
+      routes:
+        | '/posts/record/monthly/monthly-2024-06'
+      views:
+        | never
+    }
+    'pages/posts/record/monthly/monthly-2024-07.md': {
+      routes:
+        | '/posts/record/monthly/monthly-2024-07'
+      views:
+        | never
+    }
+    'pages/posts/record/monthly/monthly-2024-08.md': {
+      routes:
+        | '/posts/record/monthly/monthly-2024-08'
+      views:
+        | never
+    }
+    'pages/posts/record/monthly/monthly-2024-09.md': {
+      routes:
+        | '/posts/record/monthly/monthly-2024-09'
+      views:
+        | never
+    }
+    'pages/posts/record/monthly/monthly-2024-10.md': {
+      routes:
+        | '/posts/record/monthly/monthly-2024-10'
+      views:
+        | never
+    }
+    'pages/posts/record/monthly/monthly-2024-11.md': {
+      routes:
+        | '/posts/record/monthly/monthly-2024-11'
+      views:
+        | never
+    }
+    'pages/posts/record/monthly/monthly-2024-12.md': {
+      routes:
+        | '/posts/record/monthly/monthly-2024-12'
+      views:
+        | never
+    }
+    'pages/posts/record/monthly/monthly-2025-01.md': {
+      routes:
+        | '/posts/record/monthly/monthly-2025-01'
+      views:
+        | never
+    }
+    'pages/posts/record/monthly/monthly-2025-02.md': {
+      routes:
+        | '/posts/record/monthly/monthly-2025-02'
+      views:
+        | never
+    }
+    'pages/posts/record/monthly/monthly-2025-03.md': {
+      routes:
+        | '/posts/record/monthly/monthly-2025-03'
+      views:
+        | never
+    }
+    'pages/posts/record/monthly/monthly-2025-04.md': {
+      routes:
+        | '/posts/record/monthly/monthly-2025-04'
+      views:
+        | never
+    }
+    'pages/posts/record/monthly/monthly-2025-05.md': {
+      routes:
+        | '/posts/record/monthly/monthly-2025-05'
+      views:
+        | never
+    }
+    'pages/posts/record/monthly/monthly-2025-06.md': {
+      routes:
+        | '/posts/record/monthly/monthly-2025-06'
+      views:
+        | never
+    }
+    'pages/posts/record/monthly/monthly-2025-07.md': {
+      routes:
+        | '/posts/record/monthly/monthly-2025-07'
+      views:
+        | never
+    }
+    'pages/posts/record/monthly/monthly-2025-08.md': {
+      routes:
+        | '/posts/record/monthly/monthly-2025-08'
+      views:
+        | never
+    }
+    'pages/posts/record/monthly/monthly-2025-09.md': {
+      routes:
+        | '/posts/record/monthly/monthly-2025-09'
+      views:
+        | never
+    }
+    'pages/posts/record/monthly/monthly-2025-10.md': {
+      routes:
+        | '/posts/record/monthly/monthly-2025-10'
+      views:
+        | never
+    }
+    'pages/posts/record/monthly/monthly-2025-11.md': {
+      routes:
+        | '/posts/record/monthly/monthly-2025-11'
+      views:
+        | never
+    }
+    'pages/posts/record/monthly/monthly-2025-12.md': {
+      routes:
+        | '/posts/record/monthly/monthly-2025-12'
+      views:
+        | never
+    }
+    'pages/posts/record/monthly/monthly-2026-01.md': {
+      routes:
+        | '/posts/record/monthly/monthly-2026-01'
+      views:
+        | never
+    }
+    'pages/posts/record/monthly/monthly-2026-02.md': {
+      routes:
+        | '/posts/record/monthly/monthly-2026-02'
+      views:
+        | never
+    }
+    'pages/posts/record/weekly/weekly-2024-05-1.md': {
+      routes:
+        | '/posts/record/weekly/weekly-2024-05-1'
+      views:
+        | never
+    }
+    'pages/posts/record/weekly/weekly-2024-05-2.md': {
+      routes:
+        | '/posts/record/weekly/weekly-2024-05-2'
+      views:
+        | never
+    }
+    'pages/posts/record/weekly/weekly-2024-05-3.md': {
+      routes:
+        | '/posts/record/weekly/weekly-2024-05-3'
+      views:
+        | never
+    }
+    'pages/posts/record/weekly/weekly-2024-05-4.md': {
+      routes:
+        | '/posts/record/weekly/weekly-2024-05-4'
+      views:
+        | never
+    }
+    'pages/posts/record/weekly/weekly-2024-06-1.md': {
+      routes:
+        | '/posts/record/weekly/weekly-2024-06-1'
+      views:
+        | never
+    }
+    'pages/posts/record/weekly/weekly-2024-06-2.md': {
+      routes:
+        | '/posts/record/weekly/weekly-2024-06-2'
+      views:
+        | never
+    }
+    'pages/posts/record/weekly/weekly-2024-06-3.md': {
+      routes:
+        | '/posts/record/weekly/weekly-2024-06-3'
+      views:
+        | never
+    }
+    'pages/posts/record/weekly/weekly-2024-06-4.md': {
+      routes:
+        | '/posts/record/weekly/weekly-2024-06-4'
+      views:
+        | never
+    }
+    'pages/posts/record/weekly/weekly-2024-07-1.md': {
+      routes:
+        | '/posts/record/weekly/weekly-2024-07-1'
+      views:
+        | never
+    }
+    'pages/posts/record/weekly/weekly-2024-07-2.md': {
+      routes:
+        | '/posts/record/weekly/weekly-2024-07-2'
+      views:
+        | never
+    }
+    'pages/posts/record/weekly/weekly-2024-07-3.md': {
+      routes:
+        | '/posts/record/weekly/weekly-2024-07-3'
+      views:
+        | never
+    }
+    'pages/posts/record/weekly/weekly-2024-07-4.md': {
+      routes:
+        | '/posts/record/weekly/weekly-2024-07-4'
+      views:
+        | never
+    }
+    'pages/posts/record/weekly/weekly-2024-08-1.md': {
+      routes:
+        | '/posts/record/weekly/weekly-2024-08-1'
+      views:
+        | never
+    }
+    'pages/posts/record/weekly/weekly-2024-08-2345.md': {
+      routes:
+        | '/posts/record/weekly/weekly-2024-08-2345'
+      views:
+        | never
+    }
+    'pages/posts/record/weekly/weekly-2024-09-1.md': {
+      routes:
+        | '/posts/record/weekly/weekly-2024-09-1'
+      views:
+        | never
+    }
+    'pages/posts/record/weekly/weekly-2024-09-2.md': {
+      routes:
+        | '/posts/record/weekly/weekly-2024-09-2'
+      views:
+        | never
+    }
+    'pages/posts/record/weekly/weekly-2024-09-3.md': {
+      routes:
+        | '/posts/record/weekly/weekly-2024-09-3'
+      views:
+        | never
+    }
+    'pages/posts/record/weekly/weekly-2024-09-4.md': {
+      routes:
+        | '/posts/record/weekly/weekly-2024-09-4'
+      views:
+        | never
+    }
+    'pages/posts/record/weekly/weekly-2024-10-1.md': {
+      routes:
+        | '/posts/record/weekly/weekly-2024-10-1'
+      views:
+        | never
+    }
+    'pages/posts/record/weekly/weekly-2024-10-2.md': {
+      routes:
+        | '/posts/record/weekly/weekly-2024-10-2'
+      views:
+        | never
+    }
+    'pages/posts/record/weekly/weekly-2024-10-3.md': {
+      routes:
+        | '/posts/record/weekly/weekly-2024-10-3'
+      views:
+        | never
+    }
+    'pages/posts/record/weekly/weekly-2024-10-4.md': {
+      routes:
+        | '/posts/record/weekly/weekly-2024-10-4'
+      views:
+        | never
+    }
+    'pages/posts/record/weekly/weekly-2024-10-5.md': {
+      routes:
+        | '/posts/record/weekly/weekly-2024-10-5'
+      views:
+        | never
+    }
+    'pages/posts/record/weekly/weekly-2024-11-1.md': {
+      routes:
+        | '/posts/record/weekly/weekly-2024-11-1'
+      views:
+        | never
+    }
+    'pages/posts/record/weekly/weekly-2024-11-2.md': {
+      routes:
+        | '/posts/record/weekly/weekly-2024-11-2'
+      views:
+        | never
+    }
+    'pages/posts/record/weekly/weekly-2024-11-3.md': {
+      routes:
+        | '/posts/record/weekly/weekly-2024-11-3'
+      views:
+        | never
+    }
+    'pages/posts/record/weekly/weekly-2024-11-4.md': {
+      routes:
+        | '/posts/record/weekly/weekly-2024-11-4'
+      views:
+        | never
+    }
+    'pages/posts/record/weekly/weekly-2024-12-1.md': {
+      routes:
+        | '/posts/record/weekly/weekly-2024-12-1'
+      views:
+        | never
+    }
+    'pages/posts/record/weekly/weekly-2024-12-2.md': {
+      routes:
+        | '/posts/record/weekly/weekly-2024-12-2'
+      views:
+        | never
+    }
+    'pages/posts/record/weekly/weekly-2024-12-3.md': {
+      routes:
+        | '/posts/record/weekly/weekly-2024-12-3'
+      views:
+        | never
+    }
+    'pages/posts/record/weekly/weekly-2024-12-4.md': {
+      routes:
+        | '/posts/record/weekly/weekly-2024-12-4'
+      views:
+        | never
+    }
+    'pages/posts/record/weekly/weekly-2024-12-5.md': {
+      routes:
+        | '/posts/record/weekly/weekly-2024-12-5'
+      views:
+        | never
+    }
+    'pages/posts/record/weekly/weekly-2025-01-1.md': {
+      routes:
+        | '/posts/record/weekly/weekly-2025-01-1'
+      views:
+        | never
+    }
+    'pages/posts/record/weekly/weekly-2025-01-2.md': {
+      routes:
+        | '/posts/record/weekly/weekly-2025-01-2'
+      views:
+        | never
+    }
+    'pages/posts/record/weekly/weekly-2025-01-3.md': {
+      routes:
+        | '/posts/record/weekly/weekly-2025-01-3'
+      views:
+        | never
+    }
+    'pages/posts/record/weekly/weekly-2025-01-4.md': {
+      routes:
+        | '/posts/record/weekly/weekly-2025-01-4'
+      views:
+        | never
+    }
+    'pages/posts/record/weekly/weekly-2025-02-1.md': {
+      routes:
+        | '/posts/record/weekly/weekly-2025-02-1'
+      views:
+        | never
+    }
+    'pages/posts/record/weekly/weekly-2025-02-2.md': {
+      routes:
+        | '/posts/record/weekly/weekly-2025-02-2'
+      views:
+        | never
+    }
+    'pages/posts/record/weekly/weekly-2025-02-3.md': {
+      routes:
+        | '/posts/record/weekly/weekly-2025-02-3'
+      views:
+        | never
+    }
+    'pages/posts/record/weekly/weekly-2025-02-4.md': {
+      routes:
+        | '/posts/record/weekly/weekly-2025-02-4'
+      views:
+        | never
+    }
+    'pages/posts/record/weekly/weekly-2025-03-1.md': {
+      routes:
+        | '/posts/record/weekly/weekly-2025-03-1'
+      views:
+        | never
+    }
+    'pages/posts/record/weekly/weekly-2025-03-2.md': {
+      routes:
+        | '/posts/record/weekly/weekly-2025-03-2'
+      views:
+        | never
+    }
+    'pages/posts/record/weekly/weekly-2025-03-3.md': {
+      routes:
+        | '/posts/record/weekly/weekly-2025-03-3'
+      views:
+        | never
+    }
+    'pages/posts/record/weekly/weekly-2025-03-4.md': {
+      routes:
+        | '/posts/record/weekly/weekly-2025-03-4'
+      views:
+        | never
+    }
+    'pages/posts/record/weekly/weekly-2025-04-1.md': {
+      routes:
+        | '/posts/record/weekly/weekly-2025-04-1'
+      views:
+        | never
+    }
+    'pages/posts/record/weekly/weekly-2025-04-2.md': {
+      routes:
+        | '/posts/record/weekly/weekly-2025-04-2'
+      views:
+        | never
+    }
+    'pages/posts/record/weekly/weekly-2025-04-3.md': {
+      routes:
+        | '/posts/record/weekly/weekly-2025-04-3'
+      views:
+        | never
+    }
+    'pages/posts/record/weekly/weekly-2025-04-4.md': {
+      routes:
+        | '/posts/record/weekly/weekly-2025-04-4'
+      views:
+        | never
+    }
+    'pages/posts/useful/document-editor-trick.md': {
+      routes:
+        | '/posts/useful/document-editor-trick'
+      views:
+        | never
+    }
     'pages/posts/useful/git-cheat-sheet.md': {
       routes:
         | '/posts/useful/git-cheat-sheet'
       views:
         | never
     }
-    'pages/posts/useful/githubusercontent.md': {
+    'pages/posts/useful/git-trick.md': {
       routes:
-        | '/posts/useful/githubusercontent'
+        | '/posts/useful/git-trick'
       views:
         | never
     }
     'pages/posts/useful/html-trick.md': {
       routes:
         | '/posts/useful/html-trick'
-      views:
-        | never
-    }
-    'pages/posts/useful/jupyter.md': {
-      routes:
-        | '/posts/useful/jupyter'
       views:
         | never
     }
@@ -2324,315 +3040,21 @@ declare module 'vue-router/auto-routes' {
       views:
         | never
     }
-    'pages/posts/useful/tar.md': {
+    'pages/posts/useful/quick-use-githubusercontent.md': {
       routes:
-        | '/posts/useful/tar'
+        | '/posts/useful/quick-use-githubusercontent'
       views:
         | never
     }
-    'pages/posts/weekly/2024/05/1.md': {
+    'pages/posts/useful/quick-use-jupyter.md': {
       routes:
-        | '/posts/weekly/2024/05/1'
+        | '/posts/useful/quick-use-jupyter'
       views:
         | never
     }
-    'pages/posts/weekly/2024/05/2.md': {
+    'pages/posts/useful/quick-use-tar.md': {
       routes:
-        | '/posts/weekly/2024/05/2'
-      views:
-        | never
-    }
-    'pages/posts/weekly/2024/05/3.md': {
-      routes:
-        | '/posts/weekly/2024/05/3'
-      views:
-        | never
-    }
-    'pages/posts/weekly/2024/05/4.md': {
-      routes:
-        | '/posts/weekly/2024/05/4'
-      views:
-        | never
-    }
-    'pages/posts/weekly/2024/06/1.md': {
-      routes:
-        | '/posts/weekly/2024/06/1'
-      views:
-        | never
-    }
-    'pages/posts/weekly/2024/06/2.md': {
-      routes:
-        | '/posts/weekly/2024/06/2'
-      views:
-        | never
-    }
-    'pages/posts/weekly/2024/06/3.md': {
-      routes:
-        | '/posts/weekly/2024/06/3'
-      views:
-        | never
-    }
-    'pages/posts/weekly/2024/06/4.md': {
-      routes:
-        | '/posts/weekly/2024/06/4'
-      views:
-        | never
-    }
-    'pages/posts/weekly/2024/07/1.md': {
-      routes:
-        | '/posts/weekly/2024/07/1'
-      views:
-        | never
-    }
-    'pages/posts/weekly/2024/07/2.md': {
-      routes:
-        | '/posts/weekly/2024/07/2'
-      views:
-        | never
-    }
-    'pages/posts/weekly/2024/07/3.md': {
-      routes:
-        | '/posts/weekly/2024/07/3'
-      views:
-        | never
-    }
-    'pages/posts/weekly/2024/07/4.md': {
-      routes:
-        | '/posts/weekly/2024/07/4'
-      views:
-        | never
-    }
-    'pages/posts/weekly/2024/08/1.md': {
-      routes:
-        | '/posts/weekly/2024/08/1'
-      views:
-        | never
-    }
-    'pages/posts/weekly/2024/08/2.md': {
-      routes:
-        | '/posts/weekly/2024/08/2'
-      views:
-        | never
-    }
-    'pages/posts/weekly/2024/08/3.md': {
-      routes:
-        | '/posts/weekly/2024/08/3'
-      views:
-        | never
-    }
-    'pages/posts/weekly/2024/08/4.md': {
-      routes:
-        | '/posts/weekly/2024/08/4'
-      views:
-        | never
-    }
-    'pages/posts/weekly/2024/08/5.md': {
-      routes:
-        | '/posts/weekly/2024/08/5'
-      views:
-        | never
-    }
-    'pages/posts/weekly/2024/09/1.md': {
-      routes:
-        | '/posts/weekly/2024/09/1'
-      views:
-        | never
-    }
-    'pages/posts/weekly/2024/09/2.md': {
-      routes:
-        | '/posts/weekly/2024/09/2'
-      views:
-        | never
-    }
-    'pages/posts/weekly/2024/09/3.md': {
-      routes:
-        | '/posts/weekly/2024/09/3'
-      views:
-        | never
-    }
-    'pages/posts/weekly/2024/09/4.md': {
-      routes:
-        | '/posts/weekly/2024/09/4'
-      views:
-        | never
-    }
-    'pages/posts/weekly/2024/10/1.md': {
-      routes:
-        | '/posts/weekly/2024/10/1'
-      views:
-        | never
-    }
-    'pages/posts/weekly/2024/10/2.md': {
-      routes:
-        | '/posts/weekly/2024/10/2'
-      views:
-        | never
-    }
-    'pages/posts/weekly/2024/10/3.md': {
-      routes:
-        | '/posts/weekly/2024/10/3'
-      views:
-        | never
-    }
-    'pages/posts/weekly/2024/10/4.md': {
-      routes:
-        | '/posts/weekly/2024/10/4'
-      views:
-        | never
-    }
-    'pages/posts/weekly/2024/10/5.md': {
-      routes:
-        | '/posts/weekly/2024/10/5'
-      views:
-        | never
-    }
-    'pages/posts/weekly/2024/11/1.md': {
-      routes:
-        | '/posts/weekly/2024/11/1'
-      views:
-        | never
-    }
-    'pages/posts/weekly/2024/11/2.md': {
-      routes:
-        | '/posts/weekly/2024/11/2'
-      views:
-        | never
-    }
-    'pages/posts/weekly/2024/11/3.md': {
-      routes:
-        | '/posts/weekly/2024/11/3'
-      views:
-        | never
-    }
-    'pages/posts/weekly/2024/11/4.md': {
-      routes:
-        | '/posts/weekly/2024/11/4'
-      views:
-        | never
-    }
-    'pages/posts/weekly/2024/12/1.md': {
-      routes:
-        | '/posts/weekly/2024/12/1'
-      views:
-        | never
-    }
-    'pages/posts/weekly/2024/12/2.md': {
-      routes:
-        | '/posts/weekly/2024/12/2'
-      views:
-        | never
-    }
-    'pages/posts/weekly/2024/12/3.md': {
-      routes:
-        | '/posts/weekly/2024/12/3'
-      views:
-        | never
-    }
-    'pages/posts/weekly/2024/12/4.md': {
-      routes:
-        | '/posts/weekly/2024/12/4'
-      views:
-        | never
-    }
-    'pages/posts/weekly/2024/12/5.md': {
-      routes:
-        | '/posts/weekly/2024/12/5'
-      views:
-        | never
-    }
-    'pages/posts/weekly/2025/01/1.md': {
-      routes:
-        | '/posts/weekly/2025/01/1'
-      views:
-        | never
-    }
-    'pages/posts/weekly/2025/01/2.md': {
-      routes:
-        | '/posts/weekly/2025/01/2'
-      views:
-        | never
-    }
-    'pages/posts/weekly/2025/01/3.md': {
-      routes:
-        | '/posts/weekly/2025/01/3'
-      views:
-        | never
-    }
-    'pages/posts/weekly/2025/01/4.md': {
-      routes:
-        | '/posts/weekly/2025/01/4'
-      views:
-        | never
-    }
-    'pages/posts/weekly/2025/02/1.md': {
-      routes:
-        | '/posts/weekly/2025/02/1'
-      views:
-        | never
-    }
-    'pages/posts/weekly/2025/02/2.md': {
-      routes:
-        | '/posts/weekly/2025/02/2'
-      views:
-        | never
-    }
-    'pages/posts/weekly/2025/02/3.md': {
-      routes:
-        | '/posts/weekly/2025/02/3'
-      views:
-        | never
-    }
-    'pages/posts/weekly/2025/02/4.md': {
-      routes:
-        | '/posts/weekly/2025/02/4'
-      views:
-        | never
-    }
-    'pages/posts/weekly/2025/03/1.md': {
-      routes:
-        | '/posts/weekly/2025/03/1'
-      views:
-        | never
-    }
-    'pages/posts/weekly/2025/03/2.md': {
-      routes:
-        | '/posts/weekly/2025/03/2'
-      views:
-        | never
-    }
-    'pages/posts/weekly/2025/03/3.md': {
-      routes:
-        | '/posts/weekly/2025/03/3'
-      views:
-        | never
-    }
-    'pages/posts/weekly/2025/03/4.md': {
-      routes:
-        | '/posts/weekly/2025/03/4'
-      views:
-        | never
-    }
-    'pages/posts/weekly/2025/04/1.md': {
-      routes:
-        | '/posts/weekly/2025/04/1'
-      views:
-        | never
-    }
-    'pages/posts/weekly/2025/04/2.md': {
-      routes:
-        | '/posts/weekly/2025/04/2'
-      views:
-        | never
-    }
-    'pages/posts/weekly/2025/04/3.md': {
-      routes:
-        | '/posts/weekly/2025/04/3'
-      views:
-        | never
-    }
-    'pages/posts/weekly/2025/04/4.md': {
-      routes:
-        | '/posts/weekly/2025/04/4'
+        | '/posts/useful/quick-use-tar'
       views:
         | never
     }
@@ -2651,12 +3073,6 @@ declare module 'vue-router/auto-routes' {
     'pages/sources/index.md': {
       routes:
         | '/sources/'
-      views:
-        | never
-    }
-    'pages/sources/mark.md': {
-      routes:
-        | '/sources/mark'
       views:
         | never
     }
