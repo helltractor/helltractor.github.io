@@ -1,0 +1,1 @@
+import{F as e,G as t}from"./theme.BeiVz-ZL.js";var n=e({defaults:{"@type":`SearchAction`,target:{"@type":`EntryPoint`},"query-input":{"@type":`PropertyValueSpecification`,valueRequired:!0,valueName:`search_term_string`}},resolve(e,n){return typeof e.target==`string`&&(e.target={"@type":`EntryPoint`,urlTemplate:t(n.meta.host,e.target)}),e}});export{n as searchActionResolver};

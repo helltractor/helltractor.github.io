@@ -4,7 +4,7 @@
         <title>helltractor blog</title>
         <link>https://io.helltractor.top/</link>
         <description></description>
-        <lastBuildDate>Wed, 15 Apr 2026 16:47:18 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 16 Aug 2026 09:53:29 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <image>
@@ -49,8 +49,9 @@
             <pubDate>Sun, 26 Oct 2025 09:04:05 GMT</pubDate>
             <content:encoded><![CDATA[<h2>记录格式更新</h2>
 <ul>
+<li>2026-03-01：停止月报的更新，懒人就是这样（会更新随记吧）。</li>
 <li>2025-08-08：停止日常记录的日更，只保持月报更新。</li>
-<li>2025-04-23：使用 obsidian 对文档进行编辑，这周后周记减少更新频率，只做本周总结（原本该有</li>
+<li>2025-04-23：使用 obs</li>
 </ul>
 <br/><p>访问 <a href="https://io.helltractor.top/posts/record/index" target="_blank">https://io.helltractor.top/posts/record/index</a> 阅读全文。</p>]]></content:encoded>
             <author>mail@helltractor.top (helltractor)</author>
@@ -110,6 +111,18 @@ const pag</code></pre>
 <p>例题：[3563. 移除相邻字符后字典序最小的字符串](<a href="https://leetcode.cn/probl">https://leetcode.cn/probl</a></p>
 </blockquote>
 <br/><p>访问 <a href="https://io.helltractor.top/posts/algorithm/interval-dp" target="_blank">https://io.helltractor.top/posts/algorithm/interval-dp</a> 阅读全文。</p>]]></content:encoded>
+            <author>mail@helltractor.top (helltractor)</author>
+        </item>
+        <item>
+            <title><![CDATA[力扣题目分类（含周赛）]]></title>
+            <link>https://io.helltractor.top/posts/contest/question-classify</link>
+            <guid isPermaLink="false">https://io.helltractor.top/posts/contest/question-classify</guid>
+            <pubDate>Sun, 11 May 2025 15:04:13 GMT</pubDate>
+            <content:encoded><![CDATA[<h2>待分类</h2>
+<ul>
+<li>[ ] [3539. 魔法序列的数组乘积之和 - 力扣（LeetCode）](<a href="https://leetcode.cn/problems/find-sum-of-array-pro">https://leetcode.cn/problems/find-sum-of-array-pro</a></li>
+</ul>
+<br/><p>访问 <a href="https://io.helltractor.top/posts/contest/question-classify" target="_blank">https://io.helltractor.top/posts/contest/question-classify</a> 阅读全文。</p>]]></content:encoded>
             <author>mail@helltractor.top (helltractor)</author>
         </item>
         <item>
@@ -342,6 +355,22 @@ const pag</code></pre>
             <author>mail@helltractor.top (helltractor)</author>
         </item>
         <item>
+            <title><![CDATA[材料计算常用步骤]]></title>
+            <link>https://io.helltractor.top/posts/calculation/steps</link>
+            <guid isPermaLink="false">https://io.helltractor.top/posts/calculation/steps</guid>
+            <pubDate>Sat, 22 Jun 2024 10:06:42 GMT</pubDate>
+            <content:encoded><![CDATA[<h2>System environment {lang=en}</h2>
+<h2>系统环境 {lang=zh-CN}</h2>
+<ul>
+<li>Windows 11</li>
+<li>wsl2</li>
+<li>Ubuntu 24.04</li>
+</ul>
+<h2>Softw</h2>
+<br/><p>访问 <a href="https://io.helltractor.top/posts/calculation/steps" target="_blank">https://io.helltractor.top/posts/calculation/steps</a> 阅读全文。</p>]]></content:encoded>
+            <author>mail@helltractor.top (helltractor)</author>
+        </item>
+        <item>
             <title><![CDATA[现代光电子器件期末考试提纲（可预见的最后一次考试）]]></title>
             <link>https://io.helltractor.top/posts/course/20240624</link>
             <guid isPermaLink="false">https://io.helltractor.top/posts/course/20240624</guid>
@@ -406,6 +435,18 @@ const pag</code></pre>
 <p>起因是，为了使用 jupyter 运行 pykan 中的代码。因为是在 pycharm 中导入的仓库，所以虚拟环境已经构建好了，在 venv 中。</p>
 <p>使用 jupyte</p>
 <br/><p>访问 <a href="https://io.helltractor.top/posts/useful/quick-use-jupyter" target="_blank">https://io.helltractor.top/posts/useful/quick-use-jupyter</a> 阅读全文。</p>]]></content:encoded>
+            <author>mail@helltractor.top (helltractor)</author>
+        </item>
+        <item>
+            <title><![CDATA[材料计算常用资源]]></title>
+            <link>https://io.helltractor.top/posts/calculation/index</link>
+            <guid isPermaLink="false">https://io.helltractor.top/posts/calculation/index</guid>
+            <pubDate>Fri, 21 Jun 2024 10:06:42 GMT</pubDate>
+            <content:encoded><![CDATA[<h2>Data resource {lang=en}</h2>
+<h2>数据资源 {lang=zh-CN}</h2>
+<h3>Frequently-used {lang=en}</h3>
+<h3>常用 {lang=zh-CN</h3>
+<br/><p>访问 <a href="https://io.helltractor.top/posts/calculation/index" target="_blank">https://io.helltractor.top/posts/calculation/index</a> 阅读全文。</p>]]></content:encoded>
             <author>mail@helltractor.top (helltractor)</author>
         </item>
         <item>

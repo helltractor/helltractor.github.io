@@ -1,0 +1,1 @@
+import{f as e,u as t}from"./get.B5WltO7c.js";function n(t,n,r){n==`__proto__`&&e?e(t,n,{configurable:!0,enumerable:!0,value:r,writable:!0}):t[n]=r}var r=t(Object.getPrototypeOf,Object);export{n,r as t};

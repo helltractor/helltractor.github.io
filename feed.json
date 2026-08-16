@@ -35,7 +35,7 @@
         },
         {
             "id": "https://io.helltractor.top/posts/record/index",
-            "content_html": "<h2>记录格式更新</h2>\n<ul>\n<li>2025-08-08：停止日常记录的日更，只保持月报更新。</li>\n<li>2025-04-23：使用 obsidian 对文档进行编辑，这周后周记减少更新频率，只做本周总结（原本该有</li>\n</ul>\n<br/><p>访问 <a href=\"https://io.helltractor.top/posts/record/index\" target=\"_blank\">https://io.helltractor.top/posts/record/index</a> 阅读全文。</p>",
+            "content_html": "<h2>记录格式更新</h2>\n<ul>\n<li>2026-03-01：停止月报的更新，懒人就是这样（会更新随记吧）。</li>\n<li>2025-08-08：停止日常记录的日更，只保持月报更新。</li>\n<li>2025-04-23：使用 obs</li>\n</ul>\n<br/><p>访问 <a href=\"https://io.helltractor.top/posts/record/index\" target=\"_blank\">https://io.helltractor.top/posts/record/index</a> 阅读全文。</p>",
             "url": "https://io.helltractor.top/posts/record/index",
             "title": "日常记录汇总",
             "date_modified": "2025-10-26T09:04:05.000Z",
@@ -88,6 +88,18 @@
             "title": "竞赛算法：区间动态规划",
             "date_modified": "2025-05-25T15:06:27.000Z",
             "date_published": "2025-05-25T15:06:27.000Z",
+            "author": {
+                "name": "helltractor",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "https://io.helltractor.top/posts/contest/question-classify",
+            "content_html": "<h2>待分类</h2>\n<ul>\n<li>[ ] [3539. 魔法序列的数组乘积之和 - 力扣（LeetCode）](<a href=\"https://leetcode.cn/problems/find-sum-of-array-pro\">https://leetcode.cn/problems/find-sum-of-array-pro</a></li>\n</ul>\n<br/><p>访问 <a href=\"https://io.helltractor.top/posts/contest/question-classify\" target=\"_blank\">https://io.helltractor.top/posts/contest/question-classify</a> 阅读全文。</p>",
+            "url": "https://io.helltractor.top/posts/contest/question-classify",
+            "title": "力扣题目分类（含周赛）",
+            "date_modified": "2025-05-11T15:04:13.000Z",
+            "date_published": "2025-05-11T15:04:13.000Z",
             "author": {
                 "name": "helltractor",
                 "url": "https://valaxy.site"
@@ -312,6 +324,18 @@
             }
         },
         {
+            "id": "https://io.helltractor.top/posts/calculation/steps",
+            "content_html": "<h2>System environment {lang=en}</h2>\n<h2>系统环境 {lang=zh-CN}</h2>\n<ul>\n<li>Windows 11</li>\n<li>wsl2</li>\n<li>Ubuntu 24.04</li>\n</ul>\n<h2>Softw</h2>\n<br/><p>访问 <a href=\"https://io.helltractor.top/posts/calculation/steps\" target=\"_blank\">https://io.helltractor.top/posts/calculation/steps</a> 阅读全文。</p>",
+            "url": "https://io.helltractor.top/posts/calculation/steps",
+            "title": "材料计算常用步骤",
+            "date_modified": "2024-06-22T10:06:42.000Z",
+            "date_published": "2024-06-22T10:06:42.000Z",
+            "author": {
+                "name": "helltractor",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
             "id": "https://io.helltractor.top/posts/course/20240624",
             "content_html": "<h2>名词解释 (必考)</h2>\n<h3>电子亲和势 $\\chi$</h3>\n<ul>\n<li><strong>定义</strong>：导带底的电子要想跑出体外必须增加的能量称为电子亲和势 $\\chi$。</li>\n<li><strong>公式</strong>：$\\chi = E_{vac</li>\n</ul>\n<br/><p>访问 <a href=\"https://io.helltractor.top/posts/course/20240624\" target=\"_blank\">https://io.helltractor.top/posts/course/20240624</a> 阅读全文。</p>",
             "url": "https://io.helltractor.top/posts/course/20240624",
@@ -378,6 +402,18 @@
             "title": "从零开始使用 jupyter",
             "date_modified": "2024-06-22T00:00:00.000Z",
             "date_published": "2024-06-22T00:00:00.000Z",
+            "author": {
+                "name": "helltractor",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "https://io.helltractor.top/posts/calculation/index",
+            "content_html": "<h2>Data resource {lang=en}</h2>\n<h2>数据资源 {lang=zh-CN}</h2>\n<h3>Frequently-used {lang=en}</h3>\n<h3>常用 {lang=zh-CN</h3>\n<br/><p>访问 <a href=\"https://io.helltractor.top/posts/calculation/index\" target=\"_blank\">https://io.helltractor.top/posts/calculation/index</a> 阅读全文。</p>",
+            "url": "https://io.helltractor.top/posts/calculation/index",
+            "title": "材料计算常用资源",
+            "date_modified": "2024-06-21T10:06:42.000Z",
+            "date_published": "2024-06-21T10:06:42.000Z",
             "author": {
                 "name": "helltractor",
                 "url": "https://valaxy.site"

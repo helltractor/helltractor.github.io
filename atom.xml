@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://io.helltractor.top/</id>
     <title>helltractor blog</title>
-    <updated>2026-04-15T16:47:18.518Z</updated>
+    <updated>2026-08-16T09:53:29.933Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <author>
         <name>helltractor</name>
@@ -59,8 +59,9 @@
         <updated>2025-10-26T09:04:05.000Z</updated>
         <content type="html"><![CDATA[<h2>记录格式更新</h2>
 <ul>
+<li>2026-03-01：停止月报的更新，懒人就是这样（会更新随记吧）。</li>
 <li>2025-08-08：停止日常记录的日更，只保持月报更新。</li>
-<li>2025-04-23：使用 obsidian 对文档进行编辑，这周后周记减少更新频率，只做本周总结（原本该有</li>
+<li>2025-04-23：使用 obs</li>
 </ul>
 <br/><p>访问 <a href="https://io.helltractor.top/posts/record/index" target="_blank">https://io.helltractor.top/posts/record/index</a> 阅读全文。</p>]]></content>
         <author>
@@ -146,6 +147,23 @@ const pag</code></pre>
             <uri>https://valaxy.site</uri>
         </author>
         <published>2025-05-25T15:06:27.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[力扣题目分类（含周赛）]]></title>
+        <id>https://io.helltractor.top/posts/contest/question-classify</id>
+        <link href="https://io.helltractor.top/posts/contest/question-classify"/>
+        <updated>2025-05-11T15:04:13.000Z</updated>
+        <content type="html"><![CDATA[<h2>待分类</h2>
+<ul>
+<li>[ ] [3539. 魔法序列的数组乘积之和 - 力扣（LeetCode）](<a href="https://leetcode.cn/problems/find-sum-of-array-pro">https://leetcode.cn/problems/find-sum-of-array-pro</a></li>
+</ul>
+<br/><p>访问 <a href="https://io.helltractor.top/posts/contest/question-classify" target="_blank">https://io.helltractor.top/posts/contest/question-classify</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>helltractor</name>
+            <email>mail@helltractor.top</email>
+            <uri>https://valaxy.site</uri>
+        </author>
+        <published>2025-05-11T15:04:13.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[交易 API 模块]]></title>
@@ -467,6 +485,27 @@ const pag</code></pre>
         <published>2024-06-26T10:20:24.000Z</published>
     </entry>
     <entry>
+        <title type="html"><![CDATA[材料计算常用步骤]]></title>
+        <id>https://io.helltractor.top/posts/calculation/steps</id>
+        <link href="https://io.helltractor.top/posts/calculation/steps"/>
+        <updated>2024-06-22T10:06:42.000Z</updated>
+        <content type="html"><![CDATA[<h2>System environment {lang=en}</h2>
+<h2>系统环境 {lang=zh-CN}</h2>
+<ul>
+<li>Windows 11</li>
+<li>wsl2</li>
+<li>Ubuntu 24.04</li>
+</ul>
+<h2>Softw</h2>
+<br/><p>访问 <a href="https://io.helltractor.top/posts/calculation/steps" target="_blank">https://io.helltractor.top/posts/calculation/steps</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>helltractor</name>
+            <email>mail@helltractor.top</email>
+            <uri>https://valaxy.site</uri>
+        </author>
+        <published>2024-06-22T10:06:42.000Z</published>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[现代光电子器件期末考试提纲（可预见的最后一次考试）]]></title>
         <id>https://io.helltractor.top/posts/course/20240624</id>
         <link href="https://io.helltractor.top/posts/course/20240624"/>
@@ -562,6 +601,23 @@ const pag</code></pre>
             <uri>https://valaxy.site</uri>
         </author>
         <published>2024-06-22T00:00:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[材料计算常用资源]]></title>
+        <id>https://io.helltractor.top/posts/calculation/index</id>
+        <link href="https://io.helltractor.top/posts/calculation/index"/>
+        <updated>2024-06-21T10:06:42.000Z</updated>
+        <content type="html"><![CDATA[<h2>Data resource {lang=en}</h2>
+<h2>数据资源 {lang=zh-CN}</h2>
+<h3>Frequently-used {lang=en}</h3>
+<h3>常用 {lang=zh-CN</h3>
+<br/><p>访问 <a href="https://io.helltractor.top/posts/calculation/index" target="_blank">https://io.helltractor.top/posts/calculation/index</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>helltractor</name>
+            <email>mail@helltractor.top</email>
+            <uri>https://valaxy.site</uri>
+        </author>
+        <published>2024-06-21T10:06:42.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[一条SQL语句的执行过程]]></title>

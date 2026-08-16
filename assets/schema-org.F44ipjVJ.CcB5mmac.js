@@ -1,1 +1,0 @@
-import{B as e,Y as t}from"./theme.DwGU77nE.js";var n=e({cast(e){return typeof e==`number`?{value:e}:e},defaults:{"@type":`QuantitativeValue`}}),r=e({defaults:{"@type":`MonetaryAmount`},resolve(e,r){return typeof e.value!=`number`&&(e.value=t(e.value,r,n)),e}});export{n,r as t};

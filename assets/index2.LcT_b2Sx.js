@@ -1,0 +1,1 @@
+import{F as e}from"./theme.BeiVz-ZL.js";var t=e({defaults:{"@type":`AggregateRating`}});export{t as aggregateRatingResolver};
