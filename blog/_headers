@@ -1,0 +1,18 @@
+# 带哈希指纹的静态资源，可长期缓存（Cloudflare Pages）
+/assets/*
+  cache-control: max-age=31536000
+  cache-control: immutable
+
+# 本地图片资源（public/bg/ 等），内容不可变，可长缓存
+/bg/*
+  cache-control: max-age=31536000
+  cache-control: immutable
+
+# 站点元数据（RSS/Sitemap/robots）短缓存，便于更新后尽快生效
+/feed.xml
+/atom.xml
+/feed.json
+/sitemap.xml
+/robots.txt
+/valaxy-fuse-list.json
+  cache-control: max-age=3600

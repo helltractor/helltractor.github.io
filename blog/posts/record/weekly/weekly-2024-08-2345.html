@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html  lang="zh-CN">
+<head>
+    <meta name="robots" content="noindex">
+  <meta charset="UTF-8">
+  <link rel="icon" href="/blog/favicon.svg">
+    <script>
+    ;(function () {
+      const prefersDark =
+        window.matchMedia &&
+        window.matchMedia('(prefers-color-scheme: dark)').matches
+      const setting = localStorage.getItem('vueuse-color-scheme') || 'auto'
+      if (setting === 'dark' || (prefersDark && setting !== 'light'))
+        document.documentElement.classList.toggle('dark', true)
+    })()
+    </script>
+  <style type="text/css">
+    :root { color-scheme: light dark; --va-c-bg: #fff; }
+    html.dark { --va-c-bg: #000; }
+    html { background-color: var(--va-c-bg); }
+  </style><style id="valaxy-fouc">body{opacity:0!important}</style><style>body{transition:opacity .15s ease}</style><noscript><style>body{opacity:1!important}</style></noscript><script>(function foucGuardScript(maxDuration) {
+  var done = 0;
+  function reveal() {
+    if (done) return;
+    done = 1;
+    var s = document.getElementById("valaxy-fouc");
+    if (s) s.remove();
+  }
+  function check() {
+    var links = document.querySelectorAll('link[rel="stylesheet"]');
+    for (var i = 0; i < links.length; i++) {
+      if (!links[i].sheet) return;
+    }
+    reveal();
+  }
+  new MutationObserver(check).observe(document.head, {
+    childList: true,
+    attributes: true,
+    attributeFilter: ["media", "rel"]
+  });
+  addEventListener("load", reveal);
+  if (maxDuration)
+    setTimeout(reveal, maxDuration);
+})(5000)</script>
+    <script>
+    const locale = localStorage.getItem('valaxy-locale') || 'zh-CN';
+    document.documentElement.setAttribute('lang', locale);
+    </script>
+    
+<meta charset="UTF-8" />
+    <!-- 预加载首屏背景图，避免 CSS background-image 延迟加载 -->
+    <link rel="preload" as="image" href="/blog/bg/bg-light.jpg" />
+    <meta
+      name="google-site-verification"
+      content="A_cRB25lvDdRr0euTn8OYlWxiRPeye7IdbBPbRnyvQs"
+    />
+  <script type="module" crossorigin src="/blog/assets/index.CNTqJ8ml.js"></script>
+  <link rel="modulepreload" crossorigin href="/blog/assets/rolldown-runtime.BCiCTKAo.js">
+  <link rel="modulepreload" crossorigin href="/blog/assets/framework.D_fnJFb-.js">
+  <link rel="modulepreload" crossorigin href="/blog/assets/chunks/vue-i18n.BAhi4_nF.js">
+  <link rel="modulepreload" crossorigin href="/blog/assets/chunks/vue-router.fP-imltF.js">
+  <link rel="modulepreload" crossorigin href="/blog/assets/chunks/dayjs.DdJjVs8y.js">
+  <link rel="modulepreload" crossorigin href="/blog/assets/chunks/pinia.DBsxhtlS.js">
+  <link rel="modulepreload" crossorigin href="/blog/assets/chunks/@vueuse/motion.BBvpmcpW.js">
+  <link rel="modulepreload" crossorigin href="/blog/assets/theme.C__ive25.js">
+  <link rel="modulepreload" crossorigin href="/blog/assets/chunks/nprogress.DofP_IyT.js">
+  <link rel="stylesheet" crossorigin href="/blog/assets/style.ByK8ch5d.css">
+<link rel="modulepreload" crossorigin href="/blog/assets/theme.C__ive25.js">
+<link rel="preload" href="/blog/assets/none.DLM1AMsD.jpg" as="image">
+<link rel="preload" href="/blog/assets/bg-img.kXdNMxcF.jpg" as="image">
+<link rel="preload" href="/blog/assets/sidebar-bg-img.mp54gEws.webp" as="image">
+<link rel="preload" href="/blog/assets/lg.CosQH4Cu.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/blog/assets/lg.B0dIV2BS.svg" as="image">
+<link rel="preload" href="/blog/assets/loading.BZOHaeKn.gif" as="image">
+<link rel="modulepreload" crossorigin href="/blog/assets/weekly-2024-08-2345.DyN_cP9v.js">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>2024年8月第2周记录 - helltractor blog</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css">
+<meta property="og:locale:alternate" content="en">
+<meta property="og:description" content>
+<meta property="og:locale" content="zh-CN">
+<meta property="og:site_name" content="helltractor blog">
+<meta property="og:title" content="2024年8月第2周记录">
+<meta property="og:image" content="https://helltractor.github.io/blog/blog/favicon.svg">
+<meta property="og:image:alt" content="2024年8月第2周记录">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://helltractor.github.io/blog/posts/record/weekly/weekly-2024-08-2345">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:description" content>
+<meta name="twitter:image" content="https://helltractor.github.io/blog/blog/favicon.svg">
+<meta name="twitter:title" content="2024年8月第2周记录">
+<link rel="icon" href="/blog/blog/favicon.svg" type="image/svg+xml">
+<meta name="generator" content="Valaxy 1.2.0">
+<link rel="canonical" href="https://helltractor.github.io/blog/posts/record/weekly/weekly-2024-08-2345">
+<meta name="theme-color" content="#fff">
+<meta name="msapplication-TileColor" content="#fff">
+</head>
+<body>
+  <div id="app"><!--[--><!--[--><!--[--><!--v-if--><div class="yun-page-header-gradient"></div><div class="yun-nav-menu z-$yun-z-nav-menu fixed bg-transparent" data-v-bcdcce63><!--  --><div class="inline-flex justify-start items-center flex-1" data-v-bcdcce63><button type="button" class="vt-hamburger menu-btn sidebar-toggle leading-4 size-12 lg:hidden!" aria-label="mobile navigation" aria-expanded="false" inline-flex cursor="pointer" hover="bg-white/80 dark:bg-black/80" z="$yun-z-menu-btn" data-v-bcdcce63><span class="vt-hamburger-container"><span class="vt-hamburger-top"></span><span class="vt-hamburger-middle"></span><span class="vt-hamburger-bottom"></span></span></button><a href="/blog/" class="va-link size-12 inline-flex-center cursor-pointer z-$yun-z-nav-menu text-$va-c-text" hover="bg-white/80 dark:bg-black/80 op-100" op-80 data-v-bcdcce63><!--[--><div class="size-6 i-ri-home-4-line"></div><!--]--></a><div class="hidden lg:contents" data-v-bcdcce63><!--[--><a href="/blog/posts/" class="va-link size-12 inline-flex-center cursor-pointer z-$yun-z-nav-menu text-$va-c-text" hover="bg-white/80 dark:bg-black/80 op-100" op-80 title="博客文章" data-v-bcdcce63><!--[--><div class="size-6 i-ri-article-line"></div><!--]--></a><a href="/blog/archives/" class="va-link size-12 inline-flex-center cursor-pointer z-$yun-z-nav-menu text-$va-c-text" hover="bg-white/80 dark:bg-black/80 op-100" op-80 title="归档" data-v-bcdcce63><!--[--><div class="size-6 i-ri-archive-line"></div><!--]--></a><a href="/blog/tags/" class="va-link size-12 inline-flex-center cursor-pointer z-$yun-z-nav-menu text-$va-c-text" hover="bg-white/80 dark:bg-black/80 op-100" op-80 title="标签" data-v-bcdcce63><!--[--><div class="size-6 i-ri-price-tag-3-line"></div><!--]--></a><a href="/blog/about/" class="va-link size-12 inline-flex-center cursor-pointer z-$yun-z-nav-menu text-$va-c-text" hover="bg-white/80 dark:bg-black/80 op-100" op-80 title="关于" data-v-bcdcce63><!--[--><div class="size-6 i-ri-user-smile-line"></div><!--]--></a><!--]--></div></div><div class="flex flex-1 flex-center" data-v-bcdcce63><div flex="~ center col h-full" class="nav-menu-title-container cursor-pointer" data-v-bcdcce63><!----><span class="font-light truncate">helltractor blog</span></div></div><div class="inline-flex-center justify-end items-center flex-1" data-v-bcdcce63><!-- <template v-if="!app.isMobile && themeConfig.nav">
+          <template v-for="item in themeConfig.nav" :key="item.text">
+            <AppLink
+              v-if="'link' in item"
+              :to="item.link"
+              class="menu-btn inline-flex-center p-2 transition text-$va-c-text"
+              inline-flex cursor="pointer"
+              hover="bg-white/80 dark:bg-black/80"
+              z="$yun-z-menu-btn"
+            >
+              {{ item.text }}
+            </AppLink>
+            <template v-else-if="'items' in item" />
+          </template>
+        </template> --><button class="yun-icon-btn rounded-none! hidden sm:inline-flex" title="切换语言" style="color:var(--va-c-text);" data-v-bcdcce63><div i-ri-translate class="transition transform"></div></button><button type="button" class="yun-icon-btn yun-toggle-dark rounded-none!" title="切换深色模式" aria-label="切换深色模式" data-v-bcdcce63><div i="ri-sun-line dark:ri-moon-line"></div></button><!--[--><button class="yun-search-btn yun-icon-btn yun-search-action popup-trigger" title="搜索"><div i-ri-search-line aria-hidden="true"></div></button><!--[--><!--v-if--><!--]--><!--]--></div></div><!----><!--v-if--><!----><!--[--><div class="yun-bg"></div><!--]--><!----><button type="button" class="back-to-top yun-icon-btn" aria-label="回到顶部" title="回到顶部" tabindex="-1" aria-hidden="true" style="--yun-back-top-progress:0deg;"><div class="back-to-top-arrow" i-ri-arrow-up-s-line aria-hidden="true"></div></button><!--]--><!--[--><!--[--><!-- eslint-disable-next-line vue/component-name-in-template-casing --><meting-js fixed="true" api="https://api.qijieya.cn/meting/?server=:server&amp;type=:type&amp;id=:id&amp;r=:r" id="1477727243" server="netease" type="song" mini="true" theme="#f5cd6c" loop order="list" preload="auto" volume="0.7" mutex="true" lrc-type="3" list-folded="true" list-max-height="340px" style=""></meting-js><!--]--><!--]--><!--[--><!--]--><!--]--><div class="min-h-screen flex flex-col"><!----><div class="mt-12 md:mt-24 yun-layout-wrapper-content yun-layout-wrapper__content"><!--[--><div class="yun-layout-left gap-4 sticky top-$yun-margin-top w-80"><!--[--><!--[--><div class="yun-card flex-center overflow-hidden p-4 min-h-sm" flex="~ col gap-1" min-h="100px" bg="$va-c-bg-light" data-v-ff1d42c5><!----><!----><div class="yun-card-body relative" w="full" flex="~ col" items="center" data-v-ff1d42c5><!--[--><div class="site-info gap-1 items-center text-center" flex="~ col" p="t-8"><a href="/blog/about" class="site-author-avatar inline-flex-center"><div class="relative yun-author-avatar"><div class="absolute size-full avatar-bg bg-image-$yun-home-hero-image-background-image filter-blur-2xl op-30"></div><img class="rounded-full size-full bg-white dark:bg-white/20 p-1 m-0 absolute" src="https://helltractor.github.io/blog/avatar.png" alt="avatar"><span class="site-author-status absolute" title="屮(゜Д゜)屮">😅</span></div></a><a href="/blog/about" class="site-author-name font-black font-serif text-$va-c-text op-80 hover:op-100 flex-center">helltractor</a><a href="/blog/about/site" class="site-name text-lg leading-loose">helltractor blog</a><h4 class="site-subtitle block op-70" text="xs">夏日可畏，冬日可爱</h4><!----></div><div class="yun-gradient-line my-2 op-20"></div><nav class="site-nav" text-xl mt-2><a href="/blog/archives/" class="post-classify-nav-item gap-1 w-20 p-2 rounded transition op-80" flex="~ col center" title="归档" hover="bg-$va-c-bg-soft op-100"><div flex="~ col" class="text-$va-c-text inline-flex-center gap-1"><!-- Use CSS to toggle icons based on router-link-active class to avoid SSR hydration mismatch --><div class="text-2xl icon-default i-ri-archive-line"></div><div class="text-2xl icon-active i-ri-archive-fill"></div><span class="text-xs">归档</span></div><span class="count text-base text-black/80 dark:text-white/80">122</span></a><a href="/blog/categories/" class="post-classify-nav-item gap-1 w-20 p-2 rounded transition op-80" flex="~ col center" title="分类" hover="bg-$va-c-bg-soft op-100"><div flex="~ col" class="text-$va-c-text inline-flex-center gap-1"><!-- Use CSS to toggle icons based on router-link-active class to avoid SSR hydration mismatch --><div class="text-2xl icon-default i-ri-folder-2-line"></div><div class="text-2xl icon-active i-ri-folder-2-fill"></div><span class="text-xs">分类</span></div><span class="count text-base text-black/80 dark:text-white/80">10</span></a><a href="/blog/tags/" class="post-classify-nav-item gap-1 w-20 p-2 rounded transition op-80" flex="~ col center" title="标签" hover="bg-$va-c-bg-soft op-100"><div flex="~ col" class="text-$va-c-text inline-flex-center gap-1"><!-- Use CSS to toggle icons based on router-link-active class to avoid SSR hydration mismatch --><div class="text-2xl icon-default i-ri-price-tag-3-line"></div><div class="text-2xl icon-active i-ri-price-tag-3-fill"></div><span class="text-xs">标签</span></div><span class="count text-base text-black/80 dark:text-white/80">77</span></a></nav><div class="yun-gradient-line my-2 op-20"></div><div class="links-of-author"><!--[--><a class="links-of-author-item yun-icon-btn" rel="noopener" href="/blog/atom.xml" title="RSS" target="_blank" style="color:#ff7a00;"><div class="i-ri-rss-line icon"></div></a><a class="links-of-author-item yun-icon-btn" rel="noopener" href="https://github.com/helltractor" title="GitHub" target="_blank" style="color:#181717;"><div class="i-ri-github-line icon"></div></a><a class="links-of-author-item yun-icon-btn" rel="noopener" href="https://leetcode-cn.com/u/helltractor/" title="LeetCode" target="_blank" style="color:#ffa116;"><div class="i-simple-icons-leetcode icon"></div></a><a class="links-of-author-item yun-icon-btn" rel="noopener" href="https://codeforces.com/profile/helltractor" title="Codeforces" target="_blank" style="color:#1f8acb;"><div class="i-simple-icons-codeforces icon"></div></a><a class="links-of-author-item yun-icon-btn" rel="noopener" href="https://steamcommunity.com/id/helltractor/" title="Steam" target="_blank" style="color:#1b2838;"><div class="i-ri-steam-line icon"></div></a><a class="links-of-author-item yun-icon-btn" rel="noopener" href="mailto:69003628+helltractor@users.noreply.github.com" title="E-Mail" target="_blank" style="color:#2563eb;"><div class="i-ri-mail-line icon"></div></a><a class="links-of-author-item yun-icon-btn" rel="noopener" href="https://www.travellings.cn/go.html" title="Travelling" target="_blank" style="color:#22c55e;"><div class="i-ri-train-line icon"></div></a><!--]--></div><div class="yun-gradient-line my-2 op-20"></div><div class="links flex-center"><!--[--><a href="/blog/albums" class="va-link link-item yun-icon-btn" inline-flex title="相册集" style="color:#60a5fa;"><!--[--><div class="i-ri-folder-image-line icon size-6"></div><!--]--></a><!--]--></div><!--]--></div><!----></div><!--[--><!--
+    Empty placeholder, meant to be overridden by the user (see demo/yun/components/YunAdBoard.vue).
+    `v-if="false"` renders a comment node instead of a real element: this avoids the SSR hydration
+    crash a raw `<template>` causes (#711), while still adding no gap to the parent flex layout,
+    which an empty `<div>` would (ab57216f).
+  --><!----><!--]--><!--]--><!--]--></div><!----><main class="yun-main lt-md:w-full" flex="~ center"><!--[--><div class="content w-full md:w-3xl lg:w-2xl xl:w-2xl 2xl:w-4xl" flex="~ col grow" p="lt-md:0"><div class="yun-card flex-center overflow-hidden" flex="col" min-h="100px" bg="$va-c-bg-light" m="0" data-v-ff1d42c5><!----><!----><div class="yun-card-body relative" w="full" flex="~ col" items="center" data-v-ff1d42c5><!--[--><!----><div class="mt-8 mb-4"><!--[--><header class="post-header"><h1 p="2" text="2xl center" font="serif black" style="color:" class="post-title flex-center"><!----><span inline-flex class="leading-none">2024年8月第2周记录</span></h1></header><!--]--></div><!--[--><!--[--><!--[--><!--[--><div class="post-status-icons"><!----><div text="$va-c-danger" title="hide:true"><div i-ri-eye-off-line></div></div><!----></div><div flex="~ center" text="sm" class="post-meta-col post-meta gap-4"><div class="post-time flex items-center gap-4"><span class="posted-time inline-flex-center gap-1" title="发表于2024-08-05 14:02:27"><div class="inline-block" i-ri-calendar-line></div><time class="op-80">2024-08-05</time></span><span class="edited-time inline-flex-center gap-1" title="更新于2026-10-22 21:31:23"><div i-ri-calendar-2-line></div><time class="op-80">2026-10-22</time></span></div><!--[--><!--]--><div class="inline-flex-center gap-4"><div class="inline-flex-center post-counter gap-4"><span class="word-count inline-flex-center gap-1" title="本文字数"><div class="inline-block" i-ri-file-word-line></div><span class="op-80">39</span></span><span class="reading-time inline-flex-center gap-1" title="阅读时长"><div i-ri-timer-line></div><time class="op-80">1m</time></span></div><!----><!----></div></div><!--]--><!----><div class="inline-flex mt-2" text="sm" py="1"><a href="/blog/categories?category=Record" class="transition post-category inline-flex-center text-xs border-$va-c-divider" px-2 h="7" border rounded-full hover="bg-blue-500 text-white"><div m="x-1" inline-flex i-ri-folder-2-line></div><span>Record</span></a><span mx="2"></span><div class="post-tags inline-flex" items="center" gap="1" flex="wrap 1" justify="end"><!--[--><a href="/blog/tags/?tag=2024%E5%B9%B4" class="transition post-tag inline-flex-center text-xs border-$va-c-divider" px-2 h="7" rounded-full border hover="bg-blue-500"><span>2024年</span></a><a href="/blog/tags/?tag=8%E6%9C%88" class="transition post-tag inline-flex-center text-xs border-$va-c-divider" px-2 h="7" rounded-full border hover="bg-blue-500"><span>8月</span></a><!--]--></div></div><!--]--><!--]--><!--]--><div p="x-4 b-8" class="sm:px-6 lg:px-12 xl:px-16" w="full"><!--[--><!--]--><!--[--><!-- <Transition appear> --><article class="markdown-body"><!--[--><!----><!----><!--[--><!--]--><!--[--><!----><!--]--><!--]--><!----><!----></article><!-- </Transition> --><!--]--><!--[--><!--[--><!--[--><!----><ul class="post-copyright" m="y-4"><li class="post-copyright-author"><strong>本文作者：</strong><span>helltractor</span></li><li class="post-copyright-link"><strong>本文链接：</strong><a href="https://helltractor.github.io/blog/posts/record/weekly/weekly-2024-08-2345" target="_blank" title="本文链接">https://helltractor.github.io/blog/posts/record/weekly/weekly-2024-08-2345</a></li><li class="post-copyright-license"><strong>版权声明：</strong><span>本博客所有文章除特别声明外，均默认采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh" target="_blank" rel="noopener" title="CC BY-NC-SA 4.0 ">CC BY-NC-SA</a> 许可协议。</span></li></ul><!--]--><!--]--><!--]--></div><!--]--></div><!----></div><!--[--><!--]--><!--[--><div class="post-nav"><div class="post-nav-item"><!----></div><div class="post-nav-item"><a href="/blog/posts/interview/" class="post-nav-next" title="Job Search Record"><span class="title truncate" text="sm">Job Search Record</span><div class="icon" i-ri-arrow-right-s-line></div></a></div></div><!--]--><!--[--><!--]--><!----><!--[--><!--
+    Empty placeholder, meant to be overridden by the user (see demo/yun/components/YunAdBoard.vue).
+    `v-if="false"` renders a comment node instead of a real element: this avoids the SSR hydration
+    crash a raw `<template>` causes (#711), while still adding no gap to the parent flex layout,
+    which an empty `<div>` would (ab57216f).
+  --><!----><!--]--><!--[--><!--]--><!--[--><!--]--></div><!--]--></main><!--[--><!----><!----><!----><!--]--><!--]--></div><footer flex="~ col" class="relative yun-footer va-footer px-4 py-4 pt-0 text-$va-c-text-light w-full mt-14" bg="white dark:$va-c-bg-soft" text="center sm"><div class="yun-cloud absolute top--10 left-0 right-0"><svg class="waves" viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto"><defs><path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" fill="var(--yun-c-cloud)"></path></defs><g class="parallax"><use xlink:href="#gentle-wave" x="48" y="0"></use><use xlink:href="#gentle-wave" x="48" y="3"></use><use xlink:href="#gentle-wave" x="48" y="5"></use><use xlink:href="#gentle-wave" x="48" y="7"></use></g></svg></div><!----><div class="copyright flex justify-center items-center gap-2" p="1"><span> © <!--[-->2024 - <!--]--> 2026</span><a class="animate-pulse inline-flex" href="https://github.com/helltractor" target="_blank" title="GitHub"><div class="i-ri-github-line"></div></a><span>helltractor</span></div><div class="powered" m="2"><span>由 <a href="https://github.com/YunYouJun/valaxy.git" target="_blank" rel="noopener">Valaxy</a> <span class="op-60">v1.2.0</span> 驱动</span><span mx-1>|</span><span><span>主题</span><span mx-1>-</span><a href="https://github.com/YunYouJun/valaxy.git" title="valaxy-theme-yun" target="_blank">Yun</a><span class="ml-1 op-60">v1.2.0</span></span></div><!--[--><div class="flex flex-col items-center space-y-2"><div class="flex flex-wrap justify-center gap-4 text-sm"><span>本站总浏览量: -</span><span>本站总访客数: -</span></div><div class="vc-site-live-time text-sm"><!--[--><span>本站已运行</span><!--]--><span mx-1>0 天</span><span mx-1>0 小时</span><span mx-1>0 分</span><span mx-1>0 秒</span><!--[--><!--]--></div></div><!--]--><div class="yun-footer-gradient"></div></footer></div><!--]--></div><script>window.__INITIAL_STATE__='{"pinia":{"yun-app":{"bannerAnimationDone":false},"app":{"showLoading":true},"site":{},"routerStore":{}}}'</script><script type="application/ld+json" data-hid="schema-org-graph">{"@context":"https://schema.org","@graph":[{"@id":"https://helltractor.github.io/blog/#identity","@type":"Person","name":"helltractor","url":"https://helltractor.github.io/blog/","image":{"@id":"https://helltractor.github.io/blog/#/schema/image/1"},"sameAs":["/blog/atom.xml","https://github.com/helltractor","https://leetcode-cn.com/u/helltractor/","https://codeforces.com/profile/helltractor","https://steamcommunity.com/id/helltractor/","mailto:69003628+helltractor@users.noreply.github.com","https://www.travellings.cn/go.html"]},{"@id":"https://helltractor.github.io/blog/#website","@type":"WebSite","dateModified":"2026-10-22T13:31:23.000Z","datePublished":"2024-08-05T06:02:27.000Z","inLanguage":"zh-CN","name":"2024年8月第2周记录","url":"https://helltractor.github.io/blog/","publisher":{"@id":"https://helltractor.github.io/blog/#identity"}},{"@id":"https://helltractor.github.io/blog/posts/record/weekly/weekly-2024-08-2345#webpage","@type":"WebPage","dateModified":"2026-10-22T13:31:23.000Z","datePublished":"2024-08-05T06:02:27.000Z","name":"2024年8月第2周记录","url":"https://helltractor.github.io/blog/posts/record/weekly/weekly-2024-08-2345","isPartOf":{"@id":"https://helltractor.github.io/blog/#website"},"potentialAction":[{"@type":"ReadAction","target":["https://helltractor.github.io/blog/posts/record/weekly/weekly-2024-08-2345"]}]},{"@id":"https://helltractor.github.io/blog/posts/record/weekly/weekly-2024-08-2345#article","dateModified":"2026-10-22T13:31:23.000Z","datePublished":"2024-08-05T06:02:27.000Z","headline":"2024年8月第2周记录","inLanguage":"zh-CN","thumbnailUrl":"https://helltractor.github.io/blog/blog/favicon.svg","@type":["Article","BlogPosting"],"author":{"@id":"https://helltractor.github.io/blog/#/schema/person/1"},"image":{"@id":"https://helltractor.github.io/blog/#/schema/image/2"},"isPartOf":{"@id":"https://helltractor.github.io/blog/posts/record/weekly/weekly-2024-08-2345#webpage"},"mainEntityOfPage":{"@id":"https://helltractor.github.io/blog/posts/record/weekly/weekly-2024-08-2345#webpage"},"publisher":{"@id":"https://helltractor.github.io/blog/#identity"}},{"@id":"https://helltractor.github.io/blog/#/schema/person/1","@type":"Person","name":"helltractor","url":"https://github.com/helltractor"},{"@id":"https://helltractor.github.io/blog/#/schema/image/1","@type":"ImageObject","contentUrl":"https://helltractor.github.io/blog/avatar.png","inLanguage":"zh-CN","url":"https://helltractor.github.io/blog/avatar.png"},{"@id":"https://helltractor.github.io/blog/#/schema/image/2","@type":"ImageObject","contentUrl":"https://helltractor.github.io/blog/blog/favicon.svg","inLanguage":"zh-CN","url":"https://helltractor.github.io/blog/blog/favicon.svg"}]}</script>
+  <div id="valaxy-teleports"></div>
+  
+<!-- 几何 -->
+    <!--<script type="text/javascript" color="179,50,178" pointColor="179,110,178" opacity="0.6" zIndex="0" count="50"-->
+    <!--        src="https://cdn.jsdelivr.net/npm/canvas-nest.js/dist/canvas-nest.js">-->
+    <!--</script>-->
+    <!-- 落花 -->
+    <!--<script type="text/javascript"-->
+    <!--        src="https://cdn.jsdelivr.net/gh/Ukenn2112/UkennWeb@3.0/index/web.js">-->
+    <!--</script>-->
+</body>
+</html>

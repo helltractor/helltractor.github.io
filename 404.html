@@ -1,0 +1,15 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <title>helltractor blog</title>
+</head>
+<body>
+  <script>
+    const path = location.pathname.replace(/^\/+/, '').replace(/^valaxy-blog\//, '')
+    if (!path.startsWith('blog/'))
+      location.replace('/blog/' + path + location.search + location.hash)
+  </script>
+  <p><a href="/blog/">helltractor blog</a></p>
+</body>
+</html>

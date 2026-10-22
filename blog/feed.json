@@ -1,0 +1,723 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "helltractor blog",
+    "home_page_url": "https://helltractor.github.io/blog/",
+    "feed_url": "https://helltractor.github.io/blog/feed.json",
+    "icon": "https://helltractor.github.io/blog/avatar.png",
+    "author": {
+        "name": "helltractor",
+        "url": "https://github.com/helltractor"
+    },
+    "items": [
+        {
+            "id": "https://helltractor.github.io/blog/posts/interview/index",
+            "content_html": "<h2>八股文</h2>\n<ul>\n<li><a href=\"/posts/interview/question\">面试问题汇总</a></li>\n</ul>\n<h3>Java</h3>\n<ul>\n<li>[Java 基础](/posts/interview/question/java</li>\n</ul>\n<br/><p>访问 <a href=\"https://helltractor.github.io/blog/posts/interview/index\" target=\"_blank\">https://helltractor.github.io/blog/posts/interview/index</a> 阅读全文。</p>",
+            "url": "https://helltractor.github.io/blog/posts/interview/index",
+            "title": "Job Search Record",
+            "date_modified": "2026-10-22T13:31:23.000Z",
+            "date_published": "2026-10-22T13:31:23.000Z",
+            "author": {
+                "name": "helltractor",
+                "url": "https://github.com/helltractor"
+            }
+        },
+        {
+            "id": "https://helltractor.github.io/blog/posts/useful/document-editor-trick",
+            "content_html": "<h2>查找与替换</h2>\n<h3>替换角标形式</h3>\n<pre><code class=\"language-mermaid\">graph LR\n    A[替换] --&gt; B[高级搜索]\n    B --&gt; C[通配符]\n    C --&gt; D[查找内容]\n</code></pre>\n<br/><p>访问 <a href=\"https://helltractor.github.io/blog/posts/useful/document-editor-trick\" target=\"_blank\">https://helltractor.github.io/blog/posts/useful/document-editor-trick</a> 阅读全文。</p>",
+            "url": "https://helltractor.github.io/blog/posts/useful/document-editor-trick",
+            "title": "文档编辑小芝士",
+            "date_modified": "2025-10-27T10:05:00.000Z",
+            "date_published": "2025-10-27T10:05:00.000Z",
+            "author": {
+                "name": "helltractor",
+                "url": "https://github.com/helltractor"
+            }
+        },
+        {
+            "id": "https://helltractor.github.io/blog/posts/record/index",
+            "content_html": "<h2>记录格式更新</h2>\n<ul>\n<li>2026-03-01：停止月报的更新，懒人就是这样（会更新随记吧）。</li>\n<li>2025-08-08：停止日常记录的日更，只保持月报更新。</li>\n<li>2025-04-23：使用 obs</li>\n</ul>\n<br/><p>访问 <a href=\"https://helltractor.github.io/blog/posts/record/index\" target=\"_blank\">https://helltractor.github.io/blog/posts/record/index</a> 阅读全文。</p>",
+            "url": "https://helltractor.github.io/blog/posts/record/index",
+            "title": "日常记录汇总",
+            "date_modified": "2025-10-26T09:04:05.000Z",
+            "date_published": "2025-10-26T09:04:05.000Z",
+            "author": {
+                "name": "helltractor",
+                "url": "https://github.com/helltractor"
+            }
+        },
+        {
+            "id": "https://helltractor.github.io/blog/posts/interview/question/database",
+            "content_html": "<h2>SQL 使用规范</h2>\n<ul>\n<li>禁止 <code>SELECT *</code>：只取需要的字段，避免宽表回表和无用数据。</li>\n<li>禁止无条件全表扫描：必须带 WHERE 条件。</li>\n<li><code>TEXT</code> / 大字段：避免与普通字段混</li>\n</ul>\n<br/><p>访问 <a href=\"https://helltractor.github.io/blog/posts/interview/question/database\" target=\"_blank\">https://helltractor.github.io/blog/posts/interview/question/database</a> 阅读全文。</p>",
+            "url": "https://helltractor.github.io/blog/posts/interview/question/database",
+            "title": "Database Knowledge and Question",
+            "date_modified": "2025-09-11T09:49:22.000Z",
+            "date_published": "2025-09-11T09:49:22.000Z",
+            "author": {
+                "name": "helltractor",
+                "url": "https://github.com/helltractor"
+            }
+        },
+        {
+            "id": "https://helltractor.github.io/blog/posts/interview/question/java-collections-framework",
+            "content_html": "<h2>List</h2>\n<p>::: details ArrayList 与 LinkedList 区别？</p>\n<p><strong>底层数据结构：</strong></p>\n<pre><code class=\"language-java\">public class ArrayList&lt;E&gt; {\n </code></pre>\n<br/><p>访问 <a href=\"https://helltractor.github.io/blog/posts/interview/question/java-collections-framework\" target=\"_blank\">https://helltractor.github.io/blog/posts/interview/question/java-collections-framework</a> 阅读全文。</p>",
+            "url": "https://helltractor.github.io/blog/posts/interview/question/java-collections-framework",
+            "title": "Java Collections Framework",
+            "date_modified": "2025-08-15T08:23:25.000Z",
+            "date_published": "2025-08-15T08:23:25.000Z",
+            "author": {
+                "name": "helltractor",
+                "url": "https://github.com/helltractor"
+            }
+        },
+        {
+            "id": "https://helltractor.github.io/blog/posts/contest/index",
+            "content_html": "<h2>LeetCode</h2>\n<pre><code class=\"language-dataviewjs\">// === 配置区 ===\nconst headers = [&quot;题目&quot;, &quot;题目类型&quot;];\n\n// === 数据源 ===\nconst pag</code></pre>\n<br/><p>访问 <a href=\"https://helltractor.github.io/blog/posts/contest/index\" target=\"_blank\">https://helltractor.github.io/blog/posts/contest/index</a> 阅读全文。</p>",
+            "url": "https://helltractor.github.io/blog/posts/contest/index",
+            "title": "Contest Summary",
+            "date_modified": "2025-08-11T06:57:26.000Z",
+            "date_published": "2025-08-11T06:57:26.000Z",
+            "author": {
+                "name": "helltractor",
+                "url": "https://github.com/helltractor"
+            }
+        },
+        {
+            "id": "https://helltractor.github.io/blog/posts/project/trading-exchange-system/test-module",
+            "content_html": "<h2>项目漏洞</h2>\n<h3>局消息定序机制</h3>\n<ul>\n<li>\n<p><strong>问题：依赖 SequenceID 和 PreviousID 的时序假设</strong></p>\n<ul>\n<li>如果网络抖动或消息丢失，PreviousID 可能无法及时对</li>\n</ul>\n</li>\n</ul>\n<br/><p>访问 <a href=\"https://helltractor.github.io/blog/posts/project/trading-exchange-system/test-module\" target=\"_blank\">https://helltractor.github.io/blog/posts/project/trading-exchange-system/test-module</a> 阅读全文。</p>",
+            "url": "https://helltractor.github.io/blog/posts/project/trading-exchange-system/test-module",
+            "title": "Test Module",
+            "date_modified": "2025-06-26T09:43:15.000Z",
+            "date_published": "2025-06-26T09:43:15.000Z",
+            "author": {
+                "name": "helltractor",
+                "url": "https://github.com/helltractor"
+            }
+        },
+        {
+            "id": "https://helltractor.github.io/blog/posts/project/project-idea",
+            "content_html": "<h2>文件去重</h2>\n<h3>背景</h3>\n<p>释放硬盘空间，由于硬盘中存在着各种文件的复制，当想要清理这些重复文件时，难以定位，并无法快速鉴定为相同文件，同时删除时文件可能存在占用情况（需要解除占用），诸多种种</p>\n<br/><p>访问 <a href=\"https://helltractor.github.io/blog/posts/project/project-idea\" target=\"_blank\">https://helltractor.github.io/blog/posts/project/project-idea</a> 阅读全文。</p>",
+            "url": "https://helltractor.github.io/blog/posts/project/project-idea",
+            "title": "Project Idea and Trick",
+            "date_modified": "2025-06-05T14:23:54.000Z",
+            "date_published": "2025-06-05T14:23:54.000Z",
+            "author": {
+                "name": "helltractor",
+                "url": "https://github.com/helltractor"
+            }
+        },
+        {
+            "id": "https://helltractor.github.io/blog/posts/algorithm/interval-dp",
+            "content_html": "<h2>定义</h2>\n<p>子问题的转移形式是从小区间到大区间，而非前缀或后缀的转移</p>\n<h2>算法</h2>\n<blockquote>\n<p>例题：[3563. 移除相邻字符后字典序最小的字符串](<a href=\"https://leetcode.cn/probl\">https://leetcode.cn/probl</a></p>\n</blockquote>\n<br/><p>访问 <a href=\"https://helltractor.github.io/blog/posts/algorithm/interval-dp\" target=\"_blank\">https://helltractor.github.io/blog/posts/algorithm/interval-dp</a> 阅读全文。</p>",
+            "url": "https://helltractor.github.io/blog/posts/algorithm/interval-dp",
+            "title": "Competition Algorithm: Interval Dynamic Programing",
+            "date_modified": "2025-05-25T15:06:27.000Z",
+            "date_published": "2025-05-25T15:06:27.000Z",
+            "author": {
+                "name": "helltractor",
+                "url": "https://github.com/helltractor"
+            }
+        },
+        {
+            "id": "https://helltractor.github.io/blog/posts/contest/question-classify",
+            "content_html": "<h2>待分类</h2>\n<ul>\n<li>[ ] [3539. 魔法序列的数组乘积之和 - 力扣（LeetCode）](<a href=\"https://leetcode.cn/problems/find-sum-of-array-pro\">https://leetcode.cn/problems/find-sum-of-array-pro</a></li>\n</ul>\n<br/><p>访问 <a href=\"https://helltractor.github.io/blog/posts/contest/question-classify\" target=\"_blank\">https://helltractor.github.io/blog/posts/contest/question-classify</a> 阅读全文。</p>",
+            "url": "https://helltractor.github.io/blog/posts/contest/question-classify",
+            "title": "Classification of LeetCode Questions (Include Weekly Competition)",
+            "date_modified": "2025-05-11T15:04:13.000Z",
+            "date_published": "2025-05-11T15:04:13.000Z",
+            "author": {
+                "name": "helltractor",
+                "url": "https://github.com/helltractor"
+            }
+        },
+        {
+            "id": "https://helltractor.github.io/blog/posts/interview/question/message-queue",
+            "content_html": "<h2>常见问题</h2>\n<p>::: details MQ 的应用场景</p>\n<ul>\n<li><strong>削峰填谷</strong>：应用于高并发场景，对异步消息处理，削减瞬时流量压力，在低流量时，对积压消息进行处理，提高资源利用率；</li>\n<li>**系统</li>\n</ul>\n<br/><p>访问 <a href=\"https://helltractor.github.io/blog/posts/interview/question/message-queue\" target=\"_blank\">https://helltractor.github.io/blog/posts/interview/question/message-queue</a> 阅读全文。</p>",
+            "url": "https://helltractor.github.io/blog/posts/interview/question/message-queue",
+            "title": "Message Queue",
+            "date_modified": "2025-04-11T07:34:12.000Z",
+            "date_published": "2025-04-11T07:34:12.000Z",
+            "author": {
+                "name": "helltractor",
+                "url": "https://github.com/helltractor"
+            }
+        },
+        {
+            "id": "https://helltractor.github.io/blog/posts/interview/question/java-basic",
+            "content_html": "<h2>基本类型和包装类型</h2>\n<p>::: details 基本类型和包装类型的种类（8 种）</p>\n<ul>\n<li>基本类型：byte、short、int、long、float、double、char、boolean。</li>\n</ul>\n<br/><p>访问 <a href=\"https://helltractor.github.io/blog/posts/interview/question/java-basic\" target=\"_blank\">https://helltractor.github.io/blog/posts/interview/question/java-basic</a> 阅读全文。</p>",
+            "url": "https://helltractor.github.io/blog/posts/interview/question/java-basic",
+            "title": "Java Basic",
+            "date_modified": "2025-04-11T07:28:13.000Z",
+            "date_published": "2025-04-11T07:28:13.000Z",
+            "author": {
+                "name": "helltractor",
+                "url": "https://github.com/helltractor"
+            }
+        },
+        {
+            "id": "https://helltractor.github.io/blog/posts/interview/question/java-util-concurrent",
+            "content_html": "<h2>线程基础</h2>\n<p>并发编程允许程序同时执行多个任务，提高程序效率。Java 通过多线程实现并发。主要类和接口包括：</p>\n<ul>\n<li>Thread 类：表示线程的类，通过继承 Thread 类来创建线程。</li>\n<li></li>\n</ul>\n<br/><p>访问 <a href=\"https://helltractor.github.io/blog/posts/interview/question/java-util-concurrent\" target=\"_blank\">https://helltractor.github.io/blog/posts/interview/question/java-util-concurrent</a> 阅读全文。</p>",
+            "url": "https://helltractor.github.io/blog/posts/interview/question/java-util-concurrent",
+            "title": "Java Util Concurrent",
+            "date_modified": "2025-04-11T07:27:24.000Z",
+            "date_published": "2025-04-11T07:27:24.000Z",
+            "author": {
+                "name": "helltractor",
+                "url": "https://github.com/helltractor"
+            }
+        },
+        {
+            "id": "https://helltractor.github.io/blog/posts/interview/question/jvm/index",
+            "content_html": "<h2>常见问题</h2>\n<p>::: details JVM 的组成部分有那些？</p>\n<ul>\n<li>类加载器（ClassLoader）：负责将字节码文件加载到运行时数据区。只负责加载字节码文件，不负责验证字节码文件。</li>\n<li></li>\n</ul>\n<br/><p>访问 <a href=\"https://helltractor.github.io/blog/posts/interview/question/jvm/index\" target=\"_blank\">https://helltractor.github.io/blog/posts/interview/question/jvm/index</a> 阅读全文。</p>",
+            "url": "https://helltractor.github.io/blog/posts/interview/question/jvm/index",
+            "title": "Java Virtual Machine",
+            "date_modified": "2025-04-11T07:27:14.000Z",
+            "date_published": "2025-04-11T07:27:14.000Z",
+            "author": {
+                "name": "helltractor",
+                "url": "https://github.com/helltractor"
+            }
+        },
+        {
+            "id": "https://helltractor.github.io/blog/posts/interview/question/os",
+            "content_html": "<ul>\n<li>为什么要区分内核态和用户态</li>\n<li>什么时候从用户态切换到内核态</li>\n<li>你编程的情况下，系统调用什么时候会发生</li>\n</ul>\n<br/><p>访问 <a href=\"https://helltractor.github.io/blog/posts/interview/question/os\" target=\"_blank\">https://helltractor.github.io/blog/posts/interview/question/os</a> 阅读全文。</p>",
+            "url": "https://helltractor.github.io/blog/posts/interview/question/os",
+            "title": "Operating System",
+            "date_modified": "2025-04-11T07:25:08.000Z",
+            "date_published": "2025-04-11T07:25:08.000Z",
+            "author": {
+                "name": "helltractor",
+                "url": "https://github.com/helltractor"
+            }
+        },
+        {
+            "id": "https://helltractor.github.io/blog/posts/interview/question/network",
+            "content_html": "<h2>基础</h2>\n<p>::: details OSI 模型<br>\nOSI 模型是一个分层的网络通信模型，共有七层，分别是应用层、表示层、会话层、传输层、网络层、数据链路层和物理层。它们的职能如下：</p>\n<ul>\n<li>应用层，</li>\n</ul>\n<br/><p>访问 <a href=\"https://helltractor.github.io/blog/posts/interview/question/network\" target=\"_blank\">https://helltractor.github.io/blog/posts/interview/question/network</a> 阅读全文。</p>",
+            "url": "https://helltractor.github.io/blog/posts/interview/question/network",
+            "title": "Computer Network",
+            "date_modified": "2025-04-11T07:24:58.000Z",
+            "date_published": "2025-04-11T07:24:58.000Z",
+            "author": {
+                "name": "helltractor",
+                "url": "https://github.com/helltractor"
+            }
+        },
+        {
+            "id": "https://helltractor.github.io/blog/posts/interview/question/kafka",
+            "content_html": "<h2>常见问题</h2>\n<ul>\n<li>Kafka 的基本原理</li>\n</ul>\n<p>::: details Kafka 的应用场景<br>\n:::<br>\n::: details Kafka 的延迟队列是怎么实现的<br>\n:::<br>\n::: details K</p>\n<br/><p>访问 <a href=\"https://helltractor.github.io/blog/posts/interview/question/kafka\" target=\"_blank\">https://helltractor.github.io/blog/posts/interview/question/kafka</a> 阅读全文。</p>",
+            "url": "https://helltractor.github.io/blog/posts/interview/question/kafka",
+            "title": "Kafka Knowledge and Question",
+            "date_modified": "2025-04-11T07:16:57.000Z",
+            "date_published": "2025-04-11T07:16:57.000Z",
+            "author": {
+                "name": "helltractor",
+                "url": "https://github.com/helltractor"
+            }
+        },
+        {
+            "id": "https://helltractor.github.io/blog/posts/interview/question/mysql",
+            "content_html": "<h2>体系框架</h2>\n<pre><code class=\"language-mermaid\">graph TD;\n  A[客户端 Client] --&gt;|连接| 连接层\n  连接层 --&gt;|SQL解析| 解析与优化层\n  解析与优化层 --&gt;|存储引擎</code></pre>\n<br/><p>访问 <a href=\"https://helltractor.github.io/blog/posts/interview/question/mysql\" target=\"_blank\">https://helltractor.github.io/blog/posts/interview/question/mysql</a> 阅读全文。</p>",
+            "url": "https://helltractor.github.io/blog/posts/interview/question/mysql",
+            "title": "MySQL Knowledge and Question",
+            "date_modified": "2025-04-11T07:16:50.000Z",
+            "date_published": "2025-04-11T07:16:50.000Z",
+            "author": {
+                "name": "helltractor",
+                "url": "https://github.com/helltractor"
+            }
+        },
+        {
+            "id": "https://helltractor.github.io/blog/posts/interview/question/redis/index",
+            "content_html": "<h2>Redis (Remote Dictionary Server)</h2>\n<h3>数据类型</h3>\n<h4>基础概念</h4>\n<p>Redis 支持多种数据类型，每种类型都基于不同的底层数据结构实现，适用于不同的业</p>\n<br/><p>访问 <a href=\"https://helltractor.github.io/blog/posts/interview/question/redis/index\" target=\"_blank\">https://helltractor.github.io/blog/posts/interview/question/redis/index</a> 阅读全文。</p>",
+            "url": "https://helltractor.github.io/blog/posts/interview/question/redis/index",
+            "title": "Redis and Cache Knowledge and Question",
+            "date_modified": "2025-04-11T07:16:41.000Z",
+            "date_published": "2025-04-11T07:16:41.000Z",
+            "author": {
+                "name": "helltractor",
+                "url": "https://github.com/helltractor"
+            }
+        },
+        {
+            "id": "https://helltractor.github.io/blog/posts/interview/algorithm/classic",
+            "content_html": "<h3>146. <a href=\"https://leetcode-cn.com/problems/lru-cache/\">LRU 缓存机制</a></h3>\n<blockquote>\n<p>面试官：&quot;请手写一个 LRU 缓存，要求 O(1)时间复杂度的</p>\n</blockquote>\n<br/><p>访问 <a href=\"https://helltractor.github.io/blog/posts/interview/algorithm/classic\" target=\"_blank\">https://helltractor.github.io/blog/posts/interview/algorithm/classic</a> 阅读全文。</p>",
+            "url": "https://helltractor.github.io/blog/posts/interview/algorithm/classic",
+            "title": "经典算法题",
+            "date_modified": "2025-04-11T07:09:51.000Z",
+            "date_published": "2025-04-11T07:09:51.000Z",
+            "author": {
+                "name": "helltractor",
+                "url": "https://github.com/helltractor"
+            }
+        },
+        {
+            "id": "https://helltractor.github.io/blog/posts/interview/algorithm/hot-100",
+            "content_html": "<h2>哈希</h2>\n<h3>1. <a href=\"https://leetcode-cn.com/problems/two-sum/\">两数之和</a></h3>\n<p>::: code-group</p>\n<pre><code class=\"language-python\">class So</code></pre>\n<br/><p>访问 <a href=\"https://helltractor.github.io/blog/posts/interview/algorithm/hot-100\" target=\"_blank\">https://helltractor.github.io/blog/posts/interview/algorithm/hot-100</a> 阅读全文。</p>",
+            "url": "https://helltractor.github.io/blog/posts/interview/algorithm/hot-100",
+            "title": "Hot 100 Problemset",
+            "date_modified": "2025-04-11T07:09:33.000Z",
+            "date_published": "2025-04-11T07:09:33.000Z",
+            "author": {
+                "name": "helltractor",
+                "url": "https://github.com/helltractor"
+            }
+        },
+        {
+            "id": "https://helltractor.github.io/blog/posts/interview/experience/netcase",
+            "content_html": "<p>::: details 网易互娱平台开发一面（45min）</p>\n<ol>\n<li>自我介绍</li>\n<li>项目介绍</li>\n<li>讲一讲布隆过滤器</li>\n<li><s>为什么用 ES，用来干嘛的，对比 Mysql</s></li>\n<li>缓存三剑客<br>\n6</li>\n</ol>\n<br/><p>访问 <a href=\"https://helltractor.github.io/blog/posts/interview/experience/netcase\" target=\"_blank\">https://helltractor.github.io/blog/posts/interview/experience/netcase</a> 阅读全文。</p>",
+            "url": "https://helltractor.github.io/blog/posts/interview/experience/netcase",
+            "title": "网易互娱面经",
+            "date_modified": "2025-04-07T03:50:23.000Z",
+            "date_published": "2025-04-07T03:50:23.000Z",
+            "author": {
+                "name": "helltractor",
+                "url": "https://github.com/helltractor"
+            }
+        },
+        {
+            "id": "https://helltractor.github.io/blog/posts/project/trading-exchange-system/trading-api-module",
+            "content_html": "<h2><a href=\"https://liaoxuefeng.com/books/java/springcloud/trading-api/index.html\">API 模块</a></h2>\n<h3>DeferredRes</h3>\n<br/><p>访问 <a href=\"https://helltractor.github.io/blog/posts/project/trading-exchange-system/trading-api-module\" target=\"_blank\">https://helltractor.github.io/blog/posts/project/trading-exchange-system/trading-api-module</a> 阅读全文。</p>",
+            "url": "https://helltractor.github.io/blog/posts/project/trading-exchange-system/trading-api-module",
+            "title": "Trading API Module",
+            "date_modified": "2025-03-21T06:05:34.000Z",
+            "date_published": "2025-03-21T06:05:34.000Z",
+            "author": {
+                "name": "helltractor",
+                "url": "https://github.com/helltractor"
+            }
+        },
+        {
+            "id": "https://helltractor.github.io/blog/posts/project/trading-exchange-system/push-module",
+            "content_html": "<h2><a href=\"https://liaoxuefeng.com/books/java/springcloud/push/index.html\">推送模块</a></h2>\n<p>和普通 Web 应用不同的是，基于 Servle</p>\n<br/><p>访问 <a href=\"https://helltractor.github.io/blog/posts/project/trading-exchange-system/push-module\" target=\"_blank\">https://helltractor.github.io/blog/posts/project/trading-exchange-system/push-module</a> 阅读全文。</p>",
+            "url": "https://helltractor.github.io/blog/posts/project/trading-exchange-system/push-module",
+            "title": "Push Module",
+            "date_modified": "2025-03-19T04:35:29.000Z",
+            "date_published": "2025-03-19T04:35:29.000Z",
+            "author": {
+                "name": "helltractor",
+                "url": "https://github.com/helltractor"
+            }
+        },
+        {
+            "id": "https://helltractor.github.io/blog/posts/project/trading-exchange-system/index",
+            "content_html": "<h2>项目描述</h2>\n<h3>项目特点</h3>\n<ul>\n<li>证券交易系统的交易是基于交易对，例如，BTC/USD 交易对表示用 USD 购买 BTC，USD 是计价货币（Quote Asset），BTC 是交易资产（</li>\n</ul>\n<br/><p>访问 <a href=\"https://helltractor.github.io/blog/posts/project/trading-exchange-system/index\" target=\"_blank\">https://helltractor.github.io/blog/posts/project/trading-exchange-system/index</a> 阅读全文。</p>",
+            "url": "https://helltractor.github.io/blog/posts/project/trading-exchange-system/index",
+            "title": "Trading Exchange System Intro",
+            "date_modified": "2025-03-15T09:40:38.000Z",
+            "date_published": "2025-03-15T09:40:38.000Z",
+            "author": {
+                "name": "helltractor",
+                "url": "https://github.com/helltractor"
+            }
+        },
+        {
+            "id": "https://helltractor.github.io/blog/posts/interview/experience/tencent",
+            "content_html": "<p>::: details 腾讯 s3 一面后端开发<br>\n总结：实习，已挂，稀碎</p>\n<p>基础知识没怎么复习，好多都忘了</p>\n<p>过程如下：</p>\n<p>自我介绍<br>\n项目看都没看，直接跳过<br>\n算法题：最大连续子数组的和，leetco</p>\n<br/><p>访问 <a href=\"https://helltractor.github.io/blog/posts/interview/experience/tencent\" target=\"_blank\">https://helltractor.github.io/blog/posts/interview/experience/tencent</a> 阅读全文。</p>",
+            "url": "https://helltractor.github.io/blog/posts/interview/experience/tencent",
+            "title": "腾讯面经汇总",
+            "date_modified": "2025-03-10T13:01:06.000Z",
+            "date_published": "2025-03-10T13:01:06.000Z",
+            "author": {
+                "name": "helltractor",
+                "url": "https://github.com/helltractor"
+            }
+        },
+        {
+            "id": "https://helltractor.github.io/blog/posts/interview/experience/bytedance",
+            "content_html": "<h2>字节跳动</h2>\n<p>::: details 字节飞书<br>\n2.13 字节飞书一面<br>\n算法题：字母大小写全排列<br>\n一眼回溯很快做出来了， 先讲回溯思路，然后花 5 分钟做出来了<br>\n基本上是根据项目用到的内容</p>\n<p>1</p>\n<br/><p>访问 <a href=\"https://helltractor.github.io/blog/posts/interview/experience/bytedance\" target=\"_blank\">https://helltractor.github.io/blog/posts/interview/experience/bytedance</a> 阅读全文。</p>",
+            "url": "https://helltractor.github.io/blog/posts/interview/experience/bytedance",
+            "title": "字节跳动面经汇总",
+            "date_modified": "2025-03-10T12:59:02.000Z",
+            "date_published": "2025-03-10T12:59:02.000Z",
+            "author": {
+                "name": "helltractor",
+                "url": "https://github.com/helltractor"
+            }
+        },
+        {
+            "id": "https://helltractor.github.io/blog/posts/interview/experience/meituan",
+            "content_html": "<p>::: details 美团系统数据研发 Java 面经<br>\n【一面】</p>\n<ol>\n<li>自我介绍不问实习和项目，上来就全八股</li>\n<li>为什么 String 不可变，StringBuilder</li>\n<li>synchro</li>\n</ol>\n<br/><p>访问 <a href=\"https://helltractor.github.io/blog/posts/interview/experience/meituan\" target=\"_blank\">https://helltractor.github.io/blog/posts/interview/experience/meituan</a> 阅读全文。</p>",
+            "url": "https://helltractor.github.io/blog/posts/interview/experience/meituan",
+            "title": "美团面经汇总",
+            "date_modified": "2025-03-10T12:58:11.000Z",
+            "date_published": "2025-03-10T12:58:11.000Z",
+            "author": {
+                "name": "helltractor",
+                "url": "https://github.com/helltractor"
+            }
+        },
+        {
+            "id": "https://helltractor.github.io/blog/posts/algorithm/inverse",
+            "content_html": "<h2>Definition {lang=en}</h2>\n<h2>定义 {lang=zh-CN}</h2>\n<ul>\n<li>单位元：在一个集合中，对于某种运算 （注意：这里代表通用运算的表示符号，并不是特指乘法），如果对于任何的</li>\n</ul>\n<br/><p>访问 <a href=\"https://helltractor.github.io/blog/posts/algorithm/inverse\" target=\"_blank\">https://helltractor.github.io/blog/posts/algorithm/inverse</a> 阅读全文。</p>",
+            "url": "https://helltractor.github.io/blog/posts/algorithm/inverse",
+            "title": "Competition Algorithm: Inverse",
+            "date_modified": "2025-03-09T08:28:37.000Z",
+            "date_published": "2025-03-09T08:28:37.000Z",
+            "author": {
+                "name": "helltractor",
+                "url": "https://github.com/helltractor"
+            }
+        },
+        {
+            "id": "https://helltractor.github.io/blog/posts/interview/experience/meituan-ai",
+            "content_html": "<h2>题型</h2>\n<p>6 + 2：6 个技术基础知识考察题及 2 个通用能力考察题</p>\n<h2>面经</h2>\n<ol>\n<li>TCP 与 UDP 的使用场景，以及区别\n<ul>\n<li>TCP 是面向连接的、可靠的传输协议，适用于数据</li>\n</ul>\n</li>\n</ol>\n<br/><p>访问 <a href=\"https://helltractor.github.io/blog/posts/interview/experience/meituan-ai\" target=\"_blank\">https://helltractor.github.io/blog/posts/interview/experience/meituan-ai</a> 阅读全文。</p>",
+            "url": "https://helltractor.github.io/blog/posts/interview/experience/meituan-ai",
+            "title": "美团AI面经",
+            "date_modified": "2025-03-08T15:56:37.000Z",
+            "date_published": "2025-03-08T15:56:37.000Z",
+            "author": {
+                "name": "helltractor",
+                "url": "https://github.com/helltractor"
+            }
+        },
+        {
+            "id": "https://helltractor.github.io/blog/posts/interview/experience/index",
+            "content_html": "<p>::: details 星云科技凉（2025-03-15）</p>\n<ol>\n<li>请简单自我介绍一下？</li>\n<li>请介绍一下你的项目经验？\n<ul>\n<li>校园外卖软件的主要功能是什么？</li>\n<li>证券交易系统的核心功能是</li>\n</ul>\n</li>\n</ol>\n<br/><p>访问 <a href=\"https://helltractor.github.io/blog/posts/interview/experience/index\" target=\"_blank\">https://helltractor.github.io/blog/posts/interview/experience/index</a> 阅读全文。</p>",
+            "url": "https://helltractor.github.io/blog/posts/interview/experience/index",
+            "title": "我的面经",
+            "date_modified": "2025-02-24T09:14:13.000Z",
+            "date_published": "2025-02-24T09:14:13.000Z",
+            "author": {
+                "name": "helltractor",
+                "url": "https://github.com/helltractor"
+            }
+        },
+        {
+            "id": "https://helltractor.github.io/blog/posts/project/trading-exchange-system/trading-sequence-module",
+            "content_html": "<h2><a href=\"https://liaoxuefeng.com/books/java/springcloud/sequence/index.html\">定序模块</a></h2>\n<h3>定序模块处理逻辑</h3>\n<pre><code class=\"language-mer\"></code></pre>\n<br/><p>访问 <a href=\"https://helltractor.github.io/blog/posts/project/trading-exchange-system/trading-sequence-module\" target=\"_blank\">https://helltractor.github.io/blog/posts/project/trading-exchange-system/trading-sequence-module</a> 阅读全文。</p>",
+            "url": "https://helltractor.github.io/blog/posts/project/trading-exchange-system/trading-sequence-module",
+            "title": "Sequence Module",
+            "date_modified": "2025-02-24T03:21:19.000Z",
+            "date_published": "2025-02-24T03:21:19.000Z",
+            "author": {
+                "name": "helltractor",
+                "url": "https://github.com/helltractor"
+            }
+        },
+        {
+            "id": "https://helltractor.github.io/blog/posts/interview/algorithm/index",
+            "content_html": "<h2>笔试</h2>\n<p>::: details 网易互娱（2025.3.22）<br>\n编程题（100，100，100），a 了前两道</p>\n<hr>\n<ol>\n<li>股票交易，N 天，M 只股票，初始资金 K，交易次数不限制，股</li>\n</ol>\n<br/><p>访问 <a href=\"https://helltractor.github.io/blog/posts/interview/algorithm/index\" target=\"_blank\">https://helltractor.github.io/blog/posts/interview/algorithm/index</a> 阅读全文。</p>",
+            "url": "https://helltractor.github.io/blog/posts/interview/algorithm/index",
+            "title": "笔试与面试算法",
+            "date_modified": "2025-02-18T08:48:20.000Z",
+            "date_published": "2025-02-18T08:48:20.000Z",
+            "author": {
+                "name": "helltractor",
+                "url": "https://github.com/helltractor"
+            }
+        },
+        {
+            "id": "https://helltractor.github.io/blog/posts/interview/question/index",
+            "content_html": "<h2>微服务</h2>\n<ul>\n<li>怎么理解微服务</li>\n<li>微服务的缺点</li>\n<li>对比微服务和传统服务的优缺点</li>\n<li>微服务之间怎么做负载均衡</li>\n</ul>\n<h2>反问</h2>\n<ul>\n<li>业务，开发语言，表现，对应届生的要求（重点是基础和算法）</li>\n<li></li>\n</ul>\n<br/><p>访问 <a href=\"https://helltractor.github.io/blog/posts/interview/question/index\" target=\"_blank\">https://helltractor.github.io/blog/posts/interview/question/index</a> 阅读全文。</p>",
+            "url": "https://helltractor.github.io/blog/posts/interview/question/index",
+            "title": "面试问题汇总",
+            "date_modified": "2025-02-18T08:10:16.000Z",
+            "date_published": "2025-02-18T08:10:16.000Z",
+            "author": {
+                "name": "helltractor",
+                "url": "https://github.com/helltractor"
+            }
+        },
+        {
+            "id": "https://helltractor.github.io/blog/posts/program/java-garbage-collect",
+            "content_html": "<h2>垃圾回收策略 {lang=zh-CN}</h2>\n<h2>GC Strategies {lang=en}</h2>\n<p>垃圾回收需要辨别对象是否需要进行回收（可达）, 通常是通过引用和引用链的方式来判断对象是否可达</p>\n<br/><p>访问 <a href=\"https://helltractor.github.io/blog/posts/program/java-garbage-collect\" target=\"_blank\">https://helltractor.github.io/blog/posts/program/java-garbage-collect</a> 阅读全文。</p>",
+            "url": "https://helltractor.github.io/blog/posts/program/java-garbage-collect",
+            "title": "Garbage Collect",
+            "date_modified": "2024-12-02T14:10:45.000Z",
+            "date_published": "2024-12-02T14:10:45.000Z",
+            "author": {
+                "name": "helltractor",
+                "url": "https://github.com/helltractor"
+            }
+        },
+        {
+            "id": "https://helltractor.github.io/blog/posts/project/imitation-douyin-e-commerce/development-issues",
+            "content_html": "<h2>技术选型</h2>\n<p>| 技术栈                        | Classify               | Github</p>\n<br/><p>访问 <a href=\"https://helltractor.github.io/blog/posts/project/imitation-douyin-e-commerce/development-issues\" target=\"_blank\">https://helltractor.github.io/blog/posts/project/imitation-douyin-e-commerce/development-issues</a> 阅读全文。</p>",
+            "url": "https://helltractor.github.io/blog/posts/project/imitation-douyin-e-commerce/development-issues",
+            "title": "E-commerce projects development issues",
+            "date_modified": "2024-10-25T03:23:56.000Z",
+            "date_published": "2024-10-25T03:23:56.000Z",
+            "author": {
+                "name": "helltractor",
+                "url": "https://github.com/helltractor"
+            }
+        },
+        {
+            "id": "https://helltractor.github.io/blog/posts/program/sql-tutorial-and-tricks",
+            "content_html": "<h2>COUNT Function</h2>\n<h3><code>COUNT(*)</code>, <code>COUNT(1)</code>, <code>COUNT(column_name)</code></h3>\n<ul>\n<li><code>COUNT(*)</code>: 统计所有行，不管是否为 `NUL</li>\n</ul>\n<br/><p>访问 <a href=\"https://helltractor.github.io/blog/posts/program/sql-tutorial-and-tricks\" target=\"_blank\">https://helltractor.github.io/blog/posts/program/sql-tutorial-and-tricks</a> 阅读全文。</p>",
+            "url": "https://helltractor.github.io/blog/posts/program/sql-tutorial-and-tricks",
+            "title": "SQL Tutorial and Tricks",
+            "date_modified": "2024-09-04T09:29:30.000Z",
+            "date_published": "2024-09-04T09:29:30.000Z",
+            "author": {
+                "name": "helltractor",
+                "url": "https://github.com/helltractor"
+            }
+        },
+        {
+            "id": "https://helltractor.github.io/blog/posts/program/java-package-type",
+            "content_html": "<h2>基本类型与包装类型 {lang=zh-CN}</h2>\n<h2>Initial Type and Package Type {lang=en}</h2>\n<p>| 基本类型 | 包装类型  | 大小（字节） |</p>\n<br/><p>访问 <a href=\"https://helltractor.github.io/blog/posts/program/java-package-type\" target=\"_blank\">https://helltractor.github.io/blog/posts/program/java-package-type</a> 阅读全文。</p>",
+            "url": "https://helltractor.github.io/blog/posts/program/java-package-type",
+            "title": "Initial Type and Package Type",
+            "date_modified": "2024-08-07T07:24:30.000Z",
+            "date_published": "2024-08-07T07:24:30.000Z",
+            "author": {
+                "name": "helltractor",
+                "url": "https://github.com/helltractor"
+            }
+        },
+        {
+            "id": "https://helltractor.github.io/blog/posts/program/java-polymorphism",
+            "content_html": "<h2>多态 {lang=zh-CN}</h2>\n<h2>Polymorphism {lang=en}</h2>\n<p>多态是指，针对某个类型的方法调用，其真正执行的方法取决于运行时期实际类型的方法。</p>\n<h3>编译时多态（</h3>\n<br/><p>访问 <a href=\"https://helltractor.github.io/blog/posts/program/java-polymorphism\" target=\"_blank\">https://helltractor.github.io/blog/posts/program/java-polymorphism</a> 阅读全文。</p>",
+            "url": "https://helltractor.github.io/blog/posts/program/java-polymorphism",
+            "title": "Polymorphism",
+            "date_modified": "2024-08-06T05:55:40.000Z",
+            "date_published": "2024-08-06T05:55:40.000Z",
+            "author": {
+                "name": "helltractor",
+                "url": "https://github.com/helltractor"
+            }
+        },
+        {
+            "id": "https://helltractor.github.io/blog/posts/program/git-cheat-sheet",
+            "content_html": "<blockquote>\n<p><a href=\"https://liaoxuefeng.com/books/git/conclusion/git-cheat-sheet.pdf\">Git Cheat Sheet</a></p>\n</blockquote>\n<p>::: zh-CN</p>\n<h1></h1>\n<br/><p>访问 <a href=\"https://helltractor.github.io/blog/posts/program/git-cheat-sheet\" target=\"_blank\">https://helltractor.github.io/blog/posts/program/git-cheat-sheet</a> 阅读全文。</p>",
+            "url": "https://helltractor.github.io/blog/posts/program/git-cheat-sheet",
+            "title": "Git Cheat Sheet",
+            "date_modified": "2024-08-05T11:06:19.000Z",
+            "date_published": "2024-08-05T11:06:19.000Z",
+            "author": {
+                "name": "helltractor",
+                "url": "https://github.com/helltractor"
+            }
+        },
+        {
+            "id": "https://helltractor.github.io/blog/posts/course/CS61B",
+            "content_html": "<p>::: details Lecture 1: Welcome to CS61B</p>\n<h5>Object-Oriented Programming</h5>\n<ul>\n<li>A model for organizin</li>\n</ul>\n<br/><p>访问 <a href=\"https://helltractor.github.io/blog/posts/course/CS61B\" target=\"_blank\">https://helltractor.github.io/blog/posts/course/CS61B</a> 阅读全文。</p>",
+            "url": "https://helltractor.github.io/blog/posts/course/CS61B",
+            "title": "CS61B Record",
+            "summary": "CS61B, Spring 2024",
+            "date_modified": "2024-07-13T03:32:58.000Z",
+            "date_published": "2024-07-13T03:32:58.000Z",
+            "author": {
+                "name": "helltractor",
+                "url": "https://github.com/helltractor"
+            }
+        },
+        {
+            "id": "https://helltractor.github.io/blog/posts/interview/advice/schedule",
+            "content_html": "<h2>2023/12/01 - 2024/03/01</h2>\n<p><strong>go 语言</strong><br>\ngo 语言达到刷 hot200 的水平<br>\nGMP，垃圾回收，并发编程要相当熟练<br>\n有多余的时间，研读 go 语言设计与实现这本</p>\n<br/><p>访问 <a href=\"https://helltractor.github.io/blog/posts/interview/advice/schedule\" target=\"_blank\">https://helltractor.github.io/blog/posts/interview/advice/schedule</a> 阅读全文。</p>",
+            "url": "https://helltractor.github.io/blog/posts/interview/advice/schedule",
+            "title": "时间安排",
+            "date_modified": "2024-07-09T04:40:55.000Z",
+            "date_published": "2024-07-09T04:40:55.000Z",
+            "author": {
+                "name": "helltractor",
+                "url": "https://github.com/helltractor"
+            }
+        },
+        {
+            "id": "https://helltractor.github.io/blog/posts/record/ponder/fiction",
+            "content_html": "<h2>最喜欢的</h2>\n<ul>\n<li>主角性格要贱贱的，就是不做好人，不正不邪，会搞笑吗</li>\n<li>甩锅环节（背黑锅），大多数是反派接的锅</li>\n<li>对美女角色的特写</li>\n<li>有代入感的绝境</li>\n</ul>\n<h2>最讨厌的</h2>\n<ul>\n<li>身份不明并且长</li>\n</ul>\n<br/><p>访问 <a href=\"https://helltractor.github.io/blog/posts/record/ponder/fiction\" target=\"_blank\">https://helltractor.github.io/blog/posts/record/ponder/fiction</a> 阅读全文。</p>",
+            "url": "https://helltractor.github.io/blog/posts/record/ponder/fiction",
+            "title": "我喜欢和讨厌的小说情节",
+            "summary": "主要针对玄幻小说，男频",
+            "date_modified": "2024-07-04T13:30:41.000Z",
+            "date_published": "2024-07-04T13:30:41.000Z",
+            "author": {
+                "name": "helltractor",
+                "url": "https://github.com/helltractor"
+            }
+        },
+        {
+            "id": "https://helltractor.github.io/blog/posts/program/html-trick",
+            "content_html": "<h2>detail &amp; summary</h2>\n<h3>源代码</h3>\n<pre><code class=\"language-html\">&lt;details&gt;\n  &lt;summary style=&quot;font-size: 20px&quot;&gt;展开&lt;/summary&gt;\n  &lt;</code></pre>\n<br/><p>访问 <a href=\"https://helltractor.github.io/blog/posts/program/html-trick\" target=\"_blank\">https://helltractor.github.io/blog/posts/program/html-trick</a> 阅读全文。</p>",
+            "url": "https://helltractor.github.io/blog/posts/program/html-trick",
+            "title": "html 小芝士",
+            "date_modified": "2024-07-03T08:31:19.000Z",
+            "date_published": "2024-07-03T08:31:19.000Z",
+            "author": {
+                "name": "helltractor",
+                "url": "https://github.com/helltractor"
+            }
+        },
+        {
+            "id": "https://helltractor.github.io/blog/posts/question/sunlogin-internet-connect",
+            "content_html": "<h2>软件版本</h2>\n<ul>\n<li>sunlogin: V15.3.0.62062</li>\n</ul>\n<h2>问题描述</h2>\n<p>主控端是 Window11，被控端是 Window10 和 Centos7，使用向日葵桌面控制，连接正常，但</p>\n<br/><p>访问 <a href=\"https://helltractor.github.io/blog/posts/question/sunlogin-internet-connect\" target=\"_blank\">https://helltractor.github.io/blog/posts/question/sunlogin-internet-connect</a> 阅读全文。</p>",
+            "url": "https://helltractor.github.io/blog/posts/question/sunlogin-internet-connect",
+            "title": "向日葵远程文件网络连接异常",
+            "date_modified": "2024-06-26T10:20:24.000Z",
+            "date_published": "2024-06-26T10:20:24.000Z",
+            "author": {
+                "name": "helltractor",
+                "url": "https://github.com/helltractor"
+            }
+        },
+        {
+            "id": "https://helltractor.github.io/blog/posts/calculation/steps",
+            "content_html": "<h2>System environment {lang=en}</h2>\n<h2>系统环境 {lang=zh-CN}</h2>\n<ul>\n<li>Windows 11</li>\n<li>wsl2</li>\n<li>Ubuntu 24.04</li>\n</ul>\n<h2>Softw</h2>\n<br/><p>访问 <a href=\"https://helltractor.github.io/blog/posts/calculation/steps\" target=\"_blank\">https://helltractor.github.io/blog/posts/calculation/steps</a> 阅读全文。</p>",
+            "url": "https://helltractor.github.io/blog/posts/calculation/steps",
+            "title": "Material Calculation Common Steps",
+            "date_modified": "2024-06-22T10:06:42.000Z",
+            "date_published": "2024-06-22T10:06:42.000Z",
+            "author": {
+                "name": "helltractor",
+                "url": "https://github.com/helltractor"
+            }
+        },
+        {
+            "id": "https://helltractor.github.io/blog/posts/course/20240624",
+            "content_html": "<blockquote>\n<p>可预见的最后一次考试</p>\n</blockquote>\n<h2>名词解释 (必考)</h2>\n<h3>电子亲和势 $\\chi$</h3>\n<ul>\n<li><strong>定义</strong>：导带底的电子要想跑出体外必须增加的能量称为电子亲和势 $\\chi$。</li>\n<li><strong>公式</strong>：$</li>\n</ul>\n<br/><p>访问 <a href=\"https://helltractor.github.io/blog/posts/course/20240624\" target=\"_blank\">https://helltractor.github.io/blog/posts/course/20240624</a> 阅读全文。</p>",
+            "url": "https://helltractor.github.io/blog/posts/course/20240624",
+            "title": "现代光电子器件期末",
+            "date_modified": "2024-06-22T00:00:00.000Z",
+            "date_published": "2024-06-22T00:00:00.000Z",
+            "author": {
+                "name": "helltractor",
+                "url": "https://github.com/helltractor"
+            }
+        },
+        {
+            "id": "https://helltractor.github.io/blog/posts/program/python-trick",
+            "content_html": "<h2>Open Function</h2>\n<h3>open(int)</h3>\n<p>在 Python 中，open(0)是打开标准输入（stdin）的一种方式。这里的 0 是文件描述符，代表标准输入。同样，1 和 2</p>\n<br/><p>访问 <a href=\"https://helltractor.github.io/blog/posts/program/python-trick\" target=\"_blank\">https://helltractor.github.io/blog/posts/program/python-trick</a> 阅读全文。</p>",
+            "url": "https://helltractor.github.io/blog/posts/program/python-trick",
+            "title": "Python 小芝士",
+            "date_modified": "2024-06-22T00:00:00.000Z",
+            "date_published": "2024-06-22T00:00:00.000Z",
+            "author": {
+                "name": "helltractor",
+                "url": "https://github.com/helltractor"
+            }
+        },
+        {
+            "id": "https://helltractor.github.io/blog/posts/question/double-spending",
+            "content_html": "<p>在区块链和加密货币领域，“双花”（Double Spending）是指同一笔加密货币在多个交易中被多次使用的问题</p>\n<h2>单离线场景</h2>\n<p>单离线场景是指在交易中，只有一个参与方（通常是付款方）离线，而</p>\n<br/><p>访问 <a href=\"https://helltractor.github.io/blog/posts/question/double-spending\" target=\"_blank\">https://helltractor.github.io/blog/posts/question/double-spending</a> 阅读全文。</p>",
+            "url": "https://helltractor.github.io/blog/posts/question/double-spending",
+            "title": "双花问题及防范",
+            "date_modified": "2024-06-22T00:00:00.000Z",
+            "date_published": "2024-06-22T00:00:00.000Z",
+            "author": {
+                "name": "helltractor",
+                "url": "https://github.com/helltractor"
+            }
+        },
+        {
+            "id": "https://helltractor.github.io/blog/posts/question/duplicated-python-scripy",
+            "content_html": "<h2>场景</h2>\n<p>设置 pycharm 的文件模板时，突然发现有两个<code>Python script</code>，一个是<code>Python script</code>，另一个是<code>Python script</code>,<br>\n由于第二个`Pytho</p>\n<br/><p>访问 <a href=\"https://helltractor.github.io/blog/posts/question/duplicated-python-scripy\" target=\"_blank\">https://helltractor.github.io/blog/posts/question/duplicated-python-scripy</a> 阅读全文。</p>",
+            "url": "https://helltractor.github.io/blog/posts/question/duplicated-python-scripy",
+            "title": "Python Scripy 文件模板重复",
+            "date_modified": "2024-06-22T00:00:00.000Z",
+            "date_published": "2024-06-22T00:00:00.000Z",
+            "author": {
+                "name": "helltractor",
+                "url": "https://github.com/helltractor"
+            }
+        },
+        {
+            "id": "https://helltractor.github.io/blog/posts/calculation/set-incar",
+            "content_html": "<blockquote>\n<p><code>INCAR</code>文件是由多个模板拼接组成，直接在<code>INCAR_templates</code>中修改无用，想要自定义<code>INCAR</code>文件，需要通过自定义模板文件进行拼接。<br>\n<code>INCAR_templates</code></p>\n</blockquote>\n<br/><p>访问 <a href=\"https://helltractor.github.io/blog/posts/calculation/set-incar\" target=\"_blank\">https://helltractor.github.io/blog/posts/calculation/set-incar</a> 阅读全文。</p>",
+            "url": "https://helltractor.github.io/blog/posts/calculation/set-incar",
+            "title": "INCAR File Configuration",
+            "date_modified": "2024-06-22T00:00:00.000Z",
+            "date_published": "2024-06-22T00:00:00.000Z",
+            "author": {
+                "name": "helltractor",
+                "url": "https://github.com/helltractor"
+            }
+        },
+        {
+            "id": "https://helltractor.github.io/blog/posts/calculation/index",
+            "content_html": "<h2>Data resource {lang=en}</h2>\n<h2>数据资源 {lang=zh-CN}</h2>\n<h3>Frequently-used {lang=en}</h3>\n<h3>常用 {lang=zh-CN</h3>\n<br/><p>访问 <a href=\"https://helltractor.github.io/blog/posts/calculation/index\" target=\"_blank\">https://helltractor.github.io/blog/posts/calculation/index</a> 阅读全文。</p>",
+            "url": "https://helltractor.github.io/blog/posts/calculation/index",
+            "title": "Common Resources for Materials Calculation",
+            "date_modified": "2024-06-21T10:06:42.000Z",
+            "date_published": "2024-06-21T10:06:42.000Z",
+            "author": {
+                "name": "helltractor",
+                "url": "https://github.com/helltractor"
+            }
+        },
+        {
+            "id": "https://helltractor.github.io/blog/posts/program/design-singleton",
+            "content_html": "<h2>定义</h2>\n<p>单例模式是一种常用的软件设计模式，它保证一个类只有一个实例，并提供一个全局访问点。这种模式通常用于需要频繁创建和销毁的对象，以减少系统资源的消耗，提高系统效率。</p>\n<ul>\n<li>单例模式是一种创</li>\n</ul>\n<br/><p>访问 <a href=\"https://helltractor.github.io/blog/posts/program/design-singleton\" target=\"_blank\">https://helltractor.github.io/blog/posts/program/design-singleton</a> 阅读全文。</p>",
+            "url": "https://helltractor.github.io/blog/posts/program/design-singleton",
+            "title": "Singleton",
+            "date_modified": "2024-06-21T00:00:00.000Z",
+            "date_published": "2024-06-21T00:00:00.000Z",
+            "author": {
+                "name": "helltractor",
+                "url": "https://github.com/helltractor"
+            }
+        },
+        {
+            "id": "https://helltractor.github.io/blog/posts/program/java-memory-model",
+            "content_html": "<h2>重点</h2>\n<ul>\n<li>JMM 的工作方式</li>\n<li>三大特征：原子性、可见性、有序性</li>\n<li>volatile 关键字</li>\n<li>volatile 与 synchronized 的区别</li>\n</ul>\n<h2>JMM 和 JVM</h2>\n<p>J</p>\n<br/><p>访问 <a href=\"https://helltractor.github.io/blog/posts/program/java-memory-model\" target=\"_blank\">https://helltractor.github.io/blog/posts/program/java-memory-model</a> 阅读全文。</p>",
+            "url": "https://helltractor.github.io/blog/posts/program/java-memory-model",
+            "title": "Java Memory Model",
+            "date_modified": "2024-06-21T00:00:00.000Z",
+            "date_published": "2024-06-21T00:00:00.000Z",
+            "author": {
+                "name": "helltractor",
+                "url": "https://github.com/helltractor"
+            }
+        },
+        {
+            "id": "https://helltractor.github.io/blog/posts/program/java-trick",
+            "content_html": "<h2>Annotation</h2>\n<h3>@Value</h3>\n<p>在 Spring 框架中，@Value 注解用于注入属性值。@Value 可以接受两种形式的参数：${}和#{}，它们的区别在于：</p>\n<ul>\n<li>`${</li>\n</ul>\n<br/><p>访问 <a href=\"https://helltractor.github.io/blog/posts/program/java-trick\" target=\"_blank\">https://helltractor.github.io/blog/posts/program/java-trick</a> 阅读全文。</p>",
+            "url": "https://helltractor.github.io/blog/posts/program/java-trick",
+            "title": "Java 小芝士",
+            "date_modified": "2024-06-21T00:00:00.000Z",
+            "date_published": "2024-06-21T00:00:00.000Z",
+            "author": {
+                "name": "helltractor",
+                "url": "https://github.com/helltractor"
+            }
+        },
+        {
+            "id": "https://helltractor.github.io/blog/posts/program/sql-statement-execution-process",
+            "content_html": "<h2>日志</h2>\n<ul>\n<li>undo log: 逻辑日志（相当于堕胎，撤回了没完全撤回）。用于事务的回滚，保证事务的 ACID 特性；MVCC（多版本并发控制）实现非锁定读。</li>\n<li>redo log: 物理日志</li>\n</ul>\n<br/><p>访问 <a href=\"https://helltractor.github.io/blog/posts/program/sql-statement-execution-process\" target=\"_blank\">https://helltractor.github.io/blog/posts/program/sql-statement-execution-process</a> 阅读全文。</p>",
+            "url": "https://helltractor.github.io/blog/posts/program/sql-statement-execution-process",
+            "title": "一条SQL语句的执行过程",
+            "date_modified": "2024-06-21T00:00:00.000Z",
+            "date_published": "2024-06-21T00:00:00.000Z",
+            "author": {
+                "name": "helltractor",
+                "url": "https://github.com/helltractor"
+            }
+        },
+        {
+            "id": "https://helltractor.github.io/blog/posts/calculation/set-win",
+            "content_html": "<h2>基础参数解释</h2>\n<h3>示例</h3>\n<pre><code class=\"language-txt\">num_bands =           # 设置能带数量\nexclude_bands =       # 设置排除的能带数量\nnum_wann</code></pre>\n<br/><p>访问 <a href=\"https://helltractor.github.io/blog/posts/calculation/set-win\" target=\"_blank\">https://helltractor.github.io/blog/posts/calculation/set-win</a> 阅读全文。</p>",
+            "url": "https://helltractor.github.io/blog/posts/calculation/set-win",
+            "title": "Wannier90.win File Configuration",
+            "date_modified": "2024-06-21T00:00:00.000Z",
+            "date_published": "2024-06-21T00:00:00.000Z",
+            "author": {
+                "name": "helltractor",
+                "url": "https://github.com/helltractor"
+            }
+        },
+        {
+            "id": "https://helltractor.github.io/blog/posts/interview/question/spring-boot",
+            "content_html": "<h2>Spring Boot 3.0+新特性</h2>\n<h3>响应式编程 WebFlux</h3>\n<p><strong>示例代码：</strong></p>\n<pre><code class=\"language-java\">// 传统的Spring MVC（阻塞式）\n@RestController</code></pre>\n<br/><p>访问 <a href=\"https://helltractor.github.io/blog/posts/interview/question/spring-boot\" target=\"_blank\">https://helltractor.github.io/blog/posts/interview/question/spring-boot</a> 阅读全文。</p>",
+            "url": "https://helltractor.github.io/blog/posts/interview/question/spring-boot",
+            "title": "Spring Boot Knowledge and Question",
+            "date_modified": "2024-06-21T00:00:00.000Z",
+            "date_published": "2024-06-21T00:00:00.000Z",
+            "author": {
+                "name": "helltractor",
+                "url": "https://github.com/helltractor"
+            }
+        },
+        {
+            "id": "https://helltractor.github.io/blog/posts/interview/advice/resume",
+            "content_html": "<ol>\n<li>因为面试官几乎就是看三个模块，一个是<strong>实习经历（包括科研经历，假如有的话），一个是项目经历，一个是技能</strong>；三个模块的排序就看你对哪个掌握比较深，哪个更深，更有自信就将该模块放在前面</li>\n<li></li>\n</ol>\n<br/><p>访问 <a href=\"https://helltractor.github.io/blog/posts/interview/advice/resume\" target=\"_blank\">https://helltractor.github.io/blog/posts/interview/advice/resume</a> 阅读全文。</p>",
+            "url": "https://helltractor.github.io/blog/posts/interview/advice/resume",
+            "title": "简历建议",
+            "date_modified": "2024-06-21T00:00:00.000Z",
+            "date_published": "2024-06-21T00:00:00.000Z",
+            "author": {
+                "name": "helltractor",
+                "url": "https://github.com/helltractor"
+            }
+        }
+    ]
+}
